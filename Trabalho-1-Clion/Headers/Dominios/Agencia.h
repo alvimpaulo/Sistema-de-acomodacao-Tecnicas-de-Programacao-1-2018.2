@@ -6,8 +6,23 @@
 #define TRABALHO_1_CLION_AGENCIA_H
 
 
-class Agencia {
+#include <string>
+#include <stdexcept>
+#include <regex>
 
+class Agencia {
+public:
+    Agencia();
+    virtual ~Agencia();
+    std::string getAgenciaNum() const {
+        return agenciaNum;
+    }
+    void setAgenciaNum(std::string) throw (std::invalid_argument);
+
+protected:
+
+private:
+    std::string agenciaNum;
 };
 
 

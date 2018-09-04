@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug"/>
+				<Option working_dir="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Trabalho_1_Clion">
-				<Option output="C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Trabalho_1_Clion.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug"/>
+				<Option output="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Trabalho_1_Clion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_1_Clion"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_1_Clion"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Trabalho_1_Clion/fast">
-				<Option output="C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Trabalho_1_Clion.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug"/>
+				<Option output="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Trabalho_1_Clion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,115 +55,115 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_1_Clion/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_1_Clion/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug"/>
+				<Option working_dir="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug"/>
+				<Option working_dir="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Agencia.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Agencia.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Banco.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Banco.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Capacidade_De_Acomodacao.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Capacidade_De_Acomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Data.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Data.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Data_De_Validade.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Data_De_Validade.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Diaria.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Diaria.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Estado.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Estado.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Identificador.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Identificador.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Nome.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Nome.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Num_Cartao_Credito.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Num_Cartao_Credito.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Num_Conta_Corrente.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Num_Conta_Corrente.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Senha.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Senha.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Headers/Dominios/Tipo_Acomodacao.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Tipo_Acomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Agencia.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Agencia.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Banco.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Banco.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Capacidade_De_Acomodacao.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Capacidade_De_Acomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Data.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Data.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Data_De_Validade.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Data_De_Validade.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Diaria.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Diaria.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Estado.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Estado.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Identificador.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Identificador.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Nome.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Nome.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Num_Cartao_Credito.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Num_Cartao_Credito.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Num_Conta_Corrente.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Num_Conta_Corrente.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Senha.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Senha.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/Sources/Dominios/Tipo_Acomodacao.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Tipo_Acomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/main.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/main.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-1-Clion/CMakeLists.txt">
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
