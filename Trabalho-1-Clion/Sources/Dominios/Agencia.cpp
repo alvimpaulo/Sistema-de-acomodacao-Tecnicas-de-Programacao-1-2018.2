@@ -5,7 +5,7 @@
 #include "../../Headers/Dominios/Agencia.h"
 
 Agencia::Agencia() {
-    setAgenciaNum("00000");
+    agenciaNum = "00000";
 }
 
 Agencia::~Agencia() {

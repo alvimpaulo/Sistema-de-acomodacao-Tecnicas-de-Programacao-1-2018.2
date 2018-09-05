@@ -14,7 +14,7 @@ class Agencia {
 public:
     Agencia();
     virtual ~Agencia();
-    std::string getAgenciaNum() const {
+    std::string getAgenciaNum() {
         return agenciaNum;
     }
     void setAgenciaNum(std::string) throw (std::invalid_argument);
