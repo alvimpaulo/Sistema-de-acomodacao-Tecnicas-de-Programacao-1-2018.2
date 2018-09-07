@@ -5,9 +5,30 @@
 #ifndef TRABALHO_1_CLION_ESTADO_H
 #define TRABALHO_1_CLION_ESTADO_H
 
+#include <regex>
+#include <stdexcept>
+#include <string>
+#include <vector>
+#include <set>
+#include <algorithm>
+#include <locale>
+#include <iostream>
+
 
 class Estado {
+public:
+    static const std::vector<std::string> NOME_ESTADOS;
 
+    Estado();
+    void setEstado(std::string estado);
+    std::string getEstado() const;
+
+protected:
+private:
+    static const int ESTADO_INVALIDO = -1;
+    int indiceEstado;
+
+    int validar(std::string estado);
 };
 
 
