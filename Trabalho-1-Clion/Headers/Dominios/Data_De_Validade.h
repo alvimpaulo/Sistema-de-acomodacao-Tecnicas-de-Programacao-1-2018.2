@@ -29,14 +29,14 @@ public:
     void setAno(std::string ano);
     std::string getAno() const;
 
-    int validar(std::string data);
-    int validarMes(std::string mes);
-    int validarDia(std::string dia);
+    bool validar(std::string data);
+    bool validarMes(std::string mes);
+    bool validarAno(std::string ano);
 
 protected:
 private:
-    std::string mes;
-    std::string ano;
+    std::string mes;    // int mes
+    std::string ano;    // int ano
     std::string data;
 };
 

@@ -12,6 +12,8 @@
 #include <set>
 #include <algorithm>
 #include <iostream>
+#include <map>
+#include <utility>
 
 class Data {
 public:
@@ -35,29 +37,18 @@ public:
 
 protected:
 private:
-    static const int FEVEREIRO = 1;
-    static const std::set<std::string> CONJUNTO_MESES;
-
-    int dia;
-    int mes;
-    int ano;
+    std::string dia;
+    std::string mes;
+    std::string ano;
     std::string data;
+
+    bool valida(std::string data);
+    bool validaDia(std::string dia);
+    bool validaMes(std::string mes);
+    bool validaAno(std::string ano);
+
 };
 
-const std::vector<std::string> Data::NOME_MESES = {
-        "jan", "fev", "mar",
-        "abr", "mai", "jun",
-        "jul", "ago", "set",
-        "out", "nov", "dez"
-};
 
- const std::vector<int> Data::LIMITE_SUPERIOR_DIA = {
-         31, 28, 31,
-         30, 31, 30,
-         31, 31, 30,
-         31, 30, 31
- };
-
- const std::set<std::string> Data::CONJUNTO_MESES(NOME_MESES.begin(), NOME_MESES.end());
 
 #endif //TRABALHO_1_CLION_DATA_H

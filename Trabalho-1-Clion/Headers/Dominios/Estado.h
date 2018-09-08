@@ -28,7 +28,7 @@ private:
     static const int ESTADO_INVALIDO = -1;
     int indiceEstado;
 
-    int validar(std::string estado);
+    bool validar(std::string estado);
 };
 
 

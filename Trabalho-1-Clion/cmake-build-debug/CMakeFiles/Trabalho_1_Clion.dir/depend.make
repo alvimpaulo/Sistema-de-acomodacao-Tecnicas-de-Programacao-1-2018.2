@@ -41,7 +41,11 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.obj: ../Hea
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.obj: ../Sources/Dominios/Tipo_Acomodacao.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: .././Headers/Dominios/Agencia.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: .././Headers/Dominios/Data.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: .././Headers/Dominios/Data_De_Validade.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: .././Headers/Dominios/Diaria.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: .././Headers/Dominios/Estado.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: .././Headers/Dominios/Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: .././Headers/Dominios/Tipo_Acomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../main.cpp
 

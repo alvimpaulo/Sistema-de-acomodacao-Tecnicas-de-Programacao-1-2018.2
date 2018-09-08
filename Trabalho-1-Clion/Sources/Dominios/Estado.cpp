@@ -24,29 +24,24 @@ std::string Estado::getEstado() const{
 }
 
 void Estado::setEstado(std::string estado){
-    int respostaValidadeEstado;
-
-    respostaValidadeEstado = validar(estado);
-
-    if(validar(estado) != ESTADO_INVALIDO){
-        this->indiceEstado = respostaValidadeEstado;
+    std::transform(estado.begin(), estado.end(), estado.begin(), ::toupper);
+    if(validar(estado)){
+        this->indiceEstado = std::lower_bound(NOME_ESTADOS.begin(), NOME_ESTADOS.end(), estado) - NOME_ESTADOS.begin();
     } else{
         throw (std::invalid_argument("Estado Invalido"));
     }
 }
 
-int Estado::validar(std::string estado){
-    int resposta;
+bool Estado::validar(std::string estado){
+    bool resposta;
     int indiceEstado;
 
-    std::transform(estado.begin(), estado.end(), estado.begin(), ::toupper);
     indiceEstado = std::lower_bound(NOME_ESTADOS.begin(), NOME_ESTADOS.end(), estado) - NOME_ESTADOS.begin();
 
-
     if(NOME_ESTADOS[indiceEstado] == estado){
-        resposta = indiceEstado;
+        resposta = true;
     } else{
-        resposta = -1;
+        resposta = false;
     }
 
     return resposta;

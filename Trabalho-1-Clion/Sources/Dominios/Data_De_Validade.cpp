@@ -11,11 +11,17 @@ Data_De_Validade::Data_De_Validade(){
 }
 
 void Data_De_Validade::setData_De_Validade(std::string data){
-
+    if(validar(data)){
+        setMes(data.substr(0, 2));
+        setAno(data.substr(3, 2));
+    } else{
+        throw (std::invalid_argument("Formato da data invalido"));
+    }
 }
 
-void Data_De_Validade::setData_De_Validade(std::string dia, std::string mes){
-
+void Data_De_Validade::setData_De_Validade(std::string mes, std::string ano){
+    setMes(mes);
+    setAno(ano);
 }
 
 std::string Data_De_Validade::getData_De_Validade() const{
@@ -23,7 +29,12 @@ std::string Data_De_Validade::getData_De_Validade() const{
 }
 
 void Data_De_Validade::setMes(std::string mes){
-
+    if(validarMes(mes)){
+        this->mes = mes;
+        data.replace(0, 2, mes);
+    } else{
+        throw (std::invalid_argument("Mes invalido"));
+    }
 }
 
 std::string Data_De_Validade::getMes() const{
@@ -31,21 +42,55 @@ std::string Data_De_Validade::getMes() const{
 }
 
 void Data_De_Validade::setAno(std::string ano){
-
+    if(validarAno(ano)){
+        this->ano = ano;
+        data.replace(3, 2, ano);
+    } else{
+        throw (std::invalid_argument("Ano invalido"));
+    }
 }
 
 std::string Data_De_Validade::getAno() const{
-    return ano
+    return ano;
 }
 
-int Data_De_Validade::validar(std::string data){
+bool Data_De_Validade::validar(std::string data){
+    bool resposta;
+    std::regex nomeRegex(R"(^((\d{2})(\/)(\d{2})))");
 
+    if(std::regex_match(data, nomeRegex)){
+        resposta = true;
+    } else{
+        resposta = false;
+    }
+
+    return resposta;
 }
 
-int Data_De_Validade::validarMes(std::string mes){
+bool Data_De_Validade::validarMes(std::string mes){
+    bool resposta;
+    int tmpMes = atoi(mes.c_str());
+    std::regex nomeRegex(R"(^((\d{2})))");
 
+    if(std::regex_match(mes, nomeRegex) && LIMITE_INFERIOR_MES <= tmpMes && tmpMes <= LIMITE_SUPERIOR_MES){
+        resposta = true;
+    } else{
+        resposta = false;
+    }
+
+    return resposta;
 }
 
-int Data_De_Validade::validarDia(std::string dia){
+bool Data_De_Validade::validarAno(std::string ano){
+    bool resposta;
+    int tmpAno = atoi(ano.c_str());
+    std::regex nomeRegex(R"(^((\d{2})))");
 
+    if(std::regex_match(ano, nomeRegex) && LIMITE_INFERIOR_ANO <= tmpAno && tmpAno <= LIMITE_SUPERIOR_ANO){
+        resposta = true;
+    } else{
+        resposta = false;
+    }
+
+    return resposta;
 }
