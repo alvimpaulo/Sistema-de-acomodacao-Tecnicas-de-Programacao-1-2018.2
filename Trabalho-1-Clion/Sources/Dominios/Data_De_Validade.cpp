@@ -12,8 +12,7 @@ Data_De_Validade::Data_De_Validade(){
 
 void Data_De_Validade::setData_De_Validade(std::string data){
     if(validar(data)){
-        setMes(data.substr(0, 2));
-        setAno(data.substr(3, 2));
+        setData_De_Validade(data.substr(0, 2), data.substr(3, 2));
     } else{
         throw (std::invalid_argument("Formato da data invalido"));
     }

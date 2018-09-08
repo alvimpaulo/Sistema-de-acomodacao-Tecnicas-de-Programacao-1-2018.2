@@ -238,6 +238,97 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Dominios\Tipo_Acomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Dominios\Tipo_Acomodacao.cpp.s
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj: ../Sources/Teste/Dominios/Teste_Nome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Nome.cpp.obj -c C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Nome.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Nome.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Nome.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Nome.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Nome.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.obj: ../Sources/Teste/Dominios/Teste_Agencia.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Agencia.cpp.obj -c C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Agencia.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Agencia.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Agencia.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Agencia.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Agencia.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj: ../Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Tipo_Acomodacao.cpp.obj -c C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Tipo_Acomodacao.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Tipo_Acomodacao.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Tipo_Acomodacao.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Tipo_Acomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Tipo_Acomodacao.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.obj: ../Sources/Teste/Dominios/Teste_Estado.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Estado.cpp.obj -c C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Estado.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Estado.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Estado.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Estado.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Estado.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.obj: ../Sources/Teste/Dominios/Teste_Diaria.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Diaria.cpp.obj -c C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Diaria.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Diaria.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Diaria.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Diaria.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Diaria.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.obj: ../Sources/Teste/Dominios/Teste_Data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Data.cpp.obj -c C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Data.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Data.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Data.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Data.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Data.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.obj: ../Sources/Teste/Dominios/Teste_Data_De_Validade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Data_De_Validade.cpp.obj -c C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Data_De_Validade.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Data_De_Validade.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Data_De_Validade.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Data_De_Validade.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Data_De_Validade.cpp.s
+
 # Object files for target Trabalho_1_Clion
 Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj" \
@@ -253,7 +344,14 @@ Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Num_Cartao_Credito.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Num_Conta_Corrente.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Senha.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.obj"
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.obj"
 
 # External object files for target Trabalho_1_Clion
 Trabalho_1_Clion_EXTERNAL_OBJECTS =
@@ -272,11 +370,18 @@ Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Num_Carta
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Num_Conta_Corrente.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Senha.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/build.make
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/linklibs.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Trabalho_1_Clion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable Trabalho_1_Clion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Trabalho_1_Clion.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

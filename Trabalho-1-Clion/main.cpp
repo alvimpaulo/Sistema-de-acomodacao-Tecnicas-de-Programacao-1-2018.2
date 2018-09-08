@@ -1,34 +1,55 @@
 #include <iostream>
-#include "./Headers/Dominios/Agencia.h"
-#include "./Headers/Dominios/Nome.h"
+#include "Headers/Teste/Dominios/Teste_Agencia.h"
+#include "Headers/Teste/Dominios/Teste_Data.h"
+#include "Headers/Teste/Dominios/Teste_Data_De_Validade.h"
+#include "Headers/Teste/Dominios/Teste_Diaria.h"
+#include "Headers/Teste/Dominios/Teste_Estado.h"
+#include "Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h"
+
 
 int main() {
 
-    Agencia ag;
-    Nome nome;
-    std::cout << ag.getAgenciaNum() << std::endl;
-    std::string input;
-    try {
-        ag.setAgenciaNum("12345");
-        std::cout << ag.getAgenciaNum() << std::endl;
+    Teste_Agencia testeAgencia;
+    Teste_Data testeData;
+    Teste_Data_De_Validade testeDataDeValidade;
+    Teste_Diaria testeDiaria;
+    Teste_Estado testeEstado;
+    Teste_Tipo_Acomodacao testeTipoAcomodacao;
 
-        ag.setAgenciaNum("123456");
-        std::cout << ag.getAgenciaNum() << std::endl;
-    }
-    catch (std::invalid_argument e){
-        std::cout << e.what() << std::endl;
+    if(testeAgencia.rodar() == Teste_Agencia::SUCESSO){
+        std::cout << "SUCESSO" << std::endl;
+    } else{
+        std::cout << "FALHA" << std::endl;
     }
 
-    std::getline(std::cin, input);
-    while(input != "sair"){
-        try {
-            nome.setNome(input);
-            std::cout << nome.getNome() << std::endl;
-        }
-        catch (std::invalid_argument e){
-            std::cout << e.what() << std::endl;
-        }
-        std::getline(std::cin, input);
+    if(testeData.rodar() == Teste_Data::SUCESSO){
+        std::cout << "SUCESSO" << std::endl;
+    } else{
+        std::cout << "FALHA" << std::endl;
+    }
+
+    if(testeDataDeValidade.rodar() == Teste_Data_De_Validade::SUCESSO){
+        std::cout << "SUCESSO" << std::endl;
+    } else{
+        std::cout << "FALHA" << std::endl;
+    }
+
+    if(testeDiaria.rodar() == Teste_Diaria::SUCESSO){
+        std::cout << "SUCESSO" << std::endl;
+    } else{
+        std::cout << "FALHA" << std::endl;
+    }
+
+    if(testeEstado.rodar() == Teste_Estado::SUCESSO){
+        std::cout << "SUCESSO" << std::endl;
+    } else{
+        std::cout << "FALHA" << std::endl;
+    }
+
+    if(testeTipoAcomodacao.rodar() == Teste_Tipo_Acomodacao::SUCESSO){
+        std::cout << "SUCESSO" << std::endl;
+    } else{
+        std::cout << "FALHA" << std::endl;
     }
 
 

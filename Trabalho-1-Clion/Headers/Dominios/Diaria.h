@@ -20,14 +20,14 @@ public:
     static const constexpr float LIMITE_MAXIMO_DIARIA = 10000.00f;
 
     Diaria();
-    void setDiaria(float diaria);
+    void setDiaria(std::string diaria);
     float getDiaria() const;
 
 protected:
 private:
     float diaria;
 
-    bool validar(float diaria);
+    bool validar(std::string diaria);
 };
 
 

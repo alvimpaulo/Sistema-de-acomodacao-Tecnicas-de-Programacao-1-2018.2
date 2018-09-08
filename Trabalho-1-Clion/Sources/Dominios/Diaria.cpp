@@ -8,9 +8,9 @@ Diaria::Diaria(){
     diaria = 0.0f;
 }
 
-void Diaria::setDiaria(float diaria){
+void Diaria::setDiaria(std::string diaria){
     if(validar(diaria)){
-        this->diaria = (std::round(diaria*100)/100.0);
+        this->diaria = (std::round(std::stof(diaria)*100)/100.0);
     } else{
         throw (std::invalid_argument("Diaria invalida"));
     }
@@ -20,12 +20,17 @@ float Diaria::getDiaria() const{
     return diaria;
 }
 
-bool Diaria::validar(float diaria){
+bool Diaria::validar(std::string diaria){
+    std::regex nomeRegex(R"((\d+)(\.)(\d+))");
     bool resposta;
 
-    // \d+\.\d{2}
-    if(LIMITE_MINIMO_DIARIA <= diaria && diaria <= LIMITE_MAXIMO_DIARIA){
-        resposta = true;
+    if(std::regex_match(diaria, nomeRegex)){
+        float tmpDiaria = std::stof(diaria);
+        if(LIMITE_MINIMO_DIARIA <= tmpDiaria && tmpDiaria <= LIMITE_MAXIMO_DIARIA){
+            resposta = true;
+        } else{
+            resposta = false;
+        }
     } else{
         resposta = false;
     }

@@ -12,26 +12,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2265067e-bce8-4e0d-b9c9-31f1d7c3c0db" name="Default Changelist" comment="Adicionada a classe da agencia e teste dela na main">
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data_De_Validade.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Diaria.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Estado.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Agencia.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Diaria.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Estado.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Data.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Dominios/Data.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Data_De_Validade.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Dominios/Data_De_Validade.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Headers/Dominios/Diaria.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Dominios/Diaria.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Estado.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Dominios/Estado.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Tipo_Acomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Dominios/Tipo_Acomodacao.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/Dominios/Data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Data.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/Dominios/Data_De_Validade.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Data_De_Validade.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/Dominios/Diaria.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Diaria.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Estado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Estado.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Tipo_Acomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Tipo_Acomodacao.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data_De_Validade.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Diaria.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Diaria.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Estado.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -130,34 +143,34 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
-          <entry key="Trabalho_1_Clion (disassembly)" value="1" />
+          <entry key="Trabalho_1_Clion (disassembly)" value="3" />
           <entry key="algorithm" value="1" />
           <entry key="cmake" value="2" />
-          <entry key="cpp" value="19" />
-          <entry key="h" value="25" />
+          <entry key="cpp" value="53" />
+          <entry key="h" value="53" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="3" />
-          <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="45" />
+          <entry key="Disassembly" value="3" />
+          <entry key="ObjectiveC" value="107" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3718" />
-          <entry key="h" value="1891" />
+          <entry key="cpp" value="5097" />
+          <entry key="h" value="2705" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="5609" />
+          <entry key="ObjectiveC" value="7802" />
         </counts>
       </usages-collector>
     </session>
@@ -167,8 +180,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="208">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -176,40 +189,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Dominios/Agencia.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Dominios/Nome.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="55" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
+        <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="102" column="104" selection-start-line="102" selection-start-column="94" selection-end-line="102" selection-end-column="104" />
+            <state relative-caret-position="117">
+              <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+              <folding>
+                <element signature="e#42#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data.h">
+        <entry file="file://$PROJECT_DIR$/Sources/Dominios/Tipo_Acomodacao.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="17">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Headers/Dominios/Tipo_Acomodacao.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="26" />
               <folding>
-                <element signature="e#106#122#0" expanded="true" />
+                <element signature="e#128#144#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -218,8 +225,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data_De_Validade.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="15" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="15" />
+            <state relative-caret-position="272">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data_De_Validade.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="5099" selection-start-line="5099" selection-end-line="5099" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="e#106#122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -230,6 +285,11 @@
     <findStrings>
       <find>NOME_ESTADOS</find>
       <find>CMAKE_CXX_FLAGS</find>
+      <find>agencia</find>
+      <find>set</find>
+      <find>Teste_Agencia</find>
+      <find>re</find>
+      <find>toupper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -250,18 +310,32 @@
         <option value="$PROJECT_DIR$/Sources/Dominios/Dominios.cpp" />
         <option value="$PROJECT_DIR$/Sources/Dominios/Nome.cpp" />
         <option value="$PROJECT_DIR$/Sources/Dominios/Agencia.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Dominios/Diaria.h" />
         <option value="$PROJECT_DIR$/Headers/Dominios/Tipo_Acomodacao.h" />
-        <option value="$PROJECT_DIR$/Sources/Dominios/Diaria.cpp" />
         <option value="$PROJECT_DIR$/Sources/Dominios/Tipo_Acomodacao.cpp" />
         <option value="$PROJECT_DIR$/Headers/Dominios/Estado.h" />
-        <option value="$PROJECT_DIR$/Sources/Dominios/Data_De_Validade.cpp" />
         <option value="$PROJECT_DIR$/Sources/Dominios/Estado.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Headers/Dominios/Data_De_Validade.h" />
         <option value="$PROJECT_DIR$/Headers/Dominios/Data.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Nome.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Agencia.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Tipo_Acomodaca.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Estado.h" />
+        <option value="$PROJECT_DIR$/Headers/Dominios/Diaria.h" />
+        <option value="$PROJECT_DIR$/Sources/Dominios/Diaria.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Diaria.h" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Diaria.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Estado.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Agencia.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Dominios/Data_De_Validade.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.h" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data_De_Validade.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp" />
         <option value="$PROJECT_DIR$/Sources/Dominios/Data.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp" />
       </list>
     </option>
   </component>
@@ -271,7 +345,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -316,6 +390,31 @@
               <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
               <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
               <item name="Headers" type="462c0819:PsiDirectoryNode" />
+              <item name="Teste" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
+              <item name="Headers" type="462c0819:PsiDirectoryNode" />
+              <item name="Teste" type="462c0819:PsiDirectoryNode" />
+              <item name="Dominios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="Teste" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="Teste" type="462c0819:PsiDirectoryNode" />
               <item name="Dominios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -334,14 +433,17 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Dominios" />
-      <recent name="C:\Paulo\Unb\TP1\Trabalho-1-Clion\Sources\Dominios" />
-      <recent name="C:\Paulo\Unb\TP1\Trabalho-1-Clion\Headers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste" />
       <recent name="C:\Paulo\Unb\TP1\Trabalho-1-Clion\Sources" />
       <recent name="C:\Paulo\Unb\TP1\Trabalho-1-Clion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios" />
+      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Headers\Teste\Dominios" />
+      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Headers\Teste" />
+      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste" />
+      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Dominios" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -392,7 +494,7 @@
       <workItem from="1536299589149" duration="6387000" />
       <workItem from="1536322312746" duration="232000" />
       <workItem from="1536322588285" duration="16024000" />
-      <workItem from="1536388594151" duration="1116000" />
+      <workItem from="1536388594151" duration="21830000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada a classe da agencia e teste dela na main">
       <created>1536084993870</created>
@@ -408,11 +510,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536324937185</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adicionada a classe da agencia e teste dela na main">
+      <created>1536384720899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536384720899</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49979000" />
+    <option name="totallyTimeSpent" value="70693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,25 +533,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" weight="0.24130106" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" weight="0.50078493" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40599" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.33442622" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3327787" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3295082" />
-      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3294509" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -454,8 +563,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
@@ -474,6 +583,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -481,17 +600,18 @@
     <MESSAGE value="Adicionada a classe da agencia e teste dela na main" />
     <option name="LAST_COMMIT_MESSAGE" value="Adicionada a classe da agencia e teste dela na main" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
-    <entry file="file://$PROJECT_DIR$/Dominios.h" />
-    <entry file="file://$PROJECT_DIR$/Dominios.cpp" />
-    <entry file="file://$PROJECT_DIR$/Dominios/Agencia.cpp" />
-    <entry file="file://$PROJECT_DIR$/Dominios/Agencia.h" />
-    <entry file="file://$PROJECT_DIR$/Headers/asdasds.cpp" />
-    <entry file="file://$PROJECT_DIR$/Headers/asdasds.h" />
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Banco.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Headers/Dominios/Banco.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -527,45 +647,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Headers/Dominios/Dominios.h" />
     <entry file="file://$PROJECT_DIR$/Sources/Dominios/Dominios.cpp" />
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Nome.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="13" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/algorithm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data_De_Validade.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Diaria.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Tipo_Acomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="19" column="134" selection-start-line="19" selection-start-column="134" selection-end-line="19" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Estado.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -593,30 +678,6 @@
         <state relative-caret-position="-2193" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Estado.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Tipo_Acomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <element signature="e#128#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Diaria.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Headers/Dominios/Agencia.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -624,51 +685,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Agencia.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/Dominios/Nome.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="123">
           <caret line="20" column="55" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data_De_Validade.h">
+    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Agencia.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="15" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="15" />
+        <state relative-caret-position="114">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Nome.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="340">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
             <element signature="e#106#122#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Tipo_Acomodaca.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Nome.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#120#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#140#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Diaria.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#110#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Estado.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Estado.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#110#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Estado.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Diaria.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#124#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Diaria.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Nome.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Estado.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Agencia.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="11" selection-end-line="33" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Diaria.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="e#120#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data_De_Validade.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/regex.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="445" selection-start-line="445" selection-end-line="445" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Agencia.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="e#106#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data_De_Validade.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="5099" selection-start-line="5099" selection-end-line="5099" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data_De_Validade.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="102" column="104" selection-start-line="102" selection-start-column="94" selection-end-line="102" selection-end-column="104" />
+        <state relative-caret-position="157">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Tipo_Acomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#128#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Tipo_Acomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+          <folding>
+            <element signature="e#42#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

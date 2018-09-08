@@ -473,6 +473,195 @@ Sources/Dominios/Tipo_Acomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.s
 .PHONY : Sources/Dominios/Tipo_Acomodacao.cpp.s
 
+Sources/Teste/Dominios/Teste_Agencia.obj: Sources/Teste/Dominios/Teste_Agencia.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Agencia.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Agencia.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Agencia.cpp.obj
+
+Sources/Teste/Dominios/Teste_Agencia.i: Sources/Teste/Dominios/Teste_Agencia.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Agencia.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Agencia.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Agencia.cpp.i
+
+Sources/Teste/Dominios/Teste_Agencia.s: Sources/Teste/Dominios/Teste_Agencia.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Agencia.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Agencia.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Agencia.cpp.s
+
+Sources/Teste/Dominios/Teste_Data.obj: Sources/Teste/Dominios/Teste_Data.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Data.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Data.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Data.cpp.obj
+
+Sources/Teste/Dominios/Teste_Data.i: Sources/Teste/Dominios/Teste_Data.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Data.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Data.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Data.cpp.i
+
+Sources/Teste/Dominios/Teste_Data.s: Sources/Teste/Dominios/Teste_Data.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Data.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Data.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Data.cpp.s
+
+Sources/Teste/Dominios/Teste_Data_De_Validade.obj: Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Data_De_Validade.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.obj
+
+Sources/Teste/Dominios/Teste_Data_De_Validade.i: Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Data_De_Validade.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.i
+
+Sources/Teste/Dominios/Teste_Data_De_Validade.s: Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Data_De_Validade.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.s
+
+Sources/Teste/Dominios/Teste_Diaria.obj: Sources/Teste/Dominios/Teste_Diaria.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Diaria.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Diaria.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Diaria.cpp.obj
+
+Sources/Teste/Dominios/Teste_Diaria.i: Sources/Teste/Dominios/Teste_Diaria.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Diaria.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Diaria.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Diaria.cpp.i
+
+Sources/Teste/Dominios/Teste_Diaria.s: Sources/Teste/Dominios/Teste_Diaria.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Diaria.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Diaria.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Diaria.cpp.s
+
+Sources/Teste/Dominios/Teste_Estado.obj: Sources/Teste/Dominios/Teste_Estado.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Estado.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Estado.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Estado.cpp.obj
+
+Sources/Teste/Dominios/Teste_Estado.i: Sources/Teste/Dominios/Teste_Estado.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Estado.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Estado.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Estado.cpp.i
+
+Sources/Teste/Dominios/Teste_Estado.s: Sources/Teste/Dominios/Teste_Estado.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Estado.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Estado.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Estado.cpp.s
+
+Sources/Teste/Dominios/Teste_Nome.obj: Sources/Teste/Dominios/Teste_Nome.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Nome.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Nome.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Nome.cpp.obj
+
+Sources/Teste/Dominios/Teste_Nome.i: Sources/Teste/Dominios/Teste_Nome.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Nome.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Nome.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Nome.cpp.i
+
+Sources/Teste/Dominios/Teste_Nome.s: Sources/Teste/Dominios/Teste_Nome.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Nome.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Nome.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Nome.cpp.s
+
+Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj: Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj
+
+Sources/Teste/Dominios/Teste_Tipo_Acomodacao.i: Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.i
+
+Sources/Teste/Dominios/Teste_Tipo_Acomodacao.s: Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -548,6 +737,27 @@ help:
 	@echo ... Sources/Dominios/Tipo_Acomodacao.obj
 	@echo ... Sources/Dominios/Tipo_Acomodacao.i
 	@echo ... Sources/Dominios/Tipo_Acomodacao.s
+	@echo ... Sources/Teste/Dominios/Teste_Agencia.obj
+	@echo ... Sources/Teste/Dominios/Teste_Agencia.i
+	@echo ... Sources/Teste/Dominios/Teste_Agencia.s
+	@echo ... Sources/Teste/Dominios/Teste_Data.obj
+	@echo ... Sources/Teste/Dominios/Teste_Data.i
+	@echo ... Sources/Teste/Dominios/Teste_Data.s
+	@echo ... Sources/Teste/Dominios/Teste_Data_De_Validade.obj
+	@echo ... Sources/Teste/Dominios/Teste_Data_De_Validade.i
+	@echo ... Sources/Teste/Dominios/Teste_Data_De_Validade.s
+	@echo ... Sources/Teste/Dominios/Teste_Diaria.obj
+	@echo ... Sources/Teste/Dominios/Teste_Diaria.i
+	@echo ... Sources/Teste/Dominios/Teste_Diaria.s
+	@echo ... Sources/Teste/Dominios/Teste_Estado.obj
+	@echo ... Sources/Teste/Dominios/Teste_Estado.i
+	@echo ... Sources/Teste/Dominios/Teste_Estado.s
+	@echo ... Sources/Teste/Dominios/Teste_Nome.obj
+	@echo ... Sources/Teste/Dominios/Teste_Nome.i
+	@echo ... Sources/Teste/Dominios/Teste_Nome.s
+	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
+	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.i
+	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

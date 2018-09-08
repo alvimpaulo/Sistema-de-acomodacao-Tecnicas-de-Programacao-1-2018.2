@@ -26,9 +26,7 @@ Data::Data(){
 
 void Data::setData(std::string data){
     if(valida(data)){
-        setAno(data.substr(7, 4));
-        setMes(data.substr(3, 3));
-        setDia(data.substr(0, 2));
+        setData(data.substr(0, 2), data.substr(3, 3), data.substr(7, 4));
     } else{
         throw (std::invalid_argument("Farmato de data invalida"));
     }
@@ -47,6 +45,7 @@ std::string Data::getData() const{
 void Data::setDia(std::string dia){
     if(validaDia(dia)){
         this->dia = dia;
+        data.replace(0, 2, dia);
     } else{
         throw (std::invalid_argument("Dia invalido"));
     }
@@ -57,8 +56,9 @@ std::string Data::getDia() const{
 }
 
 void Data::setMes(std::string mes){
-    if(validaDia(mes)){
+    if(validaMes(mes)){
         this->mes = mes;
+        data.replace(3, 3, mes);
     } else{
         throw (std::invalid_argument("Mes invalido"));
     }
@@ -69,8 +69,9 @@ std::string Data::getMes() const{
 }
 
 void Data::setAno(std::string ano){
-    if(validaDia(ano)){
+    if(validaAno(ano)){
         this->ano = ano;
+        data.replace(7, 4, ano);
     } else{
         throw (std::invalid_argument("Ano invalido"));
     }
@@ -100,7 +101,7 @@ bool Data::validaDia(std::string dia){
 
     if(std::regex_match(dia, nomeRegex) &&
         LIMITE_INFERIOR_DIA <= tmpDia &&
-        tmpDia >= (LIMITE_SUPERIOR_DIA[std::find(NOME_MESES.begin(), NOME_MESES.end(), mes) - NOME_MESES.begin()] + (atoi(ano.c_str()) & 7 == 4 ? 1 : 0))){
+        tmpDia <= (LIMITE_SUPERIOR_DIA[std::find(NOME_MESES.begin(), NOME_MESES.end(), mes) - NOME_MESES.begin()] + ((atoi(ano.c_str()) & 7) == 4 ? 1 : 0))){
         resposta = true;
     } else{
         resposta = false;
@@ -126,7 +127,7 @@ bool Data::validaAno(std::string ano){
     bool resposta;
     std::regex nomeRegex(R"((\d{4}))");
 
-    if(std::regex_match(data, nomeRegex)){
+    if(std::regex_match(ano, nomeRegex)){
         int tmpAno = atoi(ano.c_str());
         if(LIMITE_INFERIOR_ANO <= tmpAno && tmpAno <= LIMITE_SUPERIOR_ANO){
             resposta = true;
