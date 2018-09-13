@@ -5,9 +5,18 @@
 #ifndef TRABALHO_1_CLION_BANCO_H
 #define TRABALHO_1_CLION_BANCO_H
 
-
+#include <string>
+#include <regex>
 class Banco {
+public:
+    Banco();
+    std::string getBancoNum(){
+        return bancoNum;
+    }
+    void setBancoNum(std::string);
 
+private:
+    std::string bancoNum;
 };
 
 

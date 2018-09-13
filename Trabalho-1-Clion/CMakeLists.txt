@@ -30,4 +30,16 @@ add_executable(Trabalho_1_Clion
         Sources/Dominios/Senha.cpp
         Headers/Dominios/Senha.h
         Sources/Dominios/Tipo_Acomodacao.cpp
-        Headers/Dominios/Tipo_Acomodacao.h Sources/Teste/Dominios/Teste_Nome.cpp Headers/Teste/Dominios/Teste_Nome.h Sources/Teste/Dominios/Teste_Agencia.cpp Headers/Teste/Dominios/Teste_Agencia.h Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h Sources/Teste/Dominios/Teste_Estado.cpp Headers/Teste/Dominios/Teste_Estado.h Sources/Teste/Dominios/Teste_Diaria.cpp Headers/Teste/Dominios/Teste_Diaria.h Sources/Teste/Dominios/Teste_Data.cpp Headers/Teste/Dominios/Teste_Data.h Sources/Teste/Dominios/Teste_Data_De_Validade.cpp Headers/Teste/Dominios/Teste_Data_De_Validade.h)
+        Headers/Dominios/Tipo_Acomodacao.h
+        Sources/Teste/Dominios/Teste_Agencia.cpp
+        Headers/Teste/Dominios/Teste_Agencia.h
+        Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp
+        Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h
+        Sources/Teste/Dominios/Teste_Estado.cpp
+		Headers/Teste/Dominios/Teste_Estado.h
+		Sources/Teste/Dominios/Teste_Diaria.cpp
+		Headers/Teste/Dominios/Teste_Diaria.h
+		Sources/Teste/Dominios/Teste_Data.cpp
+		Headers/Teste/Dominios/Teste_Data.h
+		Sources/Teste/Dominios/Teste_Data_De_Validade.cpp
+		Headers/Teste/Dominios/Teste_Data_De_Validade.h Sources/Teste/Dominios/Teste_Banco.cpp Headers/Teste/Dominios/Teste_Banco.h)

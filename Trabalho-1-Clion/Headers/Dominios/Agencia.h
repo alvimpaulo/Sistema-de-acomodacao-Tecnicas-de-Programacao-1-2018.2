@@ -13,11 +13,10 @@
 class Agencia {
 public:
     Agencia();
-    virtual ~Agencia();
     std::string getAgenciaNum() {
         return agenciaNum;
     }
-    void setAgenciaNum(std::string) throw (std::invalid_argument);
+    void setAgenciaNum(std::string);
 
 protected:
 

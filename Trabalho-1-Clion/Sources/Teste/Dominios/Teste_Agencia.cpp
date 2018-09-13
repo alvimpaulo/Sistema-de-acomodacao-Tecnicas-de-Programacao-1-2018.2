@@ -2,7 +2,9 @@
 // Created by oetch on 08/09/2018.
 //
 
+
 #include "../../../Headers/Teste/Dominios/Teste_Agencia.h"
+#include "../../../Headers/Dominios/Agencia.h"
 
 const std::string Teste_Agencia::VALOR_VALIDO = "01234";
 const std::string Teste_Agencia::VALOR_CARACTERE_INVALIDO = "01F34";

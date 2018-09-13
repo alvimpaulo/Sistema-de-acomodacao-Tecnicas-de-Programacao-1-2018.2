@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\paulo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4129.51\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = C:\Users\paulo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4129.51\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion
+CMAKE_SOURCE_DIR = C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Tra
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	C:\Users\paulo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4129.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\paulo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4129.51\bin\cmake\win\bin\cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -500,6 +500,33 @@ Sources/Teste/Dominios/Teste_Agencia.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.s
 .PHONY : Sources/Teste/Dominios/Teste_Agencia.cpp.s
 
+Sources/Teste/Dominios/Teste_Banco.obj: Sources/Teste/Dominios/Teste_Banco.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Banco.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Banco.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Banco.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Banco.cpp.obj
+
+Sources/Teste/Dominios/Teste_Banco.i: Sources/Teste/Dominios/Teste_Banco.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Banco.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Banco.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Banco.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Banco.cpp.i
+
+Sources/Teste/Dominios/Teste_Banco.s: Sources/Teste/Dominios/Teste_Banco.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Banco.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Banco.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Banco.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Banco.cpp.s
+
 Sources/Teste/Dominios/Teste_Data.obj: Sources/Teste/Dominios/Teste_Data.cpp.obj
 
 .PHONY : Sources/Teste/Dominios/Teste_Data.obj
@@ -608,33 +635,6 @@ Sources/Teste/Dominios/Teste_Estado.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.s
 .PHONY : Sources/Teste/Dominios/Teste_Estado.cpp.s
 
-Sources/Teste/Dominios/Teste_Nome.obj: Sources/Teste/Dominios/Teste_Nome.cpp.obj
-
-.PHONY : Sources/Teste/Dominios/Teste_Nome.obj
-
-# target to build an object file
-Sources/Teste/Dominios/Teste_Nome.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj
-.PHONY : Sources/Teste/Dominios/Teste_Nome.cpp.obj
-
-Sources/Teste/Dominios/Teste_Nome.i: Sources/Teste/Dominios/Teste_Nome.cpp.i
-
-.PHONY : Sources/Teste/Dominios/Teste_Nome.i
-
-# target to preprocess a source file
-Sources/Teste/Dominios/Teste_Nome.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.i
-.PHONY : Sources/Teste/Dominios/Teste_Nome.cpp.i
-
-Sources/Teste/Dominios/Teste_Nome.s: Sources/Teste/Dominios/Teste_Nome.cpp.s
-
-.PHONY : Sources/Teste/Dominios/Teste_Nome.s
-
-# target to generate assembly for a file
-Sources/Teste/Dominios/Teste_Nome.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.s
-.PHONY : Sources/Teste/Dominios/Teste_Nome.cpp.s
-
 Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj: Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj
 
 .PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
@@ -740,6 +740,9 @@ help:
 	@echo ... Sources/Teste/Dominios/Teste_Agencia.obj
 	@echo ... Sources/Teste/Dominios/Teste_Agencia.i
 	@echo ... Sources/Teste/Dominios/Teste_Agencia.s
+	@echo ... Sources/Teste/Dominios/Teste_Banco.obj
+	@echo ... Sources/Teste/Dominios/Teste_Banco.i
+	@echo ... Sources/Teste/Dominios/Teste_Banco.s
 	@echo ... Sources/Teste/Dominios/Teste_Data.obj
 	@echo ... Sources/Teste/Dominios/Teste_Data.i
 	@echo ... Sources/Teste/Dominios/Teste_Data.s
@@ -752,9 +755,6 @@ help:
 	@echo ... Sources/Teste/Dominios/Teste_Estado.obj
 	@echo ... Sources/Teste/Dominios/Teste_Estado.i
 	@echo ... Sources/Teste/Dominios/Teste_Estado.s
-	@echo ... Sources/Teste/Dominios/Teste_Nome.obj
-	@echo ... Sources/Teste/Dominios/Teste_Nome.i
-	@echo ... Sources/Teste/Dominios/Teste_Nome.s
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.i
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.s
