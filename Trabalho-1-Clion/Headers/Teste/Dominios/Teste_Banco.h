@@ -13,7 +13,7 @@
 class Teste_Banco {
 public:
     static const int SUCESSO = 0;
-    static const int FALHA = 0;
+    static const int FALHA = 1;
     int rodar();
 
 private:

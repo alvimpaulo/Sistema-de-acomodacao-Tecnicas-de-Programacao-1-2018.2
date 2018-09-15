@@ -127,6 +127,9 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Banco.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Data.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -137,6 +140,9 @@
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Estado.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Nome.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h">
@@ -187,6 +193,9 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Banco.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Data.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -197,6 +206,9 @@
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Estado.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Nome.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp">

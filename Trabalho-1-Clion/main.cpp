@@ -5,56 +5,80 @@
 #include "Headers/Teste/Dominios/Teste_Estado.h"
 #include "Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h"
 #include "Headers/Teste/Dominios/Teste_Banco.h"
+#include "Headers/Teste/Dominios/Teste_Agencia.h"
+#include "Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h"
+#include "Headers/Teste/Dominios/Teste_Nome.h"
 
-
+// todo: Testes dos dominios: identificador, numCartao, numCC, Senha
+// todo: Testes das Entidades: Todas
 int main() {
-
+    Teste_Agencia testeAgencia;
+    Teste_Banco testeBanco;
+    Teste_Capacidade_De_Acomodacao testeCapacidadeDeAcomocadao;
+    Teste_Diaria testeDiaria;
     Teste_Data testeData;
     Teste_Data_De_Validade testeDataDeValidade;
-    Teste_Diaria testeDiaria;
     Teste_Estado testeEstado;
+
+    Teste_Nome testeNome;
+
+
+
     Teste_Tipo_Acomodacao testeTipoAcomodacao;
-    Teste_Banco testeBanco;
 
-
-
+    if(testeAgencia.rodar() == Teste_Agencia::SUCESSO){
+        std::cout << "Sucesso Agencia" << std::endl;
+    } else {
+        std::cout << "Falha Agencia" << std::endl;
+    }
 
     if(testeData.rodar() == Teste_Data::SUCESSO){
-        std::cout << "SUCESSO" << std::endl;
+        std::cout << "Sucesso Data" << std::endl;
     } else{
-        std::cout << "FALHA" << std::endl;
+        std::cout << "Falha Data" << std::endl;
     }
 
     if(testeDataDeValidade.rodar() == Teste_Data_De_Validade::SUCESSO){
-        std::cout << "SUCESSO" << std::endl;
+        std::cout << "Sucesso Data de Validade" << std::endl;
     } else{
-        std::cout << "FALHA" << std::endl;
+        std::cout << "Falha Data de Validade" << std::endl;
     }
 
     if(testeDiaria.rodar() == Teste_Diaria::SUCESSO){
-        std::cout << "SUCESSO" << std::endl;
+        std::cout << "Sucesso Diaria" << std::endl;
     } else{
-        std::cout << "FALHA" << std::endl;
+        std::cout << "Falha Diaria" << std::endl;
     }
 
     if(testeEstado.rodar() == Teste_Estado::SUCESSO){
-        std::cout << "SUCESSO" << std::endl;
+        std::cout << "Sucesso Estado" << std::endl;
     } else{
-        std::cout << "FALHA" << std::endl;
+        std::cout << "Falha Estado" << std::endl;
     }
 
     if(testeTipoAcomodacao.rodar() == Teste_Tipo_Acomodacao::SUCESSO){
-        std::cout << "SUCESSO" << std::endl;
+        std::cout << "Sucesso Tipo de Acomodação" << std::endl;
     } else{
-        std::cout << "FALHA" << std::endl;
+        std::cout << "Falha Tipo de Acomodação" << std::endl;
     }
 
     if(testeBanco.rodar() == Teste_Banco::SUCESSO){
-        std::cout << "SUCESSO" << std::endl;
+        std::cout << "Sucesso Banco" << std::endl;
     } else{
-        std::cout << "FALHA" << std::endl;
+        std::cout << "Falha Banco" << std::endl;
     }
 
+    if(testeCapacidadeDeAcomocadao.rodar() == Teste_Capacidade_De_Acomodacao::SUCESSO){
+        std::cout << "Sucesso Capacidade de Acomodacao" << std::endl;
+    } else{
+        std::cout << "Falha Capacidade de Acomodacao" << std::endl;
+    }
+
+    if(testeNome.rodar() == Teste_Nome::SUCESSO){
+        std::cout << "Sucesso Nome" << std::endl;
+    } else{
+        std::cout << "Falha Nome" << std::endl;
+    }
 
     return 0;
 }

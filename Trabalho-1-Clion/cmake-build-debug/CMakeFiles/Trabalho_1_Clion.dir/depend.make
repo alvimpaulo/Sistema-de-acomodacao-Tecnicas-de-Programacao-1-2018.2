@@ -48,6 +48,10 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Banco.cpp.obj: ../H
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Banco.cpp.obj: ../Headers/Teste/Dominios/Teste_Banco.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Banco.cpp.obj: ../Sources/Teste/Dominios/Teste_Banco.cpp
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp.obj: ../Headers/Dominios/Capacidade_De_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp.obj: ../Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp.obj: ../Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp
+
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.obj: ../Headers/Dominios/Data.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.obj: ../Headers/Teste/Dominios/Teste_Data.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.obj: ../Sources/Teste/Dominios/Teste_Data.cpp
@@ -64,21 +68,31 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.obj: ../
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.obj: ../Headers/Teste/Dominios/Teste_Estado.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.obj: ../Sources/Teste/Dominios/Teste_Estado.cpp
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj: ../Headers/Dominios/Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj: ../Headers/Teste/Dominios/Teste_Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj: ../Sources/Teste/Dominios/Teste_Nome.cpp
+
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj: ../Headers/Dominios/Tipo_Acomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj: ../Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj: ../Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp
 
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Agencia.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Banco.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Capacidade_De_Acomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Data.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Data_De_Validade.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Diaria.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Estado.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Nome.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Tipo_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Agencia.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Banco.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Data.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Data_De_Validade.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Diaria.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Estado.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Nome.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../main.cpp
 
