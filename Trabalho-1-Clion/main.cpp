@@ -9,9 +9,10 @@
 #include "Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h"
 #include "Headers/Teste/Dominios/Teste_Nome.h"
 #include "Headers/Teste/Dominios/Teste_Identificador.h"
+#include "Headers/Teste/Dominios/Teste_Num_Cartao.h"
 
 
-// todo: Testes dos dominios: numCartao, numCC, Senha
+// todo: Testes dos dominios:  numCC, Senha
 // todo: Testes das Entidades: Todas
 int main() {
     Teste_Agencia testeAgencia;
@@ -23,7 +24,7 @@ int main() {
     Teste_Estado testeEstado;
     Teste_Identificador testeIdentificador;
     Teste_Nome testeNome;
-
+    Teste_Num_Cartao testeNumCartao;
 
 
     Teste_Tipo_Acomodacao testeTipoAcomodacao;
@@ -87,6 +88,13 @@ int main() {
     } else{
         std::cout << "Falha Identificador" << std::endl;
     }
+
+    if(testeNumCartao.rodar() == Teste_Num_Cartao::SUCESSO){
+        std::cout << "Sucesso Numero do cartao" << std::endl;
+    } else{
+        std::cout << "Falha Numero do cartao" << std::endl;
+    }
+
 
     return 0;
 }

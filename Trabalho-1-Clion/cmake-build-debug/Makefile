@@ -716,6 +716,33 @@ Sources/Teste/Dominios/Teste_Nome.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.s
 .PHONY : Sources/Teste/Dominios/Teste_Nome.cpp.s
 
+Sources/Teste/Dominios/Teste_Num_Cartao.obj: Sources/Teste/Dominios/Teste_Num_Cartao.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Num_Cartao.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Num_Cartao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Cartao.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Num_Cartao.cpp.obj
+
+Sources/Teste/Dominios/Teste_Num_Cartao.i: Sources/Teste/Dominios/Teste_Num_Cartao.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Num_Cartao.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Num_Cartao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Cartao.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Num_Cartao.cpp.i
+
+Sources/Teste/Dominios/Teste_Num_Cartao.s: Sources/Teste/Dominios/Teste_Num_Cartao.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Num_Cartao.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Num_Cartao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Cartao.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Num_Cartao.cpp.s
+
 Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj: Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj
 
 .PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
@@ -845,6 +872,9 @@ help:
 	@echo ... Sources/Teste/Dominios/Teste_Nome.obj
 	@echo ... Sources/Teste/Dominios/Teste_Nome.i
 	@echo ... Sources/Teste/Dominios/Teste_Nome.s
+	@echo ... Sources/Teste/Dominios/Teste_Num_Cartao.obj
+	@echo ... Sources/Teste/Dominios/Teste_Num_Cartao.i
+	@echo ... Sources/Teste/Dominios/Teste_Num_Cartao.s
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.i
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.s
