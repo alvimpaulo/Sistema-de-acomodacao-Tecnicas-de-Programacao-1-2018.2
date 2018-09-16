@@ -25,7 +25,6 @@ public:
 
 protected:
 private:
-    static const int ESTADO_INVALIDO = -1;
     int indiceEstado;
 
     bool validar(std::string estado);

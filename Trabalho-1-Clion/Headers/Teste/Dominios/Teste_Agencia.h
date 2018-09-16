@@ -10,18 +10,14 @@
 class Teste_Agencia{
 public:
     static const int SUCESSO = 0;
-    static const int FALHA_GERAL = -1;
-    static const int FALHA_CARACTERE_INVALIDO = 1;
-    static const int FALHA_COMPRIMENTO_INVALIDO = 2;
-
-    static const std::string VALOR_VALIDO;
-    static const std::string VALOR_CARACTERE_INVALIDO;
-    static const std::string VALOR_COMPRIMENTO_INVALIDO;
+    static const int FALHA = 1;
 
     int rodar();
 
 private:
-
+    static const std::string VALOR_VALIDO;
+    static const std::string VALOR_CARACTERE_INVALIDO;
+    static const std::string VALOR_COMPRIMENTO_INVALIDO;
 
     int estado;
     Agencia *agencia;
@@ -29,6 +25,7 @@ private:
     void desconfigurar();
 
     void casoSucesso();
+    void casoFalha();
     void casoFalhaCaratereInvalido();
     void casoFalhaComprimentoInvalido();
 };

@@ -14,8 +14,7 @@ int Teste_Agencia::rodar(){
     configurar();
 
     casoSucesso();
-    casoFalhaCaratereInvalido();
-    casoFalhaComprimentoInvalido();
+    casoFalha();
 
     desconfigurar();
 
@@ -35,18 +34,23 @@ void Teste_Agencia::casoSucesso(){
     try {
         agencia->setAgenciaNum(VALOR_VALIDO);
         if(agencia->getAgenciaNum() != VALOR_VALIDO){
-            estado |= FALHA_GERAL;
+            estado = FALHA;
         }
     }
     catch(std::invalid_argument e){
-        estado |= FALHA_GERAL;
+        estado = FALHA;
     }
+}
+
+void Teste_Agencia::casoFalha(){
+    casoFalhaCaratereInvalido();
+    casoFalhaComprimentoInvalido();
 }
 
 void Teste_Agencia::casoFalhaCaratereInvalido(){
     try {
         agencia->setAgenciaNum(VALOR_CARACTERE_INVALIDO);
-        estado |= FALHA_CARACTERE_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
@@ -56,7 +60,7 @@ void Teste_Agencia::casoFalhaCaratereInvalido(){
 void Teste_Agencia::casoFalhaComprimentoInvalido(){
     try{
         agencia->setAgenciaNum(VALOR_COMPRIMENTO_INVALIDO);
-        estado |= FALHA_COMPRIMENTO_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
