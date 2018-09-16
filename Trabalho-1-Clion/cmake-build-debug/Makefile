@@ -770,6 +770,33 @@ Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.s
 .PHONY : Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.s
 
+Sources/Teste/Dominios/Teste_Senha.obj: Sources/Teste/Dominios/Teste_Senha.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Senha.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Senha.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Senha.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Senha.cpp.obj
+
+Sources/Teste/Dominios/Teste_Senha.i: Sources/Teste/Dominios/Teste_Senha.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Senha.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Senha.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Senha.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Senha.cpp.i
+
+Sources/Teste/Dominios/Teste_Senha.s: Sources/Teste/Dominios/Teste_Senha.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Senha.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Senha.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Senha.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Senha.cpp.s
+
 Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj: Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj
 
 .PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
@@ -905,6 +932,9 @@ help:
 	@echo ... Sources/Teste/Dominios/Teste_Num_Conta_Corrente.obj
 	@echo ... Sources/Teste/Dominios/Teste_Num_Conta_Corrente.i
 	@echo ... Sources/Teste/Dominios/Teste_Num_Conta_Corrente.s
+	@echo ... Sources/Teste/Dominios/Teste_Senha.obj
+	@echo ... Sources/Teste/Dominios/Teste_Senha.i
+	@echo ... Sources/Teste/Dominios/Teste_Senha.s
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.i
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.s
