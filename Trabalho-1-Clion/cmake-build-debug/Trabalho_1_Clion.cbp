@@ -142,6 +142,9 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Estado.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Identificador.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Nome.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -206,6 +209,9 @@
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Estado.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Identificador.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Nome.cpp">

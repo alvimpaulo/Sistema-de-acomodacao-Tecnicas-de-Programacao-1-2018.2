@@ -8,8 +8,10 @@
 #include "Headers/Teste/Dominios/Teste_Agencia.h"
 #include "Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h"
 #include "Headers/Teste/Dominios/Teste_Nome.h"
+#include "Headers/Teste/Dominios/Teste_Identificador.h"
 
-// todo: Testes dos dominios: identificador, numCartao, numCC, Senha
+
+// todo: Testes dos dominios: numCartao, numCC, Senha
 // todo: Testes das Entidades: Todas
 int main() {
     Teste_Agencia testeAgencia;
@@ -19,7 +21,7 @@ int main() {
     Teste_Data testeData;
     Teste_Data_De_Validade testeDataDeValidade;
     Teste_Estado testeEstado;
-
+    Teste_Identificador testeIdentificador;
     Teste_Nome testeNome;
 
 
@@ -78,6 +80,12 @@ int main() {
         std::cout << "Sucesso Nome" << std::endl;
     } else{
         std::cout << "Falha Nome" << std::endl;
+    }
+
+    if(testeIdentificador.rodar() == Teste_Identificador::SUCESSO){
+        std::cout << "Sucesso Identificador" << std::endl;
+    } else{
+        std::cout << "Falha Identificador" << std::endl;
     }
 
     return 0;

@@ -8,7 +8,7 @@ void Capacidade_De_Acomodacao::setCapacidade_De_Acomodacao(std::string novaCapac
     if(validar(novaCapacidade)){
         capacidade_de_acomodacao = novaCapacidade;
     } else {
-        throw std::invalid_argument ("Numero da Capacidade invalido");
+        throw std::invalid_argument (novaCapacidade + " Eh um numero da capacidade invalido");
     }
 }
 

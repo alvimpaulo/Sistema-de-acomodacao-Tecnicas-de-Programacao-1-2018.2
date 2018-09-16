@@ -662,6 +662,33 @@ Sources/Teste/Dominios/Teste_Estado.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.s
 .PHONY : Sources/Teste/Dominios/Teste_Estado.cpp.s
 
+Sources/Teste/Dominios/Teste_Identificador.obj: Sources/Teste/Dominios/Teste_Identificador.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Identificador.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Identificador.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Identificador.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Identificador.cpp.obj
+
+Sources/Teste/Dominios/Teste_Identificador.i: Sources/Teste/Dominios/Teste_Identificador.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Identificador.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Identificador.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Identificador.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Identificador.cpp.i
+
+Sources/Teste/Dominios/Teste_Identificador.s: Sources/Teste/Dominios/Teste_Identificador.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Identificador.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Identificador.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Identificador.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Identificador.cpp.s
+
 Sources/Teste/Dominios/Teste_Nome.obj: Sources/Teste/Dominios/Teste_Nome.cpp.obj
 
 .PHONY : Sources/Teste/Dominios/Teste_Nome.obj
@@ -812,6 +839,9 @@ help:
 	@echo ... Sources/Teste/Dominios/Teste_Estado.obj
 	@echo ... Sources/Teste/Dominios/Teste_Estado.i
 	@echo ... Sources/Teste/Dominios/Teste_Estado.s
+	@echo ... Sources/Teste/Dominios/Teste_Identificador.obj
+	@echo ... Sources/Teste/Dominios/Teste_Identificador.i
+	@echo ... Sources/Teste/Dominios/Teste_Identificador.s
 	@echo ... Sources/Teste/Dominios/Teste_Nome.obj
 	@echo ... Sources/Teste/Dominios/Teste_Nome.i
 	@echo ... Sources/Teste/Dominios/Teste_Nome.s
