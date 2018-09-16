@@ -14,9 +14,7 @@ int Teste_Data_De_Validade::rodar(){
     configurar();
 
     casoSucesso();
-    casoFalhaCaratereInvalido();
-    casoFalhaComprimentoInvalido();
-    casoFalhaIntervaloMesInvalido();
+    casoFalha();
 
     desconfigurar();
 
@@ -36,18 +34,24 @@ void Teste_Data_De_Validade::casoSucesso(){
     try {
         data_de_validade->setData_De_Validade(VALOR_VALIDO);
         if(data_de_validade->getData_De_Validade() != VALOR_VALIDO){
-            estado |= FALHA_GERAL;
+            estado = FALHA;
         }
     }
     catch(std::invalid_argument e){
-        estado |= FALHA_GERAL;
+        estado = FALHA;
     }
+}
+
+void Teste_Data_De_Validade::casoFalha(){
+    casoFalhaCaratereInvalido();
+    casoFalhaComprimentoInvalido();
+    casoFalhaIntervaloMesInvalido();
 }
 
 void Teste_Data_De_Validade::casoFalhaCaratereInvalido(){
     try {
         data_de_validade->setData_De_Validade(VALOR_CARACTERE_INVALIDO);
-        estado |= FALHA_CARACTERE_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
@@ -57,7 +61,7 @@ void Teste_Data_De_Validade::casoFalhaCaratereInvalido(){
 void Teste_Data_De_Validade::casoFalhaComprimentoInvalido(){
     try {
         data_de_validade->setData_De_Validade(VALOR_COMPRIMENTO_INVALIDO);
-        estado |= FALHA_COMPRIMENTO_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
@@ -67,7 +71,7 @@ void Teste_Data_De_Validade::casoFalhaComprimentoInvalido(){
 void Teste_Data_De_Validade::casoFalhaIntervaloMesInvalido(){
     try{
         data_de_validade->setData_De_Validade(VALOR_INTERVALO_MES_INVALIDO);
-        estado |= FALHA_INTERVALO_MES_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;

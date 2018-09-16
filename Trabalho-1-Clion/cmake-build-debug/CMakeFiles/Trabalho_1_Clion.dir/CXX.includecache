@@ -242,19 +242,9 @@ string
 ../../Dominios/Tipo_Acomodacao.h
 C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Tipo_Acomodacao.h
 
-C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Estado.cpp
-../../Headers/Dominios/Estado.h
-C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Estado.h
-
-C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Agencia.cpp
-../../../Headers/Teste/Dominios/Teste_Agencia.h
-C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Agencia.h
-../../../Headers/Dominios/Agencia.h
-C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Agencia.h
-
-C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Estado.cpp
-../../../Headers/Teste/Dominios/Teste_Estado.h
-C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Estado.h
+C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp
+../../../Headers/Teste/Dominios/Teste_Data_De_Validade.h
+C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Data_De_Validade.h
 
 C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/main.cpp
 iostream
