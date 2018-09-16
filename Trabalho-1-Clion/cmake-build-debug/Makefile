@@ -743,6 +743,33 @@ Sources/Teste/Dominios/Teste_Num_Cartao.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Cartao.cpp.s
 .PHONY : Sources/Teste/Dominios/Teste_Num_Cartao.cpp.s
 
+Sources/Teste/Dominios/Teste_Num_Conta_Corrente.obj: Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Num_Conta_Corrente.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.obj
+
+Sources/Teste/Dominios/Teste_Num_Conta_Corrente.i: Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Num_Conta_Corrente.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.i
+
+Sources/Teste/Dominios/Teste_Num_Conta_Corrente.s: Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Num_Conta_Corrente.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.s
+
 Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj: Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj
 
 .PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
@@ -875,6 +902,9 @@ help:
 	@echo ... Sources/Teste/Dominios/Teste_Num_Cartao.obj
 	@echo ... Sources/Teste/Dominios/Teste_Num_Cartao.i
 	@echo ... Sources/Teste/Dominios/Teste_Num_Cartao.s
+	@echo ... Sources/Teste/Dominios/Teste_Num_Conta_Corrente.obj
+	@echo ... Sources/Teste/Dominios/Teste_Num_Conta_Corrente.i
+	@echo ... Sources/Teste/Dominios/Teste_Num_Conta_Corrente.s
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.i
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.s

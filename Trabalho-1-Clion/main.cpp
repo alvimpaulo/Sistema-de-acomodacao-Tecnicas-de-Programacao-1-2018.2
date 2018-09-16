@@ -10,9 +10,10 @@
 #include "Headers/Teste/Dominios/Teste_Nome.h"
 #include "Headers/Teste/Dominios/Teste_Identificador.h"
 #include "Headers/Teste/Dominios/Teste_Num_Cartao.h"
+#include "Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h"
 
 
-// todo: Testes dos dominios:  numCC, Senha
+// todo: Testes dos dominios: Senha
 // todo: Testes das Entidades: Todas
 int main() {
     Teste_Agencia testeAgencia;
@@ -25,7 +26,7 @@ int main() {
     Teste_Identificador testeIdentificador;
     Teste_Nome testeNome;
     Teste_Num_Cartao testeNumCartao;
-
+    Teste_Num_Conta_Corrente testeNumContaCorrente;
 
     Teste_Tipo_Acomodacao testeTipoAcomodacao;
 
@@ -93,6 +94,12 @@ int main() {
         std::cout << "Sucesso Numero do cartao" << std::endl;
     } else{
         std::cout << "Falha Numero do cartao" << std::endl;
+    }
+
+    if(testeNumContaCorrente.rodar() == Teste_Num_Conta_Corrente::SUCESSO){
+        std::cout << "Sucesso Conta Corrente" << std::endl;
+    } else {
+        std::cout << "Falha Conta Corrente" << std::endl;
     }
 
 

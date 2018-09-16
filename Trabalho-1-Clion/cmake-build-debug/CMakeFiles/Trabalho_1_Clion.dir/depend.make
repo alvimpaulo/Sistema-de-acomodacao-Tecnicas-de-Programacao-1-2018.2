@@ -76,6 +76,14 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj: ../He
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj: ../Headers/Teste/Dominios/Teste_Nome.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj: ../Sources/Teste/Dominios/Teste_Nome.cpp
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Cartao.cpp.obj: ../Headers/Dominios/Num_Cartao_Credito.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Cartao.cpp.obj: ../Headers/Teste/Dominios/Teste_Num_Cartao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Cartao.cpp.obj: ../Sources/Teste/Dominios/Teste_Num_Cartao.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.obj: ../Headers/Dominios/Num_Conta_Corrente.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.obj: ../Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.obj: ../Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp
+
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj: ../Headers/Dominios/Tipo_Acomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj: ../Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj: ../Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp
@@ -89,6 +97,8 @@ CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Diaria.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Estado.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Identificador.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Num_Cartao_Credito.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Num_Conta_Corrente.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Tipo_Acomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Agencia.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Banco.h
@@ -99,6 +109,8 @@ CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Di
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Estado.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Identificador.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Num_Cartao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../main.cpp
 

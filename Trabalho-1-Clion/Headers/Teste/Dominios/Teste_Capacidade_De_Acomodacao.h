@@ -4,6 +4,7 @@
 
 #ifndef TRABALHO_1_CLION_TESTE_CAPACIDADE_DE_ACOMOCADAO_H
 #define TRABALHO_1_CLION_TESTE_CAPACIDADE_DE_ACOMOCADAO_H
+
 #include <iostream>
 #include "../../Dominios/Capacidade_De_Acomodacao.h"
 #include <stdexcept>

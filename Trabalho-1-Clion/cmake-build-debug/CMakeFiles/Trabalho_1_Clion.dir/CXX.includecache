@@ -6,23 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Identificador.h
+C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Num_Conta_Corrente.h
+string
+-
 regex
 -
 stdexcept
 -
-string
--
 
-C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Identificador.h
-iostream
--
-../../Dominios/Identificador.h
-C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Identificador.h
-stdexcept
--
-
-C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Identificador.cpp
-../../../Headers/Teste/Dominios/Teste_Identificador.h
-C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Identificador.h
+C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Num_Conta_Corrente.cpp
+../../Headers/Dominios/Num_Conta_Corrente.h
+C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Num_Conta_Corrente.h
 
