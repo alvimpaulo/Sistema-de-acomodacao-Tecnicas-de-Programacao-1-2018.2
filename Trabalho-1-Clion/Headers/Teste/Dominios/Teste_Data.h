@@ -12,14 +12,7 @@
 class Teste_Data {
 public:
     static const int SUCESSO = 0;
-    static const int FALHA_CARACTERE_INVALIDO = 1;
-    static const int FALHA_COMPRIMENTO_INVALIDO = 2;
-    static const int FALHA_INTERVALO_ANO_INVALIDO = 4;
-    static const int FALHA_INTERVALO_MES_INVALIDO = 8;
-    static const int FALHA_INTERVALO_DIA_MES_QUALQUER_INVALIDO = 16;
-    static const int FALHA_INTERVALO_DIA_FEVEREIRO_NORMAL_INVALIDO = 32;
-    static const int FALHA_INTERVALO_DIA_FEVEREIRO_BIXESTO_INVALIDO = 64;
-    static const int FALHA_GERAL = -1;
+    static const int FALHA = 1;
 
     int rodar();
 
@@ -40,6 +33,7 @@ private:
     void desconfigurar();
 
     void casoSucesso();
+    void casoFalha();
     void casoFalhaCaratereInvalido();
     void casoFalhaComprimentoInvalido();
     void casoFalhaIntervaloAnoInvalido();

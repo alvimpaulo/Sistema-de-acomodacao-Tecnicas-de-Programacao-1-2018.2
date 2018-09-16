@@ -18,13 +18,7 @@ int Teste_Data::rodar(){
     configurar();
 
     casoSucesso();
-    casoFalhaCaratereInvalido();
-    casoFalhaComprimentoInvalido();
-    casoFalhaIntervaloAnoInvalido();
-    casoFalhaMesInvalido();
-    casoFalhaIntervaloDiaMesQualquerInvalido();
-    casoFalhaIntervaloDiaFevereiroNormalInvalido();
-    casoFalhaIntervaloDiaFevereiroBixestoInvalido();
+    casoFalha();
 
     desconfigurar();
 
@@ -44,18 +38,28 @@ void Teste_Data::casoSucesso(){
     try {
         data->setData(VALOR_VALIDO);
         if(data->getData() != VALOR_VALIDO){
-            estado |= FALHA_GERAL;
+            estado = FALHA;
         }
     }
     catch(std::invalid_argument e){
-        estado |= FALHA_GERAL;
+        estado = FALHA;
     }
+}
+
+void Teste_Data::casoFalha(){
+    casoFalhaCaratereInvalido();
+    casoFalhaComprimentoInvalido();
+    casoFalhaIntervaloAnoInvalido();
+    casoFalhaMesInvalido();
+    casoFalhaIntervaloDiaMesQualquerInvalido();
+    casoFalhaIntervaloDiaFevereiroNormalInvalido();
+    casoFalhaIntervaloDiaFevereiroBixestoInvalido();
 }
 
 void Teste_Data::casoFalhaCaratereInvalido(){
     try {
         data->setData(VALOR_CARACTERE_INVALIDO);
-        estado |= FALHA_CARACTERE_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
@@ -65,7 +69,7 @@ void Teste_Data::casoFalhaCaratereInvalido(){
 void Teste_Data::casoFalhaIntervaloAnoInvalido(){
     try{
         data->setData(VALOR_INTERVALO_ANO_INVALIDO);
-        estado |= FALHA_INTERVALO_ANO_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
@@ -75,7 +79,7 @@ void Teste_Data::casoFalhaIntervaloAnoInvalido(){
 void Teste_Data::casoFalhaMesInvalido(){
     try{
         data->setData(VALOR_MES_INVALIDO);
-        estado |= FALHA_INTERVALO_MES_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
@@ -85,7 +89,7 @@ void Teste_Data::casoFalhaMesInvalido(){
 void Teste_Data::casoFalhaComprimentoInvalido(){
     try{
         data->setData(VALOR_COMPRIMENTO_INVALIDO);
-        estado |= FALHA_COMPRIMENTO_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
@@ -95,7 +99,7 @@ void Teste_Data::casoFalhaComprimentoInvalido(){
 void Teste_Data::casoFalhaIntervaloDiaMesQualquerInvalido(){
     try{
         data->setData(VALOR_INTERVALO_DIA_MES_QUALQUER_INVALIDO);
-        estado |= FALHA_INTERVALO_DIA_MES_QUALQUER_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
@@ -105,7 +109,7 @@ void Teste_Data::casoFalhaIntervaloDiaMesQualquerInvalido(){
 void Teste_Data::casoFalhaIntervaloDiaFevereiroNormalInvalido(){
     try{
         data->setData(VALOR_INTERVALO_DIA_FEVEREIRO_NORMAL_INVALIDO);
-        estado |= FALHA_INTERVALO_DIA_FEVEREIRO_NORMAL_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
@@ -115,7 +119,7 @@ void Teste_Data::casoFalhaIntervaloDiaFevereiroNormalInvalido(){
 void Teste_Data::casoFalhaIntervaloDiaFevereiroBixestoInvalido(){
     try{
         data->setData(VALOR_INTERVALO_DIA_FEVEREIRO_BIXESTO_INVALIDO);
-        estado |= FALHA_INTERVALO_DIA_FEVEREIRO_BIXESTO_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
