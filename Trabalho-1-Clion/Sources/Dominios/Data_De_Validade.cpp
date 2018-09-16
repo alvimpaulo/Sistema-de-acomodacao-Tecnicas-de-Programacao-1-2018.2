@@ -68,7 +68,7 @@ bool Data_De_Validade::validar(std::string data){
 
 bool Data_De_Validade::validarMes(std::string mes){
     bool resposta;
-    int tmpMes = atoi(mes.c_str());
+    int tmpMes = std::stoi(mes);
     std::regex nomeRegex(R"(^((\d{2})))");
 
     if(std::regex_match(mes, nomeRegex) && LIMITE_INFERIOR_MES <= tmpMes && tmpMes <= LIMITE_SUPERIOR_MES){
@@ -82,7 +82,7 @@ bool Data_De_Validade::validarMes(std::string mes){
 
 bool Data_De_Validade::validarAno(std::string ano){
     bool resposta;
-    int tmpAno = atoi(ano.c_str());
+    int tmpAno = std::stoi(ano);
     std::regex nomeRegex(R"(^((\d{2})))");
 
     if(std::regex_match(ano, nomeRegex) && LIMITE_INFERIOR_ANO <= tmpAno && tmpAno <= LIMITE_SUPERIOR_ANO){

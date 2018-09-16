@@ -98,11 +98,11 @@ bool Data::valida(std::string data){
 bool Data::validaDia(std::string dia){
     bool resposta = false;
     std::regex nomeRegex(R"((\d{2}))");
-    int tmpDia = atoi(dia.c_str());
+    int tmpDia = std::stoi(dia);
 
     if(std::regex_match(dia, nomeRegex) &&
        LIMITE_INFERIOR_DIA <= tmpDia &&
-       tmpDia <= (LIMITE_SUPERIOR_DIA[mes] + ((atoi(ano.c_str()) & 3) == 0 && mes == 1 ? 1 : 0))){
+       tmpDia <= (LIMITE_SUPERIOR_DIA[mes] + ((std::stoi(ano) & 3) == 0 && mes == 1 ? 1 : 0))){
         resposta = true;
     } else{
         resposta = false;
@@ -129,7 +129,7 @@ bool Data::validaAno(std::string ano){
     std::regex nomeRegex(R"((\d{4}))");
 
     if(std::regex_match(ano, nomeRegex)){
-        int tmpAno = atoi(ano.c_str());
+        int tmpAno = std::stoi(ano);
         if(LIMITE_INFERIOR_ANO <= tmpAno && tmpAno <= LIMITE_SUPERIOR_ANO){
             resposta = true;
         } else{
