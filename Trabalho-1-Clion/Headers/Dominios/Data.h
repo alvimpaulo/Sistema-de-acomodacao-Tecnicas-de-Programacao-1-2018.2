@@ -9,11 +9,8 @@
 #include <stdexcept>
 #include <string>
 #include <vector>
-#include <set>
 #include <algorithm>
 #include <iostream>
-#include <map>
-#include <utility>
 
 class Data {
 public:
@@ -28,6 +25,18 @@ public:
     void setData(std::string data);
     void setData(std::string dia, std::string mes, std::string ano);
     std::string getData() const;
+
+    friend bool operator<(const Data& data1, const Data& data2);
+    friend bool operator>(const Data& data1, const Data& data2);
+
+protected:
+private:
+    std::string dia;
+    int mes;
+    std::string ano;
+    std::string data;
+
+
     void setDia(std::string dia);
     std::string getDia() const;
     void setMes(std::string mes);
@@ -35,18 +44,10 @@ public:
     void setAno(std::string ano);
     std::string getAno() const;
 
-protected:
-private:
-    std::string dia;
-    std::string mes;
-    std::string ano;
-    std::string data;
-
     bool valida(std::string data);
     bool validaDia(std::string dia);
     bool validaMes(std::string mes);
     bool validaAno(std::string ano);
-
 };
 
 
