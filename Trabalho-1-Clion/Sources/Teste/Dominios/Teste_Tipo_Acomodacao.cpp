@@ -13,8 +13,7 @@ int Teste_Tipo_Acomodacao::rodar(){
     configurar();
 
     casoSucesso();
-    casoFalhaCaratereInvalido();
-    casoFalhaComprimentoInvalido();
+    casoFalha();
 
     desconfigurar();
 
@@ -37,18 +36,23 @@ void Teste_Tipo_Acomodacao::casoSucesso(){
         std::transform(tmpStr.begin(), tmpStr.end(), tmpStr.begin(), ::tolower);
         tmpStr[0] = std::toupper(tmpStr[0]);
         if(tipo_acomodacao->getTipoAcomodacao() != tmpStr){
-            estado |= FALHA_GERAL;
+            estado = FALHA;
         }
     }
     catch(std::invalid_argument e){
-        estado |= FALHA_GERAL;
+        estado = FALHA;
     }
+}
+
+void Teste_Tipo_Acomodacao::casoFalha(){
+    casoFalhaCaratereInvalido();
+    casoFalhaComprimentoInvalido();
 }
 
 void Teste_Tipo_Acomodacao::casoFalhaCaratereInvalido(){
     try {
         tipo_acomodacao->setTipoAcomodacao(VALOR_CARACTERE_INVALIDO);
-        estado |= FALHA_CARACTERE_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;
@@ -58,7 +62,7 @@ void Teste_Tipo_Acomodacao::casoFalhaCaratereInvalido(){
 void Teste_Tipo_Acomodacao::casoFalhaComprimentoInvalido(){
     try{
         tipo_acomodacao->setTipoAcomodacao(VALOR_COMPRIMENTO_INVALIDO);
-        estado |= FALHA_COMPRIMENTO_INVALIDO;
+        estado = FALHA;
     }
     catch(std::invalid_argument e){
         return;

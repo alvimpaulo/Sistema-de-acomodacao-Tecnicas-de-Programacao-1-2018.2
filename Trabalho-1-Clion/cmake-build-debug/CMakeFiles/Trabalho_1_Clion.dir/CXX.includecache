@@ -242,9 +242,11 @@ string
 ../../Dominios/Tipo_Acomodacao.h
 C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Tipo_Acomodacao.h
 
-C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Estado.cpp
-../../../Headers/Teste/Dominios/Teste_Estado.h
-C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Estado.h
+C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp
+stdexcept
+-
+../../../Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h
+C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h
 
 C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/main.cpp
 iostream
