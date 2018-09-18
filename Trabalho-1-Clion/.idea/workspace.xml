@@ -12,57 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2265067e-bce8-4e0d-b9c9-31f1d7c3c0db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Headers/Teste/Teste.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Teste/Teste.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Data_De_Validade.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Dominios/Data_De_Validade.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Agencia.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Agencia.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Banco.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Banco.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data_De_Validade.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Data_De_Validade.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Diaria.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Diaria.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Estado.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Estado.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Identificador.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Identificador.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Nome.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Nome.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Num_Cartao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Num_Cartao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Senha.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Senha.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Num_Cartao_Credito.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Num_Cartao_Credito.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Tipo_Acomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Tipo_Acomodacao.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Agencia.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Agencia.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Banco.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Banco.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Diaria.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Diaria.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Estado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Estado.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Identificador.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Identificador.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Nome.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Nome.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Num_Cartao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Num_Cartao.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Senha.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Senha.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data_De_Validade.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data_De_Validade.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -156,18 +112,19 @@
     <session id="1424489342">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -192,16 +149,16 @@
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="5936" />
+          <entry key="cpp" value="6148" />
           <entry key="h" value="4083" />
-          <entry key="txt" value="144" />
+          <entry key="txt" value="187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="10019" />
-          <entry key="PLAIN_TEXT" value="142" />
+          <entry key="ObjectiveC" value="10231" />
+          <entry key="PLAIN_TEXT" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -217,8 +174,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="443">
+              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -242,6 +199,7 @@
       <find>ESTADO_INVALIDO</find>
       <find>true</find>
       <find>atoi</find>
+      <find>Tipo</find>
     </findStrings>
     <replaceStrings>
       <replace>\n$1</replace>
@@ -322,7 +280,7 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="595" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -351,7 +309,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -392,6 +349,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,7 +434,8 @@
       <workItem from="1537134722731" duration="6777000" />
       <workItem from="1537191243359" duration="223000" />
       <workItem from="1537212999925" duration="1505000" />
-      <workItem from="1537266966252" duration="1890000" />
+      <workItem from="1537266966252" duration="2459000" />
+      <workItem from="1537275759737" duration="385000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada a classe da agencia e teste dela na main">
       <created>1536084993870</created>
@@ -590,11 +549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537120877229</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Capacidade de usar polimorfismo nos testes">
+      <created>1537269527728</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1537269527728</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115706000" />
+    <option name="totallyTimeSpent" value="116660000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -609,12 +575,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.22239032" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40491804" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -711,7 +677,8 @@
     <MESSAGE value="Teste Estado alterado" />
     <MESSAGE value="Teste Tipo Acomodação alterado" />
     <MESSAGE value="Troquei todos os atoi por std::stoi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Troquei todos os atoi por std::stoi" />
+    <MESSAGE value="Capacidade de usar polimorfismo nos testes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Capacidade de usar polimorfismo nos testes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#110#126#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,8 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="443">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
