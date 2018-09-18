@@ -17,7 +17,6 @@
 
 
 // todo: Testes das Entidades: Todas
-// todo: Polimorfismo nos testes
 int main() {
     std::vector<Teste*> teste(13, NULL);
     teste[0] = new Teste_Agencia;

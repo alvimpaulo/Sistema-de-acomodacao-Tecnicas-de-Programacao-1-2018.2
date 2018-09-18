@@ -12,7 +12,7 @@ class Teste {
 public:
     static const int SUCESSO = 0;
     static const int FALHA = 1;
-    int rodar();
+    virtual int rodar();
     virtual void mensagemSucesso() = 0;
     virtual void mensagemFalha() = 0;
 
