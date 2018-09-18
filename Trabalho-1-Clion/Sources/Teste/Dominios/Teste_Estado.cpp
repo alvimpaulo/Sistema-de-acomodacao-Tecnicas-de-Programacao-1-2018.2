@@ -8,17 +8,6 @@ const std::string Teste_Estado::VALOR_VALIDO = "BA";
 const std::string Teste_Estado::VALOR_CARACTERE_INVALIDO = "D5";
 const std::string Teste_Estado::VALOR_COMPRIMENTO_INVALIDO = "PRO";
 
-int Teste_Estado::rodar(){
-    configurar();
-
-    casoSucesso();
-    casoFalha();
-
-    desconfigurar();
-
-    return estado;
-}
-
 void Teste_Estado::configurar(){
     UF = new Estado;
     estado = SUCESSO;

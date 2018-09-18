@@ -9,17 +9,6 @@ const std::string Teste_Tipo_Acomodacao::VALOR_VALIDO = "flaT";
 const std::string Teste_Tipo_Acomodacao::VALOR_CARACTERE_INVALIDO = "C4s4";
 const std::string Teste_Tipo_Acomodacao::VALOR_COMPRIMENTO_INVALIDO = "Apartamento123";
 
-int Teste_Tipo_Acomodacao::rodar(){
-    configurar();
-
-    casoSucesso();
-    casoFalha();
-
-    desconfigurar();
-
-    return estado;
-}
-
 void Teste_Tipo_Acomodacao::configurar(){
     tipo_acomodacao = new Tipo_Acomodacao;
     estado = SUCESSO;

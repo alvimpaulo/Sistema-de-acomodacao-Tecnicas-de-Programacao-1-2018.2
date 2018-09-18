@@ -42,11 +42,3 @@ void Teste_Num_Cartao::casoFalha() {
     }
 
 }
-
-int Teste_Num_Cartao::rodar() {
-    configurar();
-    casoSucesso();
-    casoFalha();
-    desconfigurar();
-    return estado;
-}

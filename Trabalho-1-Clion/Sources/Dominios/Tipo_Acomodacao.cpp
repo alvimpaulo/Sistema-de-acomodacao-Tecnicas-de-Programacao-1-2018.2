@@ -5,7 +5,7 @@
 #include "../../Headers/Dominios/Tipo_Acomodacao.h"
 
 const std::vector<std::string> Tipo_Acomodacao::TIPOS_ACOMODACAO = {
-    "Apartamento", "Casa", "Flat"
+        "Apartamento", "Casa", "Flat"
 };
 
 Tipo_Acomodacao::Tipo_Acomodacao(){

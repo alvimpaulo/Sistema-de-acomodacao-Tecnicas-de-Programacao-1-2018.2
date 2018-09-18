@@ -8,14 +8,16 @@
 
 #include <string>
 #include "../../Dominios/Data.h"
+#include "../Teste.h"
 
-class Teste_Data {
+class Teste_Data: public Teste{
 public:
-    static const int SUCESSO = 0;
-    static const int FALHA = 1;
-
-    int rodar();
-
+    void mensagemSucesso(){
+        std::cout << "Sucesso Data" << std::endl;
+    }
+    void mensagemFalha(){
+        std::cout << "Falha Data" << std::endl;
+    }
 protected:
 private:
     static const std::string VALOR_VALIDO;
@@ -26,7 +28,7 @@ private:
     static const std::string VALOR_INTERVALO_DIA_MES_QUALQUER_INVALIDO;
     static const std::string VALOR_INTERVALO_DIA_FEVEREIRO_NORMAL_INVALIDO;
     static const std::string VALOR_INTERVALO_DIA_FEVEREIRO_BIXESTO_INVALIDO;
-    int estado;
+
     Data *data;
 
     void configurar();

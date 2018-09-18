@@ -41,15 +41,3 @@ void Teste_Banco::casoFalha() {
     }
 
 }
-
-int Teste_Banco::rodar() {
-    configurar();
-
-    casoSucesso();
-    casoFalha();
-
-    desconfigurar();
-
-    return estado;
-}
-

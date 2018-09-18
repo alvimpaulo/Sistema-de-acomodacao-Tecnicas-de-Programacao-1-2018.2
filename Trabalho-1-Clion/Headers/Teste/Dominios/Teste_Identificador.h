@@ -7,19 +7,22 @@
 
 #include <iostream>
 #include "../../Dominios/Identificador.h"
+#include "../Teste.h"
 #include <stdexcept>
 
-class Teste_Identificador {
+class Teste_Identificador: public Teste{
 public:
-    static const int SUCESSO = 0;
-    static const int FALHA = 1;
-    int rodar();
-
+    void mensagemSucesso(){
+        std::cout << "Sucesso Numero do Cartao" << std::endl;
+    }
+    void mensagemFalha(){
+        std::cout << "Falha Numero do Cartao" << std::endl;
+    }
 private:
     static const std::string VALOR_VALIDO;
     static const std::string VALOR_INVALIDO;
 
-    int estado;
+
     Identificador *identificador;
     void configurar();
     void desconfigurar();

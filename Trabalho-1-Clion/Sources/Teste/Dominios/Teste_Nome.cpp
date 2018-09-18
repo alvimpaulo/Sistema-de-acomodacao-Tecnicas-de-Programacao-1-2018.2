@@ -40,12 +40,3 @@ void Teste_Nome::casoFalha() {
         return;
     }
 }
-
-int Teste_Nome::rodar() {
-
-    configurar();
-    casoSucesso();
-    casoFalha();
-    desconfigurar();
-    return estado;
-}

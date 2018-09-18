@@ -7,20 +7,22 @@
 
 
 #include "../../Dominios/Estado.h"
+#include "../Teste.h"
 
-class Teste_Estado {
+class Teste_Estado: public Teste{
 public:
-    static const int SUCESSO = 0;
-    static const int FALHA = 1;
-
-    int rodar();
-
+    void mensagemSucesso(){
+        std::cout << "Sucesso Estado" << std::endl;
+    }
+    void mensagemFalha(){
+        std::cout << "Falha Estado" << std::endl;
+    }
 protected:
 private:
     static const std::string VALOR_VALIDO;
     static const std::string VALOR_CARACTERE_INVALIDO;
     static const std::string VALOR_COMPRIMENTO_INVALIDO;
-    int estado;
+
     Estado *UF;
 
     void configurar();

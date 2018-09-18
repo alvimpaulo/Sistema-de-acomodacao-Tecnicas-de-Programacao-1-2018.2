@@ -8,20 +8,22 @@
 
 #include <string>
 #include "../../Dominios/Tipo_Acomodacao.h"
+#include "../Teste.h"
 
-class Teste_Tipo_Acomodacao {
+class Teste_Tipo_Acomodacao: public Teste{
 public:
-    static const int SUCESSO = 0;
-    static const int FALHA = 1;
-
-    int rodar();
-
+    void mensagemSucesso(){
+        std::cout << "Sucesso Tipo de Acomodação" << std::endl;
+    }
+    void mensagemFalha(){
+        std::cout << "Falha Tipo de Acomodação" << std::endl;
+    }
 protected:
 private:
     static const std::string VALOR_VALIDO;
     static const std::string VALOR_CARACTERE_INVALIDO;
     static const std::string VALOR_COMPRIMENTO_INVALIDO;
-    int estado;
+
     Tipo_Acomodacao *tipo_acomodacao;
 
     void configurar();

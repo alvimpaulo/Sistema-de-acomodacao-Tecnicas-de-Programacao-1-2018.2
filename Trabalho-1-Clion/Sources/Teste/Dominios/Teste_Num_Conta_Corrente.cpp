@@ -41,12 +41,3 @@ void Teste_Num_Conta_Corrente::casoFalha() {
     }
 
 }
-
-int Teste_Num_Conta_Corrente::rodar() {
-
-    configurar();
-    casoSucesso();
-    casoFalha();
-    desconfigurar();
-    return estado;
-}

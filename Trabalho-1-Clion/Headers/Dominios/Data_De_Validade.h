@@ -24,6 +24,13 @@ public:
     void setData_De_Validade(std::string data);
     void setData_De_Validade(std::string dia, std::string mes);
     std::string getData_De_Validade() const;
+
+protected:
+private:
+    std::string mes;    // int mes
+    std::string ano;    // int ano
+    std::string data;
+
     void setMes(std::string mes);
     std::string getMes() const;
     void setAno(std::string ano);
@@ -32,12 +39,6 @@ public:
     bool validar(std::string data);
     bool validarMes(std::string mes);
     bool validarAno(std::string ano);
-
-protected:
-private:
-    std::string mes;    // int mes
-    std::string ano;    // int ano
-    std::string data;
 };
 
 #endif //TRABALHO_1_CLION_DATA_DE_VALIDADE_H

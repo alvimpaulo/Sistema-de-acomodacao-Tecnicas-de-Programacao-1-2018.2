@@ -41,11 +41,3 @@ void Teste_Senha::casoFalha() {
     }
 
 }
-
-int Teste_Senha::rodar() {
-    configurar();
-    casoSucesso();
-    casoFalha();
-    desconfigurar();
-    return estado;
-}

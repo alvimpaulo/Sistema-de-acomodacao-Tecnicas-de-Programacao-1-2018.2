@@ -7,21 +7,23 @@
 
 
 #include "../../Dominios/Data_De_Validade.h"
+#include "../Teste.h"
 
-class Teste_Data_De_Validade {
+class Teste_Data_De_Validade: public Teste{
 public:
-    static const int SUCESSO = 0;
-    static const int FALHA = 1;
-
-    int rodar();
-
+    void mensagemSucesso(){
+        std::cout << "Sucesso Data de Validade" << std::endl;
+    }
+    void mensagemFalha(){
+        std::cout << "Falha Data de Validade" << std::endl;
+    }
 protected:
 private:
     static const std::string VALOR_VALIDO;
     static const std::string VALOR_CARACTERE_INVALIDO;
     static const std::string VALOR_COMPRIMENTO_INVALIDO;
     static const std::string VALOR_INTERVALO_MES_INVALIDO;
-    int estado;
+
     Data_De_Validade *data_de_validade;
 
     void configurar();

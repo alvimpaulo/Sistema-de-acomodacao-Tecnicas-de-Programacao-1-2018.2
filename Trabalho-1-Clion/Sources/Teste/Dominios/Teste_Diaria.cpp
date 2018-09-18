@@ -8,17 +8,6 @@ const std::string Teste_Diaria::VALOR_VALIDO = "1224.50";
 const std::string Teste_Diaria::VALOR_CARACTERE_INVALIDO = "1k.51";
 const std::string Teste_Diaria::VALOR_INTERVALO_INVALIDO = "11000.99";
 
-int Teste_Diaria::rodar(){
-    configurar();
-
-    casoSucesso();
-    casoFalha();
-
-    desconfigurar();
-
-    return estado;
-}
-
 void Teste_Diaria::configurar(){
     diaria = new Diaria;
     estado = SUCESSO;

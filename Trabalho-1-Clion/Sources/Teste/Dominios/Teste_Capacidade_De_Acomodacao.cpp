@@ -39,12 +39,3 @@ void Teste_Capacidade_De_Acomodacao::casoFalha() {
     }
 
 }
-
-int Teste_Capacidade_De_Acomodacao::rodar() {
-
-    configurar();
-    casoSucesso();
-    casoFalha();
-    desconfigurar();
-    return estado;
-}

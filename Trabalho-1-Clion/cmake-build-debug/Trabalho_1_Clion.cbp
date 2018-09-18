@@ -100,6 +100,9 @@
 		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Diaria.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Dominio.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Estado.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -137,6 +140,9 @@
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Diaria.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Dominio.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Estado.h">
@@ -178,6 +184,9 @@
 		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Diaria.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Dominio.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Dominios/Estado.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -215,6 +224,9 @@
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Diaria.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Dominio.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Users/oetch/OneDrive/documentos/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Estado.cpp">

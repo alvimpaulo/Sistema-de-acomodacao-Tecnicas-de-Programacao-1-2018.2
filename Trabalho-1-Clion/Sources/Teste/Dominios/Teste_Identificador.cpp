@@ -39,15 +39,3 @@ void Teste_Identificador::casoFalha() {
         return;
     }
 }
-
-int Teste_Identificador::rodar() {
-    configurar();
-
-    casoSucesso();
-    casoFalha();
-    casoSucesso();
-
-    desconfigurar();
-
-    return estado;
-}

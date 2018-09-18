@@ -10,17 +10,6 @@ const std::string Teste_Agencia::VALOR_VALIDO = "01234";
 const std::string Teste_Agencia::VALOR_CARACTERE_INVALIDO = "01F34";
 const std::string Teste_Agencia::VALOR_COMPRIMENTO_INVALIDO = "012345";
 
-int Teste_Agencia::rodar(){
-    configurar();
-
-    casoSucesso();
-    casoFalha();
-
-    desconfigurar();
-
-    return estado;
-}
-
 void Teste_Agencia::configurar(){
     agencia = new Agencia;
     estado = SUCESSO;

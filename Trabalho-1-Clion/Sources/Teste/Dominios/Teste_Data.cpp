@@ -14,17 +14,6 @@ const std::string Teste_Data::VALOR_INTERVALO_DIA_MES_QUALQUER_INVALIDO = "32/ja
 const std::string Teste_Data::VALOR_INTERVALO_DIA_FEVEREIRO_NORMAL_INVALIDO = "29/fev/2011";
 const std::string Teste_Data::VALOR_INTERVALO_DIA_FEVEREIRO_BIXESTO_INVALIDO = "30/fev/2010";
 
-int Teste_Data::rodar(){
-    configurar();
-
-    casoSucesso();
-    casoFalha();
-
-    desconfigurar();
-
-    return estado;
-}
-
 void Teste_Data::configurar(){
     data = new Data;
     estado = SUCESSO;

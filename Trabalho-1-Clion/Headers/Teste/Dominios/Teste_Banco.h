@@ -7,20 +7,22 @@
 
 #include <iostream>
 #include "../../Dominios/Banco.h"
+#include "../Teste.h"
 #include <stdexcept>
 
 
-class Teste_Banco {
+class Teste_Banco: public Teste{
 public:
-    static const int SUCESSO = 0;
-    static const int FALHA = 1;
-    int rodar();
-
+    void mensagemSucesso(){
+        std::cout << "Sucesso Banco" << std::endl;
+    }
+    void mensagemFalha(){
+        std::cout << "Falha Banco" << std::endl;
+    }
 private:
     static const std::string VALOR_VALIDO;
     static const std::string VALOR_INVALIDO;
 
-    int estado;
     Banco *banco;
     void configurar();
     void desconfigurar();

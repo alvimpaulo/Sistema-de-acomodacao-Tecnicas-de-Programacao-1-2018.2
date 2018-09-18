@@ -7,19 +7,22 @@
 
 #include <iostream>
 #include "../../Dominios/Num_Conta_Corrente.h"
+#include "../Teste.h"
 #include <stdexcept>
 
-class Teste_Num_Conta_Corrente {
+class Teste_Num_Conta_Corrente: public Teste{
 public:
-    static const int SUCESSO = 0;
-    static const int FALHA = 1;
-    int rodar();
-
+    void mensagemSucesso(){
+        std::cout << "Sucesso Numero da Conta Corrente" << std::endl;
+    }
+    void mensagemFalha(){
+        std::cout << "Falha Numero da Conta Corrente" << std::endl;
+    }
 private:
     static const std::string VALOR_VALIDO;
     static const std::string VALOR_INVALIDO;
 
-    int estado;
+
     Num_Conta_Corrente *numContaCorrente;
     void configurar();
     void desconfigurar();

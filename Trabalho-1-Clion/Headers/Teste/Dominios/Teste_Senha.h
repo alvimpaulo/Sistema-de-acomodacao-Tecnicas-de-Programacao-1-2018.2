@@ -7,20 +7,23 @@
 
 #include <iostream>
 #include "../../Dominios/Senha.h"
+#include "../Teste.h"
 #include <stdexcept>
 
-class Teste_Senha {
+class Teste_Senha: public Teste{
 
 public:
-    static const int SUCESSO = 0;
-    static const int FALHA = 1;
-    int rodar();
-
+    void mensagemSucesso(){
+        std::cout << "Sucesso Senha" << std::endl;
+    }
+    void mensagemFalha(){
+        std::cout << "Falha Senha" << std::endl;
+    }
 private:
     static const std::string VALOR_VALIDO;
     static const std::string VALOR_INVALIDO;
 
-    int estado;
+
     Senha *senha;
     void configurar();
     void desconfigurar();

@@ -10,17 +10,6 @@ const std::string Teste_Data_De_Validade::VALOR_CARACTERE_INVALIDO = "*8/84";
 const std::string Teste_Data_De_Validade::VALOR_COMPRIMENTO_INVALIDO = "10/2000";
 const std::string Teste_Data_De_Validade::VALOR_INTERVALO_MES_INVALIDO = "31/ola/2001";
 
-int Teste_Data_De_Validade::rodar(){
-    configurar();
-
-    casoSucesso();
-    casoFalha();
-
-    desconfigurar();
-
-    return estado;
-}
-
 void Teste_Data_De_Validade::configurar(){
     data_de_validade = new Data_De_Validade;
     estado = SUCESSO;
