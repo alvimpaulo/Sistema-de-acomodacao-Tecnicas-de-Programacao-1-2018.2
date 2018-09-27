@@ -6,7 +6,7 @@
 #define TRABALHO_1_CLION_TESTE_USUARIO_H
 
 
-class Teste_Usuario {
+class Teste_Usuario: public Teste{
 
 };
 

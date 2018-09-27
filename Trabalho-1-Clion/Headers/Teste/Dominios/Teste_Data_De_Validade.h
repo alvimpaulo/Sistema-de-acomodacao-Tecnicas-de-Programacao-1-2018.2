@@ -9,6 +9,11 @@
 #include "../../Dominios/Data_De_Validade.h"
 #include "../Teste.h"
 
+/**
+ * @class Teste_Data_De_Validade Teste_Data_De_Validade.h
+ * @brief Classe que testa a classe Data_De_Validade
+ * @details
+ */
 class Teste_Data_De_Validade: public Teste{
 public:
     void mensagemSucesso(){

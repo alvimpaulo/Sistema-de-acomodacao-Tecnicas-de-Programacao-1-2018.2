@@ -6,7 +6,7 @@
 #define TRABALHO_1_CLION_TESTE_RESERVA_H
 
 
-class Teste_Reserva {
+class Teste_Reserva: public Teste{
 
 };
 

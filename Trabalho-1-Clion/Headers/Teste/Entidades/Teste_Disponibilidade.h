@@ -6,7 +6,7 @@
 #define TRABALHO_1_CLION_TESTE_DISPONIBILIDADE_H
 
 
-class Teste_Disponibilidade {
+class Teste_Disponibilidade: public Teste{
 
 };
 

@@ -6,7 +6,7 @@
 #define TRABALHO_1_CLION_TESTE_CONTA_CORRENTE_H
 
 
-class Teste_Conta_Corrente {
+class Teste_Conta_Corrente: public Teste{
 
 };
 

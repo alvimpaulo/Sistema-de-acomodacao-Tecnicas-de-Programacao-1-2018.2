@@ -6,7 +6,7 @@
 #define TRABALHO_1_CLION_TESTE_CARTAO_DE_CREDITO_H
 
 
-class Teste_Cartao_De_Credito {
+class Teste_Cartao_De_Credito: public Teste{
 
 };
 
