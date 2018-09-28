@@ -22,24 +22,28 @@ class Data_De_Validade {
 public:
     /**
      * @static
-     * @brief Limite Mínimo do ano
+     * @var LIMITE_INFERIOR_ANO
+     * @brief Limite mínimo do ano
      */
-    static const std::string LIMITE_INFERIOR_ANO;
+    static const int LIMITE_INFERIOR_ANO = 00;
     /**
      * @static
-     * @brief Limite Máximo do ano
+     * @var LIMITE_SUPERIOR_ANO
+     * @brief Limite máximo do ano
      */
-    static const std::string LIMITE_SUPERIOR_ANO;
+    static const int LIMITE_SUPERIOR_ANO = 99;
     /**
      * @static
-     * @brief Limite Mínimo do mes
+     * @var LIMITE_INFERIOR_MES
+     * @brief Limite mínimo do mes
      */
-    static const std::string LIMITE_INFERIOR_MES;
+    static const int LIMITE_INFERIOR_MES = 01;
     /**
      * @static
-     * @brief Limite Máximo do mes
+     * @var LIMITE_SUPERIOR_MES
+     * @brief Limite máximo do mes
      */
-    static const std::string LIMITE_SUPERIOR_MES;
+    static const int LIMITE_SUPERIOR_MES = 12;
 
     /**
      * @fn Data_de_Validade()
@@ -58,22 +62,24 @@ public:
      * @fn  void setData_De_Validade(std::string dia, std::string mes)
      * @brief Atribui uma data de validade.
      * @details Atribui uma data de validade no formato “MM/AA”, onde MM é um número entre 01 e 12 e AA é um número entre 00 e 99.
-     * @param[in] dia Uma string que representa um número de um mês, esse está entre 01 e 12.
-     * @param[in] mes Uma string que representa um número de um ano, esse está entre 00 e 99.
+     * @param[in] dia Uma string que representa um número de um mês.
+     * @param[in] mes Uma string que representa um número de um ano.
      */
     void setData_De_Validade(std::string dia, std::string mes);
     /**
      * @fn std::string getData_De_Validade() const
-     * @brief Retorna a data de validade
-     * @details Retorna a date de validade
-     * @return Uma string que contém a data de validade no formato “MM/AA”, onde MM é o mês e AA é o ano.
+     * @brief Retorna uma string que contém a data de validade
+     * @details Retorna uma string que contém a date de validade
+     * @return é uma string que contém a data de validade no formato “MM/AA”, onde MM é o mês e AA é o ano.
      */
-    std::string getData_De_Validade() const;
+    std::string getData_De_Validade() const{
+        return data;
+    }
 
 protected:
 private:
-    std::string mes;    // int mes
-    std::string ano;    // int ano
+    std::string mes;
+    std::string ano;
     std::string data;
 
     void setMes(std::string mes);

@@ -14,13 +14,32 @@
 #include <cmath>
 #include <iostream>
 
+/**
+ *
+ */
 class Tipo_Acomodacao {
 public:
+    /**
+     *
+     */
     static const std::vector<std::string> TIPOS_ACOMODACAO;
 
+    /**
+     *
+     */
     Tipo_Acomodacao();
+    /**
+     *
+     * @param tipoAcomodacao
+     */
     void setTipoAcomodacao(std::string tipoAcomodacao);
-    std::string getTipoAcomodacao() const;
+    /**
+     *
+     * @return
+     */
+    std::string getTipoAcomodacao() const{
+        return TIPOS_ACOMODACAO[indiceTiposAcomodacao];
+    }
 
 protected:
 private:

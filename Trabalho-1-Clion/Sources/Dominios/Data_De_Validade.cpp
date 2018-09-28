@@ -4,11 +4,6 @@
 
 #include "../../Headers/Dominios/Data_De_Validade.h"
 
-const std::string Data_De_Validade::LIMITE_INFERIOR_ANO = "00";
-const std::string Data_De_Validade::LIMITE_SUPERIOR_ANO = "99";
-const std::string Data_De_Validade::LIMITE_INFERIOR_MES = "01";
-const std::string Data_De_Validade::LIMITE_SUPERIOR_MES = "12";
-
 Data_De_Validade::Data_De_Validade(){
     mes = "01";
     ano = "00";
@@ -26,10 +21,6 @@ void Data_De_Validade::setData_De_Validade(std::string data){
 void Data_De_Validade::setData_De_Validade(std::string mes, std::string ano){
     setMes(mes);
     setAno(ano);
-}
-
-std::string Data_De_Validade::getData_De_Validade() const{
-    return data;
 }
 
 void Data_De_Validade::setMes(std::string mes){
@@ -74,8 +65,9 @@ bool Data_De_Validade::validar(std::string data){
 bool Data_De_Validade::validarMes(std::string mes){
     bool resposta;
     std::regex nomeRegex(R"(^((\d{2})))");
+    int tmpMes = std::stoi(mes);
 
-    if(std::regex_match(mes, nomeRegex) && LIMITE_INFERIOR_MES <= mes && mes <= LIMITE_SUPERIOR_MES){
+    if(std::regex_match(mes, nomeRegex) && LIMITE_INFERIOR_MES <= tmpMes && tmpMes <= LIMITE_SUPERIOR_MES){
         resposta = true;
     } else{
         resposta = false;
@@ -87,8 +79,9 @@ bool Data_De_Validade::validarMes(std::string mes){
 bool Data_De_Validade::validarAno(std::string ano){
     bool resposta;
     std::regex nomeRegex(R"(^((\d{2})))");
+    int tmpAno = std::stoi(ano);
 
-    if(std::regex_match(ano, nomeRegex) && LIMITE_INFERIOR_ANO <= ano && ano <= LIMITE_SUPERIOR_ANO){
+    if(std::regex_match(ano, nomeRegex) && LIMITE_INFERIOR_ANO <= tmpAno && tmpAno <= LIMITE_SUPERIOR_ANO){
         resposta = true;
     } else{
         resposta = false;

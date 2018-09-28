@@ -7,15 +7,3 @@
 Usuario::Usuario(){
 
 }
-
-void Usuario::setNome(Nome nome){
-    this->nome = nome;
-}
-
-void Usuario::setIdentificador(Identificador identificador){
-    this->identificador = identificador;
-}
-
-void Usuario::setSenha(Senha senha){
-    this->senha = senha;
-}

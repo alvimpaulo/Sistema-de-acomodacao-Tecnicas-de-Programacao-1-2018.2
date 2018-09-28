@@ -39,10 +39,6 @@ void Data::setData(std::string dia, std::string mes, std::string ano){
     setDia(dia);
 }
 
-std::string Data::getData() const{
-    return data;
-}
-
 void Data::setDia(std::string dia){
     if(validaDia(dia)){
         this->dia = dia;

@@ -18,42 +18,58 @@ class Acomodacao {
 public:
     Acomodacao();
 
-    void setIdentificador(Identificador identificador);
+    void setIdentificador(Identificador identificador){
+        this->identificador = identificador;
+    }
     Identificador getIdentificador() const{
         return identificador;
     }
 
-    void setTipo(Tipo_Acomodacao tipo);
+    void setTipo(Tipo_Acomodacao tipo){
+        this->tipo = tipo;
+    }
     Tipo_Acomodacao getTipo() const{
         return tipo;
     }
 
-    void setCapacidade(Capacidade_De_Acomodacao capacidade);
+    void setCapacidade(Capacidade_De_Acomodacao capacidade){
+        this->capacidade = capacidade;
+    }
     Capacidade_De_Acomodacao getCapacidade() const{
         return capacidade;
     }
 
-    void setDataInicio(Data dataInicio);
+    void setDataInicio(Data dataInicio){
+        this->dataInicio = dataInicio;
+    }
     Data getDataInicio() const{
         return dataInicio;
     }
 
-    void setDataTermino(Data dataTermino);
+    void setDataTermino(Data dataTermino){
+        this->dataTermino = dataTermino;
+    }
     Data getDataTermino() const{
         return dataTermino;
     }
 
-    void setCidade(Cidade cidade);
+    void setCidade(Cidade cidade){
+        this->cidade = cidade;
+    }
     Cidade getCidade() const{
         return cidade;
     }
 
-    void setEstado(Estado estado);
+    void setEstado(Estado estado){
+        this->estado = estado;
+    }
     Estado getEstado() const{
         return estado;
     }
 
-    void setDiaria(Diaria diaria);
+    void setDiaria(Diaria diaria){
+        this->diaria = diaria;
+    }
     Diaria getDiaria() const{
         return diaria;
     }

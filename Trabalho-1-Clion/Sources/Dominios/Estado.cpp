@@ -19,10 +19,6 @@ Estado::Estado(){
     indiceEstado = 0;
 }
 
-std::string Estado::getEstado() const{
-    return NOME_ESTADOS[indiceEstado];
-}
-
 void Estado::setEstado(std::string estado){
     std::transform(estado.begin(), estado.end(), estado.begin(), ::toupper);
     if(validar(estado)){

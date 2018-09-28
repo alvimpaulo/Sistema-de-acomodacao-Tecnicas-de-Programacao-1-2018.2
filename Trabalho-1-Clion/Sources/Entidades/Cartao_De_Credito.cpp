@@ -8,10 +8,3 @@ Cartao_De_Credito::Cartao_De_Credito(){
 
 }
 
-void Cartao_De_Credito::setNumero(Num_Cartao_Credito numero){
-    this->numero = numero;
-}
-
-void Cartao_De_Credito::setDataDeValidade(Data_De_Validade dataDeValidade){
-    this->dataDeValidade = dataDeValidade;
-}

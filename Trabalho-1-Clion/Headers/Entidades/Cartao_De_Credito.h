@@ -13,12 +13,16 @@ class Cartao_De_Credito {
 public:
     Cartao_De_Credito();
 
-    void setNumero(Num_Cartao_Credito numero);
+    void setNumero(Num_Cartao_Credito numero){
+        this->numero = numero;
+    }
     Num_Cartao_Credito getNumero() const{
         return numero;
     }
 
-    void setDataDeValidade(Data_De_Validade dataDeValidade);
+    void setDataDeValidade(Data_De_Validade dataDeValidade){
+        this->dataDeValidade = dataDeValidade;
+    }
     Data_De_Validade getDataDeValidade() const{
         return dataDeValidade;
     }

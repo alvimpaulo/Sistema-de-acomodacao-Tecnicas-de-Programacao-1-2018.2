@@ -23,10 +23,6 @@ void Tipo_Acomodacao::setTipoAcomodacao(std::string tipoAcomodacao){
     }
 }
 
-std::string Tipo_Acomodacao::getTipoAcomodacao() const{
-    return TIPOS_ACOMODACAO[indiceTiposAcomodacao];
-}
-
 bool Tipo_Acomodacao::validar(std::string tipoAcomodacao) {
     bool resposta;
 

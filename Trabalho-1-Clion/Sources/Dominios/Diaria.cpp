@@ -16,10 +16,6 @@ void Diaria::setDiaria(std::string diaria){
     }
 }
 
-float Diaria::getDiaria() const{
-    return diaria;
-}
-
 bool Diaria::validar(std::string diaria){
     std::regex nomeRegex(R"((\d+)(\.)(\d+))");
     bool resposta;

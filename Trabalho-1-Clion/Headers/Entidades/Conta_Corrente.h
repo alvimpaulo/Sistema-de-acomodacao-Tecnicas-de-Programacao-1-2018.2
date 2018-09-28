@@ -13,17 +13,23 @@ class Conta_Corrente {
 public:
     Conta_Corrente();
 
-    void setNumero(Num_Conta_Corrente numero);
+    void setNumero(Num_Conta_Corrente numero){
+        this->numero = numero;
+    }
     Num_Conta_Corrente getNumero() const{
         return numero;
     }
 
-    void setAgencia(Agencia agencia);
+    void setAgencia(Agencia agencia){
+        this->agencia = agencia;
+    }
     Agencia getAgencia() const{
         return agencia;
     }
 
-    void setBanco(Banco banco);
+    void setBanco(Banco banco){
+        this->banco = banco;
+    }
     Banco getBanco() const{
         return banco;
     }

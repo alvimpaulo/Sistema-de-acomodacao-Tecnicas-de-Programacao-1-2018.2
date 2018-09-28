@@ -57,7 +57,6 @@ add_executable(Trabalho_1_Clion
 		Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h
 		Sources/Teste/Dominios/Teste_Senha.cpp
 		Headers/Teste/Dominios/Teste_Senha.h
-		Sources/Dominios/Dominio.cpp
 		Headers/Dominios/Dominio.h
 		Sources/Teste/Teste.cpp
 		Headers/Teste/Teste.h)

@@ -5,16 +5,20 @@
 #ifndef TRABALHO_1_CLION_DOMINIO_H
 #define TRABALHO_1_CLION_DOMINIO_H
 
-#include <string>
-
-class Dominio{
-public:
-    virtual void setDado(std::string) = 0;
-    virtual std::string getDado() const = 0;
-
-protected:
-private:
-};
+#include "Agencia.h"
+#include "Banco.h"
+#include "Capacidade_De_Acomodacao.h"
+#include "Data.h"
+#include "Data_De_Validade.h"
+#include "Diaria.h"
+#include "Dominio.h"
+#include "Estado.h"
+#include "Identificador.h"
+#include "Nome.h"
+#include "Num_Cartao_Credito.h"
+#include "Num_Conta_Corrente.h"
+#include "Senha.h"
+#include "Tipo_Acomodacao.h"
 
 
 #endif //TRABALHO_1_CLION_DOMINIO_H
