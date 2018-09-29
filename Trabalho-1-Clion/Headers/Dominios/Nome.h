@@ -1,7 +1,7 @@
 //
 // Created by paulo on 04-Sep-18.
 //
-
+//todo: documentar
 #ifndef TRABALHO_1_CLION_NOME_H
 #define TRABALHO_1_CLION_NOME_H
 
@@ -13,7 +13,7 @@
 class Nome {
 public:
     Nome();
-    void setNome(std::string) throw(std::invalid_argument);
+    void setNome(std::string);
     std::string getNome() const{
         return nome;
     }

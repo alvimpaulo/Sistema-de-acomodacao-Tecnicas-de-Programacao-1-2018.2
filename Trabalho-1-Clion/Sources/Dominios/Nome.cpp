@@ -11,7 +11,7 @@ Nome::Nome() {
     nome = "NomeNaoDefinido";
 }
 
-void Nome::setNome(std::string novoNome) throw(std::invalid_argument){
+void Nome::setNome(std::string novoNome){
     std::regex nomeRegex(R"((( (?! ))|(\b\.)|(\w)){15})");
     std::smatch results;
 

@@ -7,7 +7,7 @@
 #include <string>
 #include <regex>
 #include <stdexcept>
-
+//todo: documentar
 class Capacidade_De_Acomodacao {
 public:
     std::string getCapacidade_de_Acomodacao() const{

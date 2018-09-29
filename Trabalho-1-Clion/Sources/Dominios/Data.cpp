@@ -28,7 +28,7 @@ void Data::setData(std::string data){
     if(validar(data)){
         setData(data.substr(0, 2), data.substr(3, 3), data.substr(7, 4));
     } else{
-        throw (std::invalid_argument(data + "nao eh uma data validaa"));
+        throw (std::invalid_argument(data + "nao eh uma data valida"));
     }
 }
 

@@ -1,7 +1,7 @@
 //
 // Created by paulo on 04-Sep-18.
 //
-
+//todo: documentar
 #ifndef TRABALHO_1_CLION_NUM_CARTAO_CREDITO_H
 #define TRABALHO_1_CLION_NUM_CARTAO_CREDITO_H
 
