@@ -11,7 +11,7 @@
 
 class Num_Conta_Corrente {
 public:
-    std::string getNum_Conta_Corrente(){
+    std::string getNum_Conta_Corrente() const{
         return numConta;
     }
     void setNum_Conta_Corrente(std::string novoNumConta);

@@ -9,9 +9,12 @@
 #include <regex>
 #include <stdexcept>
 
+/**
+ *
+ */
 class Num_Cartao_Credito {
 public:
-    std::string getNum_Cartao(){
+    std::string getNum_Cartao() const{
         return numCartao;
     }
     void setNum_Cartao(std::string novoNumCartao);

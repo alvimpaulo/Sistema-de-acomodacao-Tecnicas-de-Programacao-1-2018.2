@@ -14,10 +14,6 @@ void Teste_Tipo_Acomodacao::configurar(){
     estado = SUCESSO;
 }
 
-void Teste_Tipo_Acomodacao::desconfigurar(){
-    delete tipo_acomodacao;
-}
-
 void Teste_Tipo_Acomodacao::casoSucesso(){
     try {
         tipo_acomodacao->setTipoAcomodacao(VALOR_VALIDO);

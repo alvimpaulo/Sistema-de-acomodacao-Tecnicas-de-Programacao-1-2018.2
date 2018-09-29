@@ -15,7 +15,9 @@
 #include <iostream>
 
 /**
- *
+ * @class Estado Estado.h
+ * @brief Essa classe armazena a sigla de um estado.
+ * @details Essa classe armazena a sigla de um dos 27 estados (unidades federativas) brasileiras em caixa alta.
  */
 class Estado {
 public:

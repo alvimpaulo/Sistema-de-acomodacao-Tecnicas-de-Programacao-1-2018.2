@@ -9,6 +9,11 @@
 #include "../../Dominios/Estado.h"
 #include "../Teste.h"
 
+/**
+ * @class Teste_Estado Teste_Estado.h
+ * @brief Classe que testa a classe Estado.
+ * @details
+ */
 class Teste_Estado: public Teste{
 public:
     void mensagemSucesso(){
@@ -26,7 +31,9 @@ private:
     Estado *UF;
 
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete UF;
+    }
 
     void casoSucesso();
     void casoFalha();

@@ -11,7 +11,6 @@
 
 class Cartao_De_Credito {
 public:
-    Cartao_De_Credito();
 
     void setNumero(Num_Cartao_Credito numero){
         this->numero = numero;

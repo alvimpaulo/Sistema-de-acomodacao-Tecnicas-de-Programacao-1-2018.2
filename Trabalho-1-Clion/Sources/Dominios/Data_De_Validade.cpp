@@ -14,7 +14,7 @@ void Data_De_Validade::setData_De_Validade(std::string data){
     if(validar(data)){
         setData_De_Validade(data.substr(0, 2), data.substr(3, 2));
     } else{
-        throw (std::invalid_argument("Formato da data invalido"));
+        throw (std::invalid_argument(data + "nao eh uma data valida"));
     }
 }
 
@@ -28,7 +28,7 @@ void Data_De_Validade::setMes(std::string mes){
         this->mes = mes;
         data.replace(0, 2, mes);
     } else{
-        throw (std::invalid_argument("Mes invalido"));
+        throw (std::invalid_argument(mes + "nao eh um mes valido"));
     }
 }
 
@@ -41,7 +41,7 @@ void Data_De_Validade::setAno(std::string ano){
         this->ano = ano;
         data.replace(3, 2, ano);
     } else{
-        throw (std::invalid_argument("Ano invalido"));
+        throw (std::invalid_argument(ano + "nao eh um ano valido"));
     }
 }
 

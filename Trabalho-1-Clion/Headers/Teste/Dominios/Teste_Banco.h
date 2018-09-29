@@ -10,7 +10,11 @@
 #include "../Teste.h"
 #include <stdexcept>
 
-
+/**
+ * @class Teste_Banco Teste_Banco.h
+ * @brief Classe que testa a classe Banco.
+ * @details
+ */
 class Teste_Banco: public Teste{
 public:
     void mensagemSucesso(){
@@ -25,7 +29,9 @@ private:
 
     Banco *banco;
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete banco;
+    }
 
     void casoSucesso();
     void casoFalha();

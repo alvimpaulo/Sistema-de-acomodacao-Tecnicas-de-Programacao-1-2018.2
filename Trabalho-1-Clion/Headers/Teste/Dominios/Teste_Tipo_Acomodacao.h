@@ -10,6 +10,11 @@
 #include "../../Dominios/Tipo_Acomodacao.h"
 #include "../Teste.h"
 
+/**
+ * @class Teste_Tipo_Acomodacao Teste_Tipo_Acomodacao.h
+ * @brief Classe que testa a classe Tipo_Acomodacao.
+ * @details
+ */
 class Teste_Tipo_Acomodacao: public Teste{
 public:
     void mensagemSucesso(){
@@ -27,7 +32,9 @@ private:
     Tipo_Acomodacao *tipo_acomodacao;
 
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete tipo_acomodacao;
+    }
 
     void casoSucesso();
     void casoFalha();

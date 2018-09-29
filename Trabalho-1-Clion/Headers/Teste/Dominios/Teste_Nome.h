@@ -9,6 +9,11 @@
 #include "../Teste.h"
 #include <stdexcept>
 
+/**
+ * @class Teste_Nome Teste_Nome.h
+ * @brief Classe que testa a classe Nome.
+ * @details
+ */
 class Teste_Nome: public Teste{
 public:
     void mensagemSucesso(){
@@ -24,7 +29,9 @@ private:
 
     Nome *nome;
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete nome;
+    }
 
     void casoSucesso();
     void casoFalha();

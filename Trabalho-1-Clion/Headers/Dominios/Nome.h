@@ -14,7 +14,9 @@ class Nome {
 public:
     Nome();
     void setNome(std::string) throw(std::invalid_argument);
-    std::string getNome();
+    std::string getNome() const{
+        return nome;
+    }
 
 protected:
 private:

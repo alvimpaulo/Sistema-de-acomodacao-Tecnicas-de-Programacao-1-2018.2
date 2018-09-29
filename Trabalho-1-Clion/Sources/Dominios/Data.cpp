@@ -25,10 +25,10 @@ Data::Data(){
 }
 
 void Data::setData(std::string data){
-    if(valida(data)){
+    if(validar(data)){
         setData(data.substr(0, 2), data.substr(3, 3), data.substr(7, 4));
     } else{
-        throw (std::invalid_argument("Farmato de data invalida"));
+        throw (std::invalid_argument(data + "nao eh uma data validaa"));
     }
 }
 
@@ -40,11 +40,11 @@ void Data::setData(std::string dia, std::string mes, std::string ano){
 }
 
 void Data::setDia(std::string dia){
-    if(validaDia(dia)){
+    if(validarDia(dia)){
         this->dia = dia;
         data.replace(0, 2, dia);
     } else{
-        throw (std::invalid_argument("Dia invalido"));
+        throw (std::invalid_argument(dia + "nao eh um dia valido"));
     }
 }
 
@@ -53,11 +53,11 @@ std::string Data::getDia() const{
 }
 
 void Data::setMes(std::string mes){
-    if(validaMes(mes)){
+    if(validarMes(mes)){
         this->mes = std::find(NOME_MESES.begin(), NOME_MESES.end(), mes) - NOME_MESES.begin();
         data.replace(3, 3, mes);
     } else{
-        throw (std::invalid_argument("Mes invalido"));
+        throw (std::invalid_argument(mes + "nao eh um mes valido"));
     }
 }
 
@@ -66,11 +66,11 @@ std::string Data::getMes() const{
 }
 
 void Data::setAno(std::string ano){
-    if(validaAno(ano)){
+    if(validarAno(ano)){
         this->ano = ano;
         data.replace(7, 4, ano);
     } else{
-        throw (std::invalid_argument("Ano invalido"));
+        throw (std::invalid_argument(ano + "nao eh um ano valido"));
     }
 }
 
@@ -78,7 +78,7 @@ std::string Data::getAno() const{
     return ano;
 }
 
-bool Data::valida(std::string data){
+bool Data::validar(std::string data){
     bool resposta;
     std::regex nomeRegex(R"((\d{2})(\/)([a-zA-z]{3})(\/)(\d{4}))");
 
@@ -91,7 +91,7 @@ bool Data::valida(std::string data){
     return resposta;
 }
 
-bool Data::validaDia(std::string dia){
+bool Data::validarDia(std::string dia){
     bool resposta = false;
     std::regex nomeRegex(R"((\d{2}))");
     int tmpDia = std::stoi(dia);
@@ -107,7 +107,7 @@ bool Data::validaDia(std::string dia){
     return resposta;
 }
 
-bool Data::validaMes(std::string mes){
+bool Data::validarMes(std::string mes){
     bool resposta = false;
     std::regex nomeRegex(R"(([a-zA-z]{3}))");
 
@@ -120,7 +120,7 @@ bool Data::validaMes(std::string mes){
     return resposta;
 }
 
-bool Data::validaAno(std::string ano){
+bool Data::validarAno(std::string ano){
     bool resposta = false;
     std::regex nomeRegex(R"((\d{4}))");
 

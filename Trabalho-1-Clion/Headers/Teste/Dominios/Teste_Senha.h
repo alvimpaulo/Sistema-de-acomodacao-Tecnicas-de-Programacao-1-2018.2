@@ -10,6 +10,11 @@
 #include "../Teste.h"
 #include <stdexcept>
 
+/**
+ * @class Teste_Senha Teste_Senha.h
+ * @brief Classe que testa a classe Senha.
+ * @details
+ */
 class Teste_Senha: public Teste{
 
 public:
@@ -26,7 +31,9 @@ private:
 
     Senha *senha;
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete senha;
+    }
 
     void casoSucesso();
     void casoFalha();

@@ -10,6 +10,11 @@
 #include "../../Dominios/Data.h"
 #include "../Teste.h"
 
+/**
+ * @class Teste_Data Teste_Data.h
+ * @brief Classe que testa a classe Data.
+ * @details
+ */
 class Teste_Data: public Teste{
 public:
     void mensagemSucesso(){
@@ -32,7 +37,9 @@ private:
     Data *data;
 
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete data;
+    }
 
     void casoSucesso();
     void casoFalha();

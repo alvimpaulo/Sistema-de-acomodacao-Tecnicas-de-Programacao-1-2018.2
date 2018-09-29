@@ -12,10 +12,6 @@ void Teste_Capacidade_De_Acomodacao::configurar() {
     estado = SUCESSO;
 }
 
-void Teste_Capacidade_De_Acomodacao::desconfigurar() {
-    delete capacidade;
-}
-
 void Teste_Capacidade_De_Acomodacao::casoSucesso() {
     try {
         capacidade->setCapacidade_De_Acomodacao(VALOR_VALIDO);

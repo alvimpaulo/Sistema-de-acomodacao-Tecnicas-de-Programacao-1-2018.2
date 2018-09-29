@@ -9,6 +9,11 @@
 #include "../../Dominios/Agencia.h"
 #include "../Teste.h"
 
+/**
+ * @class Teste_Agencia Teste_Agencia.h
+ * @brief Classe que testa a classe Agencia.
+ * @details
+ */
 class Teste_Agencia: public Teste{
 public:
     void mensagemSucesso(){
@@ -24,7 +29,9 @@ private:
 
     Agencia *agencia;
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete agencia;
+    }
 
     void casoSucesso();
     void casoFalha();

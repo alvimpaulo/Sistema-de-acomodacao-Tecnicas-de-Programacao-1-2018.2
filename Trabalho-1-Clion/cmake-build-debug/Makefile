@@ -284,33 +284,6 @@ Sources/Dominios/Diaria.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Diaria.cpp.s
 .PHONY : Sources/Dominios/Diaria.cpp.s
 
-Sources/Dominios/Dominio.obj: Sources/Dominios/Dominio.cpp.obj
-
-.PHONY : Sources/Dominios/Dominio.obj
-
-# target to build an object file
-Sources/Dominios/Dominio.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Dominio.cpp.obj
-.PHONY : Sources/Dominios/Dominio.cpp.obj
-
-Sources/Dominios/Dominio.i: Sources/Dominios/Dominio.cpp.i
-
-.PHONY : Sources/Dominios/Dominio.i
-
-# target to preprocess a source file
-Sources/Dominios/Dominio.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Dominio.cpp.i
-.PHONY : Sources/Dominios/Dominio.cpp.i
-
-Sources/Dominios/Dominio.s: Sources/Dominios/Dominio.cpp.s
-
-.PHONY : Sources/Dominios/Dominio.s
-
-# target to generate assembly for a file
-Sources/Dominios/Dominio.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Dominio.cpp.s
-.PHONY : Sources/Dominios/Dominio.cpp.s
-
 Sources/Dominios/Estado.obj: Sources/Dominios/Estado.cpp.obj
 
 .PHONY : Sources/Dominios/Estado.obj
@@ -851,6 +824,33 @@ Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.s
 .PHONY : Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.s
 
+Sources/Teste/Entidades/Teste_Acomodacao.obj: Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj
+
+.PHONY : Sources/Teste/Entidades/Teste_Acomodacao.obj
+
+# target to build an object file
+Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj
+.PHONY : Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj
+
+Sources/Teste/Entidades/Teste_Acomodacao.i: Sources/Teste/Entidades/Teste_Acomodacao.cpp.i
+
+.PHONY : Sources/Teste/Entidades/Teste_Acomodacao.i
+
+# target to preprocess a source file
+Sources/Teste/Entidades/Teste_Acomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.i
+.PHONY : Sources/Teste/Entidades/Teste_Acomodacao.cpp.i
+
+Sources/Teste/Entidades/Teste_Acomodacao.s: Sources/Teste/Entidades/Teste_Acomodacao.cpp.s
+
+.PHONY : Sources/Teste/Entidades/Teste_Acomodacao.s
+
+# target to generate assembly for a file
+Sources/Teste/Entidades/Teste_Acomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.s
+.PHONY : Sources/Teste/Entidades/Teste_Acomodacao.cpp.s
+
 Sources/Teste/Teste.obj: Sources/Teste/Teste.cpp.obj
 
 .PHONY : Sources/Teste/Teste.obj
@@ -932,9 +932,6 @@ help:
 	@echo ... Sources/Dominios/Diaria.obj
 	@echo ... Sources/Dominios/Diaria.i
 	@echo ... Sources/Dominios/Diaria.s
-	@echo ... Sources/Dominios/Dominio.obj
-	@echo ... Sources/Dominios/Dominio.i
-	@echo ... Sources/Dominios/Dominio.s
 	@echo ... Sources/Dominios/Estado.obj
 	@echo ... Sources/Dominios/Estado.i
 	@echo ... Sources/Dominios/Estado.s
@@ -995,6 +992,9 @@ help:
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.obj
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.i
 	@echo ... Sources/Teste/Dominios/Teste_Tipo_Acomodacao.s
+	@echo ... Sources/Teste/Entidades/Teste_Acomodacao.obj
+	@echo ... Sources/Teste/Entidades/Teste_Acomodacao.i
+	@echo ... Sources/Teste/Entidades/Teste_Acomodacao.s
 	@echo ... Sources/Teste/Teste.obj
 	@echo ... Sources/Teste/Teste.i
 	@echo ... Sources/Teste/Teste.s

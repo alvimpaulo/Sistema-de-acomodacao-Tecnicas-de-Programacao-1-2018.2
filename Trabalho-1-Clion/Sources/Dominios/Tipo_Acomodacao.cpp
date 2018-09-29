@@ -19,7 +19,7 @@ void Tipo_Acomodacao::setTipoAcomodacao(std::string tipoAcomodacao){
     if(validar(tipoAcomodacao)){
         indiceTiposAcomodacao = std::find(TIPOS_ACOMODACAO.begin(), TIPOS_ACOMODACAO.end(), tipoAcomodacao) - TIPOS_ACOMODACAO.begin();
     } else{
-        throw (std::invalid_argument("Tipo de acomodacao invalido"));
+        throw (std::invalid_argument(tipoAcomodacao + "nao eh um tipo de acomodacao valido"));
     }
 }
 

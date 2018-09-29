@@ -10,6 +10,11 @@
 #include "../../Dominios/Diaria.h"
 #include "../Teste.h"
 
+/**
+ * @class Teste_Diaria Teste_Diaria.h
+ * @brief Classe que testa a classe Diaria.
+ * @details
+ */
 class Teste_Diaria: public Teste{
 public:
     void mensagemSucesso(){
@@ -27,7 +32,9 @@ private:
     Diaria *diaria;
 
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete diaria;
+    }
 
     void casoSucesso();
     void casoFalha();

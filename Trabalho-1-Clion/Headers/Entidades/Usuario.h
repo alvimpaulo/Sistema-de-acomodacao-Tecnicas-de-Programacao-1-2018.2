@@ -11,7 +11,6 @@
 
 class Usuario {
 public:
-    Usuario()
 
     void setNome(Nome nome){
         this->nome = nome;

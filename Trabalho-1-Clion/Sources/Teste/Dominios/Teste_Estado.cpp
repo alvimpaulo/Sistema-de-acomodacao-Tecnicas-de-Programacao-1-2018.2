@@ -13,10 +13,6 @@ void Teste_Estado::configurar(){
     estado = SUCESSO;
 }
 
-void Teste_Estado::desconfigurar(){
-    delete UF;
-}
-
 void Teste_Estado::casoSucesso(){
     try {
         UF->setEstado(VALOR_VALIDO);

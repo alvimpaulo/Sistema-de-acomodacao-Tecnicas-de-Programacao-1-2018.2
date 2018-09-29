@@ -7,10 +7,12 @@
 
 #include <string>
 #include <regex>
+
 class Banco {
 public:
+
     Banco();
-    std::string getBancoNum(){
+    std::string getBancoNum() const{
         return bancoNum;
     }
     void setBancoNum(std::string);

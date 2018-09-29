@@ -11,7 +11,6 @@
 
 class Conta_Corrente {
 public:
-    Conta_Corrente();
 
     void setNumero(Num_Conta_Corrente numero){
         this->numero = numero;

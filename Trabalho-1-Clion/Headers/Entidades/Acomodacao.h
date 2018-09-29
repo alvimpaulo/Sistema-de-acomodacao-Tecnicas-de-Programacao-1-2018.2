@@ -16,7 +16,6 @@
 
 class Acomodacao {
 public:
-    Acomodacao();
 
     void setIdentificador(Identificador identificador){
         this->identificador = identificador;
@@ -53,10 +52,10 @@ public:
         return dataTermino;
     }
 
-    void setCidade(Cidade cidade){
+    void setCidade(Nome cidade){
         this->cidade = cidade;
     }
-    Cidade getCidade() const{
+    Nome getCidade() const{
         return cidade;
     }
 

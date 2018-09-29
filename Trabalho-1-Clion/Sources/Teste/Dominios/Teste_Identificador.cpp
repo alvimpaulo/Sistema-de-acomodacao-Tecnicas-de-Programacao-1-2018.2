@@ -13,11 +13,6 @@ void Teste_Identificador::configurar() {
 
 }
 
-void Teste_Identificador::desconfigurar() {
-    delete identificador;
-
-}
-
 void Teste_Identificador::casoSucesso() {
     try {
         identificador->setIdentificador(VALOR_VALIDO);

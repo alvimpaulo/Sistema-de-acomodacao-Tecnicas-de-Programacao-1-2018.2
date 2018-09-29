@@ -13,11 +13,6 @@ void Teste_Senha::configurar() {
 
 }
 
-void Teste_Senha::desconfigurar() {
-    delete senha;
-
-}
-
 void Teste_Senha::casoSucesso() {
     try {
         senha->setSenha(VALOR_VALIDO);

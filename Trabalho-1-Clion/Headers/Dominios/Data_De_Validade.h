@@ -16,7 +16,7 @@
 /**
  * @class Data_De_Validade Data_De_Validade.h
  * @brief Essa classe armazena uma data de validade.
- * @details Essa classe armazena a data de validade do cartão de crédito no formato “mês/ano”, onde “mês” é um número entre 01 e 12 composto por 2 algarismos e ano é um número entre 00 e 99 composto número composto, também, por 2 algarismos.
+ * @details Essa classe armazena uma data de validade do cartão de crédito no formato “mês/ano”, onde “mês” é um número entre 01 e 12 composto por 2 algarismos e ano é um número entre 00 e 99 composto número composto, também, por 2 algarismos.
  */
 class Data_De_Validade {
 public:

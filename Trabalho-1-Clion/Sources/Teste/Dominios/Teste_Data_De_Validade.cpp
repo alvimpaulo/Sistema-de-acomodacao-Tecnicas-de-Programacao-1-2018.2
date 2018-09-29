@@ -15,10 +15,6 @@ void Teste_Data_De_Validade::configurar(){
     estado = SUCESSO;
 }
 
-void Teste_Data_De_Validade::desconfigurar(){
-    delete data_de_validade;
-}
-
 void Teste_Data_De_Validade::casoSucesso(){
     try {
         data_de_validade->setData_De_Validade(VALOR_VALIDO);

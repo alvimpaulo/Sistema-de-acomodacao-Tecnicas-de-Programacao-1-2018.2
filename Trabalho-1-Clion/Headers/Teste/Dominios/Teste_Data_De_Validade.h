@@ -32,7 +32,9 @@ private:
     Data_De_Validade *data_de_validade;
 
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete data_de_validade;
+    }
 
     void casoSucesso();
     void casoFalha();

@@ -5,9 +5,27 @@
 #ifndef TRABALHO_1_CLION_TESTE_CARTAO_DE_CREDITO_H
 #define TRABALHO_1_CLION_TESTE_CARTAO_DE_CREDITO_H
 
-
+/**
+ * @class Teste_Cartao_De_Credito Teste_Cartao_De_Credito.h
+ * @brief Classe que testa a classe Cartao_De_Credito.
+ * @details
+ */
 class Teste_Cartao_De_Credito: public Teste{
+public:
+    void mensagemSucesso(){
+        std::cout << "Sucesso Cartao de Credito" << std::endl;
+    }
+    void mensagemFalha(){
+        std::cout << "Falha Cartao de Credito" << std::endl;
+    }
+    int rodar();
+private:
+    static const std::string VALOR_VALIDO;
 
+    Acomodacao *acomodacao;
+    void configurar();
+    void desconfigurar();
+    void casoSucesso();
 };
 
 

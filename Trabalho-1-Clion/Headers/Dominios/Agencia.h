@@ -13,7 +13,7 @@
 class Agencia {
 public:
     Agencia();
-    std::string getAgenciaNum() {
+    std::string getAgenciaNum() const{
         return agenciaNum;
     }
     void setAgenciaNum(std::string);

@@ -15,10 +15,6 @@ void Teste_Agencia::configurar(){
     estado = SUCESSO;
 }
 
-void Teste_Agencia::desconfigurar(){
-    delete agencia;
-}
-
 void Teste_Agencia::casoSucesso(){
     try {
         agencia->setAgenciaNum(VALOR_VALIDO);

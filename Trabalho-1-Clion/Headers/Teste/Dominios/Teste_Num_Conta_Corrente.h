@@ -10,6 +10,11 @@
 #include "../Teste.h"
 #include <stdexcept>
 
+/**
+ * @class Teste_Num_Conta_Corrente Teste_Num_Conta_Corrente.h
+ * @brief Classe que testa a classe Num_Conta_Corrente.
+ * @details
+ */
 class Teste_Num_Conta_Corrente: public Teste{
 public:
     void mensagemSucesso(){
@@ -25,7 +30,9 @@ private:
 
     Num_Conta_Corrente *numContaCorrente;
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete numContaCorrente;
+    }
 
     void casoSucesso();
     void casoFalha();

@@ -19,10 +19,6 @@ void Teste_Data::configurar(){
     estado = SUCESSO;
 }
 
-void Teste_Data::desconfigurar(){
-    delete data;
-}
-
 void Teste_Data::casoSucesso(){
     try {
         data->setData(VALOR_VALIDO);

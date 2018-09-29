@@ -24,7 +24,7 @@ void Estado::setEstado(std::string estado){
     if(validar(estado)){
         this->indiceEstado = std::lower_bound(NOME_ESTADOS.begin(), NOME_ESTADOS.end(), estado) - NOME_ESTADOS.begin();
     } else{
-        throw (std::invalid_argument("Estado Invalido"));
+        throw (std::invalid_argument(estado + "nao eh uma sigla de estado valida"));
     }
 }
 

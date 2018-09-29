@@ -13,11 +13,6 @@ void Teste_Num_Cartao::configurar() {
 
 }
 
-void Teste_Num_Cartao::desconfigurar() {
-    delete numCartao;
-
-}
-
 void Teste_Num_Cartao::casoSucesso() {
     try {
         numCartao->setNum_Cartao(VALOR_VALIDO);

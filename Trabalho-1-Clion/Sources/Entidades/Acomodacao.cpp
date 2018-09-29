@@ -3,7 +3,3 @@
 //
 
 #include "../../Headers/Entidades/Acomodacao.h"
-
-Acomodacao::Acomodacao(){
-
-}

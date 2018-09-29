@@ -13,11 +13,6 @@ void Teste_Num_Conta_Corrente::configurar() {
 
 }
 
-void Teste_Num_Conta_Corrente::desconfigurar() {
-    delete numContaCorrente;
-
-}
-
 void Teste_Num_Conta_Corrente::casoSucesso() {
     try {
         numContaCorrente->setNum_Conta_Corrente(VALOR_VALIDO);

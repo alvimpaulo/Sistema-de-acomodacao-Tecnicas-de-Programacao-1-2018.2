@@ -13,7 +13,9 @@
 #include <iostream>
 
 /**
- *
+ * @class Data Data.h
+ * @brief Essa classe armazena uma data.
+ * @details Essa classe armazena uma data no formato “dia/mês/ano”, onde “dia” é um número, composto por 2 algarismos, entre 01 e 31 (intervalo final a depender do mês), “mês” são as 3 primeiras letras dos meses em caixa baixa e “ano” é um número, composto por 4 algarismos, entre 2000 e 2099.
  */
 class Data {
 public:
@@ -115,10 +117,10 @@ private:
     void setAno(std::string ano);
     std::string getAno() const;
 
-    bool valida(std::string data);
-    bool validaDia(std::string dia);
-    bool validaMes(std::string mes);
-    bool validaAno(std::string ano);
+    bool validar(std::string data);
+    bool validarDia(std::string dia);
+    bool validarMes(std::string mes);
+    bool validarAno(std::string ano);
 };
 
 

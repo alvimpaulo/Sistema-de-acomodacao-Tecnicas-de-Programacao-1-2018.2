@@ -13,12 +13,11 @@
 #include "Headers/Teste/Dominios/Teste_Num_Cartao.h"
 #include "Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h"
 #include "Headers/Teste/Dominios/Teste_Senha.h"
-
-
+#include "Headers/Teste/Entidades/Teste_Acomodacao.h"
 
 // todo: Testes das Entidades: Todas
 int main() {
-    std::vector<Teste*> teste(13, NULL);
+    std::vector<Teste*> teste(14, NULL);
     teste[0] = new Teste_Agencia;
     teste[1] = new Teste_Banco;
     teste[2] = new Teste_Capacidade_De_Acomodacao;
@@ -32,6 +31,7 @@ int main() {
     teste[10] = new Teste_Num_Conta_Corrente;
     teste[11] = new Teste_Senha;
     teste[12] = new Teste_Tipo_Acomodacao;
+    teste[13] = new Teste_Acomodacao;
 
     for(int i = 0; i < teste.size(); i++){
         if(teste[i]->rodar() == Teste::SUCESSO){

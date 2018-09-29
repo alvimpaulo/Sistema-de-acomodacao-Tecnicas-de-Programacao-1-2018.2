@@ -22,7 +22,3 @@ void Nome::setNome(std::string novoNome) throw(std::invalid_argument){
     }
 
 }
-
-std::string Nome::getNome() {
-    return nome;
-}

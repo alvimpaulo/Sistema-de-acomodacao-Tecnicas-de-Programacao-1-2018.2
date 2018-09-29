@@ -13,10 +13,6 @@ void Teste_Diaria::configurar(){
     estado = SUCESSO;
 }
 
-void Teste_Diaria::desconfigurar(){
-    delete diaria;
-}
-
 void Teste_Diaria::casoSucesso(){
     try {
         diaria->setDiaria(VALOR_VALIDO);

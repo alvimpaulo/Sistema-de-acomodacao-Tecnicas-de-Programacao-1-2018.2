@@ -12,7 +12,7 @@ void Diaria::setDiaria(std::string diaria){
     if(validar(diaria)){
         this->diaria = (std::round(std::stof(diaria)*100)/100.0);
     } else{
-        throw (std::invalid_argument("Diaria invalida"));
+        throw (std::invalid_argument(diaria + "nao eh uma diaria valida"));
     }
 }
 

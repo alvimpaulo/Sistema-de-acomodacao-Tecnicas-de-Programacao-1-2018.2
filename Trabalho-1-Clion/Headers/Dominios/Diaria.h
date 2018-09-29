@@ -15,7 +15,9 @@
 #include <iostream>
 
 /**
- *
+ * @class Diaria Diaria.h
+ * @brief Essa classe armazena a diária de um cliente.
+ * @details Essa classe armazena a diária de um cliente, sendo que essa diária está entre 1,00 e 10000,00;.
  */
 class Diaria {
 public:

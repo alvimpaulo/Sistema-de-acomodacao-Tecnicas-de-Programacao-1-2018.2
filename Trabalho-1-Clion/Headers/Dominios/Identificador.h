@@ -12,7 +12,7 @@
 class Identificador {
 public:
     void setIdentificador(std::string novoIdentificador);
-    std::string getIdentificador(){
+    std::string getIdentificador() const{
         return identificador;
     }
 

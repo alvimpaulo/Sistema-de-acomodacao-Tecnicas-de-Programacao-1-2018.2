@@ -13,10 +13,6 @@ void Teste_Banco::configurar() {
     estado = SUCESSO;
 }
 
-void Teste_Banco::desconfigurar() {
-    delete banco;
-}
-
 void Teste_Banco::casoSucesso() {
     try {
         banco->setBancoNum(VALOR_VALIDO);

@@ -6,9 +6,16 @@
 #define TRABALHO_1_CLION_TESTE_ACOMODACAO_H
 
 #include <iostream>
+#include <stdexcept>
+#include <exception>
 #include "../../Entidades/Acomodacao.h"
 #include "../Teste.h"
 
+/**
+ * @class Teste_Acomodacao Teste_Acomodacao.h
+ * @brief Classe que testa a classe Acomodacao.
+ * @details
+ */
 class Teste_Acomodacao: public Teste{
 public:
     void mensagemSucesso(){
@@ -22,9 +29,16 @@ private:
     static const std::string VALOR_VALIDO;
 
     Acomodacao *acomodacao;
+
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete acomodacao;
+    }
     void casoSucesso();
+    void casoFalha(){
+
+    }
+
 };
 
 

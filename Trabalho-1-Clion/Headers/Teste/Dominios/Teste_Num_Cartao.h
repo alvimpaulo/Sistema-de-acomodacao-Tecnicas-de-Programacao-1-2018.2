@@ -10,13 +10,18 @@
 #include "../Teste.h"
 #include <stdexcept>
 
+/**
+ * @class Teste_Num_Cartao Teste_Num_Cartao.h
+ * @brief Classe que testa a classe Num_Cartao.
+ * @details
+ */
 class Teste_Num_Cartao: public Teste{
 public:
     void mensagemSucesso(){
-        std::cout << "Sucesso Capacidade de Acomodação" << std::endl;
+        std::cout << "Sucesso Número do Cartão" << std::endl;
     }
     void mensagemFalha(){
-        std::cout << "Falha Capacidade de Acomodação" << std::endl;
+        std::cout << "Falha Número do Cartão" << std::endl;
     }
 private:
     static const std::string VALOR_VALIDO;
@@ -25,7 +30,9 @@ private:
 
     Num_Cartao_Credito *numCartao;
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete numCartao;
+    }
 
     void casoSucesso();
     void casoFalha();

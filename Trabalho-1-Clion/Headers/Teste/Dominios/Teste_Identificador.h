@@ -10,13 +10,18 @@
 #include "../Teste.h"
 #include <stdexcept>
 
+/**
+ * @class Teste_Identificador Teste_Identificador.h
+ * @brief Classe que testa a classe Identificador.
+ * @details
+ */
 class Teste_Identificador: public Teste{
 public:
     void mensagemSucesso(){
-        std::cout << "Sucesso Numero do Cartao" << std::endl;
+        std::cout << "Sucesso Identificador" << std::endl;
     }
     void mensagemFalha(){
-        std::cout << "Falha Numero do Cartao" << std::endl;
+        std::cout << "Falha Identificador" << std::endl;
     }
 private:
     static const std::string VALOR_VALIDO;
@@ -25,7 +30,9 @@ private:
 
     Identificador *identificador;
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete identificador;
+    }
 
     void casoSucesso();
     void casoFalha();

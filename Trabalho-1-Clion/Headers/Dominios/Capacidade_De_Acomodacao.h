@@ -10,7 +10,7 @@
 
 class Capacidade_De_Acomodacao {
 public:
-    std::string getCapacidade_de_Acomodacao(){
+    std::string getCapacidade_de_Acomodacao() const{
         return capacidade_de_acomodacao;
     }
     void setCapacidade_De_Acomodacao(std::string novaCapacidade);

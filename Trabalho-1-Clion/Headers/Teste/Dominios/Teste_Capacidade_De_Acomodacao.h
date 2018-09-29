@@ -10,6 +10,11 @@
 #include "../Teste.h"
 #include <stdexcept>
 
+/**
+ * @class Teste_Capacidade_De_Acomodacao Teste_Capacidade_De_Acomodacao.h
+ * @brief Classe que testa a classe Capacidade_De_Acomodacao.
+ * @details
+ */
 class Teste_Capacidade_De_Acomodacao: public Teste{
 
 public:
@@ -25,7 +30,9 @@ private:
 
     Capacidade_De_Acomodacao *capacidade;
     void configurar();
-    void desconfigurar();
+    void desconfigurar(){
+        delete capacidade;
+    }
 
     void casoSucesso();
     void casoFalha();
