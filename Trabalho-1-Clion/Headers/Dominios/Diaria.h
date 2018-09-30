@@ -16,19 +16,17 @@
 
 /**
  * @class Diaria Diaria.h
- * @brief Essa classe armazena a diária de um cliente.
- * @details Essa classe armazena a diária de um cliente, sendo que essa diária está entre 1,00 e 10000,00;.
+ * @brief Domínio que armazena a diária de um cliente.
+ * @details Domínio que armazena a diária de um cliente, sendo que essa diária está entre R$1,00 e R$10000,00.
  */
 class Diaria {
 public:
     /**
-     * @static
      * @var LIMITE_MINIMO_DIARIA
      * @brief Limite mínimo da diária.
      */
     static const constexpr float LIMITE_MINIMO_DIARIA = 1.00f;
     /**
-     * @static
      * @var LIMITE_MAXIMO_DIARIA
      * @brief Limite máximo da diária.
      */
@@ -43,22 +41,22 @@ public:
     /**
      * @fn void setDiaria(std::string diaria)
      * @brief Atribui uma diária.
-     * @details Atribui uma diária no formato de uma string que contém um número decimal, esse número está entre 1.00 e 10000.00.
-     * @param [in] diaria uma string que contém um número decimal, que representa a diária.
+     * @details Atribui uma diária no formato de uma string que contém um número decimal, esse número está entre 1,00 e 10000,00.
+     * @param diaria String que contém um número decimal, valor da diária.
      */
     void setDiaria(std::string diaria);
-    /**
+    /*
      * @fn void setDiaria(float diaria)
      * @brief Atribui uma diária.
-     * @details Atribui uma diária que contém um número decimal, esse número está entre 1.00 e 10000.00.
-     * @param [in] diaria contém um número decimal, que representa a diária.
-     */
-    void setDiaria(float diaria);
+     * @details Atribui uma diária que contém um número decimal, esse número está entre 1,00 e 10000,00.
+     * @param diaria float com o valor da diária.
+
+    void setDiaria(float diaria);*/
     /**
      * @fn float getDiaria() const
      * @brief Retorna um número que contém a data de validade.
      * @details Retorna um número que contém a data de validade.
-     * @return O retorno é um número decimal que representa o valor da diária.
+     * @return Float com o valor da diária.
      */
     float getDiaria() const{
         return diaria;

@@ -29,16 +29,13 @@ void Estado::setEstado(std::string estado){
 }
 
 bool Estado::validar(std::string estado){
-    bool resposta;
     int indiceEstado;
 
     indiceEstado = std::lower_bound(NOME_ESTADOS.begin(), NOME_ESTADOS.end(), estado) - NOME_ESTADOS.begin();
 
     if(NOME_ESTADOS[indiceEstado] == estado){
-        resposta = true;
+        return true;
     } else{
-        resposta = false;
+        return false;
     }
-
-    return resposta;
 }

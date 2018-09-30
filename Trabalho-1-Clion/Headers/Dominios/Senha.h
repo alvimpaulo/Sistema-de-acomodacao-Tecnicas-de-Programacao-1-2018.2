@@ -10,8 +10,8 @@
 #include <stdexcept>
 /**
  * @class Senha Senha.h
- * @brief Essa classe armazena uma senha.
- * @details Essa classe armazena uma senha de 8 dígitos com letras maiúsculas e minúsculas, símbolos e números.
+ * @brief Domínio que armazena uma senha.
+ * @details Domínio que armazena uma senha de 8 dígitos com letras, maiúsculas e minúsculas, símbolos e números.
  */
 class Senha {
 public:
@@ -19,7 +19,7 @@ public:
      * @fn std::string getSenha() const
      * @brief Retorna uma string que contém a senha.
      * @details Retorna uma string que contém a senha.
-     * @return senha uma string de 8 dígitos com letras maiúsculas e minúsculas, símbolos e números.
+     * @return senha String de 8 caracteres com letras, maiúsculas e minúsculas, símbolos e números.
      */
     std::string getSenha() const{
         return senha;
@@ -27,8 +27,8 @@ public:
     /**
      * @fn void setSenha(std::string novaSenha)
      * @brief Atribui uma senha.
-     * @details Atribui uma string com 8 dígitos, letras maiúsculas e minúsculas, símbolos e números.
-     * @param [in] novaSenha
+     * @details Atribui uma senha, se satizfaz os padrões, e lança uma exceção, caso contário.
+     * @param novaSenha
      */
     void setSenha(std::string novaSenha);
 

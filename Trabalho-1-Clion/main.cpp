@@ -17,6 +17,12 @@
 #include "Headers/Teste/Entidades/Teste_Conta_Corrente.h"
 
 // todo: Testes das Entidades: Todas
+/*class A{
+    std::vector<int> a;
+    A(): a(){
+
+    }
+};*/
 int main() {
     std::vector<Teste*> teste(15, NULL);
     teste[0] = new Teste_Agencia;

@@ -16,15 +16,14 @@
 
 /**
  * @class Tipo_Acomodacao Tipo_Acomodacao.h
- * @brief Essa classe armazena um tipo de acomodação.
- * @details Essa classe armazena um dos 3 tipos de acomodação: Apartamento, Casa ou Flat.
+ * @brief Domínio que armazena um tipo de acomodação.
+ * @details Domínio que armazena um dos 3 tipos de acomodação: Apartamento, Casa ou Flat.
  */
 class Tipo_Acomodacao {
 public:
     /**
-     * @static
      * @var TIPOS_ACOMODACAO
-     * @brief Vetor de contém o tipo de acomodação
+     * @brief Vetor que contém os tipos de acomodações.
      */
     static const std::vector<std::string> TIPOS_ACOMODACAO;
 
@@ -37,15 +36,15 @@ public:
     /**
      * @fn void setTipoAcomodacao(std::string tipoAcomodacao)
      * @brief Atribui um tipo de acomodação.
-     * @details  Atribui um dos tipos de acomodações contido no vetor Tipo_Acomodacao::TIPOS_ACOMODACAO.
-     * @param [in] tipoAcomodacao uma string que contém o tipo de acomodação.
+     * @details  Atribui um dos tipos de acomodações, se está contido no vetor Tipo_Acomodacao::TIPOS_ACOMODACAO, e lança uma exceção, caso contrário.
+     * @param tipoAcomodacao String que contém um tipo de acomodação.
      */
     void setTipoAcomodacao(std::string tipoAcomodacao);
     /**
      * @fn std::string getTipoAcomodacao() const
-     * @brief Retorna uma string que contém o tipo de acomodação.
-     * @details Retorna uma string que contém o tipo de acomodação.
-     * @return Retorna uma string que contém o tipo de acomodação.
+     * @brief Retorna uma string que contém um tipo de acomodação.
+     * @details Retorna uma string que contém um tipo de acomodação.
+     * @return String que contém um tipo de acomodação.
      */
     std::string getTipoAcomodacao() const{
         return TIPOS_ACOMODACAO[indiceTiposAcomodacao];

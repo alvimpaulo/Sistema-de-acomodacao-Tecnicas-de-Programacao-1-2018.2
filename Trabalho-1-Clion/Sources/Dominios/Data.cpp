@@ -79,81 +79,66 @@ std::string Data::getAno() const{
 }
 
 bool Data::validar(std::string data){
-    bool resposta;
     std::regex nomeRegex(R"((\d{2})(\/)([a-zA-z]{3})(\/)(\d{4}))");
 
     if(std::regex_match(data, nomeRegex)){
-        resposta = true;
+        return true;
     } else{
-        resposta = false;
+        return false;
     }
-
-    return resposta;
 }
 
 bool Data::validarDia(std::string dia){
-    bool resposta = false;
     std::regex nomeRegex(R"((\d{2}))");
     int tmpDia = std::stoi(dia);
 
     if(std::regex_match(dia, nomeRegex) &&
        LIMITE_INFERIOR_DIA <= tmpDia &&
        tmpDia <= (LIMITE_SUPERIOR_DIA[mes] + ((std::stoi(ano) & 3) == 0 && mes == 1 ? 1 : 0))){
-        resposta = true;
+        return true;
     } else{
-        resposta = false;
+        return false;
     }
-
-    return resposta;
 }
 
 bool Data::validarMes(std::string mes){
-    bool resposta = false;
     std::regex nomeRegex(R"(([a-zA-z]{3}))");
 
     if(std::regex_match(mes, nomeRegex) && *std::find(NOME_MESES.begin(), NOME_MESES.end(), mes) == mes){
-        resposta = true;
+        return true;
     } else{
-        resposta = false;
+        return false;
     }
-
-    return resposta;
 }
 
 bool Data::validarAno(std::string ano){
-    bool resposta = false;
     std::regex nomeRegex(R"((\d{4}))");
 
     if(std::regex_match(ano, nomeRegex)){
         int tmpAno = std::stoi(ano);
         if(LIMITE_INFERIOR_ANO <= tmpAno && tmpAno <= LIMITE_SUPERIOR_ANO){
-            resposta = true;
+            return true;
         } else{
-            resposta = false;
+            return false;
         }
     } else{
-        resposta = false;
+        return false;
     }
-
-    return resposta;
 }
 
 inline bool operator<(const Data& data1, const Data& data2){
-    bool resposta = true;
 
     if(data1.ano == data2.ano){
         if(data1.mes == data2.mes){
             if(data1.dia >= data2.dia){
-                resposta = false;
+                return false;
             }
         } else if(data1.mes > data2.mes){
-            resposta = false;
+            return false;
         }
     } else if(data1.ano > data2.ano){
-        resposta = false;
+        return false;
     }
-
-    return resposta;
 }
 
 bool operator>(const Data& data1, const Data& data2){

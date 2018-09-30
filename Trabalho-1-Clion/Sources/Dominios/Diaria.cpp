@@ -18,18 +18,15 @@ void Diaria::setDiaria(std::string diaria){
 
 bool Diaria::validar(std::string diaria){
     std::regex nomeRegex(R"((\d+)(\.)(\d+))");
-    bool resposta;
 
     if(std::regex_match(diaria, nomeRegex)){
         float tmpDiaria = std::stof(diaria);
         if(LIMITE_MINIMO_DIARIA <= tmpDiaria && tmpDiaria <= LIMITE_MAXIMO_DIARIA){
-            resposta = true;
+            return true;
         } else{
-            resposta = false;
+            return false;
         }
     } else{
-        resposta = false;
+        return false;
     }
-
-    return resposta;
 }

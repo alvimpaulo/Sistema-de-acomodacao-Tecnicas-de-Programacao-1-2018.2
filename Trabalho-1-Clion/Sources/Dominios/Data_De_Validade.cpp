@@ -50,42 +50,33 @@ std::string Data_De_Validade::getAno() const{
 }
 
 bool Data_De_Validade::validar(std::string data){
-    bool resposta;
     std::regex nomeRegex(R"(^((\d{2})(\/)(\d{2})))");
 
     if(std::regex_match(data, nomeRegex)){
-        resposta = true;
+        return true;
     } else{
-        resposta = false;
+        return false;
     }
-
-    return resposta;
 }
 
 bool Data_De_Validade::validarMes(std::string mes){
-    bool resposta;
     std::regex nomeRegex(R"(^((\d{2})))");
     int tmpMes = std::stoi(mes);
 
     if(std::regex_match(mes, nomeRegex) && LIMITE_INFERIOR_MES <= tmpMes && tmpMes <= LIMITE_SUPERIOR_MES){
-        resposta = true;
+        return true;
     } else{
-        resposta = false;
+        return false;
     }
-
-    return resposta;
 }
 
 bool Data_De_Validade::validarAno(std::string ano){
-    bool resposta;
     std::regex nomeRegex(R"(^((\d{2})))");
     int tmpAno = std::stoi(ano);
 
     if(std::regex_match(ano, nomeRegex) && LIMITE_INFERIOR_ANO <= tmpAno && tmpAno <= LIMITE_SUPERIOR_ANO){
-        resposta = true;
+        return true;
     } else{
-        resposta = false;
+        return false;
     }
-
-    return resposta;
 }
