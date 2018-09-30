@@ -31,6 +31,7 @@ add_executable(Trabalho_1_Clion
         Headers/Dominios/Senha.h
         Sources/Dominios/Tipo_Acomodacao.cpp
         Headers/Dominios/Tipo_Acomodacao.h
+
         Sources/Teste/Dominios/Teste_Agencia.cpp
         Headers/Teste/Dominios/Teste_Agencia.h
         Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp
@@ -57,8 +58,25 @@ add_executable(Trabalho_1_Clion
 		Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h
 		Sources/Teste/Dominios/Teste_Senha.cpp
 		Headers/Teste/Dominios/Teste_Senha.h
+
+        Sources/Entidades/Acomodacao.cpp
+        Headers/Entidades/Acomodacao.h
+        Sources/Entidades/Cartao_De_Credito.cpp
+        Headers/Entidades/Cartao_De_Credito.h
+        Sources/Entidades/Conta_Corrente.cpp
+        Headers/Entidades/Conta_Corrente.h
+        Sources/Entidades/Usuario.cpp
+        Headers/Entidades/Usuario.h
+
 		Sources/Teste/Entidades/Teste_Acomodacao.cpp
 		Headers/Teste/Entidades/Teste_Acomodacao.h
+		Sources/Teste/Entidades/Teste_Usuario.cpp
+		Headers/Teste/Entidades/Teste_Usuario.h
+		Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp
+		Headers/Teste/Entidades/Teste_Cartao_De_Credito.h
+		Sources/Teste/Entidades/Teste_Conta_Corrente.cpp
+		Headers/Teste/Entidades/Teste_Conta_Corrente.h
+
 		Headers/Dominios/Dominio.h
 		Sources/Teste/Teste.cpp
 		Headers/Teste/Teste.h)

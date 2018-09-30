@@ -4,7 +4,5 @@
 
 #include "../../Headers/Entidades/Cartao_De_Credito.h"
 
-Cartao_De_Credito::Cartao_De_Credito(){
 
-}
 

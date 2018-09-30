@@ -4,8 +4,6 @@
 
 #include "../../Headers/Entidades/Conta_Corrente.h"
 
-Conta_Corrente::Conta_Corrente(){
 
-}
 
 

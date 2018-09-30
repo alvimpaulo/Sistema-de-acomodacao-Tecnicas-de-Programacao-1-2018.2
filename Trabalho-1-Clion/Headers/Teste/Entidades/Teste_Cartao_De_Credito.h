@@ -6,6 +6,8 @@
 #ifndef TRABALHO_1_CLION_TESTE_CARTAO_DE_CREDITO_H
 #define TRABALHO_1_CLION_TESTE_CARTAO_DE_CREDITO_H
 
+#include "../Teste.h"
+#include "../../Entidades/Cartao_De_Credito.h"
 /**
  * @class Teste_Cartao_De_Credito Teste_Cartao_De_Credito.h
  * @brief Classe que testa a classe Cartao_De_Credito.
@@ -23,7 +25,7 @@ public:
 private:
     static const std::string VALOR_VALIDO;
 
-    Acomodacao *acomodacao;
+    Cartao_De_Credito *cartaoDeCredito = new Cartao_De_Credito();
     void configurar();
     void desconfigurar();
     void casoSucesso();

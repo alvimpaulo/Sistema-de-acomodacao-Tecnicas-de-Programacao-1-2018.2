@@ -473,6 +473,114 @@ Sources/Dominios/Tipo_Acomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.s
 .PHONY : Sources/Dominios/Tipo_Acomodacao.cpp.s
 
+Sources/Entidades/Acomodacao.obj: Sources/Entidades/Acomodacao.cpp.obj
+
+.PHONY : Sources/Entidades/Acomodacao.obj
+
+# target to build an object file
+Sources/Entidades/Acomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Acomodacao.cpp.obj
+.PHONY : Sources/Entidades/Acomodacao.cpp.obj
+
+Sources/Entidades/Acomodacao.i: Sources/Entidades/Acomodacao.cpp.i
+
+.PHONY : Sources/Entidades/Acomodacao.i
+
+# target to preprocess a source file
+Sources/Entidades/Acomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Acomodacao.cpp.i
+.PHONY : Sources/Entidades/Acomodacao.cpp.i
+
+Sources/Entidades/Acomodacao.s: Sources/Entidades/Acomodacao.cpp.s
+
+.PHONY : Sources/Entidades/Acomodacao.s
+
+# target to generate assembly for a file
+Sources/Entidades/Acomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Acomodacao.cpp.s
+.PHONY : Sources/Entidades/Acomodacao.cpp.s
+
+Sources/Entidades/Cartao_De_Credito.obj: Sources/Entidades/Cartao_De_Credito.cpp.obj
+
+.PHONY : Sources/Entidades/Cartao_De_Credito.obj
+
+# target to build an object file
+Sources/Entidades/Cartao_De_Credito.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Cartao_De_Credito.cpp.obj
+.PHONY : Sources/Entidades/Cartao_De_Credito.cpp.obj
+
+Sources/Entidades/Cartao_De_Credito.i: Sources/Entidades/Cartao_De_Credito.cpp.i
+
+.PHONY : Sources/Entidades/Cartao_De_Credito.i
+
+# target to preprocess a source file
+Sources/Entidades/Cartao_De_Credito.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Cartao_De_Credito.cpp.i
+.PHONY : Sources/Entidades/Cartao_De_Credito.cpp.i
+
+Sources/Entidades/Cartao_De_Credito.s: Sources/Entidades/Cartao_De_Credito.cpp.s
+
+.PHONY : Sources/Entidades/Cartao_De_Credito.s
+
+# target to generate assembly for a file
+Sources/Entidades/Cartao_De_Credito.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Cartao_De_Credito.cpp.s
+.PHONY : Sources/Entidades/Cartao_De_Credito.cpp.s
+
+Sources/Entidades/Conta_Corrente.obj: Sources/Entidades/Conta_Corrente.cpp.obj
+
+.PHONY : Sources/Entidades/Conta_Corrente.obj
+
+# target to build an object file
+Sources/Entidades/Conta_Corrente.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Conta_Corrente.cpp.obj
+.PHONY : Sources/Entidades/Conta_Corrente.cpp.obj
+
+Sources/Entidades/Conta_Corrente.i: Sources/Entidades/Conta_Corrente.cpp.i
+
+.PHONY : Sources/Entidades/Conta_Corrente.i
+
+# target to preprocess a source file
+Sources/Entidades/Conta_Corrente.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Conta_Corrente.cpp.i
+.PHONY : Sources/Entidades/Conta_Corrente.cpp.i
+
+Sources/Entidades/Conta_Corrente.s: Sources/Entidades/Conta_Corrente.cpp.s
+
+.PHONY : Sources/Entidades/Conta_Corrente.s
+
+# target to generate assembly for a file
+Sources/Entidades/Conta_Corrente.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Conta_Corrente.cpp.s
+.PHONY : Sources/Entidades/Conta_Corrente.cpp.s
+
+Sources/Entidades/Usuario.obj: Sources/Entidades/Usuario.cpp.obj
+
+.PHONY : Sources/Entidades/Usuario.obj
+
+# target to build an object file
+Sources/Entidades/Usuario.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Usuario.cpp.obj
+.PHONY : Sources/Entidades/Usuario.cpp.obj
+
+Sources/Entidades/Usuario.i: Sources/Entidades/Usuario.cpp.i
+
+.PHONY : Sources/Entidades/Usuario.i
+
+# target to preprocess a source file
+Sources/Entidades/Usuario.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Usuario.cpp.i
+.PHONY : Sources/Entidades/Usuario.cpp.i
+
+Sources/Entidades/Usuario.s: Sources/Entidades/Usuario.cpp.s
+
+.PHONY : Sources/Entidades/Usuario.s
+
+# target to generate assembly for a file
+Sources/Entidades/Usuario.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Usuario.cpp.s
+.PHONY : Sources/Entidades/Usuario.cpp.s
+
 Sources/Teste/Dominios/Teste_Agencia.obj: Sources/Teste/Dominios/Teste_Agencia.cpp.obj
 
 .PHONY : Sources/Teste/Dominios/Teste_Agencia.obj
@@ -851,6 +959,87 @@ Sources/Teste/Entidades/Teste_Acomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.s
 .PHONY : Sources/Teste/Entidades/Teste_Acomodacao.cpp.s
 
+Sources/Teste/Entidades/Teste_Cartao_De_Credito.obj: Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj
+
+.PHONY : Sources/Teste/Entidades/Teste_Cartao_De_Credito.obj
+
+# target to build an object file
+Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj
+.PHONY : Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj
+
+Sources/Teste/Entidades/Teste_Cartao_De_Credito.i: Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.i
+
+.PHONY : Sources/Teste/Entidades/Teste_Cartao_De_Credito.i
+
+# target to preprocess a source file
+Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.i
+.PHONY : Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.i
+
+Sources/Teste/Entidades/Teste_Cartao_De_Credito.s: Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.s
+
+.PHONY : Sources/Teste/Entidades/Teste_Cartao_De_Credito.s
+
+# target to generate assembly for a file
+Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.s
+.PHONY : Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.s
+
+Sources/Teste/Entidades/Teste_Conta_Corrente.obj: Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj
+
+.PHONY : Sources/Teste/Entidades/Teste_Conta_Corrente.obj
+
+# target to build an object file
+Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj
+.PHONY : Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj
+
+Sources/Teste/Entidades/Teste_Conta_Corrente.i: Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.i
+
+.PHONY : Sources/Teste/Entidades/Teste_Conta_Corrente.i
+
+# target to preprocess a source file
+Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.i
+.PHONY : Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.i
+
+Sources/Teste/Entidades/Teste_Conta_Corrente.s: Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.s
+
+.PHONY : Sources/Teste/Entidades/Teste_Conta_Corrente.s
+
+# target to generate assembly for a file
+Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.s
+.PHONY : Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.s
+
+Sources/Teste/Entidades/Teste_Usuario.obj: Sources/Teste/Entidades/Teste_Usuario.cpp.obj
+
+.PHONY : Sources/Teste/Entidades/Teste_Usuario.obj
+
+# target to build an object file
+Sources/Teste/Entidades/Teste_Usuario.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.obj
+.PHONY : Sources/Teste/Entidades/Teste_Usuario.cpp.obj
+
+Sources/Teste/Entidades/Teste_Usuario.i: Sources/Teste/Entidades/Teste_Usuario.cpp.i
+
+.PHONY : Sources/Teste/Entidades/Teste_Usuario.i
+
+# target to preprocess a source file
+Sources/Teste/Entidades/Teste_Usuario.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.i
+.PHONY : Sources/Teste/Entidades/Teste_Usuario.cpp.i
+
+Sources/Teste/Entidades/Teste_Usuario.s: Sources/Teste/Entidades/Teste_Usuario.cpp.s
+
+.PHONY : Sources/Teste/Entidades/Teste_Usuario.s
+
+# target to generate assembly for a file
+Sources/Teste/Entidades/Teste_Usuario.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.s
+.PHONY : Sources/Teste/Entidades/Teste_Usuario.cpp.s
+
 Sources/Teste/Teste.obj: Sources/Teste/Teste.cpp.obj
 
 .PHONY : Sources/Teste/Teste.obj
@@ -953,6 +1142,18 @@ help:
 	@echo ... Sources/Dominios/Tipo_Acomodacao.obj
 	@echo ... Sources/Dominios/Tipo_Acomodacao.i
 	@echo ... Sources/Dominios/Tipo_Acomodacao.s
+	@echo ... Sources/Entidades/Acomodacao.obj
+	@echo ... Sources/Entidades/Acomodacao.i
+	@echo ... Sources/Entidades/Acomodacao.s
+	@echo ... Sources/Entidades/Cartao_De_Credito.obj
+	@echo ... Sources/Entidades/Cartao_De_Credito.i
+	@echo ... Sources/Entidades/Cartao_De_Credito.s
+	@echo ... Sources/Entidades/Conta_Corrente.obj
+	@echo ... Sources/Entidades/Conta_Corrente.i
+	@echo ... Sources/Entidades/Conta_Corrente.s
+	@echo ... Sources/Entidades/Usuario.obj
+	@echo ... Sources/Entidades/Usuario.i
+	@echo ... Sources/Entidades/Usuario.s
 	@echo ... Sources/Teste/Dominios/Teste_Agencia.obj
 	@echo ... Sources/Teste/Dominios/Teste_Agencia.i
 	@echo ... Sources/Teste/Dominios/Teste_Agencia.s
@@ -995,6 +1196,15 @@ help:
 	@echo ... Sources/Teste/Entidades/Teste_Acomodacao.obj
 	@echo ... Sources/Teste/Entidades/Teste_Acomodacao.i
 	@echo ... Sources/Teste/Entidades/Teste_Acomodacao.s
+	@echo ... Sources/Teste/Entidades/Teste_Cartao_De_Credito.obj
+	@echo ... Sources/Teste/Entidades/Teste_Cartao_De_Credito.i
+	@echo ... Sources/Teste/Entidades/Teste_Cartao_De_Credito.s
+	@echo ... Sources/Teste/Entidades/Teste_Conta_Corrente.obj
+	@echo ... Sources/Teste/Entidades/Teste_Conta_Corrente.i
+	@echo ... Sources/Teste/Entidades/Teste_Conta_Corrente.s
+	@echo ... Sources/Teste/Entidades/Teste_Usuario.obj
+	@echo ... Sources/Teste/Entidades/Teste_Usuario.i
+	@echo ... Sources/Teste/Entidades/Teste_Usuario.s
 	@echo ... Sources/Teste/Teste.obj
 	@echo ... Sources/Teste/Teste.i
 	@echo ... Sources/Teste/Teste.s

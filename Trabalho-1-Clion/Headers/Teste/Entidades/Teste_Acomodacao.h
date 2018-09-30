@@ -19,26 +19,23 @@
  */
 class Teste_Acomodacao: public Teste{
 public:
-    void mensagemSucesso(){
+    void mensagemSucesso() override {
         std::cout << "Sucesso Acomodação" << std::endl;
     }
-    void mensagemFalha(){
+    void mensagemFalha() override {
         std::cout << "Falha Acomodação" << std::endl;
     }
-    int rodar();
+    int rodar() override;
 private:
     static const std::string VALOR_VALIDO;
 
     Acomodacao *acomodacao;
 
-    void configurar();
-    void desconfigurar(){
+    void configurar() override;
+    void desconfigurar() override {
         delete acomodacao;
     }
-    void casoSucesso();
-    void casoFalha(){
-
-    }
+    void casoSucesso() override;
 
 };
 
