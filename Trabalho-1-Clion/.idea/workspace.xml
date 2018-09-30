@@ -11,25 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2265067e-bce8-4e0d-b9c9-31f1d7c3c0db" name="Default Changelist" comment="Documentando">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Acomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Acomodacao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Cartao_De_Credito.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Cartao_De_Credito.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Conta_Corrente.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Conta_Corrente.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Usuario.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Usuario.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Cartao_De_Credito.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Entidades/Cartao_De_Credito.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Conta_Corrente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Entidades/Conta_Corrente.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Usuario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Entidades/Usuario.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Usuario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Usuario.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="2265067e-bce8-4e0d-b9c9-31f1d7c3c0db" name="Default Changelist" comment="" />
     <list id="6f5f25da-4b72-4cfb-8bc6-c251832e5972" name="Revert: Arquitetura adicionada" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="cmake-build-debug/" />
@@ -76,7 +58,7 @@
     <session id="-160862351">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.115" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -108,7 +90,7 @@
           <entry key="cpp" value="5086" />
           <entry key="h" value="2401" />
           <entry key="mm" value="10" />
-          <entry key="txt" value="355" />
+          <entry key="txt" value="395" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -116,7 +98,7 @@
           <entry key="CMakeLists.txt" value="93" />
           <entry key="GDBCommands" value="128" />
           <entry key="ObjectiveC" value="7497" />
-          <entry key="PLAIN_TEXT" value="262" />
+          <entry key="PLAIN_TEXT" value="302" />
         </counts>
       </usages-collector>
     </session>
@@ -521,7 +503,7 @@
       <workItem from="1537831208574" duration="453000" />
       <workItem from="1538058106598" duration="6478000" />
       <workItem from="1538229307580" duration="11752000" />
-      <workItem from="1538287302794" duration="6987000" />
+      <workItem from="1538287302794" duration="7085000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada a classe da agencia e teste dela na main">
       <created>1536084993870</created>
@@ -670,11 +652,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538095005407</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="bagulhos consertados e outros falhando">
+      <created>1538331089401</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1538331089401</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155885000" />
+    <option name="totallyTimeSpent" value="155983000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -796,7 +785,8 @@
     <MESSAGE value="Fazendo Teste de Acomodação" />
     <MESSAGE value="Documentando: Teste.h, Teste_Data_De_Validade.h e Data_De_Validade.h" />
     <MESSAGE value="Documentando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentando" />
+    <MESSAGE value="bagulhos consertados e outros falhando" />
+    <option name="LAST_COMMIT_MESSAGE" value="bagulhos consertados e outros falhando" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
