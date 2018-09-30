@@ -1,7 +1,7 @@
 //
 // Created by oetch on 16/09/2018.
 //
-
+//todo: Fazer(?)
 #ifndef TRABALHO_1_CLION_DOMINIO_H
 #define TRABALHO_1_CLION_DOMINIO_H
 

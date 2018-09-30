@@ -21,3 +21,8 @@ void Num_Conta_Corrente::setNum_Conta_Corrente(std::string novoNumConta) {
     }
 
 }
+
+Num_Conta_Corrente::Num_Conta_Corrente() {
+    numConta = "000000";
+
+}

@@ -46,3 +46,8 @@ void Num_Cartao_Credito::setNum_Cartao(std::string novoNumCartao) {
         throw std::invalid_argument(novoNumCartao + " nao eh um numero de cartao valido");
 
 }
+
+Num_Cartao_Credito::Num_Cartao_Credito() {
+    numCartao = "0000000000000000";
+
+}

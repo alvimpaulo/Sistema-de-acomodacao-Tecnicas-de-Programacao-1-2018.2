@@ -2,6 +2,7 @@
 // Created by oetch on 16/09/2018.
 //
 
+//todo: Documentar
 #ifndef TRABALHO_1_CLION_TESTE_ACOMODACAO_H
 #define TRABALHO_1_CLION_TESTE_ACOMODACAO_H
 

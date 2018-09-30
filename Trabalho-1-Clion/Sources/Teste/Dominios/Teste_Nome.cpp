@@ -13,10 +13,6 @@ void Teste_Nome::configurar() {
 
 }
 
-void Teste_Nome::desconfigurar() {
-    delete nome;
-}
-
 void Teste_Nome::casoSucesso() {
     try {
         nome->setNome(VALOR_VALIDO);
