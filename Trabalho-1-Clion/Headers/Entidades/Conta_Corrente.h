@@ -13,6 +13,8 @@
 class Conta_Corrente {
 public:
 
+    Conta_Corrente():numero(),agencia(),banco(){}
+
     void setNumero(Num_Conta_Corrente numero){
         this->numero = numero;
     }

@@ -14,6 +14,8 @@
 class Usuario {
 public:
 
+    Usuario():nome(),identificador(),senha(){}
+
     void setNome(Nome nome){
         this->nome = nome;
     }

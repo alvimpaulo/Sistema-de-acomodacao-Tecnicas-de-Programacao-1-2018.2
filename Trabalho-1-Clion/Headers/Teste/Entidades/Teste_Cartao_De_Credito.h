@@ -2,7 +2,7 @@
 // Created by oetch on 16/09/2018.
 //
 
-//todo: Documentar
+//
 #ifndef TRABALHO_1_CLION_TESTE_CARTAO_DE_CREDITO_H
 #define TRABALHO_1_CLION_TESTE_CARTAO_DE_CREDITO_H
 
@@ -24,7 +24,6 @@ public:
         std::cout << "Falha Cartao de Credito" << std::endl;
     }
 private:
-    static const std::string VALOR_VALIDO;
 
     Cartao_De_Credito *cartaoDeCredito;
     void configurar() override{

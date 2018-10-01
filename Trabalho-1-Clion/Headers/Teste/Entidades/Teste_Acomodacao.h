@@ -2,7 +2,7 @@
 // Created by oetch on 16/09/2018.
 //
 
-//todo: Documentar
+//
 #ifndef TRABALHO_1_CLION_TESTE_ACOMODACAO_H
 #define TRABALHO_1_CLION_TESTE_ACOMODACAO_H
 
@@ -27,7 +27,6 @@ public:
         std::cout << "Falha Acomodação" << std::endl;
     }
 private:
-    static const std::string VALOR_VALIDO;
 
     Acomodacao *acomodacao;
 

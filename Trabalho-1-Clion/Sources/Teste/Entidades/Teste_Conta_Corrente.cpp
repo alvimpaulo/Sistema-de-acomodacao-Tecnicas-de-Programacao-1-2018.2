@@ -20,13 +20,3 @@ void Teste_Conta_Corrente::casoSucesso() {
 
 
 }
-
-int Teste_Conta_Corrente::rodar() {
-    configurar();
-
-    casoSucesso();
-
-    desconfigurar();
-
-    return estado;
-}

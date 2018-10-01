@@ -1,7 +1,7 @@
 //
 // Created by oetch on 16/09/2018.
 //
-//todo: Documentar
+//
 #ifndef TRABALHO_1_CLION_TESTE_USUARIO_H
 #define TRABALHO_1_CLION_TESTE_USUARIO_H
 
@@ -16,15 +16,14 @@
  */
 class Teste_Usuario: public Teste_Entidades{
 public:
-    void mensagemSucesso(){
+    void mensagemSucesso() override {
         std::cout << "Sucesso Usuario" << std::endl;
     }
-    void mensagemFalha(){
+    void mensagemFalha() override {
         std::cout << "Falha Usuario" << std::endl;
     }
     int rodar() override;
 private:
-    static const std::string VALOR_VALIDO;
 
     Usuario *usuario;
     void configurar() override{

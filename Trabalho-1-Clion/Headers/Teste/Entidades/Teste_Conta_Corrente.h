@@ -2,7 +2,7 @@
 // Created by oetch on 16/09/2018.
 //
 
-//todo: Documentar
+//
 #ifndef TRABALHO_1_CLION_TESTE_CONTA_CORRENTE_H
 #define TRABALHO_1_CLION_TESTE_CONTA_CORRENTE_H
 
@@ -24,11 +24,11 @@ public:
     void mensagemFalha() override {
         std::cout << "Falha Conta Corrente" << std::endl;
     }
-    int rodar() override;
+
 private:
-    static const std::string VALOR_VALIDO;
 
     Conta_Corrente *contaCorrente;
+
     void configurar() override{
         contaCorrente = new Conta_Corrente();
         estado = SUCESSO;

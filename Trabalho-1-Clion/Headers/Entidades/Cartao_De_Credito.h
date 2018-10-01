@@ -13,6 +13,8 @@
 class Cartao_De_Credito {
 public:
 
+    Cartao_De_Credito():numero(),dataDeValidade(){}
+
     void setNumero(Num_Cartao_Credito numero){
         this->numero = numero;
     }

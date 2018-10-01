@@ -18,6 +18,8 @@
 class Acomodacao {
 public:
 
+    Acomodacao():identificador(),tipo(),capacidade,dataInicio,dataTermino,cidade(),estado,diaria(){}
+
     void setIdentificador(Identificador identificador){
         this->identificador = identificador;
     }
