@@ -11,28 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2265067e-bce8-4e0d-b9c9-31f1d7c3c0db" name="Default Changelist" comment="Construtores criados para as entidades e todos arrumados.">
+    <list default="true" id="2265067e-bce8-4e0d-b9c9-31f1d7c3c0db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Dominio.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Acomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Entidades/Acomodacao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Cartao_De_Credito.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Entidades/Cartao_De_Credito.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Conta_Corrente.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Entidades/Conta_Corrente.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Disponibilidade.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Reserva.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Usuario.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Entidades/Usuario.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Acomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Acomodacao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Cartao_De_Credito.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Cartao_De_Credito.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Conta_Corrente.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Conta_Corrente.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Disponibilidade.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Reserva.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Usuario.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Usuario.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Cartao_De_Credito.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Entidades/Cartao_De_Credito.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Disponibilidade.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Reserva.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Disponibilidade.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Reserva.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data_De_Validade.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data_De_Validade.cpp.obj" afterDir="false" />
@@ -524,7 +504,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Trabalho-Tp1-Clion/Trabalho-1-Clion" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -608,7 +588,7 @@
       <workItem from="1538058106598" duration="6478000" />
       <workItem from="1538229307580" duration="11752000" />
       <workItem from="1538287302794" duration="7085000" />
-      <workItem from="1538422876813" duration="3467000" />
+      <workItem from="1538422876813" duration="3557000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada a classe da agencia e teste dela na main">
       <created>1536084993870</created>
@@ -771,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538375816115</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Construtores criados para as entidades e todos arrumados.">
+      <created>1538426449265</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1538426449265</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168329000" />
+    <option name="totallyTimeSpent" value="168419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
