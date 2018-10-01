@@ -8,13 +8,14 @@
 #include <iostream>
 #include "../../Dominios/Agencia.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 
 /**
  * @class Teste_Agencia Teste_Agencia.h
  * @brief Classe que testa a classe Agencia.
  * @details
  */
-class Teste_Agencia: public Teste{
+class Teste_Agencia: public Teste_Dominios{
 public:
     void mensagemSucesso(){
         std::cout << "Sucesso Agencia" << std::endl;

@@ -11,13 +11,14 @@
 #include <exception>
 #include "../../Entidades/Acomodacao.h"
 #include "../Teste.h"
+#include "Teste_Entidades.h"
 
 /**
  * @class Teste_Acomodacao Teste_Acomodacao.h
  * @brief Classe que testa a classe Acomodacao.
  * @details
  */
-class Teste_Acomodacao: public Teste{
+class Teste_Acomodacao: public Teste_Entidades{
 public:
     void mensagemSucesso() override {
         std::cout << "Sucesso Acomodação" << std::endl;
@@ -25,7 +26,6 @@ public:
     void mensagemFalha() override {
         std::cout << "Falha Acomodação" << std::endl;
     }
-    int rodar() override;
 private:
     static const std::string VALOR_VALIDO;
 

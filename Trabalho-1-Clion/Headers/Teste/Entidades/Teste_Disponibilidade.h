@@ -10,7 +10,7 @@
  * @brief Classe que testa a classe Disponibilidade.
  * @details
  */
-class Teste_Disponibilidade: public Teste{
+class Teste_Disponibilidade: public Teste_Entidades{
 
 };
 

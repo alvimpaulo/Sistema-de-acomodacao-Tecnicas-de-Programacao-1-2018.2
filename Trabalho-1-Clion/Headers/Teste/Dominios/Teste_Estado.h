@@ -8,13 +8,14 @@
 
 #include "../../Dominios/Estado.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 
 /**
  * @class Teste_Estado Teste_Estado.h
  * @brief Classe que testa a classe Estado.
  * @details
  */
-class Teste_Estado: public Teste{
+class Teste_Estado: public Teste_Dominios{
 public:
     void mensagemSucesso(){
         std::cout << "Sucesso Estado" << std::endl;

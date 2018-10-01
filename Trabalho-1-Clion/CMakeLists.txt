@@ -79,4 +79,4 @@ add_executable(Trabalho_1_Clion
 
 		Headers/Dominios/Dominio.h
 		Sources/Teste/Teste.cpp
-		Headers/Teste/Teste.h)
+		Headers/Teste/Teste.h Sources/Teste/Entidades/Teste_Entidades.cpp Headers/Teste/Entidades/Teste_Entidades.h Sources/Teste/Dominios/Teste_Dominios.cpp Headers/Teste/Dominios/Teste_Dominios.h)

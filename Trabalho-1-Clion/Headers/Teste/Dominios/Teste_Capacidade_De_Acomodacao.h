@@ -8,6 +8,7 @@
 #include <iostream>
 #include "../../Dominios/Capacidade_De_Acomodacao.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 #include <stdexcept>
 
 /**
@@ -15,7 +16,7 @@
  * @brief Classe que testa a classe Capacidade_De_Acomodacao.
  * @details
  */
-class Teste_Capacidade_De_Acomodacao: public Teste{
+class Teste_Capacidade_De_Acomodacao: public Teste_Dominios{
 
 public:
     void mensagemSucesso(){

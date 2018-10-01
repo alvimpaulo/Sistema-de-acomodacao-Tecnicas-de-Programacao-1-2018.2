@@ -7,6 +7,7 @@
 #include <iostream>
 #include "../../Dominios/Nome.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 #include <stdexcept>
 
 /**
@@ -14,7 +15,7 @@
  * @brief Classe que testa a classe Nome.
  * @details
  */
-class Teste_Nome: public Teste{
+class Teste_Nome: public Teste_Dominios{
 public:
     void mensagemSucesso(){
         std::cout << "Sucesso Nome" << std::endl;

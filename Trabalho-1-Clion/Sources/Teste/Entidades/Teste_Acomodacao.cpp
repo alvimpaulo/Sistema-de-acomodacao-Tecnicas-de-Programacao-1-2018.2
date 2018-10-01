@@ -4,16 +4,6 @@
 
 #include "../../../Headers/Teste/Entidades/Teste_Acomodacao.h"
 
-int Teste_Acomodacao::rodar(){
-    configurar();
-
-    casoSucesso();
-
-    desconfigurar();
-
-    return estado;
-}
-
 void Teste_Acomodacao::configurar(){
     acomodacao = new Acomodacao;
     estado = SUCESSO;
@@ -47,7 +37,7 @@ void Teste_Acomodacao::casoSucesso(){
         acomodacao->setCidade(cidade);
         acomodacao->setEstado(estado);
         acomodacao->setDiaria(diaria);
-    } catch (std::exception &e){
+    } catch (std::invalid_argument &e){
         this->estado = FALHA;
     }
 }

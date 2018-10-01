@@ -39,16 +39,22 @@ int main() {
     teste[11] = new Teste_Senha;
     teste[12] = new Teste_Tipo_Acomodacao;
     teste[13] = new Teste_Acomodacao;
-    teste[13] = new Teste_Conta_Corrente;
+    teste[14] = new Teste_Conta_Corrente;
 
+    std::string a = "";
 
     for(int i = 0; i < teste.size(); i++){
-        if(teste[i]->rodar() == Teste::SUCESSO){
-            teste[i]->mensagemSucesso();
-        } else {
-            teste[i]->mensagemFalha();
-        }
+        //try {
+            if (teste[i]->rodar() == Teste::SUCESSO) {
+                teste[i]->mensagemSucesso();
+            } else {
+                teste[i]->mensagemFalha();
+            }
+        //} catch (std::exception &e){
+        //    a += std::to_string(i) + " ";
+        //}
     }
+    std::cout << a << std::endl;
 
     for(int i = 0; i < teste.size(); i++){
         delete teste[i];

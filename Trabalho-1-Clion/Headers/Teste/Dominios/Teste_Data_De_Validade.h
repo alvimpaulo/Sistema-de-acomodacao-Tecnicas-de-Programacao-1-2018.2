@@ -8,13 +8,14 @@
 
 #include "../../Dominios/Data_De_Validade.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 
 /**
  * @class Teste_Data_De_Validade Teste_Data_De_Validade.h
  * @brief Classe que testa a classe Data_De_Validade
  * @details
  */
-class Teste_Data_De_Validade: public Teste{
+class Teste_Data_De_Validade: public Teste_Dominios{
 public:
     void mensagemSucesso(){
         std::cout << "Sucesso Data de Validade" << std::endl;

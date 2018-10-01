@@ -7,13 +7,14 @@
 
 #include "../Teste.h"
 #include "../../Entidades/Usuario.h"
+#include "Teste_Entidades.h"
 
 /**
  * @class Teste_Usuario Teste_Usuario.h
  * @brief Classe que testa a classe Usuario.
  * @details
  */
-class Teste_Usuario: public Teste{
+class Teste_Usuario: public Teste_Entidades{
 public:
     void mensagemSucesso(){
         std::cout << "Sucesso Usuario" << std::endl;

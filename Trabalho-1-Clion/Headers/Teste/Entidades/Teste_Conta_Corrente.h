@@ -9,13 +9,14 @@
 #include <iostream>
 #include "../Teste.h"
 #include "../../Entidades/Conta_Corrente.h"
+#include "Teste_Entidades.h"
 
 /**
  * @class Teste_Conta_Corrente Teste_Conta_Corrente.h
  * @brief Classe que testa a classe Conta_Corrente.
  * @details
  */
-class Teste_Conta_Corrente: public Teste{
+class Teste_Conta_Corrente: public Teste_Entidades{
 public:
     void mensagemSucesso() override {
         std::cout << "Sucesso Conta Corrente" << std::endl;
@@ -36,6 +37,7 @@ private:
         delete contaCorrente;
     }
     void casoSucesso() override;
+    void casoFalha(){}
 };
 
 

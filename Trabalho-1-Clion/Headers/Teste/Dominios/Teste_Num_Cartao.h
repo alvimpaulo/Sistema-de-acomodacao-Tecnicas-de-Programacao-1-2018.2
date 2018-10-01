@@ -8,6 +8,7 @@
 #include <iostream>
 #include "../../Dominios/Num_Cartao_Credito.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 #include <stdexcept>
 
 /**
@@ -15,7 +16,7 @@
  * @brief Classe que testa a classe Num_Cartao.
  * @details
  */
-class Teste_Num_Cartao: public Teste{
+class Teste_Num_Cartao: public Teste_Dominios{
 public:
     void mensagemSucesso(){
         std::cout << "Sucesso Número do Cartão" << std::endl;

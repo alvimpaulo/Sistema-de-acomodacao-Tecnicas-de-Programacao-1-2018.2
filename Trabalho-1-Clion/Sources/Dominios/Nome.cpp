@@ -12,7 +12,7 @@ Nome::Nome() {
 }
 
 void Nome::setNome(std::string novoNome){
-    std::regex nomeRegex(R"((( (?! ))|(\b\.)|([a-zA-Z)){15})");
+    std::regex nomeRegex(R"((( (?! ))|(\b\.)|([a-zA-Z])){15})");
     std::smatch results;
 
     if(std::regex_match(novoNome, nomeRegex)){

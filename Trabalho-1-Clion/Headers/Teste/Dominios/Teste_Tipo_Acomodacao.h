@@ -9,13 +9,14 @@
 #include <string>
 #include "../../Dominios/Tipo_Acomodacao.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 
 /**
  * @class Teste_Tipo_Acomodacao Teste_Tipo_Acomodacao.h
  * @brief Classe que testa a classe Tipo_Acomodacao.
  * @details
  */
-class Teste_Tipo_Acomodacao: public Teste{
+class Teste_Tipo_Acomodacao: public Teste_Dominios{
 public:
     void mensagemSucesso(){
         std::cout << "Sucesso Tipo de Acomodação" << std::endl;

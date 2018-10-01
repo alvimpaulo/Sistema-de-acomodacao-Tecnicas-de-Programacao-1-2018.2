@@ -8,27 +8,28 @@
 
 #include "../Teste.h"
 #include "../../Entidades/Cartao_De_Credito.h"
+#include "Teste_Entidades.h"
+
 /**
  * @class Teste_Cartao_De_Credito Teste_Cartao_De_Credito.h
  * @brief Classe que testa a classe Cartao_De_Credito.
  * @details
  */
-class Teste_Cartao_De_Credito: public Teste{
+class Teste_Cartao_De_Credito: public Teste_Entidades{
 public:
-    void mensagemSucesso(){
+    void mensagemSucesso() override{
         std::cout << "Sucesso Cartao de Credito" << std::endl;
     }
-    void mensagemFalha(){
+    void mensagemFalha() override{
         std::cout << "Falha Cartao de Credito" << std::endl;
     }
-    int rodar();
 private:
     static const std::string VALOR_VALIDO;
 
     Cartao_De_Credito *cartaoDeCredito = new Cartao_De_Credito();
-    void configurar();
-    void desconfigurar();
-    void casoSucesso();
+    void configurar() override;
+    void desconfigurar() override;
+    void casoSucesso() override;
 };
 
 

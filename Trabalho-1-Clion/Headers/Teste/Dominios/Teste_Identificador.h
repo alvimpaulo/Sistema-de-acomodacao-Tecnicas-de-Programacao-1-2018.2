@@ -8,6 +8,7 @@
 #include <iostream>
 #include "../../Dominios/Identificador.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 #include <stdexcept>
 
 /**
@@ -15,7 +16,7 @@
  * @brief Classe que testa a classe Identificador.
  * @details
  */
-class Teste_Identificador: public Teste{
+class Teste_Identificador: public Teste_Dominios{
 public:
     void mensagemSucesso(){
         std::cout << "Sucesso Identificador" << std::endl;

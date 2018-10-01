@@ -8,6 +8,7 @@
 #include <iostream>
 #include "../../Dominios/Senha.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 #include <stdexcept>
 
 /**
@@ -15,7 +16,7 @@
  * @brief Classe que testa a classe Senha.
  * @details
  */
-class Teste_Senha: public Teste{
+class Teste_Senha: public Teste_Dominios{
 
 public:
     void mensagemSucesso(){

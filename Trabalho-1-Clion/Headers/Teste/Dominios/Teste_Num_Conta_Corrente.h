@@ -8,6 +8,7 @@
 #include <iostream>
 #include "../../Dominios/Num_Conta_Corrente.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 #include <stdexcept>
 
 /**
@@ -15,7 +16,7 @@
  * @brief Classe que testa a classe Num_Conta_Corrente.
  * @details
  */
-class Teste_Num_Conta_Corrente: public Teste{
+ class Teste_Num_Conta_Corrente: public Teste_Dominios{
 public:
     void mensagemSucesso(){
         std::cout << "Sucesso Numero da Conta Corrente" << std::endl;

@@ -4,13 +4,3 @@
 
 #include "../../Headers/Teste/Teste.h"
 
-int Teste::rodar(){
-    configurar();
-
-    casoSucesso();
-    casoFalha();
-
-    desconfigurar();
-
-    return estado;
-}

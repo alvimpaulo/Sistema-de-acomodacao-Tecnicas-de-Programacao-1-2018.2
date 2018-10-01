@@ -11,7 +11,7 @@
  * @brief Classe que testa a classe Reserva.
  * @details
  */
-class Teste_Reserva: public Teste{
+class Teste_Reserva: public Teste_Entidades{
 
 };
 

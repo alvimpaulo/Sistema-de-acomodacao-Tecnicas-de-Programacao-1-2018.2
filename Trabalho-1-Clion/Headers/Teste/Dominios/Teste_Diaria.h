@@ -9,13 +9,14 @@
 #include <string>
 #include "../../Dominios/Diaria.h"
 #include "../Teste.h"
+#include "Teste_Dominios.h"
 
 /**
  * @class Teste_Diaria Teste_Diaria.h
  * @brief Classe que testa a classe Diaria.
  * @details
  */
-class Teste_Diaria: public Teste{
+class Teste_Diaria: public Teste_Dominios{
 public:
     void mensagemSucesso(){
         std::cout << "Sucesso Diaria" << std::endl;
