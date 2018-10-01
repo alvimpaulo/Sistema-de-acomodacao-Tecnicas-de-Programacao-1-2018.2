@@ -15,6 +15,8 @@
 #include "Headers/Teste/Dominios/Teste_Senha.h"
 #include "Headers/Teste/Entidades/Teste_Acomodacao.h"
 #include "Headers/Teste/Entidades/Teste_Conta_Corrente.h"
+#include "Headers/Teste/Entidades/Teste_Usuario.h"
+#include "Headers/Teste/Entidades/Teste_Cartao_De_Credito.h"
 
 // todo: Testes das Entidades: Todas
 /*class A{
@@ -24,7 +26,7 @@
     }
 };*/
 int main() {
-    std::vector<Teste*> teste(15, NULL);
+    std::vector<Teste*> teste(17, NULL);
     teste[0] = new Teste_Agencia;
     teste[1] = new Teste_Banco;
     teste[2] = new Teste_Capacidade_De_Acomodacao;
@@ -40,6 +42,8 @@ int main() {
     teste[12] = new Teste_Tipo_Acomodacao;
     teste[13] = new Teste_Acomodacao;
     teste[14] = new Teste_Conta_Corrente;
+    teste[15] = new Teste_Usuario;
+    teste[16] = new Teste_Cartao_De_Credito;
 
     std::string a = "";
 

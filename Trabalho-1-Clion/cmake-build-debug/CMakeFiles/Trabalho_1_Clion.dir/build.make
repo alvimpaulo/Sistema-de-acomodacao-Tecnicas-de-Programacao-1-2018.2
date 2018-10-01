@@ -524,6 +524,32 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Teste.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Teste.cpp.s
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj: ../Sources/Teste/Entidades/Teste_Entidades.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Entidades\Teste_Entidades.cpp.obj -c C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Entidades\Teste_Entidades.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Entidades\Teste_Entidades.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Entidades\Teste_Entidades.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Entidades\Teste_Entidades.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Entidades\Teste_Entidades.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj: ../Sources/Teste/Dominios/Teste_Dominios.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Dominios.cpp.obj -c C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Dominios.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Dominios.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Dominios.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Dominios.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Dominios.cpp.s
+
 # Object files for target Trabalho_1_Clion
 Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj" \
@@ -561,7 +587,9 @@ Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj"
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj"
 
 # External object files for target Trabalho_1_Clion
 Trabalho_1_Clion_EXTERNAL_OBJECTS =
@@ -602,11 +630,13 @@ Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Te
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/build.make
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/linklibs.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable Trabalho_1_Clion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Paulo\Unb\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable Trabalho_1_Clion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Trabalho_1_Clion.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

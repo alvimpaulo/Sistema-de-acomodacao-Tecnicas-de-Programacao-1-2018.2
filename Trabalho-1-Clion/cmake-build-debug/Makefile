@@ -743,6 +743,33 @@ Sources/Teste/Dominios/Teste_Diaria.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.s
 .PHONY : Sources/Teste/Dominios/Teste_Diaria.cpp.s
 
+Sources/Teste/Dominios/Teste_Dominios.obj: Sources/Teste/Dominios/Teste_Dominios.cpp.obj
+
+.PHONY : Sources/Teste/Dominios/Teste_Dominios.obj
+
+# target to build an object file
+Sources/Teste/Dominios/Teste_Dominios.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj
+.PHONY : Sources/Teste/Dominios/Teste_Dominios.cpp.obj
+
+Sources/Teste/Dominios/Teste_Dominios.i: Sources/Teste/Dominios/Teste_Dominios.cpp.i
+
+.PHONY : Sources/Teste/Dominios/Teste_Dominios.i
+
+# target to preprocess a source file
+Sources/Teste/Dominios/Teste_Dominios.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.i
+.PHONY : Sources/Teste/Dominios/Teste_Dominios.cpp.i
+
+Sources/Teste/Dominios/Teste_Dominios.s: Sources/Teste/Dominios/Teste_Dominios.cpp.s
+
+.PHONY : Sources/Teste/Dominios/Teste_Dominios.s
+
+# target to generate assembly for a file
+Sources/Teste/Dominios/Teste_Dominios.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.s
+.PHONY : Sources/Teste/Dominios/Teste_Dominios.cpp.s
+
 Sources/Teste/Dominios/Teste_Estado.obj: Sources/Teste/Dominios/Teste_Estado.cpp.obj
 
 .PHONY : Sources/Teste/Dominios/Teste_Estado.obj
@@ -1013,6 +1040,33 @@ Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.s
 .PHONY : Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.s
 
+Sources/Teste/Entidades/Teste_Entidades.obj: Sources/Teste/Entidades/Teste_Entidades.cpp.obj
+
+.PHONY : Sources/Teste/Entidades/Teste_Entidades.obj
+
+# target to build an object file
+Sources/Teste/Entidades/Teste_Entidades.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj
+.PHONY : Sources/Teste/Entidades/Teste_Entidades.cpp.obj
+
+Sources/Teste/Entidades/Teste_Entidades.i: Sources/Teste/Entidades/Teste_Entidades.cpp.i
+
+.PHONY : Sources/Teste/Entidades/Teste_Entidades.i
+
+# target to preprocess a source file
+Sources/Teste/Entidades/Teste_Entidades.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.i
+.PHONY : Sources/Teste/Entidades/Teste_Entidades.cpp.i
+
+Sources/Teste/Entidades/Teste_Entidades.s: Sources/Teste/Entidades/Teste_Entidades.cpp.s
+
+.PHONY : Sources/Teste/Entidades/Teste_Entidades.s
+
+# target to generate assembly for a file
+Sources/Teste/Entidades/Teste_Entidades.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.s
+.PHONY : Sources/Teste/Entidades/Teste_Entidades.cpp.s
+
 Sources/Teste/Entidades/Teste_Usuario.obj: Sources/Teste/Entidades/Teste_Usuario.cpp.obj
 
 .PHONY : Sources/Teste/Entidades/Teste_Usuario.obj
@@ -1172,6 +1226,9 @@ help:
 	@echo ... Sources/Teste/Dominios/Teste_Diaria.obj
 	@echo ... Sources/Teste/Dominios/Teste_Diaria.i
 	@echo ... Sources/Teste/Dominios/Teste_Diaria.s
+	@echo ... Sources/Teste/Dominios/Teste_Dominios.obj
+	@echo ... Sources/Teste/Dominios/Teste_Dominios.i
+	@echo ... Sources/Teste/Dominios/Teste_Dominios.s
 	@echo ... Sources/Teste/Dominios/Teste_Estado.obj
 	@echo ... Sources/Teste/Dominios/Teste_Estado.i
 	@echo ... Sources/Teste/Dominios/Teste_Estado.s
@@ -1202,6 +1259,9 @@ help:
 	@echo ... Sources/Teste/Entidades/Teste_Conta_Corrente.obj
 	@echo ... Sources/Teste/Entidades/Teste_Conta_Corrente.i
 	@echo ... Sources/Teste/Entidades/Teste_Conta_Corrente.s
+	@echo ... Sources/Teste/Entidades/Teste_Entidades.obj
+	@echo ... Sources/Teste/Entidades/Teste_Entidades.i
+	@echo ... Sources/Teste/Entidades/Teste_Entidades.s
 	@echo ... Sources/Teste/Entidades/Teste_Usuario.obj
 	@echo ... Sources/Teste/Entidades/Teste_Usuario.i
 	@echo ... Sources/Teste/Entidades/Teste_Usuario.s

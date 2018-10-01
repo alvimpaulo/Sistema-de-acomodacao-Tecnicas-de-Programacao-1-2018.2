@@ -35,6 +35,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj"
+  "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj"
+  "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj"
   "Trabalho_1_Clion.pdb"
   "Trabalho_1_Clion.exe"
   "Trabalho_1_Clion.exe.manifest"

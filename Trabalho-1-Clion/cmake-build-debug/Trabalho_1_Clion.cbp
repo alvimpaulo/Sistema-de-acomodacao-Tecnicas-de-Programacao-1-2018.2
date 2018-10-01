@@ -154,6 +154,9 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Diaria.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Dominios.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Estado.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -182,6 +185,9 @@
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Conta_Corrente.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Entidades.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Usuario.h">
@@ -259,6 +265,9 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Diaria.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Dominios.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Estado.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -287,6 +296,9 @@
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Entidades.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Usuario.cpp">

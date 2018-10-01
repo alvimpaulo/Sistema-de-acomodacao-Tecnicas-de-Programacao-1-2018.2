@@ -26,9 +26,14 @@ public:
 private:
     static const std::string VALOR_VALIDO;
 
-    Cartao_De_Credito *cartaoDeCredito = new Cartao_De_Credito();
-    void configurar() override;
-    void desconfigurar() override;
+    Cartao_De_Credito *cartaoDeCredito;
+    void configurar() override{
+        cartaoDeCredito = new Cartao_De_Credito();
+        estado = SUCESSO;
+    }
+    void desconfigurar() override{
+        delete cartaoDeCredito;
+    }
     void casoSucesso() override;
 };
 
