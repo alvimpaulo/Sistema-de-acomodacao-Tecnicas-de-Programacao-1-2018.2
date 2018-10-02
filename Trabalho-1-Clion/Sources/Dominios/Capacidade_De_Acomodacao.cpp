@@ -4,11 +4,11 @@
 
 #include "../../Headers/Dominios/Capacidade_De_Acomodacao.h"
 
-void Capacidade_De_Acomodacao::setCapacidade_De_Acomodacao(std::string novaCapacidade) {
-    if(validar(novaCapacidade)){
-        capacidade_de_acomodacao = novaCapacidade;
+void Capacidade_De_Acomodacao::setCapacidade_De_Acomodacao(std::string capacidade_de_acomodacao) {
+    if(validar(capacidade_de_acomodacao)){
+        this->capacidade_de_acomodacao = capacidade_de_acomodacao;
     } else {
-        throw std::invalid_argument (novaCapacidade + " Eh um numero da capacidade invalido");
+        throw std::invalid_argument (capacidade_de_acomodacao + " Eh um numero da capacidade invalido");
     }
 }
 

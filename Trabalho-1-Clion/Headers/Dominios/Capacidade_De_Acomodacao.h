@@ -25,7 +25,7 @@ public:
      * @details Testa a nova capacidade contra o padrão e atribui um novo valor à capacidade em caso de sucesso ou lança uma exceção em caso de falha.
      * @param novaCapacidade String contendo o novo valor a ser testado.
      */
-    void setCapacidade_De_Acomodacao(std::string novaCapacidade);
+    void setCapacidade_De_Acomodacao(std::string capacidade_de_acomodacao);
 
 private:
     bool validar(std::string capacidade);

@@ -15,11 +15,11 @@ bool Num_Conta_Corrente::validar(std::string numConta) {
     }
 }
 
-void Num_Conta_Corrente::setNum_Conta_Corrente(std::string novoNumConta) {
-    if(validar(novoNumConta)){
-        numConta = novoNumConta;
+void Num_Conta_Corrente::setNum_Conta_Corrente(std::string numConta) {
+    if(validar(numConta)){
+        this->numConta = numConta;
     } else{
-        throw std::invalid_argument(novoNumConta + " Nao eh um numero de conta valido");
+        throw std::invalid_argument(numConta + " Nao eh um numero de conta valido");
     }
 
 }

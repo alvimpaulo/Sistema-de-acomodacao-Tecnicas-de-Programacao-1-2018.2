@@ -11,12 +11,12 @@ Nome::Nome() {
     nome = "NomeNaoDefinido";
 }
 
-void Nome::setNome(std::string novoNome){
+void Nome::setNome(std::string nome){
     std::regex nomeRegex(R"((( (?! ))|(\b\.)|([a-zA-Z])){15})");
     std::smatch results;
 
-    if(std::regex_match(novoNome, nomeRegex)){
-        nome = novoNome;
+    if(std::regex_match(nome, nomeRegex)){
+        this->nome = nome;
     } else{
         throw (std::invalid_argument("Nome Invalido"));
     }

@@ -30,7 +30,7 @@ public:
      * @details Atribui uma senha, se satizfaz os padrões, e lança uma exceção, caso contário.
      * @param novaSenha
      */
-    void setSenha(std::string novaSenha);
+    void setSenha(std::string senha);
 
 private:
     bool validar(std::string senha);

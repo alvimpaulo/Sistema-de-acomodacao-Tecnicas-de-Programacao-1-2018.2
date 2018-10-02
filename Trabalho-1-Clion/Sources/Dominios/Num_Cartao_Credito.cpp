@@ -40,11 +40,11 @@ bool Num_Cartao_Credito::validar(std::string numCartao) {
 
 }
 
-void Num_Cartao_Credito::setNum_Cartao(std::string novoNumCartao) {
-    if(validar(novoNumCartao)) {
-        numCartao = novoNumCartao;
+void Num_Cartao_Credito::setNum_Cartao(std::string numCartao) {
+    if(validar(numCartao)) {
+        this->numCartao = numCartao;
     } else {
-        throw std::invalid_argument(novoNumCartao + " nao eh um numero de cartao valido");
+        throw std::invalid_argument(numCartao + " nao eh um numero de cartao valido");
     }
 }
 

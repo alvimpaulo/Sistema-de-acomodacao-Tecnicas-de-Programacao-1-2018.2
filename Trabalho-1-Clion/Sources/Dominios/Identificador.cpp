@@ -16,10 +16,10 @@ bool Identificador::validar(std::string identificador) {
     }
 }
 
-void Identificador::setIdentificador(std::string novoIdentificador) {
-    if(validar(novoIdentificador)){
-        identificador = novoIdentificador;
+void Identificador::setIdentificador(std::string identificador) {
+    if(validar(identificador)){
+        this->identificador = identificador;
     } else{
-        throw std::invalid_argument(novoIdentificador + " Esta fora do padrao de identificador");
+        throw std::invalid_argument(identificador + " Esta fora do padrao de identificador");
     }
 }

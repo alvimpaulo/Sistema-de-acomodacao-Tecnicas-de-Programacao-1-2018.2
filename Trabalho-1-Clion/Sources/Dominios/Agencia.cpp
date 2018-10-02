@@ -8,11 +8,11 @@ Agencia::Agencia() {
     agenciaNum = "00000";
 }
 
-void Agencia::setAgenciaNum(std::string novoAgenciaNum){
+void Agencia::setAgenciaNum(std::string agenciaNum){
     std::regex agenciaNumRegex(R"(\d{5})");
 
-    if(std::regex_match(novoAgenciaNum, agenciaNumRegex)) {
-        agenciaNum = novoAgenciaNum;
+    if(std::regex_match(agenciaNum, agenciaNumRegex)) {
+        this->agenciaNum = agenciaNum;
     } else {
         throw std::invalid_argument("Numero de agencia fora do padrao");
     }

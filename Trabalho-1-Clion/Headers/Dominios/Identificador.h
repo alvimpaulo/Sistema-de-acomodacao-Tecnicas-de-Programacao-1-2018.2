@@ -19,7 +19,7 @@ public:
      * @details Testa o novo identificador contra o padrão e atribui um novo valor ao identificador em caso de sucesso ou lança uma exceção em caso de falha.
      * @param novoIdentificador Novo identificador a ser testado.
      */
-    void setIdentificador(std::string novoIdentificador);
+    void setIdentificador(std::string identificador);
 
     /**
      * @brief Retorna o identificador.

@@ -5,11 +5,11 @@
 #include "../../Headers/Dominios/Banco.h"
 
 
-void Banco::setBancoNum(std::string novoBancoNum) {
+void Banco::setBancoNum(std::string bancoNum) {
     std::regex bancoNumRegex(R"(\d{3})");
 
-    if(std::regex_match(novoBancoNum, bancoNumRegex)) {
-        bancoNum = novoBancoNum;
+    if(std::regex_match(bancoNum, bancoNumRegex)) {
+        this->bancoNum = bancoNum;
     } else {
         throw std::invalid_argument("Numero do banco fora do padrao");
     }

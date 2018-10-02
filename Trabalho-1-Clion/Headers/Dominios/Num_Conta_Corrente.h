@@ -34,7 +34,7 @@ public:
      * @details Testa o novo número da conta contra o padrão e o atribui esse novo valor em caso de sucesso. Lança exceção em caso de falha.
      * @param novoNumConta Novo número da conta para se atribuir.
      */
-    void setNum_Conta_Corrente(std::string novoNumConta);
+    void setNum_Conta_Corrente(std::string numConta);
 
 private:
     bool validar(std::string numConta);

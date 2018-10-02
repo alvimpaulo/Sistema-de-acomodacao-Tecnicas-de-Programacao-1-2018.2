@@ -31,7 +31,7 @@ public:
      * @details Atribui um novo valor caso esse valor seja consistente com o padrão, lança exceção em caso de falha.
      * @param novoBancoNum Novo número a ser atribuído em formato String.
      */
-    void setBancoNum(std::string novoBancoNum);
+    void setBancoNum(std::string bancoNum);
 
 private:
     std::string bancoNum;

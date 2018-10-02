@@ -33,7 +33,7 @@ public:
      * @details Valida-se a string passada para ver se está conforme o padrão da classe. Lança exceção em caso de falha.
      * @param novoAgenciaNum String que é testada contra o padrão e será armazenada em caso de sucesso.
      */
-    void setAgenciaNum(std::string novoAgenciaNum);
+    void setAgenciaNum(std::string agenciaNum);
 
 protected:
 

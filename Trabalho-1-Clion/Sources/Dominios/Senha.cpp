@@ -26,10 +26,10 @@ bool Senha::validar(std::string senha) {
     }
 }
 
-void Senha::setSenha(std::string novaSenha) {
-    if(validar(novaSenha)) {
-        senha = novaSenha;
+void Senha::setSenha(std::string senha) {
+    if(validar(senha)) {
+        this->senha = senha;
     } else {
-        throw std::invalid_argument(novaSenha + " nao eh uma senha dentro do padrao");
+        throw std::invalid_argument(senha + " nao eh uma senha dentro do padrao");
     }
 }

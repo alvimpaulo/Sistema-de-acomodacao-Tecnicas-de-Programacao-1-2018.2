@@ -34,7 +34,7 @@ public:
      * @details Testa o novo numero do cartão contra o padrão e atribui esse novo número em caso de sucesso. Lança exceção em caso de falha.
      * @param novoNumCartao
      */
-    void setNum_Cartao(std::string novoNumCartao);
+    void setNum_Cartao(std::string numCartao);
 
 
 private:
