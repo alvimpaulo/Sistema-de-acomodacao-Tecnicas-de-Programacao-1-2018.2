@@ -144,7 +144,7 @@ public:
         this->estado = estado;
     }
     /**
-     * @fn Nome getCidade() const
+     * @fn Estado getEstado() const
      * @brief Retorna a sigla do estado onde a acomodação é localizada.
      * @return Estado contendo a sigla do estado onde a acomodação é localizada.
      */

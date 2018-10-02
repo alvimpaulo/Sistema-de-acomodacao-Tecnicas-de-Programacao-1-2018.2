@@ -38,19 +38,6 @@ int main() {
     teste[15] = new Teste_Usuario;
     teste[16] = new Teste_Cartao_De_Credito;
 
-    /*
-    for(int i = 0; i < teste.size(); i++){
-        if (teste[i]->rodar() == Teste::SUCESSO) {
-            teste[i]->mensagemSucesso();
-        } else {
-            teste[i]->mensagemFalha();
-        }
-    }
-
-    for(int i = 0; i < teste.size(); i++){
-        delete teste[i];
-    }
-    */
     for(Teste *testePtr: teste){
         if (testePtr->rodar() == Teste::SUCESSO) {
             testePtr->mensagemSucesso();

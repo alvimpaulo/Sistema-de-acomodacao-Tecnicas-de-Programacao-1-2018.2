@@ -1,7 +1,6 @@
 //
 // Created by oetch on 16/09/2018.
 //
-//todo: Colocar configurar e desconfigurar
 #ifndef TRABALHO_1_CLION_TESTE_DOMINIO_H
 #define TRABALHO_1_CLION_TESTE_DOMINIO_H
 
