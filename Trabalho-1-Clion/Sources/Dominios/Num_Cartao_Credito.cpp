@@ -28,23 +28,24 @@ bool Num_Cartao_Credito::validar(std::string numCartao) {
         soma *= 9;
         if(soma % 10 == std::stoi(numCartao.substr(15,1))){
             return true;
-        } else
+        } else {
             return false;
+        }
     }
 
-    else
+    else {
         return false;
-
+    }
 
 
 }
 
 void Num_Cartao_Credito::setNum_Cartao(std::string novoNumCartao) {
-    if(validar(novoNumCartao))
+    if(validar(novoNumCartao)) {
         numCartao = novoNumCartao;
-    else
+    } else {
         throw std::invalid_argument(novoNumCartao + " nao eh um numero de cartao valido");
-
+    }
 }
 
 Num_Cartao_Credito::Num_Cartao_Credito() {

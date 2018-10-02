@@ -16,10 +16,10 @@ void Teste_Identificador::configurar() {
 void Teste_Identificador::casoSucesso() {
     try {
         identificador->setIdentificador(VALOR_VALIDO);
-        if(identificador->getIdentificador() != VALOR_VALIDO)
+        if(identificador->getIdentificador() != VALOR_VALIDO) {
             estado = FALHA;
-    }
-    catch (std::invalid_argument &e){
+        }
+    } catch (std::invalid_argument &e){
         std::cout << e.what() << std::endl;
         return;
     }
@@ -29,8 +29,7 @@ void Teste_Identificador::casoFalha() {
     try {
         identificador->setIdentificador(VALOR_INVALIDO);
         estado = FALHA;
-    }
-    catch (std::invalid_argument &e){
+    } catch (std::invalid_argument &e){
         return;
     }
 }

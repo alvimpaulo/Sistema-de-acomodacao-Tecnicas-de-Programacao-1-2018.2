@@ -10,8 +10,7 @@ void Banco::setBancoNum(std::string novoBancoNum) {
 
     if(std::regex_match(novoBancoNum, bancoNumRegex)) {
         bancoNum = novoBancoNum;
-    }
-    else {
+    } else {
         throw std::invalid_argument("Numero do banco fora do padrao");
     }
 }

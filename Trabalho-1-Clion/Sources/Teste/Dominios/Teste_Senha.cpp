@@ -18,8 +18,7 @@ void Teste_Senha::casoSucesso() {
         senha->setSenha(VALOR_VALIDO);
         if(senha->getSenha() != VALOR_VALIDO)
             estado = FALHA;
-    }
-    catch (std::invalid_argument &e){
+    } catch (std::invalid_argument &e){
         std::cout << e.what() << std::endl;
         return;
     }
@@ -30,8 +29,7 @@ void Teste_Senha::casoFalha() {
     try {
         senha->setSenha(VALOR_INVALIDO);
         estado = FALHA;
-    }
-    catch (std::invalid_argument &e){
+    } catch (std::invalid_argument &e){
         return;
     }
 

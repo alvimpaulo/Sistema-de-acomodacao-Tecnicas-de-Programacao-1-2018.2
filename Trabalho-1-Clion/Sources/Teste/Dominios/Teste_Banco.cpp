@@ -19,8 +19,7 @@ void Teste_Banco::casoSucesso() {
         if(banco->getBancoNum() != VALOR_VALIDO){
             estado = FALHA;
         }
-    }
-    catch (std::invalid_argument &e){
+    } catch (std::invalid_argument &e){
         return;
     }
 
@@ -31,8 +30,7 @@ void Teste_Banco::casoFalha() {
     try {
         banco->setBancoNum(VALOR_INVALIDO);
         estado = FALHA;
-    }
-    catch (std::invalid_argument &e){
+    } catch (std::invalid_argument &e){
         return;
     }
 

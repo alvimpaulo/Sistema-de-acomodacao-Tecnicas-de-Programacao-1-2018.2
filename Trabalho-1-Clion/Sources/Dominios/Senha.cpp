@@ -21,14 +21,15 @@ bool Senha::validar(std::string senha) {
     {
         return true;
 
-    } else
+    } else {
         return false;
+    }
 }
 
 void Senha::setSenha(std::string novaSenha) {
-    if(validar(novaSenha))
+    if(validar(novaSenha)) {
         senha = novaSenha;
-    else
-        throw std::invalid_argument (novaSenha + " nao eh uma senha dentro do padrao");
-
+    } else {
+        throw std::invalid_argument(novaSenha + " nao eh uma senha dentro do padrao");
+    }
 }

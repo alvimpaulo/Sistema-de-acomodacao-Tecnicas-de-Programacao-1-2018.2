@@ -12,8 +12,7 @@ void Teste_Conta_Corrente::casoSucesso() {
         contaCorrente->setNumero(numContaCorrente);
         contaCorrente->setAgencia(agencia);
         contaCorrente->setBanco(banco);
-    }
-    catch (std::exception &exception){
+    } catch (std::exception &exception){
         std::cout << exception.what() << std::endl;
         this->estado = FALHA;
     }

@@ -11,9 +11,9 @@ bool Identificador::validar(std::string identificador) {
 
     if(std::regex_match(identificador, identificadorRegex)) {
         return true;
-    }
-    else
+    } else {
         return false;
+    }
 }
 
 void Identificador::setIdentificador(std::string novoIdentificador) {

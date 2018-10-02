@@ -100,9 +100,6 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Diaria.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Dominio.h">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Trabalho-Tp1-Clion/Trabalho-1-Clion/Headers/Dominios/Estado.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>

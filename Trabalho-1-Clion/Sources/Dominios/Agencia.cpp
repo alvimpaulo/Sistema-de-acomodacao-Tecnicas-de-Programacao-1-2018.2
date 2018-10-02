@@ -11,8 +11,9 @@ Agencia::Agencia() {
 void Agencia::setAgenciaNum(std::string novoAgenciaNum){
     std::regex agenciaNumRegex(R"(\d{5})");
 
-    if(std::regex_match(novoAgenciaNum, agenciaNumRegex))
+    if(std::regex_match(novoAgenciaNum, agenciaNumRegex)) {
         agenciaNum = novoAgenciaNum;
-    else
-        throw std::invalid_argument ("Numero de agencia fora do padrao");
-}
+    } else {
+        throw std::invalid_argument("Numero de agencia fora do padrao");
+    }
+    }

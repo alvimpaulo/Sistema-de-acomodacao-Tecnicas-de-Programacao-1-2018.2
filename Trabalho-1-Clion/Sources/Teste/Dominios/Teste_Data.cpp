@@ -25,8 +25,7 @@ void Teste_Data::casoSucesso(){
         if(data->getData() != VALOR_VALIDO){
             estado = FALHA;
         }
-    }
-    catch(std::invalid_argument &e){
+    } catch(std::invalid_argument &e){
         estado = FALHA;
     }
 }
@@ -45,8 +44,7 @@ void Teste_Data::casoFalhaCaratereInvalido(){
     try {
         data->setData(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
-    }
-    catch(std::invalid_argument &e){
+    } catch(std::invalid_argument &e){
         return;
     }
 }
@@ -55,8 +53,7 @@ void Teste_Data::casoFalhaIntervaloAnoInvalido(){
     try{
         data->setData(VALOR_INTERVALO_ANO_INVALIDO);
         estado = FALHA;
-    }
-    catch(std::invalid_argument &e){
+    } catch(std::invalid_argument &e){
         return;
     }
 }
@@ -65,8 +62,7 @@ void Teste_Data::casoFalhaMesInvalido(){
     try{
         data->setData(VALOR_MES_INVALIDO);
         estado = FALHA;
-    }
-    catch(std::invalid_argument &e){
+    } catch(std::invalid_argument &e){
         return;
     }
 }
@@ -75,8 +71,7 @@ void Teste_Data::casoFalhaComprimentoInvalido(){
     try{
         data->setData(VALOR_COMPRIMENTO_INVALIDO);
         estado = FALHA;
-    }
-    catch(std::invalid_argument &e){
+    } catch(std::invalid_argument &e){
         return;
     }
 }
@@ -85,8 +80,7 @@ void Teste_Data::casoFalhaIntervaloDiaMesQualquerInvalido(){
     try{
         data->setData(VALOR_INTERVALO_DIA_MES_QUALQUER_INVALIDO);
         estado = FALHA;
-    }
-    catch(std::invalid_argument &e){
+    } catch(std::invalid_argument &e){
         return;
     }
 }
@@ -95,8 +89,7 @@ void Teste_Data::casoFalhaIntervaloDiaFevereiroNormalInvalido(){
     try{
         data->setData(VALOR_INTERVALO_DIA_FEVEREIRO_NORMAL_INVALIDO);
         estado = FALHA;
-    }
-    catch(std::invalid_argument &e){
+    } catch(std::invalid_argument &e){
         return;
     }
 }
@@ -105,8 +98,7 @@ void Teste_Data::casoFalhaIntervaloDiaFevereiroBixestoInvalido(){
     try{
         data->setData(VALOR_INTERVALO_DIA_FEVEREIRO_BIXESTO_INVALIDO);
         estado = FALHA;
-    }
-    catch(std::invalid_argument &e){
+    } catch(std::invalid_argument &e){
         return;
     }
 }

@@ -15,8 +15,9 @@ void Capacidade_De_Acomodacao::setCapacidade_De_Acomodacao(std::string novaCapac
 bool Capacidade_De_Acomodacao::validar(std::string capacidade) {
     std::regex capacidadeRegex(R"([1-9])");
 
-    if(std::regex_match(capacidade, capacidadeRegex))
+    if(std::regex_match(capacidade, capacidadeRegex)) {
         return true;
-    else
+    } else {
         return false;
+    }
 }

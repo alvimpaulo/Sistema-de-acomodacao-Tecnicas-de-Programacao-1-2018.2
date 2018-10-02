@@ -23,8 +23,7 @@ void Teste_Usuario::casoSucesso() {
         usuario->setSenha(senha);
         usuario->setIdentificador(identificador);
         usuario->setNome(nome);
-    }
-    catch (std::exception &exception){
+    } catch (std::exception &exception){
         std::cout<<exception.what() << std::endl;
         estado = FALHA;
     }

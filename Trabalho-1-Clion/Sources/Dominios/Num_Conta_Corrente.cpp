@@ -7,10 +7,12 @@
 bool Num_Conta_Corrente::validar(std::string numConta) {
     std::regex contaRegex(R"(\d{6})");
 
-    if(std::regex_match(numConta, contaRegex))
+    if(std::regex_match(numConta, contaRegex)) {
         return true;
-    else
+    }
+    else {
         return false;
+    }
 }
 
 void Num_Conta_Corrente::setNum_Conta_Corrente(std::string novoNumConta) {
