@@ -15,6 +15,8 @@ protected:
 private:
     virtual void casoSucesso() = 0;
     virtual void casoFalha() = 0;
+    virtual void configurar() = 0;
+    virtual void desconfigurar() = 0;
 };
 
 
