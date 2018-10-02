@@ -8,12 +8,10 @@
 #include <string>
 
 /**
- * @class Teste Teste.h
  * @brief Classe base virtual para os testes
  * @details
- * @pure
  */
-class Teste {
+class Teste{
 public:
     /**
      * @brief Valor que indica sucesso

@@ -8,22 +8,19 @@
 #include "../../Headers/Dominios/Data_De_Validade.h"
 
 /**
- * @class Cartao_De_Credito Cartao_De_Credito.h
  * @brief Entidade que armazena um cartão de crédito.
  * @brief Entidade que armazena um cartão de crédito.
  */
-class Cartao_De_Credito {
+class Cartao_De_Credito{
 public:
 
     /**
-     * @fn Cartao_De_Credito()
      * @brief Construtor da classe.
      * @details Quando uma instância dessa classe for criada, será armazenado um valor padrão de suas variáveis.
      */
     Cartao_De_Credito():numero(),dataDeValidade(){}
 
     /**
-     * @fn void setNumero(Num_Cartao_Credito numero)
      * @brief Atribui o número do cartão de crédito.
      * @details Atribui o número do cartão de crédito.
      * @param numero Num_Cartao_Credito que será atribuído.
@@ -32,7 +29,6 @@ public:
         this->numero = numero;
     }
     /**
-     * @fn Num_Cartao_Credito getNumero() cons
      * @brief Retorna o número do cartão de crédito.
      * @return Num_Cartao_Credito contendo o número do cartão de crédito.
      */
@@ -41,7 +37,6 @@ public:
     }
 
     /**
-     * @fn void setDataDeValidade(Data_De_Validade dataDeValidade)
      * @brief Atribui a data de validade do cartão de crédito.
      * @details Atribui a data de validade do cartão de crédito.
      * @param dataDeValidade Data_De_Validade que será atribuído.
@@ -50,7 +45,6 @@ public:
         this->dataDeValidade = dataDeValidade;
     }
     /**
-     * @fn Data_De_Validade getDataDeValidade() const
      * @brief Retorna a data de validade do cartão de crédito.
      * @return Data_De_Validade contendo a data de validade do cartão de crédito.
      */

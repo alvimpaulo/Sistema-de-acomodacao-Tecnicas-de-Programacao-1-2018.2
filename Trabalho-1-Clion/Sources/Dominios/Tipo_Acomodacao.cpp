@@ -23,13 +23,13 @@ void Tipo_Acomodacao::setTipoAcomodacao(std::string tipoAcomodacao){
     }
 }
 
-bool Tipo_Acomodacao::validar(std::string tipoAcomodacao) {
+bool Tipo_Acomodacao::validar(std::string tipoAcomodacao){
 
     std::regex nomeRegex(R"([A-Za-z]{4,11})");
-    if (std::regex_match(tipoAcomodacao, nomeRegex)){
-        if (std::find(TIPOS_ACOMODACAO.begin(), TIPOS_ACOMODACAO.end(), tipoAcomodacao) != TIPOS_ACOMODACAO.end()) {
+    if(std::regex_match(tipoAcomodacao, nomeRegex)){
+        if(std::find(TIPOS_ACOMODACAO.begin(), TIPOS_ACOMODACAO.end(), tipoAcomodacao) != TIPOS_ACOMODACAO.end()){
             return true;
-        } else {
+        } else{
             return false;
         }
     } else{

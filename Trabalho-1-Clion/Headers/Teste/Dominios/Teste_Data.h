@@ -12,7 +12,6 @@
 #include "Teste_Dominios.h"
 
 /**
- * @class Teste_Data Teste_Data.h
  * @brief Classe que testa a classe Data.
  * @details
  */

@@ -12,7 +12,6 @@
 #include <stdexcept>
 
 /**
- * @class Teste_Senha Teste_Senha.h
  * @brief Classe que testa a classe Senha.
  * @details
  */

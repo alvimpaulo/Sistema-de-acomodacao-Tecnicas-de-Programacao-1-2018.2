@@ -4,7 +4,7 @@
 
 #include "../../Headers/Dominios/Senha.h"
 
-bool Senha::validar(std::string senha) {
+bool Senha::validar(std::string senha){
 
     std::regex contaRegexTamanho(R"(([!#$%&]|\w){8})");
     std::regex contaRegexMinusculas(R"(^(?=.*[a-z]).+$)");
@@ -21,15 +21,15 @@ bool Senha::validar(std::string senha) {
     {
         return true;
 
-    } else {
+    } else{
         return false;
     }
 }
 
-void Senha::setSenha(std::string senha) {
-    if(validar(senha)) {
+void Senha::setSenha(std::string senha){
+    if(validar(senha)){
         this->senha = senha;
-    } else {
+    } else{
         throw std::invalid_argument(senha + " nao eh uma senha dentro do padrao");
     }
 }

@@ -18,7 +18,8 @@
 #include "Headers/Teste/Entidades/Teste_Usuario.h"
 #include "Headers/Teste/Entidades/Teste_Cartao_De_Credito.h"
 
-int main() {
+
+int main(){
     std::vector<Teste*> teste(17, nullptr);
     teste[0] = new Teste_Agencia;
     teste[1] = new Teste_Banco;
@@ -39,9 +40,9 @@ int main() {
     teste[16] = new Teste_Cartao_De_Credito;
 
     for(Teste *testePtr: teste){
-        if (testePtr->rodar() == Teste::SUCESSO) {
+        if(testePtr->rodar() == Teste::SUCESSO){
             testePtr->mensagemSucesso();
-        } else {
+        } else{
             testePtr->mensagemFalha();
         }
     }

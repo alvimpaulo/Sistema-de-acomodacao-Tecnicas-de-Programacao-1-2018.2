@@ -15,33 +15,28 @@
 #include <iostream>
 
 /**
- * @class Estado Estado.h
  * @brief Domínio que armazena a sigla de um estado.
- * @details Domínio que armazena a sigla de um dos 27 estados (unidades federativas) brasileiras em caixa alta.
+ * @details Domínio que armazena a sigla de um dos 27 estados brasileiros (unidades federativas)  em caixa alta.
  */
-class Estado {
+class Estado{
 public:
     /**
-     * @var NOME_ESTADOS
      * @brief Vetor que contém o nome dos estados brasileiros.
      */
     static const std::vector<std::string> NOME_ESTADOS;
 
     /**
-     * @fn Estado()
      * @brief Contrutor da classe.
      * @details Quando uma instância dessa classe for criada, será armazenado um valor padrão dos estados.
      */
     Estado();
     /**
-     * @fn setEstado(std::string estado)
      * @brief Atribui um estado.
-     * @details Atribui uma sigla de estado, caso esteja ´resente no vetor Estado::NOME_ESTADOS, ou lança um exceção, caso contrário.
-     * @param estado String que contém a sigle de um estado brasileiro.
+     * @details Atribui uma sigla de estado, caso esteja presente no vetor Estado::NOME_ESTADOS, ou lança um exceção, caso contrário.
+     * @param estado String que contém a sigla de um estado brasileiro.
      */
     void setEstado(std::string estado);
     /**
-     * @fn std::string getEstado() const
      * @brief Retorna uma string que contém nome do estado em caixa alta.
      * @details Retorna uma string que contém nome do estado em caixa alta.
      * @return String que contém o nome do estado em caixa alta.

@@ -11,7 +11,6 @@
 #include "Teste_Dominios.h"
 
 /**
- * @class Teste_Estado Teste_Estado.h
  * @brief Classe que testa a classe Estado.
  * @details
  */

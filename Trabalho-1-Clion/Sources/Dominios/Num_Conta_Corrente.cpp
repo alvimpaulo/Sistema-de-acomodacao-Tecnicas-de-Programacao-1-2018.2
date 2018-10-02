@@ -4,18 +4,17 @@
 
 #include "../../Headers/Dominios/Num_Conta_Corrente.h"
 
-bool Num_Conta_Corrente::validar(std::string numConta) {
+bool Num_Conta_Corrente::validar(std::string numConta){
     std::regex contaRegex(R"(\d{6})");
 
-    if(std::regex_match(numConta, contaRegex)) {
+    if(std::regex_match(numConta, contaRegex)){
         return true;
-    }
-    else {
+    } else{
         return false;
     }
 }
 
-void Num_Conta_Corrente::setNum_Conta_Corrente(std::string numConta) {
+void Num_Conta_Corrente::setNum_Conta_Corrente(std::string numConta){
     if(validar(numConta)){
         this->numConta = numConta;
     } else{
@@ -24,7 +23,7 @@ void Num_Conta_Corrente::setNum_Conta_Corrente(std::string numConta) {
 
 }
 
-Num_Conta_Corrente::Num_Conta_Corrente() {
+Num_Conta_Corrente::Num_Conta_Corrente(){
     numConta = "000000";
 
 }

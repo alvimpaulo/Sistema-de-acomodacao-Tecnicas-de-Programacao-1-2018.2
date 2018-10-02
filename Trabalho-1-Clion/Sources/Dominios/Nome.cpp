@@ -7,7 +7,7 @@
 
 #include "../../Headers/Dominios/Nome.h"
 
-Nome::Nome() {
+Nome::Nome(){
     nome = "NomeNaoDefinido";
 }
 

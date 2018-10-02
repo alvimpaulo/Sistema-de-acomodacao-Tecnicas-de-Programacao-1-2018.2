@@ -12,7 +12,6 @@
 #include <stdexcept>
 
 /**
- * @class Teste_Num_Conta_Corrente Teste_Num_Conta_Corrente.h
  * @brief Classe que testa a classe Num_Conta_Corrente.
  * @details
  */

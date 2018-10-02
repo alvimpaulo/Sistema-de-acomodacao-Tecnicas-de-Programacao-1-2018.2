@@ -12,7 +12,7 @@
  * @brief Classe que armazena a capacidade de acomodação.
  * @details Classe que armazena em forma de String, a capacidade de acomodação, sendo essa um numero entre 1 a 9.
  */
-class Capacidade_De_Acomodacao {
+class Capacidade_De_Acomodacao{
 public:
     /**
      * @brief Retorna o valor da capacidade de acomodação.
@@ -23,7 +23,7 @@ public:
     /**
      * @brief Atribui um novo valor à capacidade de acomodação.
      * @details Testa a nova capacidade contra o padrão e atribui um novo valor à capacidade em caso de sucesso ou lança uma exceção em caso de falha.
-     * @param novaCapacidade String contendo o novo valor a ser testado.
+     * @param Capacidade String contendo o novo valor a ser testado.
      */
     void setCapacidade_De_Acomodacao(std::string capacidade_de_acomodacao);
 

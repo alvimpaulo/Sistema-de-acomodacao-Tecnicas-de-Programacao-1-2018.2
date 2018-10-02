@@ -20,7 +20,7 @@ void Teste_Data::configurar(){
 }
 
 void Teste_Data::casoSucesso(){
-    try {
+    try{
         data->setData(VALOR_VALIDO);
         if(data->getData() != VALOR_VALIDO){
             estado = FALHA;
@@ -41,7 +41,7 @@ void Teste_Data::casoFalha(){
 }
 
 void Teste_Data::casoFalhaCaratereInvalido(){
-    try {
+    try{
         data->setData(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
     } catch(std::invalid_argument &e){

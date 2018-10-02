@@ -12,17 +12,16 @@
 #include "Teste_Dominios.h"
 
 /**
- * @class Teste_Tipo_Acomodacao Teste_Tipo_Acomodacao.h
  * @brief Classe que testa a classe Tipo_Acomodacao.
  * @details
  */
 class Teste_Tipo_Acomodacao: public Teste_Dominios{
 public:
     void mensagemSucesso(){
-        std::cout << "Sucesso Tipo de Acomodação" << std::endl;
+        std::cout << "Sucesso Tipo de Acomodacao" << std::endl;
     }
     void mensagemFalha(){
-        std::cout << "Falha Tipo de Acomodação" << std::endl;
+        std::cout << "Falha Tipo de Acomodacao" << std::endl;
     }
 protected:
 private:

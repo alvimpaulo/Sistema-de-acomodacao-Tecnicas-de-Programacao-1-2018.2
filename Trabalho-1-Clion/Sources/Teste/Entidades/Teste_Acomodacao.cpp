@@ -28,7 +28,7 @@ void Teste_Acomodacao::casoSucesso(){
     estado.setEstado("BA");
     diaria.setDiaria("1224.50");
 
-    try {
+    try{
         acomodacao->setDiaria(diaria);
         acomodacao->setTipo(tipo);
         acomodacao->setCapacidade(capacidade);
@@ -37,7 +37,7 @@ void Teste_Acomodacao::casoSucesso(){
         acomodacao->setCidade(cidade);
         acomodacao->setEstado(estado);
         acomodacao->setDiaria(diaria);
-    } catch (std::invalid_argument &e){
+    } catch(std::invalid_argument &e){
         this->estado = FALHA;
     }
 }

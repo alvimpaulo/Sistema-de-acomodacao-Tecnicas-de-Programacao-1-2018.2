@@ -12,7 +12,6 @@
 #include <stdexcept>
 
 /**
- * @class Teste_Banco Teste_Banco.h
  * @brief Classe que testa a classe Banco.
  * @details
  */

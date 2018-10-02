@@ -12,7 +12,7 @@
  * @brief Domínio que armazena o número do cartão de crédito do usuário.
  * @details Domínio que armazena o número do cartão de crédito do usuário com base no padrão XXXXXXXXXXXXXXXX onde X é um digito e esse número é válido com base no algoritmo de Luhn.
  */
-class Num_Cartao_Credito {
+class Num_Cartao_Credito{
 public:
 
     /**
@@ -32,7 +32,7 @@ public:
     /**
      * @brief Tenta atribuir um novo valor ao número de cartão da classe.
      * @details Testa o novo numero do cartão contra o padrão e atribui esse novo número em caso de sucesso. Lança exceção em caso de falha.
-     * @param novoNumCartao
+     * @param NumCartao
      */
     void setNum_Cartao(std::string numCartao);
 

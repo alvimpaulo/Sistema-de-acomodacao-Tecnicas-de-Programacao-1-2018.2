@@ -13,7 +13,7 @@
  * @brief Entidade que trata de uma conta conrrente.
  * @details Entidade que trata de uma conta conrrente contendo os domínios Numero de conta conrrente, Agência e banco.
  */
-class Conta_Corrente {
+class Conta_Corrente{
 public:
     /**
      * @brief Construtor que inicializa os domínios contidos nessa entidade.

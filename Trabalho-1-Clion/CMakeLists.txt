@@ -9,8 +9,8 @@ add_executable(Trabalho_1_Clion
         Headers/Dominios/Agencia.h
         Sources/Dominios/Banco.cpp
         Headers/Dominios/Banco.h
-        Sources/Dominios/Capacidade_De_Acomodacao.cpp
-        Headers/Dominios/Capacidade_De_Acomodacao.h
+		Sources/Dominios/Capacidade_De_Acomodacao.cpp
+		Headers/Dominios/Capacidade_De_Acomodacao.h
         Sources/Dominios/Diaria.cpp
         Headers/Dominios/Diaria.h
         Sources/Dominios/Data.cpp

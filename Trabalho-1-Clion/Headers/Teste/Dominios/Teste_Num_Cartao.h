@@ -12,17 +12,16 @@
 #include <stdexcept>
 
 /**
- * @class Teste_Num_Cartao Teste_Num_Cartao.h
- * @brief Classe que testa a classe Num_Cartao.
+ * @brief Classe que testa a classe Num_Cartao_Credito.
  * @details
  */
 class Teste_Num_Cartao: public Teste_Dominios{
 public:
     void mensagemSucesso(){
-        std::cout << "Sucesso Número do Cartão" << std::endl;
+        std::cout << "Sucesso Numero do Cartao" << std::endl;
     }
     void mensagemFalha(){
-        std::cout << "Falha Número do Cartão" << std::endl;
+        std::cout << "Falha Numero do Cartao" << std::endl;
     }
 private:
     static const std::string VALOR_VALIDO;

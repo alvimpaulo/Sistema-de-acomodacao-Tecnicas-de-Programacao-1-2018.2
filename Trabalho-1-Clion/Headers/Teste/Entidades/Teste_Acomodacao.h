@@ -14,24 +14,23 @@
 #include "Teste_Entidades.h"
 
 /**
- * @class Teste_Acomodacao Teste_Acomodacao.h
  * @brief Classe que testa a classe Acomodacao.
  * @details
  */
 class Teste_Acomodacao: public Teste_Entidades{
 public:
-    void mensagemSucesso() override {
-        std::cout << "Sucesso Acomodação" << std::endl;
+    void mensagemSucesso() override{
+        std::cout << "Sucesso Acomodacao" << std::endl;
     }
-    void mensagemFalha() override {
-        std::cout << "Falha Acomodação" << std::endl;
+    void mensagemFalha() override{
+        std::cout << "Falha Acomodacao" << std::endl;
     }
 private:
 
     Acomodacao *acomodacao;
 
     void configurar() override;
-    void desconfigurar() override {
+    void desconfigurar() override{
         delete acomodacao;
     }
     void casoSucesso() override;

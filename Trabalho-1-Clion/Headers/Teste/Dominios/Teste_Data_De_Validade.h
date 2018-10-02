@@ -11,7 +11,6 @@
 #include "Teste_Dominios.h"
 
 /**
- * @class Teste_Data_De_Validade Teste_Data_De_Validade.h
  * @brief Classe que testa a classe Data_De_Validade
  * @details
  */

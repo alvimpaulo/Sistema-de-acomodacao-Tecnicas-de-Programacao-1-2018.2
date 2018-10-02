@@ -14,7 +14,7 @@ void Teste_Estado::configurar(){
 }
 
 void Teste_Estado::casoSucesso(){
-    try {
+    try{
         UF->setEstado(VALOR_VALIDO);
         if(UF->getEstado() != VALOR_VALIDO){
             estado = FALHA;
@@ -30,7 +30,7 @@ void Teste_Estado::casoFalha(){
 }
 
 void Teste_Estado::casoFalhaCaratereInvalido(){
-    try {
+    try{
         UF->setEstado(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
     } catch(std::invalid_argument &e){

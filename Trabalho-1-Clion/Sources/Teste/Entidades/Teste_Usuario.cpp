@@ -4,7 +4,7 @@
 
 #include "../../../Headers/Teste/Entidades/Teste_Usuario.h"
 
-int Teste_Usuario::rodar() {
+int Teste_Usuario::rodar(){
     configurar();
 
     casoSucesso();
@@ -14,16 +14,16 @@ int Teste_Usuario::rodar() {
     return estado;
 }
 
-void Teste_Usuario::casoSucesso() {
+void Teste_Usuario::casoSucesso(){
     Nome nome;
     Identificador identificador;
     Senha senha;
 
-    try {
+    try{
         usuario->setSenha(senha);
         usuario->setIdentificador(identificador);
         usuario->setNome(nome);
-    } catch (std::exception &exception){
+    } catch(std::exception &exception){
         std::cout<<exception.what() << std::endl;
         estado = FALHA;
     }

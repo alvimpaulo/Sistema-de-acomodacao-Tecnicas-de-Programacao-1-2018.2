@@ -13,54 +13,45 @@
 #include <iostream>
 
 /**
- * @class Data Data.h
- * @brief Domínio armazena uma data.
+ * @brief Domínio que armazena uma data.
  * @details  Domínio armazena uma data conforme o formato "DD/MMM/AAAA", onde DD é um número de 01 a 31, MMM é a inicial dos meses do ano (jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov ou dez) e AAAA é um número de 2000 a 2099.
  */
-class Data {
+class Data{
 public:
     /**
-     * @var NOME_MESES
      * @brief Vetor que contém os nomes válidos dos meses.
      */
     static const std::vector<std::string> NOME_MESES;
     /**
-     * @var LIMITE_INFERIOR_ANO
      * @brief Limite mínimo do ano.
      */
     static const int LIMITE_INFERIOR_ANO = 2000;
     /**
-     * @var LIMITE_SUPERIOR_ANO
      * @brief Limite máximo do ano.
      */
     static const int LIMITE_SUPERIOR_ANO = 2099;
     /**
-     * @var LIMITE_INFERIOR_DIA
      * @brief Limite mínimo do dia.
      */
     static const int LIMITE_INFERIOR_DIA = 1;
     /**
-     * @var LIMITE_SUPERIOR_DIA
      * @brief Limites máximo do dia.
      */
     static const std::vector<int> LIMITE_SUPERIOR_DIA;
 
     /**
-     * @fn Data()
      * @brief Contrutor da classe.
      * @details Quando uma instância dessa classe for criada, será armazenado um valor padrão de uma data.
      */
     Data();
     /**
-     * @fn void setData(std::string data)
      * @brief Atribui uma data.
-     * @details Atribui uma data, caso esteja no padrão da classe, e lança uma excwção, caso contrário.
+     * @details Atribui uma data, caso esteja no padrão da classe, e lança uma exceção, caso contrário.
      * @param data String que deve conter uma no formato padrão.
 
      */
     void setData(std::string data);
     /**
-     * @fn setData(std::string dia, std::string mes, std::string ano)
      * @brief Atribui uma data.
      * @details Atribui uma data, caso esteja no padrão da classe, e lança uma exceção, caso contrário.
      * @param dia String contendo o dia da data.
@@ -69,7 +60,6 @@ public:
      */
     void setData(std::string dia, std::string mes, std::string ano);
     /**
-     * @fn std::string getData() const
      * @brief Retorna uma string que contém a data.
      * @return data String que contém a data.
      */
@@ -78,7 +68,6 @@ public:
     }
 
     /**
-     * @fn friend bool operator<(const Data& data1, const Data& data2)
      * @brief Compara duas datas.
      * @details Compara duas datas, data1 e data2, e retorna true se a data1 vem antes da data2.
      * @param data1 Instância da class Data.
@@ -87,7 +76,6 @@ public:
      */
     friend bool operator<(const Data& data1, const Data& data2);
     /**
-     * @fn friend bool operator>(const Data& data1, const Data& data2)
      * @brief Compara duas datas.
      * @details Compara duas datas, data1 e data2, e retorna true se a data1 vem depois da data2.
      * @param data1 Instância da class Data.

@@ -11,7 +11,7 @@
  * @brief Domínio que armazena um banco.
  * @details Domínio que armazena um número de banco como uma string no formato XXX onde X é um dígito.
  */
-class Banco {
+class Banco{
 public:
     /**
      * @brief Construtor da classe.
@@ -29,7 +29,7 @@ public:
     /**
      * @brief Atribui um novo valor ao número do banco.
      * @details Atribui um novo valor caso esse valor seja consistente com o padrão, lança exceção em caso de falha.
-     * @param novoBancoNum Novo número a ser atribuído em formato String.
+     * @param BancoNum Novo número a ser atribuído em formato String.
      */
     void setBancoNum(std::string bancoNum);
 

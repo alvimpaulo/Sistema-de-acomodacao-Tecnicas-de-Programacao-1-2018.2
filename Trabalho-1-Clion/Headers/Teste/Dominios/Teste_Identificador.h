@@ -12,7 +12,6 @@
 #include <stdexcept>
 
 /**
- * @class Teste_Identificador Teste_Identificador.h
  * @brief Classe que testa a classe Identificador.
  * @details
  */

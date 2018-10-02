@@ -12,7 +12,6 @@
 #include <stdexcept>
 
 /**
- * @class Teste_Capacidade_De_Acomodacao Teste_Capacidade_De_Acomodacao.h
  * @brief Classe que testa a classe Capacidade_De_Acomodacao.
  * @details
  */
@@ -20,10 +19,10 @@ class Teste_Capacidade_De_Acomodacao: public Teste_Dominios{
 
 public:
     void mensagemSucesso(){
-        std::cout << "Sucesso Capacidade de Acomodação" << std::endl;
+        std::cout << "Sucesso Capacidade de Acomodacao" << std::endl;
     }
     void mensagemFalha(){
-        std::cout << "Falha Capacidade de Acomodação" << std::endl;
+        std::cout << "Falha Capacidade de Acomodacao" << std::endl;
     }
 private:
     static const std::string VALOR_VALIDO;

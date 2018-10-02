@@ -16,7 +16,7 @@ void Teste_Agencia::configurar(){
 }
 
 void Teste_Agencia::casoSucesso(){
-    try {
+    try{
         agencia->setAgenciaNum(VALOR_VALIDO);
         if(agencia->getAgenciaNum() != VALOR_VALIDO){
             estado = FALHA;
@@ -32,7 +32,7 @@ void Teste_Agencia::casoFalha(){
 }
 
 void Teste_Agencia::casoFalhaCaratereInvalido(){
-    try {
+    try{
         agencia->setAgenciaNum(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
     } catch(std::invalid_argument &e){

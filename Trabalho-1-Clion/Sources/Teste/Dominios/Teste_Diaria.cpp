@@ -14,7 +14,7 @@ void Teste_Diaria::configurar(){
 }
 
 void Teste_Diaria::casoSucesso(){
-    try {
+    try{
         diaria->setDiaria(VALOR_VALIDO);
         if(diaria->getDiaria() != (std::round(std::stof(VALOR_VALIDO)*100)/100.0)){
             estado = FALHA;
@@ -30,7 +30,7 @@ void Teste_Diaria::casoFalha(){
 }
 
 void Teste_Diaria::casoFalhaCaratereInvalido(){
-    try {
+    try{
         diaria->setDiaria(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
     } catch(std::invalid_argument &e){

@@ -15,7 +15,7 @@ void Teste_Tipo_Acomodacao::configurar(){
 }
 
 void Teste_Tipo_Acomodacao::casoSucesso(){
-    try {
+    try{
         tipo_acomodacao->setTipoAcomodacao(VALOR_VALIDO);
         std::string tmpStr = VALOR_VALIDO;
         std::transform(tmpStr.begin(), tmpStr.end(), tmpStr.begin(), ::tolower);
@@ -34,7 +34,7 @@ void Teste_Tipo_Acomodacao::casoFalha(){
 }
 
 void Teste_Tipo_Acomodacao::casoFalhaCaratereInvalido(){
-    try {
+    try{
         tipo_acomodacao->setTipoAcomodacao(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
     } catch(std::invalid_argument &e){

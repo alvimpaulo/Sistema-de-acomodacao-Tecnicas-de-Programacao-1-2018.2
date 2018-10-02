@@ -14,7 +14,7 @@
  * @brief Entidade que trata de um usuário.
  * @details Entidade que trata de um usuário contendo os domínios Nome, Identificador e Senha.
  */
-class Usuario {
+class Usuario{
 public:
 
     /**

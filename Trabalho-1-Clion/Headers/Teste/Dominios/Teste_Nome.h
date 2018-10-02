@@ -11,7 +11,6 @@
 #include <stdexcept>
 
 /**
- * @class Teste_Nome Teste_Nome.h
  * @brief Classe que testa a classe Nome.
  * @details
  */

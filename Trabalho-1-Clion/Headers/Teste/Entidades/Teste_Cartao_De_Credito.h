@@ -11,7 +11,6 @@
 #include "Teste_Entidades.h"
 
 /**
- * @class Teste_Cartao_De_Credito Teste_Cartao_De_Credito.h
  * @brief Classe que testa a classe Cartao_De_Credito.
  * @details
  */

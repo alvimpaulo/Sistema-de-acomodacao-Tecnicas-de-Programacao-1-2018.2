@@ -12,7 +12,6 @@
 #include "Teste_Dominios.h"
 
 /**
- * @class Teste_Diaria Teste_Diaria.h
  * @brief Classe que testa a classe Diaria.
  * @details
  */

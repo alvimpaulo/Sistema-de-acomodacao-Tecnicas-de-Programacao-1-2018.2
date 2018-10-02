@@ -11,7 +11,6 @@
 #include "Teste_Dominios.h"
 
 /**
- * @class Teste_Agencia Teste_Agencia.h
  * @brief Classe que testa a classe Agencia.
  * @details
  */
@@ -29,13 +28,13 @@ private:
     static const std::string VALOR_COMPRIMENTO_INVALIDO;
 
     Agencia *agencia;
-    void configurar();
-    void desconfigurar(){
+    void configurar() override;
+    void desconfigurar() override{
         delete agencia;
     }
 
-    void casoSucesso();
-    void casoFalha();
+    void casoSucesso() override;
+    void casoFalha() override;
     void casoFalhaCaratereInvalido();
     void casoFalhaComprimentoInvalido();
 };

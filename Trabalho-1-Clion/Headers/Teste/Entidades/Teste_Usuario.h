@@ -10,16 +10,15 @@
 #include "Teste_Entidades.h"
 
 /**
- * @class Teste_Usuario Teste_Usuario.h
  * @brief Classe que testa a classe Usuario.
  * @details
  */
 class Teste_Usuario: public Teste_Entidades{
 public:
-    void mensagemSucesso() override {
+    void mensagemSucesso() override{
         std::cout << "Sucesso Usuario" << std::endl;
     }
-    void mensagemFalha() override {
+    void mensagemFalha() override{
         std::cout << "Falha Usuario" << std::endl;
     }
     int rodar() override;

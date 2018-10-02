@@ -6,17 +6,17 @@
 
 
 
-bool Identificador::validar(std::string identificador) {
+bool Identificador::validar(std::string identificador){
     std::regex identificadorRegex(R"([a-z]{5})");
 
-    if(std::regex_match(identificador, identificadorRegex)) {
+    if(std::regex_match(identificador, identificadorRegex)){
         return true;
-    } else {
+    } else{
         return false;
     }
 }
 
-void Identificador::setIdentificador(std::string identificador) {
+void Identificador::setIdentificador(std::string identificador){
     if(validar(identificador)){
         this->identificador = identificador;
     } else{

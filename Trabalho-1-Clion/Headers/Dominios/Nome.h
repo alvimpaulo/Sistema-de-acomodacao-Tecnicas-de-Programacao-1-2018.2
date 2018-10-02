@@ -15,7 +15,7 @@
  * @details Domínio que armazena o nome do usuário conforme o padrão XXXXXXXXXXXXXXX onde X pode ser uma letra, espaçe ou ponto.
  * Não podendo haver espaços seguidos e todos os pontos são precedidos por letras.
  */
-class Nome {
+class Nome{
 public:
 
     /**
@@ -27,7 +27,7 @@ public:
     /**
      * @brief Tenta atribuir um novo nome.
      * @details Testa o novo nome contra o padrão e atribui o novo nome à classe em caso de sucesso. Lança exceção em caso de falha.
-     * @param novoNome String contendo o novo nome a ser testado.
+     * @param Nome String contendo o novo nome a ser testado.
      */
     void setNome(std::string novoNome);
 
