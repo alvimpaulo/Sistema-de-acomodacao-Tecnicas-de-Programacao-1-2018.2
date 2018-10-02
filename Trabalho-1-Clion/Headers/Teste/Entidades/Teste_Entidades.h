@@ -13,8 +13,6 @@ public:
     int rodar() override;
 protected:
 private:
-    virtual void configurar() = 0;
-    virtual void desconfigurar() = 0;
     virtual void casoSucesso() = 0;
 };
 

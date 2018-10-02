@@ -18,15 +18,8 @@
 #include "Headers/Teste/Entidades/Teste_Usuario.h"
 #include "Headers/Teste/Entidades/Teste_Cartao_De_Credito.h"
 
-// todo: Testes das Entidades: Todas
-/*class A{
-    std::vector<int> a;
-    A(): a(){
-
-    }
-};*/
 int main() {
-    std::vector<Teste*> teste(17, NULL);
+    std::vector<Teste*> teste(17, nullptr);
     teste[0] = new Teste_Agencia;
     teste[1] = new Teste_Banco;
     teste[2] = new Teste_Capacidade_De_Acomodacao;
@@ -45,23 +38,29 @@ int main() {
     teste[15] = new Teste_Usuario;
     teste[16] = new Teste_Cartao_De_Credito;
 
-    std::string a = "";
-
+    /*
     for(int i = 0; i < teste.size(); i++){
-        //try {
-            if (teste[i]->rodar() == Teste::SUCESSO) {
-                teste[i]->mensagemSucesso();
-            } else {
-                teste[i]->mensagemFalha();
-            }
-        //} catch (std::exception &e){
-        //    a += std::to_string(i) + " ";
-        //}
+        if (teste[i]->rodar() == Teste::SUCESSO) {
+            teste[i]->mensagemSucesso();
+        } else {
+            teste[i]->mensagemFalha();
+        }
     }
-    std::cout << a << std::endl;
 
     for(int i = 0; i < teste.size(); i++){
         delete teste[i];
+    }
+    */
+    for(Teste *testePtr: teste){
+        if (testePtr->rodar() == Teste::SUCESSO) {
+            testePtr->mensagemSucesso();
+        } else {
+            testePtr->mensagemFalha();
+        }
+    }
+
+    for(Teste *testePtr: teste){
+        delete testePtr;
     }
 
 

@@ -20,7 +20,7 @@ void Teste_Diaria::casoSucesso(){
             estado = FALHA;
         }
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         estado = FALHA;
     }
 }
@@ -35,7 +35,7 @@ void Teste_Diaria::casoFalhaCaratereInvalido(){
         diaria->setDiaria(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }
@@ -45,7 +45,7 @@ void Teste_Diaria::casoFalhaIntervaloInvalido(){
         diaria->setDiaria(VALOR_INTERVALO_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }

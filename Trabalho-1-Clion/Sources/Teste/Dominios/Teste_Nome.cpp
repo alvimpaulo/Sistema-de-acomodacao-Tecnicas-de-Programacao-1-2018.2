@@ -19,7 +19,7 @@ void Teste_Nome::casoSucesso() {
         if(nome->getNome() != VALOR_VALIDO)
             estado = FALHA;
     }
-    catch (std::invalid_argument e){
+    catch (std::invalid_argument &e){
         std::cout << e.what() << std::endl;
         return;
     }
@@ -31,7 +31,7 @@ void Teste_Nome::casoFalha() {
         nome->setNome(VALOR_INVALIDO);
         estado = FALHA;
     }
-    catch (std::invalid_argument e){
+    catch (std::invalid_argument &e){
         return;
     }
 }

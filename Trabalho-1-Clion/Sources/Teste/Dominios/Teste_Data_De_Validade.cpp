@@ -22,7 +22,7 @@ void Teste_Data_De_Validade::casoSucesso(){
             estado = FALHA;
         }
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         estado = FALHA;
     }
 }
@@ -38,7 +38,7 @@ void Teste_Data_De_Validade::casoFalhaCaratereInvalido(){
         data_de_validade->setData_De_Validade(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }
@@ -48,7 +48,7 @@ void Teste_Data_De_Validade::casoFalhaComprimentoInvalido(){
         data_de_validade->setData_De_Validade(VALOR_COMPRIMENTO_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }
@@ -58,7 +58,7 @@ void Teste_Data_De_Validade::casoFalhaIntervaloMesInvalido(){
         data_de_validade->setData_De_Validade(VALOR_INTERVALO_MES_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }

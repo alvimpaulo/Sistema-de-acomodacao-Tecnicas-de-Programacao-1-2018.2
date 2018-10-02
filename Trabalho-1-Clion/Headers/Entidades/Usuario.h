@@ -16,21 +16,21 @@ public:
 
     Usuario():nome(),identificador(),senha(){}
 
-    void setNome(Nome nome){
+    void setNome(Nome &nome){
         this->nome = nome;
     }
     Nome getNome(){
         return nome;
     }
 
-    void setIdentificador(Identificador identificador){
+    void setIdentificador(Identificador &identificador){
         this->identificador = identificador;
     }
     Identificador getIdentificador(){
         return identificador;
     }
 
-    void setSenha(Senha senha){
+    void setSenha(Senha &senha){
         this->senha = senha;
     }
     Senha getSenha(){

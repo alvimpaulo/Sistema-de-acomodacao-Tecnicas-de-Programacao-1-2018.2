@@ -20,7 +20,7 @@ void Teste_Banco::casoSucesso() {
             estado = FALHA;
         }
     }
-    catch (std::invalid_argument e){
+    catch (std::invalid_argument &e){
         return;
     }
 
@@ -32,7 +32,7 @@ void Teste_Banco::casoFalha() {
         banco->setBancoNum(VALOR_INVALIDO);
         estado = FALHA;
     }
-    catch (std::invalid_argument e){
+    catch (std::invalid_argument &e){
         return;
     }
 
