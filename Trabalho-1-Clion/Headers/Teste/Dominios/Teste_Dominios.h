@@ -11,14 +11,12 @@
 class Teste_Dominios: public Teste{
 public:
     int rodar() override;
-    virtual void mensagemSucesso() = 0;
-    virtual void mensagemFalha() = 0;
 protected:
 private:
-    virtual void configurar() = 0;
-    virtual void desconfigurar() = 0;
     virtual void casoSucesso() = 0;
     virtual void casoFalha() = 0;
+    virtual void configurar() = 0;
+    virtual void desconfigurar() = 0;
 };
 
 

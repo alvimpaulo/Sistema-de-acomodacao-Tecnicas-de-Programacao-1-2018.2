@@ -24,7 +24,7 @@ void Teste_Tipo_Acomodacao::casoSucesso(){
             estado = FALHA;
         }
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         estado = FALHA;
     }
 }
@@ -39,7 +39,7 @@ void Teste_Tipo_Acomodacao::casoFalhaCaratereInvalido(){
         tipo_acomodacao->setTipoAcomodacao(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }
@@ -49,7 +49,7 @@ void Teste_Tipo_Acomodacao::casoFalhaComprimentoInvalido(){
         tipo_acomodacao->setTipoAcomodacao(VALOR_COMPRIMENTO_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }

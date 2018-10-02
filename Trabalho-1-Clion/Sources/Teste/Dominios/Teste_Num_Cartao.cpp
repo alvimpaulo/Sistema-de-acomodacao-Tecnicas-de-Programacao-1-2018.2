@@ -19,7 +19,7 @@ void Teste_Num_Cartao::casoSucesso() {
         if(numCartao->getNum_Cartao() != VALOR_VALIDO)
             estado = FALHA;
     }
-    catch (std::invalid_argument e){
+    catch (std::invalid_argument &e){
         std::cout << e.what() << std::endl;
         return;
     }
@@ -32,7 +32,7 @@ void Teste_Num_Cartao::casoFalha() {
         numCartao->setNum_Cartao(VALOR_INVALIDO);
         estado = FALHA;
     }
-    catch (std::invalid_argument e){
+    catch (std::invalid_argument &e){
         return;
     }
 

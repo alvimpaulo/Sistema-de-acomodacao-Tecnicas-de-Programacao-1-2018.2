@@ -17,28 +17,26 @@
 class Teste {
 public:
     /**
-     * @static
      * @brief Valor que indica sucesso
      */
     static const int SUCESSO = 0;
     /**
-     * @static
      * @brief Valor que indica falha
      */
     static const int FALHA = 1;
     /**
      * @brief Roda uma sequência de testes para verificar veracidade de uma classe.
-     * @return Retorna Teste::FALHA caso haja falha nos testes ou sucesso caso haja Teste::SUCESSO nos testes.
+     * @return Retorna Teste::FALHA caso haja falha nos testes ou Teste::SUCESSO caso haja sucesso nos testes.
      */
     virtual int rodar() = 0;
     /**
      * @brief Exibe uma mensagem de sucesso.
-     * @details Exibe uma mensagem de sucesso para um teste específico.
+     * @details Exibe uma mensagem de sucesso para o teste de uma classe.
      */
     virtual void mensagemSucesso() = 0;
     /**
      * @brief Exibe uma mensagem de falha.
-     * @details Exibe uma mensagem de falha para um teste específico.
+     * @details Exibe uma mensagem de falha para o teste de uma classe.
      */
     virtual void mensagemFalha() = 0;
 
@@ -49,7 +47,8 @@ protected:
      */
     int estado;
 private:
-
+    virtual void configurar() = 0;
+    virtual void desconfigurar() = 0;
 };
 
 

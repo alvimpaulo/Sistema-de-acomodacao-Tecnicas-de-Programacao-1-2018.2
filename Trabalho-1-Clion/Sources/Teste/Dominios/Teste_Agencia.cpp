@@ -22,7 +22,7 @@ void Teste_Agencia::casoSucesso(){
             estado = FALHA;
         }
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         estado = FALHA;
     }
 }
@@ -37,7 +37,7 @@ void Teste_Agencia::casoFalhaCaratereInvalido(){
         agencia->setAgenciaNum(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }
@@ -47,7 +47,7 @@ void Teste_Agencia::casoFalhaComprimentoInvalido(){
         agencia->setAgenciaNum(VALOR_COMPRIMENTO_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }

@@ -20,7 +20,7 @@ void Teste_Estado::casoSucesso(){
             estado = FALHA;
         }
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         estado = FALHA;
     }
 }
@@ -35,7 +35,7 @@ void Teste_Estado::casoFalhaCaratereInvalido(){
         UF->setEstado(VALOR_CARACTERE_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }
@@ -45,7 +45,7 @@ void Teste_Estado::casoFalhaComprimentoInvalido(){
         UF->setEstado(VALOR_COMPRIMENTO_INVALIDO);
         estado = FALHA;
     }
-    catch(std::invalid_argument e){
+    catch(std::invalid_argument &e){
         return;
     }
 }
