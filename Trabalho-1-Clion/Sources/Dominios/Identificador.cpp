@@ -23,3 +23,12 @@ void Identificador::setIdentificador(std::string identificador){
         throw std::invalid_argument(identificador + " Esta fora do padrao de identificador");
     }
 }
+
+std::istream& operator>>(std::istream& in, Identificador& identificador){
+    std::string str;
+
+    in >> str;
+    identificador.setIdentificador(str);
+
+    return in;
+}

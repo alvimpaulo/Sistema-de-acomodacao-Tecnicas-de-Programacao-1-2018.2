@@ -27,6 +27,9 @@ public:
      */
     void setCapacidade_De_Acomodacao(std::string capacidade_de_acomodacao);
 
+
+    friend std::istream& operator>>(std::istream& in, Capacidade_De_Acomodacao& capacidadeDeAcomodacao);
+
 private:
     bool validar(std::string capacidade);
     std::string capacidade_de_acomodacao;

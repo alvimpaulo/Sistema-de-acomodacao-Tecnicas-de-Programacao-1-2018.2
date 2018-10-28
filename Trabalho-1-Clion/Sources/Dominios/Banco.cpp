@@ -18,3 +18,12 @@ void Banco::setBancoNum(std::string bancoNum){
 Banco::Banco(){
     bancoNum = "000";
 }
+
+std::istream& operator>>(std::istream& in, Banco& banco){
+    std::string str;
+
+    in >> str;
+    banco.setBancoNum(str);
+
+    return in;
+}

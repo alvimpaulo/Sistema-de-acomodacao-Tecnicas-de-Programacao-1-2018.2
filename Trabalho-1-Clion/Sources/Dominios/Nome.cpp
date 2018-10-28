@@ -22,3 +22,12 @@ void Nome::setNome(std::string nome){
     }
 
 }
+
+std::istream& operator>>(std::istream& in, Nome& nome){
+    std::string str;
+
+    in >> str;
+    nome.setNome(str);
+
+    return in;
+}

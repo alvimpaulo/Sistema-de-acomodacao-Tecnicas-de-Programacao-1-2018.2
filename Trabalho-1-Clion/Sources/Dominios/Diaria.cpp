@@ -30,3 +30,12 @@ bool Diaria::validar(std::string diaria){
         return false;
     }
 }
+
+std::istream& operator>>(std::istream& in, Diaria& diaria){
+    std::string str;
+
+    in >> str;
+    diaria.setDiaria(str);
+
+    return in;
+}

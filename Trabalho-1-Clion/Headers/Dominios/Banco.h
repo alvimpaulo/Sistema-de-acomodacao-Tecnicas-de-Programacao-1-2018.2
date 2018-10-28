@@ -6,6 +6,7 @@
 
 #include <string>
 #include <regex>
+#include <istream>
 
 /**
  * @brief Domínio que armazena um banco.
@@ -29,9 +30,11 @@ public:
     /**
      * @brief Atribui um novo valor ao número do banco.
      * @details Atribui um novo valor caso esse valor seja consistente com o padrão, lança exceção em caso de falha.
-     * @param BancoNum Novo número a ser atribuído em formato String.
+     * @param bancoNum Novo número a ser atribuído em formato String.
      */
     void setBancoNum(std::string bancoNum);
+
+    friend std::istream& operator>>(std::istream& in, Banco& banco);
 
 private:
     std::string bancoNum;

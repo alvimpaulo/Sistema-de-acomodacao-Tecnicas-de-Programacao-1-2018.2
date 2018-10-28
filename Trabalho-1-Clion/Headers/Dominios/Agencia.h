@@ -34,6 +34,8 @@ public:
      */
     void setAgenciaNum(std::string agenciaNum);
 
+    friend std::istream& operator>>(std::istream& in, Agencia& agencia);
+
 protected:
 
 private:

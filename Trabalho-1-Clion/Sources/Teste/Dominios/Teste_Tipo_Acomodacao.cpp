@@ -50,3 +50,12 @@ void Teste_Tipo_Acomodacao::casoFalhaComprimentoInvalido(){
         return;
     }
 }
+
+std::istream& operator>>(std::istream& in, Tipo_Acomodacao& tipoAcomodacao){
+    std::string str;
+
+    in >> str;
+    tipoAcomodacao.setTipoAcomodacao(str);
+
+    return in;
+}

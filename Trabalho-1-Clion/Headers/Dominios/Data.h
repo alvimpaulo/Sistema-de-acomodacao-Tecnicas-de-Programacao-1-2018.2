@@ -84,6 +84,9 @@ public:
      */
     friend bool operator>(const Data& data1, const Data& data2);
 
+
+    friend std::istream& operator>>(std::istream& in, Data& data);
+
 protected:
 private:
     std::string dia;

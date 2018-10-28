@@ -27,3 +27,12 @@ Num_Conta_Corrente::Num_Conta_Corrente(){
     numConta = "000000";
 
 }
+
+std::istream& operator>>(std::istream& in, Num_Conta_Corrente& numContaCorrente){
+    std::string str;
+
+    in >> str;
+    numContaCorrente.setNum_Conta_Corrente(str);
+
+    return in;
+}

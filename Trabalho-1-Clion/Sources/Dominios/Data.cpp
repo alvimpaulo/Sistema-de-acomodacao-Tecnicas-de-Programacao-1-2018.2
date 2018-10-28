@@ -144,3 +144,12 @@ inline bool operator<(const Data& data1, const Data& data2){
 bool operator>(const Data& data1, const Data& data2){
     return data2 < data1;
 }
+
+std::istream& operator>>(std::istream& in, Data& data){
+    std::string str;
+
+    in >> str;
+    data.setData(str);
+
+    return in;
+}

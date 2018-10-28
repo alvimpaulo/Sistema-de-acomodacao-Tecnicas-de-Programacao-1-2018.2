@@ -80,3 +80,12 @@ bool Data_De_Validade::validarAno(std::string ano){
         return false;
     }
 }
+
+std::istream& operator>>(std::istream& in, Data_De_Validade& dataDeValidade){
+    std::string str;
+
+    in >> str;
+    dataDeValidade.setData_De_Validade(str);
+
+    return in;
+}

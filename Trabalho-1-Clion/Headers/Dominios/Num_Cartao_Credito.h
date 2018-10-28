@@ -36,6 +36,7 @@ public:
      */
     void setNum_Cartao(std::string numCartao);
 
+    friend std::istream& operator>>(std::istream& in, Num_Cartao_Credito& numCartaoCredito);
 
 private:
     bool validar(std::string numCartao);

@@ -39,6 +39,8 @@ public:
         return nome;
     }
 
+    friend std::istream& operator>>(std::istream& in, Nome& nome);
+
 protected:
 private:
     std::string nome;

@@ -48,5 +48,13 @@ void Num_Cartao_Credito::setNum_Cartao(std::string numCartao){
 
 Num_Cartao_Credito::Num_Cartao_Credito(){
     numCartao = "0000000000000000";
+}
 
+std::istream& operator>>(std::istream& in, Num_Cartao_Credito& numCartaoCredito){{
+    std::string str;
+
+    in >> str;
+        numCartaoCredito.setNum_Cartao(str);
+
+    return in;
 }

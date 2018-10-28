@@ -63,6 +63,8 @@ public:
         return data;
     }
 
+    friend std::istream& operator>>(std::istream& in, Data_De_Validade& dataDeValidade);
+
 protected:
 private:
     std::string mes;

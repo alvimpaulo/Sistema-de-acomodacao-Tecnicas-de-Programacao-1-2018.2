@@ -45,6 +45,9 @@ public:
         return TIPOS_ACOMODACAO[indiceTiposAcomodacao];
     }
 
+    friend std::istream& operator>>(std::istream& in, Tipo_Acomodacao& tipoAcomodacao);
+
+
 protected:
 private:
     int indiceTiposAcomodacao;

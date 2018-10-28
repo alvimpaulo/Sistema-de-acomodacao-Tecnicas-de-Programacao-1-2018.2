@@ -36,6 +36,8 @@ public:
      */
     void setNum_Conta_Corrente(std::string numConta);
 
+    friend std::istream& operator>>(std::istream& in, Num_Conta_Corrente& numContaCorrente);
+
 private:
     bool validar(std::string numConta);
     std::string numConta;

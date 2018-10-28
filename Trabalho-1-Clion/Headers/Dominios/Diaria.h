@@ -49,6 +49,9 @@ public:
         return diaria;
     }
 
+
+    friend std::istream& operator>>(std::istream& in, Diaria& diaria);
+
 protected:
 private:
     float diaria;

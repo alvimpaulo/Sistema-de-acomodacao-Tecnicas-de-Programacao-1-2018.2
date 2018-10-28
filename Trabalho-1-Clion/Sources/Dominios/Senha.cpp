@@ -33,3 +33,12 @@ void Senha::setSenha(std::string senha){
         throw std::invalid_argument(senha + " nao eh uma senha dentro do padrao");
     }
 }
+
+std::istream& operator>>(std::istream& in, Senha& senha){
+    std::string str;
+
+    in >> str;
+    senha.setSenha(str);
+
+    return in;
+}

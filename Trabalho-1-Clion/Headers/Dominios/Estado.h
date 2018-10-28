@@ -45,6 +45,8 @@ public:
         return NOME_ESTADOS[indiceEstado];
     }
 
+    friend std::istream& operator>>(std::istream& in, Estado& estado);
+
 protected:
 private:
     int indiceEstado;

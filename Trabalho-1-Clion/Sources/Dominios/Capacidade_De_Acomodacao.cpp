@@ -21,3 +21,12 @@ bool Capacidade_De_Acomodacao::validar(std::string capacidade){
         return false;
     }
 }
+
+std::istream& operator>>(std::istream& in, Capacidade_De_Acomodacao& capacidadeDeAcomodacao){
+    std::string str;
+
+    in >> str;
+    capacidadeDeAcomodacao.setCapacidade_De_Acomodacao(str);
+
+    return in;
+}

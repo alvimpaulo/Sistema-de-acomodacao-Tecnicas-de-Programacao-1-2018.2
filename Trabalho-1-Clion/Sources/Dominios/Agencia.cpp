@@ -16,4 +16,13 @@ void Agencia::setAgenciaNum(std::string agenciaNum){
     } else{
         throw std::invalid_argument("Numero de agencia fora do padrao");
     }
-    }
+}
+
+std::istream& operator>>(std::istream& in, Agencia& agencia){
+    std::string str;
+
+    in >> str;
+    agencia.setAgenciaNum(str);
+
+    return in;
+}

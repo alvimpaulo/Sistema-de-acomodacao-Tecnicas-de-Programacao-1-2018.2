@@ -39,3 +39,12 @@ bool Estado::validar(std::string estado){
         return false;
     }
 }
+
+std::istream& operator>>(std::istream& in, Estado& estado){
+    std::string str;
+
+    in >> str;
+    estado.setEstado(str);
+
+    return in;
+}

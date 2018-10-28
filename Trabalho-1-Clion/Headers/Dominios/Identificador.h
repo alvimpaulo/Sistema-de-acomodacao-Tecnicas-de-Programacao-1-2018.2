@@ -29,6 +29,8 @@ public:
         return identificador;
     }
 
+    friend std::istream& operator>>(std::istream& in, Identificador& identificador);
+
 private:
     std::string identificador;
     bool validar(std::string identificador);

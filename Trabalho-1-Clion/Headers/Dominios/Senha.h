@@ -29,6 +29,8 @@ public:
      */
     void setSenha(std::string senha);
 
+    friend std::istream& operator>>(std::istream& in, Senha& senha);
+
 private:
     bool validar(std::string senha);
     std::string senha;
