@@ -1,0 +1,14 @@
+//
+// Created by paulo on 16-Nov-18.
+//
+
+#ifndef TRABALHO_1_CLION_CNTRSSERVACOMODACAO_H
+#define TRABALHO_1_CLION_CNTRSSERVACOMODACAO_H
+
+
+class CntrsServAcomodacao {
+
+};
+
+
+#endif //TRABALHO_1_CLION_CNTRSSERVACOMODACAO_H
