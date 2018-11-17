@@ -122,248 +122,464 @@ Trabalho_1_Clion/fast:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/build
 .PHONY : Trabalho_1_Clion/fast
 
-CntrAprAcomodacao.obj: CntrAprAcomodacao.cpp.obj
+InterAprAcomodacao.obj: InterAprAcomodacao.cpp.obj
 
-.PHONY : CntrAprAcomodacao.obj
-
-# target to build an object file
-CntrAprAcomodacao.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprAcomodacao.cpp.obj
-.PHONY : CntrAprAcomodacao.cpp.obj
-
-CntrAprAcomodacao.i: CntrAprAcomodacao.cpp.i
-
-.PHONY : CntrAprAcomodacao.i
-
-# target to preprocess a source file
-CntrAprAcomodacao.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprAcomodacao.cpp.i
-.PHONY : CntrAprAcomodacao.cpp.i
-
-CntrAprAcomodacao.s: CntrAprAcomodacao.cpp.s
-
-.PHONY : CntrAprAcomodacao.s
-
-# target to generate assembly for a file
-CntrAprAcomodacao.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprAcomodacao.cpp.s
-.PHONY : CntrAprAcomodacao.cpp.s
-
-CntrAprAutenticacao.obj: CntrAprAutenticacao.cpp.obj
-
-.PHONY : CntrAprAutenticacao.obj
+.PHONY : InterAprAcomodacao.obj
 
 # target to build an object file
-CntrAprAutenticacao.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprAutenticacao.cpp.obj
-.PHONY : CntrAprAutenticacao.cpp.obj
+InterAprAcomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.obj
+.PHONY : InterAprAcomodacao.cpp.obj
 
-CntrAprAutenticacao.i: CntrAprAutenticacao.cpp.i
+InterAprAcomodacao.i: InterAprAcomodacao.cpp.i
 
-.PHONY : CntrAprAutenticacao.i
+.PHONY : InterAprAcomodacao.i
 
 # target to preprocess a source file
-CntrAprAutenticacao.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprAutenticacao.cpp.i
-.PHONY : CntrAprAutenticacao.cpp.i
+InterAprAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.i
+.PHONY : InterAprAcomodacao.cpp.i
 
-CntrAprAutenticacao.s: CntrAprAutenticacao.cpp.s
+InterAprAcomodacao.s: InterAprAcomodacao.cpp.s
 
-.PHONY : CntrAprAutenticacao.s
+.PHONY : InterAprAcomodacao.s
 
 # target to generate assembly for a file
-CntrAprAutenticacao.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprAutenticacao.cpp.s
-.PHONY : CntrAprAutenticacao.cpp.s
+InterAprAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.s
+.PHONY : InterAprAcomodacao.cpp.s
 
-CntrAprReserva.obj: CntrAprReserva.cpp.obj
+InterAprAutenticacao.obj: InterAprAutenticacao.cpp.obj
 
-.PHONY : CntrAprReserva.obj
+.PHONY : InterAprAutenticacao.obj
 
 # target to build an object file
-CntrAprReserva.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprReserva.cpp.obj
-.PHONY : CntrAprReserva.cpp.obj
+InterAprAutenticacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.obj
+.PHONY : InterAprAutenticacao.cpp.obj
 
-CntrAprReserva.i: CntrAprReserva.cpp.i
+InterAprAutenticacao.i: InterAprAutenticacao.cpp.i
 
-.PHONY : CntrAprReserva.i
+.PHONY : InterAprAutenticacao.i
 
 # target to preprocess a source file
-CntrAprReserva.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprReserva.cpp.i
-.PHONY : CntrAprReserva.cpp.i
+InterAprAutenticacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.i
+.PHONY : InterAprAutenticacao.cpp.i
 
-CntrAprReserva.s: CntrAprReserva.cpp.s
+InterAprAutenticacao.s: InterAprAutenticacao.cpp.s
 
-.PHONY : CntrAprReserva.s
+.PHONY : InterAprAutenticacao.s
 
 # target to generate assembly for a file
-CntrAprReserva.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprReserva.cpp.s
-.PHONY : CntrAprReserva.cpp.s
+InterAprAutenticacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.s
+.PHONY : InterAprAutenticacao.cpp.s
 
-CntrAprUsuarios.obj: CntrAprUsuarios.cpp.obj
+InterAprReserva.obj: InterAprReserva.cpp.obj
 
-.PHONY : CntrAprUsuarios.obj
+.PHONY : InterAprReserva.obj
 
 # target to build an object file
-CntrAprUsuarios.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprUsuarios.cpp.obj
-.PHONY : CntrAprUsuarios.cpp.obj
+InterAprReserva.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.obj
+.PHONY : InterAprReserva.cpp.obj
 
-CntrAprUsuarios.i: CntrAprUsuarios.cpp.i
+InterAprReserva.i: InterAprReserva.cpp.i
 
-.PHONY : CntrAprUsuarios.i
+.PHONY : InterAprReserva.i
 
 # target to preprocess a source file
-CntrAprUsuarios.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprUsuarios.cpp.i
-.PHONY : CntrAprUsuarios.cpp.i
+InterAprReserva.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.i
+.PHONY : InterAprReserva.cpp.i
 
-CntrAprUsuarios.s: CntrAprUsuarios.cpp.s
+InterAprReserva.s: InterAprReserva.cpp.s
 
-.PHONY : CntrAprUsuarios.s
+.PHONY : InterAprReserva.s
 
 # target to generate assembly for a file
-CntrAprUsuarios.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrAprUsuarios.cpp.s
-.PHONY : CntrAprUsuarios.cpp.s
+InterAprReserva.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.s
+.PHONY : InterAprReserva.cpp.s
 
-CntrInicio.obj: CntrInicio.cpp.obj
+InterAprUsuarios.obj: InterAprUsuarios.cpp.obj
 
-.PHONY : CntrInicio.obj
+.PHONY : InterAprUsuarios.obj
 
 # target to build an object file
-CntrInicio.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrInicio.cpp.obj
-.PHONY : CntrInicio.cpp.obj
+InterAprUsuarios.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.obj
+.PHONY : InterAprUsuarios.cpp.obj
 
-CntrInicio.i: CntrInicio.cpp.i
+InterAprUsuarios.i: InterAprUsuarios.cpp.i
 
-.PHONY : CntrInicio.i
+.PHONY : InterAprUsuarios.i
 
 # target to preprocess a source file
-CntrInicio.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrInicio.cpp.i
-.PHONY : CntrInicio.cpp.i
+InterAprUsuarios.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.i
+.PHONY : InterAprUsuarios.cpp.i
 
-CntrInicio.s: CntrInicio.cpp.s
+InterAprUsuarios.s: InterAprUsuarios.cpp.s
 
-.PHONY : CntrInicio.s
+.PHONY : InterAprUsuarios.s
 
 # target to generate assembly for a file
-CntrInicio.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrInicio.cpp.s
-.PHONY : CntrInicio.cpp.s
+InterAprUsuarios.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.s
+.PHONY : InterAprUsuarios.cpp.s
 
-CntrsServAcomodacao.obj: CntrsServAcomodacao.cpp.obj
+InterServAcomodacao.obj: InterServAcomodacao.cpp.obj
 
-.PHONY : CntrsServAcomodacao.obj
+.PHONY : InterServAcomodacao.obj
 
 # target to build an object file
-CntrsServAcomodacao.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServAcomodacao.cpp.obj
-.PHONY : CntrsServAcomodacao.cpp.obj
+InterServAcomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.obj
+.PHONY : InterServAcomodacao.cpp.obj
 
-CntrsServAcomodacao.i: CntrsServAcomodacao.cpp.i
+InterServAcomodacao.i: InterServAcomodacao.cpp.i
 
-.PHONY : CntrsServAcomodacao.i
+.PHONY : InterServAcomodacao.i
 
 # target to preprocess a source file
-CntrsServAcomodacao.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServAcomodacao.cpp.i
-.PHONY : CntrsServAcomodacao.cpp.i
+InterServAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.i
+.PHONY : InterServAcomodacao.cpp.i
 
-CntrsServAcomodacao.s: CntrsServAcomodacao.cpp.s
+InterServAcomodacao.s: InterServAcomodacao.cpp.s
 
-.PHONY : CntrsServAcomodacao.s
+.PHONY : InterServAcomodacao.s
 
 # target to generate assembly for a file
-CntrsServAcomodacao.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServAcomodacao.cpp.s
-.PHONY : CntrsServAcomodacao.cpp.s
+InterServAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.s
+.PHONY : InterServAcomodacao.cpp.s
 
-CntrsServAutenticacao.obj: CntrsServAutenticacao.cpp.obj
+InterServAutenticacao.obj: InterServAutenticacao.cpp.obj
 
-.PHONY : CntrsServAutenticacao.obj
+.PHONY : InterServAutenticacao.obj
 
 # target to build an object file
-CntrsServAutenticacao.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServAutenticacao.cpp.obj
-.PHONY : CntrsServAutenticacao.cpp.obj
+InterServAutenticacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.obj
+.PHONY : InterServAutenticacao.cpp.obj
 
-CntrsServAutenticacao.i: CntrsServAutenticacao.cpp.i
+InterServAutenticacao.i: InterServAutenticacao.cpp.i
 
-.PHONY : CntrsServAutenticacao.i
+.PHONY : InterServAutenticacao.i
 
 # target to preprocess a source file
-CntrsServAutenticacao.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServAutenticacao.cpp.i
-.PHONY : CntrsServAutenticacao.cpp.i
+InterServAutenticacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.i
+.PHONY : InterServAutenticacao.cpp.i
 
-CntrsServAutenticacao.s: CntrsServAutenticacao.cpp.s
+InterServAutenticacao.s: InterServAutenticacao.cpp.s
 
-.PHONY : CntrsServAutenticacao.s
+.PHONY : InterServAutenticacao.s
 
 # target to generate assembly for a file
-CntrsServAutenticacao.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServAutenticacao.cpp.s
-.PHONY : CntrsServAutenticacao.cpp.s
+InterServAutenticacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.s
+.PHONY : InterServAutenticacao.cpp.s
 
-CntrsServReserva.obj: CntrsServReserva.cpp.obj
+InterServReserva.obj: InterServReserva.cpp.obj
 
-.PHONY : CntrsServReserva.obj
+.PHONY : InterServReserva.obj
 
 # target to build an object file
-CntrsServReserva.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServReserva.cpp.obj
-.PHONY : CntrsServReserva.cpp.obj
+InterServReserva.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.obj
+.PHONY : InterServReserva.cpp.obj
 
-CntrsServReserva.i: CntrsServReserva.cpp.i
+InterServReserva.i: InterServReserva.cpp.i
 
-.PHONY : CntrsServReserva.i
+.PHONY : InterServReserva.i
 
 # target to preprocess a source file
-CntrsServReserva.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServReserva.cpp.i
-.PHONY : CntrsServReserva.cpp.i
+InterServReserva.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.i
+.PHONY : InterServReserva.cpp.i
 
-CntrsServReserva.s: CntrsServReserva.cpp.s
+InterServReserva.s: InterServReserva.cpp.s
 
-.PHONY : CntrsServReserva.s
+.PHONY : InterServReserva.s
 
 # target to generate assembly for a file
-CntrsServReserva.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServReserva.cpp.s
-.PHONY : CntrsServReserva.cpp.s
+InterServReserva.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.s
+.PHONY : InterServReserva.cpp.s
 
-CntrsServUsuarios.obj: CntrsServUsuarios.cpp.obj
+InterServUsuarios.obj: InterServUsuarios.cpp.obj
 
-.PHONY : CntrsServUsuarios.obj
+.PHONY : InterServUsuarios.obj
 
 # target to build an object file
-CntrsServUsuarios.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServUsuarios.cpp.obj
-.PHONY : CntrsServUsuarios.cpp.obj
+InterServUsuarios.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.obj
+.PHONY : InterServUsuarios.cpp.obj
 
-CntrsServUsuarios.i: CntrsServUsuarios.cpp.i
+InterServUsuarios.i: InterServUsuarios.cpp.i
 
-.PHONY : CntrsServUsuarios.i
+.PHONY : InterServUsuarios.i
 
 # target to preprocess a source file
-CntrsServUsuarios.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServUsuarios.cpp.i
-.PHONY : CntrsServUsuarios.cpp.i
+InterServUsuarios.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.i
+.PHONY : InterServUsuarios.cpp.i
 
-CntrsServUsuarios.s: CntrsServUsuarios.cpp.s
+InterServUsuarios.s: InterServUsuarios.cpp.s
 
-.PHONY : CntrsServUsuarios.s
+.PHONY : InterServUsuarios.s
 
 # target to generate assembly for a file
-CntrsServUsuarios.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/CntrsServUsuarios.cpp.s
-.PHONY : CntrsServUsuarios.cpp.s
+InterServUsuarios.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.s
+.PHONY : InterServUsuarios.cpp.s
+
+Sources/Controladoras/Apresentacao/CntrAprAcomodacao.obj: Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.obj
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAcomodacao.obj
+
+# target to build an object file
+Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.obj
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.obj
+
+Sources/Controladoras/Apresentacao/CntrAprAcomodacao.i: Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.i
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAcomodacao.i
+
+# target to preprocess a source file
+Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.i
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.i
+
+Sources/Controladoras/Apresentacao/CntrAprAcomodacao.s: Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.s
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAcomodacao.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.s
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.s
+
+Sources/Controladoras/Apresentacao/CntrAprAutenticacao.obj: Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.obj
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAutenticacao.obj
+
+# target to build an object file
+Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.obj
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.obj
+
+Sources/Controladoras/Apresentacao/CntrAprAutenticacao.i: Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.i
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAutenticacao.i
+
+# target to preprocess a source file
+Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.i
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.i
+
+Sources/Controladoras/Apresentacao/CntrAprAutenticacao.s: Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.s
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAutenticacao.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.s
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.s
+
+Sources/Controladoras/Apresentacao/CntrAprReserva.obj: Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.obj
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprReserva.obj
+
+# target to build an object file
+Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.obj
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.obj
+
+Sources/Controladoras/Apresentacao/CntrAprReserva.i: Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.i
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprReserva.i
+
+# target to preprocess a source file
+Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.i
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.i
+
+Sources/Controladoras/Apresentacao/CntrAprReserva.s: Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.s
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprReserva.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.s
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.s
+
+Sources/Controladoras/Apresentacao/CntrAprUsuarios.obj: Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprUsuarios.obj
+
+# target to build an object file
+Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj
+
+Sources/Controladoras/Apresentacao/CntrAprUsuarios.i: Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.i
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprUsuarios.i
+
+# target to preprocess a source file
+Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.i
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.i
+
+Sources/Controladoras/Apresentacao/CntrAprUsuarios.s: Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.s
+
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprUsuarios.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.s
+.PHONY : Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.s
+
+Sources/Controladoras/CntrInicio.obj: Sources/Controladoras/CntrInicio.cpp.obj
+
+.PHONY : Sources/Controladoras/CntrInicio.obj
+
+# target to build an object file
+Sources/Controladoras/CntrInicio.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.obj
+.PHONY : Sources/Controladoras/CntrInicio.cpp.obj
+
+Sources/Controladoras/CntrInicio.i: Sources/Controladoras/CntrInicio.cpp.i
+
+.PHONY : Sources/Controladoras/CntrInicio.i
+
+# target to preprocess a source file
+Sources/Controladoras/CntrInicio.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.i
+.PHONY : Sources/Controladoras/CntrInicio.cpp.i
+
+Sources/Controladoras/CntrInicio.s: Sources/Controladoras/CntrInicio.cpp.s
+
+.PHONY : Sources/Controladoras/CntrInicio.s
+
+# target to generate assembly for a file
+Sources/Controladoras/CntrInicio.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.s
+.PHONY : Sources/Controladoras/CntrInicio.cpp.s
+
+Sources/Controladoras/Servico/CntrsServAcomodacao.obj: Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj
+
+.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.obj
+
+# target to build an object file
+Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj
+.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj
+
+Sources/Controladoras/Servico/CntrsServAcomodacao.i: Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i
+
+.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.i
+
+# target to preprocess a source file
+Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i
+.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i
+
+Sources/Controladoras/Servico/CntrsServAcomodacao.s: Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s
+
+.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s
+.PHONY : Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.s
+
+Sources/Controladoras/Servico/CntrsServAutenticacao.obj: Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj
+
+.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.obj
+
+# target to build an object file
+Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj
+.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj
+
+Sources/Controladoras/Servico/CntrsServAutenticacao.i: Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i
+
+.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.i
+
+# target to preprocess a source file
+Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i
+.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i
+
+Sources/Controladoras/Servico/CntrsServAutenticacao.s: Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s
+
+.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s
+.PHONY : Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s
+
+Sources/Controladoras/Servico/CntrsServReserva.obj: Sources/Controladoras/Servico/CntrsServReserva.cpp.obj
+
+.PHONY : Sources/Controladoras/Servico/CntrsServReserva.obj
+
+# target to build an object file
+Sources/Controladoras/Servico/CntrsServReserva.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj
+.PHONY : Sources/Controladoras/Servico/CntrsServReserva.cpp.obj
+
+Sources/Controladoras/Servico/CntrsServReserva.i: Sources/Controladoras/Servico/CntrsServReserva.cpp.i
+
+.PHONY : Sources/Controladoras/Servico/CntrsServReserva.i
+
+# target to preprocess a source file
+Sources/Controladoras/Servico/CntrsServReserva.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.i
+.PHONY : Sources/Controladoras/Servico/CntrsServReserva.cpp.i
+
+Sources/Controladoras/Servico/CntrsServReserva.s: Sources/Controladoras/Servico/CntrsServReserva.cpp.s
+
+.PHONY : Sources/Controladoras/Servico/CntrsServReserva.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Servico/CntrsServReserva.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.s
+.PHONY : Sources/Controladoras/Servico/CntrsServReserva.cpp.s
+
+Sources/Controladoras/Servico/CntrsServUsuarios.obj: Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj
+
+.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.obj
+
+# target to build an object file
+Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj
+.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj
+
+Sources/Controladoras/Servico/CntrsServUsuarios.i: Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i
+
+.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.i
+
+# target to preprocess a source file
+Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i
+.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i
+
+Sources/Controladoras/Servico/CntrsServUsuarios.s: Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s
+
+.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.s
+
+# target to generate assembly for a file
+Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s
+.PHONY : Sources/Controladoras/Servico/CntrsServUsuarios.cpp.s
 
 Sources/Dominios/Agencia.obj: Sources/Dominios/Agencia.cpp.obj
 
@@ -1400,33 +1616,57 @@ help:
 	@echo ... Trabalho_1_Clion
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... CntrAprAcomodacao.obj
-	@echo ... CntrAprAcomodacao.i
-	@echo ... CntrAprAcomodacao.s
-	@echo ... CntrAprAutenticacao.obj
-	@echo ... CntrAprAutenticacao.i
-	@echo ... CntrAprAutenticacao.s
-	@echo ... CntrAprReserva.obj
-	@echo ... CntrAprReserva.i
-	@echo ... CntrAprReserva.s
-	@echo ... CntrAprUsuarios.obj
-	@echo ... CntrAprUsuarios.i
-	@echo ... CntrAprUsuarios.s
-	@echo ... CntrInicio.obj
-	@echo ... CntrInicio.i
-	@echo ... CntrInicio.s
-	@echo ... CntrsServAcomodacao.obj
-	@echo ... CntrsServAcomodacao.i
-	@echo ... CntrsServAcomodacao.s
-	@echo ... CntrsServAutenticacao.obj
-	@echo ... CntrsServAutenticacao.i
-	@echo ... CntrsServAutenticacao.s
-	@echo ... CntrsServReserva.obj
-	@echo ... CntrsServReserva.i
-	@echo ... CntrsServReserva.s
-	@echo ... CntrsServUsuarios.obj
-	@echo ... CntrsServUsuarios.i
-	@echo ... CntrsServUsuarios.s
+	@echo ... InterAprAcomodacao.obj
+	@echo ... InterAprAcomodacao.i
+	@echo ... InterAprAcomodacao.s
+	@echo ... InterAprAutenticacao.obj
+	@echo ... InterAprAutenticacao.i
+	@echo ... InterAprAutenticacao.s
+	@echo ... InterAprReserva.obj
+	@echo ... InterAprReserva.i
+	@echo ... InterAprReserva.s
+	@echo ... InterAprUsuarios.obj
+	@echo ... InterAprUsuarios.i
+	@echo ... InterAprUsuarios.s
+	@echo ... InterServAcomodacao.obj
+	@echo ... InterServAcomodacao.i
+	@echo ... InterServAcomodacao.s
+	@echo ... InterServAutenticacao.obj
+	@echo ... InterServAutenticacao.i
+	@echo ... InterServAutenticacao.s
+	@echo ... InterServReserva.obj
+	@echo ... InterServReserva.i
+	@echo ... InterServReserva.s
+	@echo ... InterServUsuarios.obj
+	@echo ... InterServUsuarios.i
+	@echo ... InterServUsuarios.s
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprAcomodacao.obj
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprAcomodacao.i
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprAcomodacao.s
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprAutenticacao.obj
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprAutenticacao.i
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprAutenticacao.s
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprReserva.obj
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprReserva.i
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprReserva.s
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprUsuarios.obj
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprUsuarios.i
+	@echo ... Sources/Controladoras/Apresentacao/CntrAprUsuarios.s
+	@echo ... Sources/Controladoras/CntrInicio.obj
+	@echo ... Sources/Controladoras/CntrInicio.i
+	@echo ... Sources/Controladoras/CntrInicio.s
+	@echo ... Sources/Controladoras/Servico/CntrsServAcomodacao.obj
+	@echo ... Sources/Controladoras/Servico/CntrsServAcomodacao.i
+	@echo ... Sources/Controladoras/Servico/CntrsServAcomodacao.s
+	@echo ... Sources/Controladoras/Servico/CntrsServAutenticacao.obj
+	@echo ... Sources/Controladoras/Servico/CntrsServAutenticacao.i
+	@echo ... Sources/Controladoras/Servico/CntrsServAutenticacao.s
+	@echo ... Sources/Controladoras/Servico/CntrsServReserva.obj
+	@echo ... Sources/Controladoras/Servico/CntrsServReserva.i
+	@echo ... Sources/Controladoras/Servico/CntrsServReserva.s
+	@echo ... Sources/Controladoras/Servico/CntrsServUsuarios.obj
+	@echo ... Sources/Controladoras/Servico/CntrsServUsuarios.i
+	@echo ... Sources/Controladoras/Servico/CntrsServUsuarios.s
 	@echo ... Sources/Dominios/Agencia.obj
 	@echo ... Sources/Dominios/Agencia.i
 	@echo ... Sources/Dominios/Agencia.s

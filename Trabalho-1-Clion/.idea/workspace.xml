@@ -12,85 +12,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2265067e-bce8-4e0d-b9c9-31f1d7c3c0db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CntrAprAcomodacao.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrAprAcomodacao.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrAprAutenticacao.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrAprAutenticacao.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrAprReserva.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrAprReserva.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrAprUsuarios.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrAprUsuarios.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrInicio.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrInicio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrsServAcomodacao.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrsServAcomodacao.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrsServReserva.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrsServReserva.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrsServUsuarios.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CntrsServUsuarios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprReserva.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprUsuarios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAutenticacao.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServUsuarios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprReserva.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Interfaces/Servico/InterServAcomodacao.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Interfaces/Servico/InterServAutenticacao.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Interfaces/Servico/InterServReserva.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/Interfaces/Servico/InterServUsuarios.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/CXX.includecache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Agencia.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Banco.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Capacidade_De_Acomodacao.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Data_De_Validade.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Diaria.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Estado.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Identificador.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Nome.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Num_Cartao_Credito.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Num_Conta_Corrente.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Senha.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Tipo_Acomodacao.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Acomodacao.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Cartao_De_Credito.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Conta_Corrente.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Usuario.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Agencia.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Banco.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Diaria.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Estado.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Identificador.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Nome.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Cartao.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Senha.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects.a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <list id="6f5f25da-4b72-4cfb-8bc6-c251832e5972" name="Revert: Arquitetura adicionada" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -252,22 +200,33 @@
     <session id="-1167814006">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.117" value="1" />
           <entry key="project.open.time.226" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="10" />
-          <entry key="h" value="10" />
+          <entry key="cpp" value="22" />
+          <entry key="h" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="20" />
+          <entry key="ObjectiveC" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
     </session>
@@ -275,53 +234,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CntrAprAcomodacao.cpp">
+        <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CntrAprAcomodacao.h">
+        <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServReserva.cpp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CntrAprReserva.cpp">
+        <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CntrAprReserva.h">
+        <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CntrsServAcomodacao.cpp">
+        <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprUsuarios.h">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CntrsServAcomodacao.h">
+        <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CntrsServUsuarios.cpp">
+        <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CntrsServUsuarios.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CntrsServReserva.cpp">
+        <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprReserva.cpp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CntrsServReserva.h">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprReserva.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -431,10 +389,9 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="880" />
-    <option name="height" value="735" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="371" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -488,16 +445,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Entidades" />
-      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste\Dominios" />
-      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Headers\Teste\Entidades" />
-      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Headers\Teste\Dominios" />
-      <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Headers\Teste" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\Interfaces\Servico" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Interfaces\Servico" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\Interfaces\Apresentacao" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Interfaces\Apresentacao" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\Controladoras\Servico" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\Interfaces" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\Apresentacao" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\Controladoras" />
       <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste" />
       <recent name="C:\Paulo\Unb\TP1\Trabalho-1-Clion\Sources" />
-      <recent name="C:\Paulo\Unb\TP1\Trabalho-1-Clion" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -573,7 +532,8 @@
       <workItem from="1538516973852" duration="668000" />
       <workItem from="1541079614159" duration="1019000" />
       <workItem from="1542400211317" duration="63000" />
-      <workItem from="1542408525986" duration="3057000" />
+      <workItem from="1542408525986" duration="5043000" />
+      <workItem from="1542474558334" duration="361000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada a classe da agencia e teste dela na main">
       <created>1536084993870</created>
@@ -785,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538510264171</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Colocadas as controladoras">
+      <created>1542411831652</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1542411831652</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180576000" />
+    <option name="totallyTimeSpent" value="182923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,8 +769,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.22163388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.22919819" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -868,7 +836,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Teste do Identificador passando" />
     <MESSAGE value="Teste do Numero de cartao passando" />
     <MESSAGE value="Teste do Numero da Conta corrente passando" />
     <MESSAGE value="Teste da senha passando" />
@@ -893,7 +860,8 @@
     <MESSAGE value="try/catch e if/else dentro do padrão, espero." />
     <MESSAGE value="merge realizado" />
     <MESSAGE value="Consertado o padrão de nome de variáveis, acho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Consertado o padrão de nome de variáveis, acho" />
+    <MESSAGE value="Colocadas as controladoras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Colocadas as controladoras" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -946,127 +914,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Senha.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Usuario.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Conta_Corrente.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Cartao_De_Credito.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Entidades/Conta_Corrente.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Entidades/Usuario.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Entidades/Cartao_De_Credito.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Estado.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Teste/Teste.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Entidades/Acomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Capacidade_De_Acomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Identificador.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Agencia.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Banco.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Capacidade_De_Acomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Diaria.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Estado.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Identificador.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Num_Cartao_Credito.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/Dominios/Num_Conta_Corrente.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1128,24 +975,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ControladoraInicio.cpp">
+    <entry file="file://$PROJECT_DIR$/ControladoraInicio.cpp" />
+    <entry file="file://$PROJECT_DIR$/ControladoraInicio.h" />
+    <entry file="file://$PROJECT_DIR$/ControladoraAprAutenticacao.h" />
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ControladoraInicio.h">
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprUsuarios.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ControladoraAprAutenticacao.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CntrAprUsuarios.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CntrAprUsuarios.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ControladoraAprAutenticacao.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ControladoraAprAutenticacao.cpp" />
     <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1153,47 +992,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrAprAutenticacao.cpp">
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrAprAutenticacao.h">
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrInicio.cpp">
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/CntrInicio.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrInicio.h">
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrAprAcomodacao.cpp">
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrAprAcomodacao.h">
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprReserva.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrAprReserva.cpp">
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrAprReserva.h">
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServAcomodacao.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrsServAcomodacao.cpp">
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServUsuarios.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrsServAcomodacao.h">
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServUsuarios.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrsServUsuarios.cpp">
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServReserva.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrsServUsuarios.h">
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServReserva.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrsServReserva.cpp">
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CntrsServReserva.h">
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServAutenticacao.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServAutenticacao.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAutenticacao.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServUsuarios.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServUsuarios.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServAcomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServReserva.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprUsuarios.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprReserva.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprReserva.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprReserva.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

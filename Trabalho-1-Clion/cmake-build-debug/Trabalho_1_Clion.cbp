@@ -82,58 +82,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrAprAcomodacao.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrAprAcomodacao.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrAprAutenticacao.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprReserva.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrAprAutenticacao.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprUsuarios.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrAprReserva.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/CntrInicio.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrAprReserva.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServAcomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrAprUsuarios.cpp">
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServAutenticacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrAprUsuarios.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServReserva.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrInicio.cpp">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrInicio.h">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrsServAcomodacao.cpp">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrsServAcomodacao.h">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrsServAutenticacao.cpp">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrsServAutenticacao.h">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrsServReserva.cpp">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrsServReserva.h">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrsServUsuarios.cpp">
-			<Option target="Trabalho_1_Clion"/>
-		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CntrsServUsuarios.h">
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServUsuarios.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Agencia.h">
@@ -245,6 +218,81 @@
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Teste.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprAcomodacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprAcomodacao.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprAutenticacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprAutenticacao.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprReserva.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprReserva.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprUsuarios.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprUsuarios.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServAcomodacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServAcomodacao.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServAutenticacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServAutenticacao.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServReserva.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServReserva.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServUsuarios.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServUsuarios.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/CntrInicio.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServReserva.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServUsuarios.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Agencia.cpp">

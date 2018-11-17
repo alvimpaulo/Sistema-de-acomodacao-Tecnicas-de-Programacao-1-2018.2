@@ -1,0 +1,14 @@
+//
+// Created by paulo on 17-Nov-18.
+//
+
+#ifndef TRABALHO_1_CLION_INTERAPRAUTENTICACAO_H
+#define TRABALHO_1_CLION_INTERAPRAUTENTICACAO_H
+
+
+class InterAprAutenticacao {
+
+};
+
+
+#endif //TRABALHO_1_CLION_INTERAPRAUTENTICACAO_H
