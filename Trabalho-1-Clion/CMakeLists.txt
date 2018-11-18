@@ -4,39 +4,39 @@ project(Trabalho_1_Clion)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Trabalho_1_Clion
-        main.cpp
-        Sources/Dominios/Agencia.cpp
-        Headers/Dominios/Agencia.h
-        Sources/Dominios/Banco.cpp
-        Headers/Dominios/Banco.h
+		main.cpp
+		Sources/Dominios/Agencia.cpp
+		Headers/Dominios/Agencia.h
+		Sources/Dominios/Banco.cpp
+		Headers/Dominios/Banco.h
 		Sources/Dominios/Capacidade_De_Acomodacao.cpp
 		Headers/Dominios/Capacidade_De_Acomodacao.h
-        Sources/Dominios/Diaria.cpp
-        Headers/Dominios/Diaria.h
-        Sources/Dominios/Data.cpp
-        Headers/Dominios/Data.h
-        Sources/Dominios/Data_De_Validade.cpp
-        Headers/Dominios/Data_De_Validade.h
-        Sources/Dominios/Estado.cpp
-        Headers/Dominios/Estado.h
-        Sources/Dominios/Identificador.cpp
-        Headers/Dominios/Identificador.h
-        Sources/Dominios/Nome.cpp
-        Headers/Dominios/Nome.h
-        Sources/Dominios/Num_Cartao_Credito.cpp
-        Headers/Dominios/Num_Cartao_Credito.h
-        Sources/Dominios/Num_Conta_Corrente.cpp
-        Headers/Dominios/Num_Conta_Corrente.h
-        Sources/Dominios/Senha.cpp
-        Headers/Dominios/Senha.h
-        Sources/Dominios/Tipo_Acomodacao.cpp
-        Headers/Dominios/Tipo_Acomodacao.h
+		Sources/Dominios/Diaria.cpp
+		Headers/Dominios/Diaria.h
+		Sources/Dominios/Data.cpp
+		Headers/Dominios/Data.h
+		Sources/Dominios/Data_De_Validade.cpp
+		Headers/Dominios/Data_De_Validade.h
+		Sources/Dominios/Estado.cpp
+		Headers/Dominios/Estado.h
+		Sources/Dominios/Identificador.cpp
+		Headers/Dominios/Identificador.h
+		Sources/Dominios/Nome.cpp
+		Headers/Dominios/Nome.h
+		Sources/Dominios/Num_Cartao_Credito.cpp
+		Headers/Dominios/Num_Cartao_Credito.h
+		Sources/Dominios/Num_Conta_Corrente.cpp
+		Headers/Dominios/Num_Conta_Corrente.h
+		Sources/Dominios/Senha.cpp
+		Headers/Dominios/Senha.h
+		Sources/Dominios/Tipo_Acomodacao.cpp
+		Headers/Dominios/Tipo_Acomodacao.h
 
-        Sources/Teste/Dominios/Teste_Agencia.cpp
-        Headers/Teste/Dominios/Teste_Agencia.h
-        Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp
-        Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h
-        Sources/Teste/Dominios/Teste_Estado.cpp
+		Sources/Teste/Dominios/Teste_Agencia.cpp
+		Headers/Teste/Dominios/Teste_Agencia.h
+		Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp
+		Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h
+		Sources/Teste/Dominios/Teste_Estado.cpp
 		Headers/Teste/Dominios/Teste_Estado.h
 		Sources/Teste/Dominios/Teste_Diaria.cpp
 		Headers/Teste/Dominios/Teste_Diaria.h
@@ -59,14 +59,16 @@ add_executable(Trabalho_1_Clion
 		Sources/Teste/Dominios/Teste_Senha.cpp
 		Headers/Teste/Dominios/Teste_Senha.h
 
-        Sources/Entidades/Acomodacao.cpp
-        Headers/Entidades/Acomodacao.h
-        Sources/Entidades/Cartao_De_Credito.cpp
-        Headers/Entidades/Cartao_De_Credito.h
-        Sources/Entidades/Conta_Corrente.cpp
-        Headers/Entidades/Conta_Corrente.h
-        Sources/Entidades/Usuario.cpp
-        Headers/Entidades/Usuario.h
+		Sources/Entidades/Acomodacao.cpp
+		Headers/Entidades/Acomodacao.h
+		Sources/Entidades/Cartao_De_Credito.cpp
+		Headers/Entidades/Cartao_De_Credito.h
+		Sources/Entidades/Conta_Corrente.cpp
+		Headers/Entidades/Conta_Corrente.h
+		Sources/Entidades/Usuario.cpp
+		Headers/Entidades/Usuario.h
+		Sources/Entidades/Intervalo_Datas.cpp
+		Headers/Entidades/Intervalo_Datas.h
 
 		Sources/Teste/Entidades/Teste_Acomodacao.cpp
 		Headers/Teste/Entidades/Teste_Acomodacao.h
@@ -77,5 +79,42 @@ add_executable(Trabalho_1_Clion
 		Sources/Teste/Entidades/Teste_Conta_Corrente.cpp
 		Headers/Teste/Entidades/Teste_Conta_Corrente.h
 
-        Sources/Teste/Teste.cpp
-		Headers/Teste/Teste.h Sources/Teste/Entidades/Teste_Entidades.cpp Headers/Teste/Entidades/Teste_Entidades.h Sources/Teste/Dominios/Teste_Dominios.cpp Headers/Teste/Dominios/Teste_Dominios.h Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp Headers/Controladoras/Apresentacao/CntrAprUsuarios.h Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h Sources/Controladoras/CntrInicio.cpp Headers/Controladoras/CntrInicio.h Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h Sources/Controladoras/Apresentacao/CntrAprReserva.cpp Headers/Controladoras/Apresentacao/CntrAprReserva.h Sources/Controladoras/Servico/CntrsServAcomodacao.cpp Headers/Controladoras/Servico/CntrsServAcomodacao.h Sources/Controladoras/Servico/CntrsServUsuarios.cpp Headers/Controladoras/Servico/CntrsServUsuarios.h Sources/Controladoras/Servico/CntrsServReserva.cpp Headers/Controladoras/Servico/CntrsServReserva.h Sources/Controladoras/Servico/CntrsServAutenticacao.cpp Headers/Controladoras/Servico/CntrsServAutenticacao.h Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp Headers/Interfaces/Apresentacao/InterAprAutenticacao.h Sources/Interfaces/Servico/InterServAutenticacao.cpp Headers/Interfaces/Servico/InterServAutenticacao.h Sources/Interfaces/Servico/InterServUsuarios.cpp Headers/Interfaces/Servico/InterServUsuarios.h Sources/Interfaces/Servico/InterServAcomodacao.cpp Headers/Interfaces/Servico/InterServAcomodacao.h Sources/Interfaces/Servico/InterServReserva.cpp Headers/Interfaces/Servico/InterServReserva.h Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp Headers/Interfaces/Apresentacao/InterAprUsuarios.h Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp Headers/Interfaces/Apresentacao/InterAprAcomodacao.h Sources/Interfaces/Apresentacao/InterAprReserva.cpp Headers/Interfaces/Apresentacao/InterAprReserva.h)
+		Sources/Teste/Teste.cpp
+		Headers/Teste/Teste.h
+
+		Sources/Teste/Entidades/Teste_Entidades.cpp
+		Headers/Teste/Entidades/Teste_Entidades.h
+
+		Sources/Teste/Dominios/Teste_Dominios.cpp
+		Headers/Teste/Dominios/Teste_Dominios.h
+
+		Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp
+		Headers/Controladoras/Apresentacao/CntrAprUsuarios.h
+		Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp
+		Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h
+		Sources/Controladoras/CntrInicio.cpp
+		Headers/Controladoras/CntrInicio.h
+		Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp
+		Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h
+		Sources/Controladoras/Apresentacao/CntrAprReserva.cpp
+		Headers/Controladoras/Apresentacao/CntrAprReserva.h
+		Sources/Controladoras/Servico/CntrsServAcomodacao.cpp
+		Headers/Controladoras/Servico/CntrsServAcomodacao.h
+		Sources/Controladoras/Servico/CntrsServUsuarios.cpp
+		Headers/Controladoras/Servico/CntrsServUsuarios.h
+		Sources/Controladoras/Servico/CntrsServReserva.cpp
+		Headers/Controladoras/Servico/CntrsServReserva.h
+		Sources/Controladoras/Servico/CntrsServAutenticacao.cpp
+		Headers/Controladoras/Servico/CntrsServAutenticacao.h
+
+		Headers/Interfaces/Apresentacao/InterAprAutenticacao.h
+		Headers/Interfaces/Servico/InterServAutenticacao.h
+		Headers/Interfaces/Servico/InterServUsuarios.h
+		Headers/Interfaces/Servico/InterServAcomodacao.h
+		Headers/Interfaces/Servico/InterServReserva.h
+		Headers/Interfaces/Apresentacao/InterAprUsuarios.h
+		Headers/Interfaces/Apresentacao/InterAprAcomodacao.h
+		Headers/Interfaces/Apresentacao/InterAprReserva.h
+
+
+	)

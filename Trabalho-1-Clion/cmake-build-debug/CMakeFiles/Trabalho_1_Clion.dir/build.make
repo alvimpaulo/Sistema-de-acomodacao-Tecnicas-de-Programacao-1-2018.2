@@ -459,9 +459,22 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Usuario.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Usuario.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Entidades\Usuario.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Entidades\Usuario.cpp.s
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.obj: ../Sources/Entidades/Intervalo_Datas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Entidades\Intervalo_Datas.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Entidades\Intervalo_Datas.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Entidades\Intervalo_Datas.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\Entidades\Intervalo_Datas.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Entidades\Intervalo_Datas.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Entidades\Intervalo_Datas.cpp.s
+
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj: ../Sources/Teste/Entidades/Teste_Acomodacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Entidades\Teste_Acomodacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Teste\Entidades\Teste_Acomodacao.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.i: cmake_force
@@ -474,7 +487,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.s: 
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.obj: ../Sources/Teste/Entidades/Teste_Usuario.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Entidades\Teste_Usuario.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Teste\Entidades\Teste_Usuario.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.i: cmake_force
@@ -487,7 +500,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.s: cma
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj: ../Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Entidades\Teste_Cartao_De_Credito.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Teste\Entidades\Teste_Cartao_De_Credito.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.i: cmake_force
@@ -500,7 +513,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj: ../Sources/Teste/Entidades/Teste_Conta_Corrente.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Entidades\Teste_Conta_Corrente.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Teste\Entidades\Teste_Conta_Corrente.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp.i: cmake_force
@@ -513,7 +526,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj: ../Sources/Teste/Teste.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Teste.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Teste\Teste.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.i: cmake_force
@@ -526,7 +539,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.s: cmake_force
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj: ../Sources/Teste/Entidades/Teste_Entidades.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Entidades\Teste_Entidades.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Teste\Entidades\Teste_Entidades.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.i: cmake_force
@@ -539,7 +552,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Entidades.cpp.s: c
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj: ../Sources/Teste/Dominios/Teste_Dominios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Teste\Dominios\Teste_Dominios.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Teste\Dominios\Teste_Dominios.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.i: cmake_force
@@ -552,7 +565,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Dominios/Teste_Dominios.cpp.s: cma
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: ../Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Controladoras\Apresentacao\CntrAprUsuarios.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\Apresentacao\CntrAprUsuarios.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.i: cmake_force
@@ -565,7 +578,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuari
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.obj: ../Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Controladoras\Apresentacao\CntrAprAutenticacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\Apresentacao\CntrAprAutenticacao.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.i: cmake_force
@@ -578,7 +591,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutent
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.obj: ../Sources/Controladoras/CntrInicio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Controladoras\CntrInicio.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\CntrInicio.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.i: cmake_force
@@ -591,7 +604,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.s: cmake_fo
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.obj: ../Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Controladoras\Apresentacao\CntrAprAcomodacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\Apresentacao\CntrAprAcomodacao.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.i: cmake_force
@@ -604,7 +617,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomod
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.obj: ../Sources/Controladoras/Apresentacao/CntrAprReserva.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Controladoras\Apresentacao\CntrAprReserva.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\Apresentacao\CntrAprReserva.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.i: cmake_force
@@ -617,7 +630,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserv
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: ../Sources/Controladoras/Servico/CntrsServAcomodacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Controladoras\Servico\CntrsServAcomodacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\Servico\CntrsServAcomodacao.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.i: cmake_force
@@ -630,7 +643,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodaca
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Sources/Controladoras/Servico/CntrsServUsuarios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Controladoras\Servico\CntrsServUsuarios.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\Servico\CntrsServUsuarios.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.i: cmake_force
@@ -643,7 +656,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj: ../Sources/Controladoras/Servico/CntrsServReserva.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Controladoras\Servico\CntrsServReserva.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\Servico\CntrsServReserva.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.i: cmake_force
@@ -656,7 +669,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.c
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../Sources/Controladoras/Servico/CntrsServAutenticacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Controladoras\Servico\CntrsServAutenticacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\Servico\CntrsServAutenticacao.cpp
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.i: cmake_force
@@ -666,110 +679,6 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutentica
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Controladoras\Servico\CntrsServAutenticacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\Controladoras\Servico\CntrsServAutenticacao.cpp.s
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.obj: ../InterAprAutenticacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\InterAprAutenticacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprAutenticacao.cpp
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprAutenticacao.cpp > CMakeFiles\Trabalho_1_Clion.dir\InterAprAutenticacao.cpp.i
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprAutenticacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\InterAprAutenticacao.cpp.s
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.obj: ../InterServAutenticacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\InterServAutenticacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServAutenticacao.cpp
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServAutenticacao.cpp > CMakeFiles\Trabalho_1_Clion.dir\InterServAutenticacao.cpp.i
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServAutenticacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\InterServAutenticacao.cpp.s
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.obj: ../InterServUsuarios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\InterServUsuarios.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServUsuarios.cpp
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServUsuarios.cpp > CMakeFiles\Trabalho_1_Clion.dir\InterServUsuarios.cpp.i
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServUsuarios.cpp -o CMakeFiles\Trabalho_1_Clion.dir\InterServUsuarios.cpp.s
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.obj: ../InterServAcomodacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\InterServAcomodacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServAcomodacao.cpp
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServAcomodacao.cpp > CMakeFiles\Trabalho_1_Clion.dir\InterServAcomodacao.cpp.i
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServAcomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\InterServAcomodacao.cpp.s
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.obj: ../InterServReserva.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\InterServReserva.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServReserva.cpp
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServReserva.cpp > CMakeFiles\Trabalho_1_Clion.dir\InterServReserva.cpp.i
-
-CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterServReserva.cpp -o CMakeFiles\Trabalho_1_Clion.dir\InterServReserva.cpp.s
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.obj: ../InterAprUsuarios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\InterAprUsuarios.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprUsuarios.cpp
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprUsuarios.cpp > CMakeFiles\Trabalho_1_Clion.dir\InterAprUsuarios.cpp.i
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprUsuarios.cpp -o CMakeFiles\Trabalho_1_Clion.dir\InterAprUsuarios.cpp.s
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.obj: ../InterAprAcomodacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\InterAprAcomodacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprAcomodacao.cpp
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprAcomodacao.cpp > CMakeFiles\Trabalho_1_Clion.dir\InterAprAcomodacao.cpp.i
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprAcomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\InterAprAcomodacao.cpp.s
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
-CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.obj: ../InterAprReserva.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\InterAprReserva.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprReserva.cpp
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprReserva.cpp > CMakeFiles\Trabalho_1_Clion.dir\InterAprReserva.cpp.i
-
-CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\InterAprReserva.cpp -o CMakeFiles\Trabalho_1_Clion.dir\InterAprReserva.cpp.s
 
 # Object files for target Trabalho_1_Clion
 Trabalho_1_Clion_OBJECTS = \
@@ -804,6 +713,7 @@ Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Cartao_De_Credito.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Conta_Corrente.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Usuario.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj" \
@@ -819,15 +729,7 @@ Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.obj"
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj"
 
 # External object files for target Trabalho_1_Clion
 Trabalho_1_Clion_EXTERNAL_OBJECTS =
@@ -863,6 +765,7 @@ Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Acomodac
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Cartao_De_Credito.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Conta_Corrente.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Usuario.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Acomodacao.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp.obj
@@ -879,19 +782,11 @@ Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Serv
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj
-Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.obj
-Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.obj
-Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.obj
-Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.obj
-Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.obj
-Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.obj
-Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.obj
-Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/build.make
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/linklibs.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX executable Trabalho_1_Clion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable Trabalho_1_Clion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Trabalho_1_Clion.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

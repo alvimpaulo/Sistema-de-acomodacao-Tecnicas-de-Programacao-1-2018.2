@@ -122,222 +122,6 @@ Trabalho_1_Clion/fast:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/build
 .PHONY : Trabalho_1_Clion/fast
 
-InterAprAcomodacao.obj: InterAprAcomodacao.cpp.obj
-
-.PHONY : InterAprAcomodacao.obj
-
-# target to build an object file
-InterAprAcomodacao.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.obj
-.PHONY : InterAprAcomodacao.cpp.obj
-
-InterAprAcomodacao.i: InterAprAcomodacao.cpp.i
-
-.PHONY : InterAprAcomodacao.i
-
-# target to preprocess a source file
-InterAprAcomodacao.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.i
-.PHONY : InterAprAcomodacao.cpp.i
-
-InterAprAcomodacao.s: InterAprAcomodacao.cpp.s
-
-.PHONY : InterAprAcomodacao.s
-
-# target to generate assembly for a file
-InterAprAcomodacao.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAcomodacao.cpp.s
-.PHONY : InterAprAcomodacao.cpp.s
-
-InterAprAutenticacao.obj: InterAprAutenticacao.cpp.obj
-
-.PHONY : InterAprAutenticacao.obj
-
-# target to build an object file
-InterAprAutenticacao.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.obj
-.PHONY : InterAprAutenticacao.cpp.obj
-
-InterAprAutenticacao.i: InterAprAutenticacao.cpp.i
-
-.PHONY : InterAprAutenticacao.i
-
-# target to preprocess a source file
-InterAprAutenticacao.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.i
-.PHONY : InterAprAutenticacao.cpp.i
-
-InterAprAutenticacao.s: InterAprAutenticacao.cpp.s
-
-.PHONY : InterAprAutenticacao.s
-
-# target to generate assembly for a file
-InterAprAutenticacao.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprAutenticacao.cpp.s
-.PHONY : InterAprAutenticacao.cpp.s
-
-InterAprReserva.obj: InterAprReserva.cpp.obj
-
-.PHONY : InterAprReserva.obj
-
-# target to build an object file
-InterAprReserva.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.obj
-.PHONY : InterAprReserva.cpp.obj
-
-InterAprReserva.i: InterAprReserva.cpp.i
-
-.PHONY : InterAprReserva.i
-
-# target to preprocess a source file
-InterAprReserva.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.i
-.PHONY : InterAprReserva.cpp.i
-
-InterAprReserva.s: InterAprReserva.cpp.s
-
-.PHONY : InterAprReserva.s
-
-# target to generate assembly for a file
-InterAprReserva.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprReserva.cpp.s
-.PHONY : InterAprReserva.cpp.s
-
-InterAprUsuarios.obj: InterAprUsuarios.cpp.obj
-
-.PHONY : InterAprUsuarios.obj
-
-# target to build an object file
-InterAprUsuarios.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.obj
-.PHONY : InterAprUsuarios.cpp.obj
-
-InterAprUsuarios.i: InterAprUsuarios.cpp.i
-
-.PHONY : InterAprUsuarios.i
-
-# target to preprocess a source file
-InterAprUsuarios.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.i
-.PHONY : InterAprUsuarios.cpp.i
-
-InterAprUsuarios.s: InterAprUsuarios.cpp.s
-
-.PHONY : InterAprUsuarios.s
-
-# target to generate assembly for a file
-InterAprUsuarios.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterAprUsuarios.cpp.s
-.PHONY : InterAprUsuarios.cpp.s
-
-InterServAcomodacao.obj: InterServAcomodacao.cpp.obj
-
-.PHONY : InterServAcomodacao.obj
-
-# target to build an object file
-InterServAcomodacao.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.obj
-.PHONY : InterServAcomodacao.cpp.obj
-
-InterServAcomodacao.i: InterServAcomodacao.cpp.i
-
-.PHONY : InterServAcomodacao.i
-
-# target to preprocess a source file
-InterServAcomodacao.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.i
-.PHONY : InterServAcomodacao.cpp.i
-
-InterServAcomodacao.s: InterServAcomodacao.cpp.s
-
-.PHONY : InterServAcomodacao.s
-
-# target to generate assembly for a file
-InterServAcomodacao.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAcomodacao.cpp.s
-.PHONY : InterServAcomodacao.cpp.s
-
-InterServAutenticacao.obj: InterServAutenticacao.cpp.obj
-
-.PHONY : InterServAutenticacao.obj
-
-# target to build an object file
-InterServAutenticacao.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.obj
-.PHONY : InterServAutenticacao.cpp.obj
-
-InterServAutenticacao.i: InterServAutenticacao.cpp.i
-
-.PHONY : InterServAutenticacao.i
-
-# target to preprocess a source file
-InterServAutenticacao.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.i
-.PHONY : InterServAutenticacao.cpp.i
-
-InterServAutenticacao.s: InterServAutenticacao.cpp.s
-
-.PHONY : InterServAutenticacao.s
-
-# target to generate assembly for a file
-InterServAutenticacao.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServAutenticacao.cpp.s
-.PHONY : InterServAutenticacao.cpp.s
-
-InterServReserva.obj: InterServReserva.cpp.obj
-
-.PHONY : InterServReserva.obj
-
-# target to build an object file
-InterServReserva.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.obj
-.PHONY : InterServReserva.cpp.obj
-
-InterServReserva.i: InterServReserva.cpp.i
-
-.PHONY : InterServReserva.i
-
-# target to preprocess a source file
-InterServReserva.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.i
-.PHONY : InterServReserva.cpp.i
-
-InterServReserva.s: InterServReserva.cpp.s
-
-.PHONY : InterServReserva.s
-
-# target to generate assembly for a file
-InterServReserva.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServReserva.cpp.s
-.PHONY : InterServReserva.cpp.s
-
-InterServUsuarios.obj: InterServUsuarios.cpp.obj
-
-.PHONY : InterServUsuarios.obj
-
-# target to build an object file
-InterServUsuarios.cpp.obj:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.obj
-.PHONY : InterServUsuarios.cpp.obj
-
-InterServUsuarios.i: InterServUsuarios.cpp.i
-
-.PHONY : InterServUsuarios.i
-
-# target to preprocess a source file
-InterServUsuarios.cpp.i:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.i
-.PHONY : InterServUsuarios.cpp.i
-
-InterServUsuarios.s: InterServUsuarios.cpp.s
-
-.PHONY : InterServUsuarios.s
-
-# target to generate assembly for a file
-InterServUsuarios.cpp.s:
-	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/InterServUsuarios.cpp.s
-.PHONY : InterServUsuarios.cpp.s
-
 Sources/Controladoras/Apresentacao/CntrAprAcomodacao.obj: Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.obj
 
 .PHONY : Sources/Controladoras/Apresentacao/CntrAprAcomodacao.obj
@@ -1013,6 +797,33 @@ Sources/Entidades/Conta_Corrente.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Conta_Corrente.cpp.s
 .PHONY : Sources/Entidades/Conta_Corrente.cpp.s
 
+Sources/Entidades/Intervalo_Datas.obj: Sources/Entidades/Intervalo_Datas.cpp.obj
+
+.PHONY : Sources/Entidades/Intervalo_Datas.obj
+
+# target to build an object file
+Sources/Entidades/Intervalo_Datas.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.obj
+.PHONY : Sources/Entidades/Intervalo_Datas.cpp.obj
+
+Sources/Entidades/Intervalo_Datas.i: Sources/Entidades/Intervalo_Datas.cpp.i
+
+.PHONY : Sources/Entidades/Intervalo_Datas.i
+
+# target to preprocess a source file
+Sources/Entidades/Intervalo_Datas.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.i
+.PHONY : Sources/Entidades/Intervalo_Datas.cpp.i
+
+Sources/Entidades/Intervalo_Datas.s: Sources/Entidades/Intervalo_Datas.cpp.s
+
+.PHONY : Sources/Entidades/Intervalo_Datas.s
+
+# target to generate assembly for a file
+Sources/Entidades/Intervalo_Datas.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.s
+.PHONY : Sources/Entidades/Intervalo_Datas.cpp.s
+
 Sources/Entidades/Usuario.obj: Sources/Entidades/Usuario.cpp.obj
 
 .PHONY : Sources/Entidades/Usuario.obj
@@ -1616,30 +1427,6 @@ help:
 	@echo ... Trabalho_1_Clion
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... InterAprAcomodacao.obj
-	@echo ... InterAprAcomodacao.i
-	@echo ... InterAprAcomodacao.s
-	@echo ... InterAprAutenticacao.obj
-	@echo ... InterAprAutenticacao.i
-	@echo ... InterAprAutenticacao.s
-	@echo ... InterAprReserva.obj
-	@echo ... InterAprReserva.i
-	@echo ... InterAprReserva.s
-	@echo ... InterAprUsuarios.obj
-	@echo ... InterAprUsuarios.i
-	@echo ... InterAprUsuarios.s
-	@echo ... InterServAcomodacao.obj
-	@echo ... InterServAcomodacao.i
-	@echo ... InterServAcomodacao.s
-	@echo ... InterServAutenticacao.obj
-	@echo ... InterServAutenticacao.i
-	@echo ... InterServAutenticacao.s
-	@echo ... InterServReserva.obj
-	@echo ... InterServReserva.i
-	@echo ... InterServReserva.s
-	@echo ... InterServUsuarios.obj
-	@echo ... InterServUsuarios.i
-	@echo ... InterServUsuarios.s
 	@echo ... Sources/Controladoras/Apresentacao/CntrAprAcomodacao.obj
 	@echo ... Sources/Controladoras/Apresentacao/CntrAprAcomodacao.i
 	@echo ... Sources/Controladoras/Apresentacao/CntrAprAcomodacao.s
@@ -1715,6 +1502,9 @@ help:
 	@echo ... Sources/Entidades/Conta_Corrente.obj
 	@echo ... Sources/Entidades/Conta_Corrente.i
 	@echo ... Sources/Entidades/Conta_Corrente.s
+	@echo ... Sources/Entidades/Intervalo_Datas.obj
+	@echo ... Sources/Entidades/Intervalo_Datas.i
+	@echo ... Sources/Entidades/Intervalo_Datas.s
 	@echo ... Sources/Entidades/Usuario.obj
 	@echo ... Sources/Entidades/Usuario.i
 	@echo ... Sources/Entidades/Usuario.s

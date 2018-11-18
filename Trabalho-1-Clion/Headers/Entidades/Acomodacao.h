@@ -11,6 +11,9 @@
 #include "../../Headers/Dominios/Nome.h"
 #include "../../Headers/Dominios/Estado.h"
 #include "../../Headers/Dominios/Diaria.h"
+#include <list>
+#include "Intervalo_Datas.h"
+#include <algorithm>
 
 /**
  * @brief Entidade que armazena uma acomodação.
@@ -22,7 +25,7 @@ public:
      * @brief Construtor da classe.
      * @details Quando uma instância dessa classe for criada, será armazenado um valor padrão de suas variáveis.
      */
-    Acomodacao():identificador(),tipo(),capacidade(),dataInicio(),dataTermino(),cidade(),estado(),diaria(){}
+    Acomodacao():identificador(),tipo(),capacidade(),cidade(),estado(),diaria(), disponibilidades(), reservas(){}
 
     /**
      * @brief Atribui o identificador da acomodação.
@@ -72,37 +75,7 @@ public:
         return capacidade;
     }
 
-    /**
-     * @brief Atribui a data de início de locação da acomodação.
-     * @details Atribui a data de início de locação da acomodação.
-     * @param dataInicio Data que contém a data de início a ser atribuída.
-     */
-    void setDataInicio(Data &dataInicio){
-        this->dataInicio = dataInicio;
-    }
-    /**
-     * @brief Retorna a data de início de locação da acomodação.
-     * @return Data contendo a data de início de locação da acomodação.
-     */
-    Data getDataInicio() const{
-        return dataInicio;
-    }
 
-    /**
-     * @brief Atribui a data de término de locação da acomodação.
-     * @details Atribui a data de término de locação da acomodação.
-     * @param dataTermino Data que contém a data de término a ser atribuída.
-     */
-    void setDataTermino(Data &dataTermino){
-        this->dataTermino = dataTermino;
-    }
-    /**
-     * @brief Retorna a data de término de locação da acomodação.
-     * @return Data contendo a data de término de locação da acomodação.
-     */
-    Data getDataTermino() const{
-        return dataTermino;
-    }
 
     /**
      * @brief Atribui o nome da cidade onde a acomodação é localizada.
@@ -152,16 +125,35 @@ public:
         return diaria;
     }
 
+    void addDisponibilidade(const Intervalo_Datas &disponibilidade) {
+        this->disponibilidades.push_back(disponibilidade);
+    }
+    std::list<Intervalo_Datas> getDisponibilidades(){
+        return disponibilidades;
+    }
+    void removeDisponibilidade(Intervalo_Datas disponibilidade);
+
+
+    void addReserva(const Intervalo_Datas &reserva){
+        this->reservas.push_back(reserva);
+    }
+    std::list<Intervalo_Datas> getReserva(){
+        return reservas;
+    }
+    void removeReserva(Intervalo_Datas reserva);
+
+
 protected:
 private:
     Identificador identificador;
     Tipo_Acomodacao tipo;
     Capacidade_De_Acomodacao capacidade;
-    Data dataInicio;
-    Data dataTermino;
     Nome cidade;
     Estado estado;
     Diaria diaria;
+    std::list<Intervalo_Datas> disponibilidades;
+    std::list<Intervalo_Datas> reservas;
+
 };
 
 
