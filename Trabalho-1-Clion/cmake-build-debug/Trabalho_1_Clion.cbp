@@ -391,6 +391,12 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/main.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/sqlite/sqlite3.c">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/sqlite/sqlite3.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

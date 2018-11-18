@@ -1,5 +1,7 @@
 #include <iostream>
+#include <fstream>
 #include <vector>
+#include "sqlite/sqlite3.h"
 #include "Headers/Teste/Dominios/Teste_Data.h"
 #include "Headers/Teste/Dominios/Teste_Data_De_Validade.h"
 #include "Headers/Teste/Dominios/Teste_Diaria.h"
@@ -18,8 +20,19 @@
 #include "Headers/Teste/Entidades/Teste_Usuario.h"
 #include "Headers/Teste/Entidades/Teste_Cartao_De_Credito.h"
 
+#define TESTES 0
 
-int main(){
+static int callback(void *NotUsed, int argc, char **argv, char **azColName){
+        int i;
+        for(i=0; i<argc; i++){
+              printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+            }
+        printf("\n");
+        return 0;
+      }
+
+int main(int argc, char **argv){
+#if TESTES
     std::vector<Teste*> teste(17, nullptr);
     teste[0] = new Teste_Agencia;
     teste[1] = new Teste_Banco;
@@ -50,6 +63,25 @@ int main(){
     for(Teste *testePtr: teste){
         delete testePtr;
     }
+#endif
+
+    sqlite3 *db;
+    char *zErrMsg = 0;
+    int rc;
+
+    rc = sqlite3_open("../Database/Database.db", &db);
+    if( rc ){
+      fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
+      sqlite3_close(db);
+      return(1);
+    }
+    rc = sqlite3_exec(db, argv[2], callback, 0, &zErrMsg);
+    if( rc!=SQLITE_OK ){
+          fprintf(stderr, "SQL error: %s\n", zErrMsg);
+          sqlite3_free(zErrMsg);
+        }
+    sqlite3_close(db);
+
 
 
     return 0;

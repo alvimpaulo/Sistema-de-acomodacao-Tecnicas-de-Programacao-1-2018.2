@@ -1,8 +1,17 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/sqlite/sqlite3.c" "C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.obj"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  )
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp" "C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp.obj"
   "C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp" "C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp.obj"

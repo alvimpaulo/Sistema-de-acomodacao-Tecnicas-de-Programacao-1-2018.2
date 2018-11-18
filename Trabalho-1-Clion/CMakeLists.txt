@@ -116,5 +116,8 @@ add_executable(Trabalho_1_Clion
 		Headers/Interfaces/Apresentacao/InterAprAcomodacao.h
 		Headers/Interfaces/Apresentacao/InterAprReserva.h
 
+		sqlite/sqlite3.c
+		sqlite/sqlite3.h
+
 
 	)

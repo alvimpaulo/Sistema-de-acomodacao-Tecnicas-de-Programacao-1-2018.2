@@ -47,6 +47,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj"
+  "CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.obj"
   "Trabalho_1_Clion.pdb"
   "Trabalho_1_Clion.exe"
   "Trabalho_1_Clion.exe.manifest"
@@ -54,6 +55,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/Trabalho_1_Clion.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
