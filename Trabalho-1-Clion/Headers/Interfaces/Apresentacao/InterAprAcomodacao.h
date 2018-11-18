@@ -6,8 +6,15 @@
 #define TRABALHO_1_CLION_INTERAPRACOMODACAO_H
 
 
-class InterAprAcomodacao {
+#include "../../Dominios/Identificador.h"
+#include "../Servico/InterServAcomodacao.h"
 
+class InterAprAcomodacao{
+private:
+protected:
+public:
+    virtual void executar(Identificador &identificador) = 0;
+    virtual void setCntrsServAcomodacao(InterServAcomodacao *cntrsServAcomodacao) = 0;
 };
 
 

@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug"/>
+				<Option working_dir="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Trabalho_1_Clion">
-				<Option output="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Trabalho_1_Clion.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug"/>
+				<Option output="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Trabalho_1_Clion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_1_Clion"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_1_Clion"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Trabalho_1_Clion/fast">
-				<Option output="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Trabalho_1_Clion.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug"/>
+				<Option output="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Trabalho_1_Clion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,361 +55,361 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_1_Clion/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_1_Clion/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug"/>
+				<Option working_dir="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug"/>
+				<Option working_dir="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprReserva.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprReserva.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprUsuarios.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Apresentacao/CntrAprUsuarios.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/CntrInicio.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/CntrInicio.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServAcomodacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServAcomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServAutenticacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServAutenticacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServReserva.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServReserva.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServUsuarios.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Controladoras/Servico/CntrsServUsuarios.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Agencia.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Agencia.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Banco.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Banco.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Capacidade_De_Acomodacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Capacidade_De_Acomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Data.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Data.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Data_De_Validade.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Data_De_Validade.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Diaria.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Diaria.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Estado.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Estado.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Identificador.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Identificador.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Nome.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Nome.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Num_Cartao_Credito.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Num_Cartao_Credito.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Num_Conta_Corrente.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Num_Conta_Corrente.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Senha.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Senha.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Tipo_Acomodacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Dominios/Tipo_Acomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Entidades/Acomodacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Entidades/Acomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Entidades/Cartao_De_Credito.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Entidades/Cartao_De_Credito.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Entidades/Conta_Corrente.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Entidades/Conta_Corrente.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Entidades/Usuario.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Entidades/Usuario.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Agencia.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Banco.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Interfaces/Apresentacao/InterAprReserva.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Data.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Interfaces/Apresentacao/InterAprUsuarios.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Data_De_Validade.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Interfaces/Servico/InterServAcomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Diaria.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Interfaces/Servico/InterServAutenticacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Dominios.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Interfaces/Servico/InterServReserva.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Estado.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Interfaces/Servico/InterServUsuarios.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Identificador.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Agencia.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Nome.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Banco.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Num_Cartao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Data.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Senha.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Data_De_Validade.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Diaria.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Acomodacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Dominios.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Cartao_De_Credito.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Estado.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Conta_Corrente.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Identificador.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Entidades.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Nome.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Usuario.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Num_Cartao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Teste.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Num_Conta_Corrente.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprAcomodacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Senha.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprAcomodacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprAutenticacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Acomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprAutenticacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Cartao_De_Credito.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprReserva.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Conta_Corrente.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprReserva.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Entidades.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprUsuarios.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Entidades/Teste_Usuario.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterAprUsuarios.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/Teste/Teste.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServAcomodacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServAcomodacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServAutenticacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServAutenticacao.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServReserva.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/CntrInicio.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServReserva.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServUsuarios.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/InterServUsuarios.h">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServReserva.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServUsuarios.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Agencia.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Banco.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Capacidade_De_Acomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/CntrInicio.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Data.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Data_De_Validade.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Diaria.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServReserva.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Estado.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Controladoras/Servico/CntrsServUsuarios.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Identificador.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Agencia.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Nome.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Banco.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Num_Cartao_Credito.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Capacidade_De_Acomodacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Num_Conta_Corrente.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Data.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Senha.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Data_De_Validade.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Tipo_Acomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Diaria.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Entidades/Acomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Estado.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Entidades/Cartao_De_Credito.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Identificador.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Entidades/Conta_Corrente.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Nome.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Entidades/Usuario.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Num_Cartao_Credito.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Num_Conta_Corrente.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Senha.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Interfaces/Apresentacao/InterAprReserva.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Dominios/Tipo_Acomodacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Entidades/Acomodacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Interfaces/Servico/InterServAcomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Entidades/Cartao_De_Credito.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Interfaces/Servico/InterServAutenticacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Entidades/Conta_Corrente.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Interfaces/Servico/InterServReserva.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Entidades/Usuario.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Interfaces/Servico/InterServUsuarios.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Agencia.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Agencia.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Banco.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Banco.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Capacidade_De_Acomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Data.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Data.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Data_De_Validade.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Diaria.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Diaria.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Dominios.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Dominios.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Estado.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Estado.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Identificador.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Identificador.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Nome.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Nome.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Num_Cartao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Num_Cartao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Num_Conta_Corrente.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Senha.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Senha.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Dominios/Teste_Tipo_Acomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Acomodacao.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Acomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Conta_Corrente.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Entidades.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Entidades.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Usuario.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Entidades/Teste_Usuario.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Teste.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/Teste/Teste.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/main.cpp">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/main.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
-		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CMakeLists.txt">
+		<Unit filename="C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

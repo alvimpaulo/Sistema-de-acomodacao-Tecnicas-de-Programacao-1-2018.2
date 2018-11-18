@@ -6,8 +6,15 @@
 #define TRABALHO_1_CLION_INTERAPRRESERVA_H
 
 
-class InterAprReserva {
+#include "../../Dominios/Identificador.h"
+#include "../Servico/InterServReserva.h"
 
+class InterAprReserva {
+private:
+protected:
+public:
+    virtual void executar(Identificador &identificador) = 0;
+    virtual void setCntrsServReserva(InterServReserva *cntrsServReserva) = 0;
 };
 
 

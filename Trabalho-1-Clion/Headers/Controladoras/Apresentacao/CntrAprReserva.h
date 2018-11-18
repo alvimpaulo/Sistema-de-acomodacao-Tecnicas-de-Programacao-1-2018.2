@@ -6,8 +6,19 @@
 #define TRABALHO_1_CLION_CNTRAPRRESERVA_H
 
 
-class CntrAprReserva {
+#include "../../Interfaces/Apresentacao/InterAprReserva.h"
 
+class CntrAprReserva: public InterAprReserva {
+private:
+protected:
+public:
+    CntrAprReserva();
+    void executar(Identificador &identificador);
+    void setCntrsServReserva(InterServReserva *cntrsServReserva);
+    void cancelarReserva();
+    void realizarReserva();
+    void pesquisarReserva();
+    virtual ~CntrAprReserva();
 };
 
 
