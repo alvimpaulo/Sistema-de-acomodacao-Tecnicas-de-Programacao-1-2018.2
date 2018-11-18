@@ -6,8 +6,17 @@
 #define TRABALHO_1_CLION_CNTRAPRAUTENTICACAO_H
 
 
-class CntrAprAutenticacao {
+#include "../../Interfaces/Apresentacao/InterAprAutenticacao.h"
 
+class CntrAprAutenticacao: public InterAprAutenticacao{
+private:
+    InterServAutenticacao* interServAutenticacao;
+protected:
+public:
+    CntrAprAutenticacao();
+    void autenticar(Identificador &identificador) override;
+    void setCntrsServAutenticacao(InterServAutenticacao* interServAutenticacao) override;
+    virtual ~CntrAprAutenticacao();
 };
 
 

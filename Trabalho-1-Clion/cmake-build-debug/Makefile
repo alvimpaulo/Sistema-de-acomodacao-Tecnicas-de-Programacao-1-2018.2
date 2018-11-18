@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\paulo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4129.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\paulo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4129.51\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion
+CMAKE_SOURCE_DIR = "C:\Users\oetch\Desktop\Nova pasta (3)\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\oetch\Desktop\Nova pasta (3)\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programaca
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\paulo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4129.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\paulo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4129.51\bin\cmake\win\bin\cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\oetch\Desktop\Nova pasta (3)\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles" "C:\Users\oetch\Desktop\Nova pasta (3)\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\oetch\Desktop\Nova pasta (3)\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -851,6 +851,222 @@ Sources/Entidades/Usuario.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Usuario.cpp.s
 .PHONY : Sources/Entidades/Usuario.cpp.s
 
+Sources/Interfaces/Apresentacao/InterAprAcomodacao.obj: Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.obj
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAcomodacao.obj
+
+# target to build an object file
+Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.obj
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.obj
+
+Sources/Interfaces/Apresentacao/InterAprAcomodacao.i: Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.i
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAcomodacao.i
+
+# target to preprocess a source file
+Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.i
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.i
+
+Sources/Interfaces/Apresentacao/InterAprAcomodacao.s: Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.s
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAcomodacao.s
+
+# target to generate assembly for a file
+Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.s
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp.s
+
+Sources/Interfaces/Apresentacao/InterAprAutenticacao.obj: Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.obj
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAutenticacao.obj
+
+# target to build an object file
+Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.obj
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.obj
+
+Sources/Interfaces/Apresentacao/InterAprAutenticacao.i: Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.i
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAutenticacao.i
+
+# target to preprocess a source file
+Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.i
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.i
+
+Sources/Interfaces/Apresentacao/InterAprAutenticacao.s: Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.s
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAutenticacao.s
+
+# target to generate assembly for a file
+Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.s
+.PHONY : Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp.s
+
+Sources/Interfaces/Apresentacao/InterAprReserva.obj: Sources/Interfaces/Apresentacao/InterAprReserva.cpp.obj
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprReserva.obj
+
+# target to build an object file
+Sources/Interfaces/Apresentacao/InterAprReserva.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprReserva.cpp.obj
+.PHONY : Sources/Interfaces/Apresentacao/InterAprReserva.cpp.obj
+
+Sources/Interfaces/Apresentacao/InterAprReserva.i: Sources/Interfaces/Apresentacao/InterAprReserva.cpp.i
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprReserva.i
+
+# target to preprocess a source file
+Sources/Interfaces/Apresentacao/InterAprReserva.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprReserva.cpp.i
+.PHONY : Sources/Interfaces/Apresentacao/InterAprReserva.cpp.i
+
+Sources/Interfaces/Apresentacao/InterAprReserva.s: Sources/Interfaces/Apresentacao/InterAprReserva.cpp.s
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprReserva.s
+
+# target to generate assembly for a file
+Sources/Interfaces/Apresentacao/InterAprReserva.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprReserva.cpp.s
+.PHONY : Sources/Interfaces/Apresentacao/InterAprReserva.cpp.s
+
+Sources/Interfaces/Apresentacao/InterAprUsuarios.obj: Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.obj
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprUsuarios.obj
+
+# target to build an object file
+Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.obj
+.PHONY : Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.obj
+
+Sources/Interfaces/Apresentacao/InterAprUsuarios.i: Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.i
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprUsuarios.i
+
+# target to preprocess a source file
+Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.i
+.PHONY : Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.i
+
+Sources/Interfaces/Apresentacao/InterAprUsuarios.s: Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.s
+
+.PHONY : Sources/Interfaces/Apresentacao/InterAprUsuarios.s
+
+# target to generate assembly for a file
+Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.s
+.PHONY : Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp.s
+
+Sources/Interfaces/Servico/InterServAcomodacao.obj: Sources/Interfaces/Servico/InterServAcomodacao.cpp.obj
+
+.PHONY : Sources/Interfaces/Servico/InterServAcomodacao.obj
+
+# target to build an object file
+Sources/Interfaces/Servico/InterServAcomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServAcomodacao.cpp.obj
+.PHONY : Sources/Interfaces/Servico/InterServAcomodacao.cpp.obj
+
+Sources/Interfaces/Servico/InterServAcomodacao.i: Sources/Interfaces/Servico/InterServAcomodacao.cpp.i
+
+.PHONY : Sources/Interfaces/Servico/InterServAcomodacao.i
+
+# target to preprocess a source file
+Sources/Interfaces/Servico/InterServAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServAcomodacao.cpp.i
+.PHONY : Sources/Interfaces/Servico/InterServAcomodacao.cpp.i
+
+Sources/Interfaces/Servico/InterServAcomodacao.s: Sources/Interfaces/Servico/InterServAcomodacao.cpp.s
+
+.PHONY : Sources/Interfaces/Servico/InterServAcomodacao.s
+
+# target to generate assembly for a file
+Sources/Interfaces/Servico/InterServAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServAcomodacao.cpp.s
+.PHONY : Sources/Interfaces/Servico/InterServAcomodacao.cpp.s
+
+Sources/Interfaces/Servico/InterServAutenticacao.obj: Sources/Interfaces/Servico/InterServAutenticacao.cpp.obj
+
+.PHONY : Sources/Interfaces/Servico/InterServAutenticacao.obj
+
+# target to build an object file
+Sources/Interfaces/Servico/InterServAutenticacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServAutenticacao.cpp.obj
+.PHONY : Sources/Interfaces/Servico/InterServAutenticacao.cpp.obj
+
+Sources/Interfaces/Servico/InterServAutenticacao.i: Sources/Interfaces/Servico/InterServAutenticacao.cpp.i
+
+.PHONY : Sources/Interfaces/Servico/InterServAutenticacao.i
+
+# target to preprocess a source file
+Sources/Interfaces/Servico/InterServAutenticacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServAutenticacao.cpp.i
+.PHONY : Sources/Interfaces/Servico/InterServAutenticacao.cpp.i
+
+Sources/Interfaces/Servico/InterServAutenticacao.s: Sources/Interfaces/Servico/InterServAutenticacao.cpp.s
+
+.PHONY : Sources/Interfaces/Servico/InterServAutenticacao.s
+
+# target to generate assembly for a file
+Sources/Interfaces/Servico/InterServAutenticacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServAutenticacao.cpp.s
+.PHONY : Sources/Interfaces/Servico/InterServAutenticacao.cpp.s
+
+Sources/Interfaces/Servico/InterServReserva.obj: Sources/Interfaces/Servico/InterServReserva.cpp.obj
+
+.PHONY : Sources/Interfaces/Servico/InterServReserva.obj
+
+# target to build an object file
+Sources/Interfaces/Servico/InterServReserva.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServReserva.cpp.obj
+.PHONY : Sources/Interfaces/Servico/InterServReserva.cpp.obj
+
+Sources/Interfaces/Servico/InterServReserva.i: Sources/Interfaces/Servico/InterServReserva.cpp.i
+
+.PHONY : Sources/Interfaces/Servico/InterServReserva.i
+
+# target to preprocess a source file
+Sources/Interfaces/Servico/InterServReserva.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServReserva.cpp.i
+.PHONY : Sources/Interfaces/Servico/InterServReserva.cpp.i
+
+Sources/Interfaces/Servico/InterServReserva.s: Sources/Interfaces/Servico/InterServReserva.cpp.s
+
+.PHONY : Sources/Interfaces/Servico/InterServReserva.s
+
+# target to generate assembly for a file
+Sources/Interfaces/Servico/InterServReserva.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServReserva.cpp.s
+.PHONY : Sources/Interfaces/Servico/InterServReserva.cpp.s
+
+Sources/Interfaces/Servico/InterServUsuarios.obj: Sources/Interfaces/Servico/InterServUsuarios.cpp.obj
+
+.PHONY : Sources/Interfaces/Servico/InterServUsuarios.obj
+
+# target to build an object file
+Sources/Interfaces/Servico/InterServUsuarios.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServUsuarios.cpp.obj
+.PHONY : Sources/Interfaces/Servico/InterServUsuarios.cpp.obj
+
+Sources/Interfaces/Servico/InterServUsuarios.i: Sources/Interfaces/Servico/InterServUsuarios.cpp.i
+
+.PHONY : Sources/Interfaces/Servico/InterServUsuarios.i
+
+# target to preprocess a source file
+Sources/Interfaces/Servico/InterServUsuarios.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServUsuarios.cpp.i
+.PHONY : Sources/Interfaces/Servico/InterServUsuarios.cpp.i
+
+Sources/Interfaces/Servico/InterServUsuarios.s: Sources/Interfaces/Servico/InterServUsuarios.cpp.s
+
+.PHONY : Sources/Interfaces/Servico/InterServUsuarios.s
+
+# target to generate assembly for a file
+Sources/Interfaces/Servico/InterServUsuarios.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Interfaces/Servico/InterServUsuarios.cpp.s
+.PHONY : Sources/Interfaces/Servico/InterServUsuarios.cpp.s
+
 Sources/Teste/Dominios/Teste_Agencia.obj: Sources/Teste/Dominios/Teste_Agencia.cpp.obj
 
 .PHONY : Sources/Teste/Dominios/Teste_Agencia.obj
@@ -1535,6 +1751,30 @@ help:
 	@echo ... Sources/Entidades/Usuario.obj
 	@echo ... Sources/Entidades/Usuario.i
 	@echo ... Sources/Entidades/Usuario.s
+	@echo ... Sources/Interfaces/Apresentacao/InterAprAcomodacao.obj
+	@echo ... Sources/Interfaces/Apresentacao/InterAprAcomodacao.i
+	@echo ... Sources/Interfaces/Apresentacao/InterAprAcomodacao.s
+	@echo ... Sources/Interfaces/Apresentacao/InterAprAutenticacao.obj
+	@echo ... Sources/Interfaces/Apresentacao/InterAprAutenticacao.i
+	@echo ... Sources/Interfaces/Apresentacao/InterAprAutenticacao.s
+	@echo ... Sources/Interfaces/Apresentacao/InterAprReserva.obj
+	@echo ... Sources/Interfaces/Apresentacao/InterAprReserva.i
+	@echo ... Sources/Interfaces/Apresentacao/InterAprReserva.s
+	@echo ... Sources/Interfaces/Apresentacao/InterAprUsuarios.obj
+	@echo ... Sources/Interfaces/Apresentacao/InterAprUsuarios.i
+	@echo ... Sources/Interfaces/Apresentacao/InterAprUsuarios.s
+	@echo ... Sources/Interfaces/Servico/InterServAcomodacao.obj
+	@echo ... Sources/Interfaces/Servico/InterServAcomodacao.i
+	@echo ... Sources/Interfaces/Servico/InterServAcomodacao.s
+	@echo ... Sources/Interfaces/Servico/InterServAutenticacao.obj
+	@echo ... Sources/Interfaces/Servico/InterServAutenticacao.i
+	@echo ... Sources/Interfaces/Servico/InterServAutenticacao.s
+	@echo ... Sources/Interfaces/Servico/InterServReserva.obj
+	@echo ... Sources/Interfaces/Servico/InterServReserva.i
+	@echo ... Sources/Interfaces/Servico/InterServReserva.s
+	@echo ... Sources/Interfaces/Servico/InterServUsuarios.obj
+	@echo ... Sources/Interfaces/Servico/InterServUsuarios.i
+	@echo ... Sources/Interfaces/Servico/InterServUsuarios.s
 	@echo ... Sources/Teste/Dominios/Teste_Agencia.obj
 	@echo ... Sources/Teste/Dominios/Teste_Agencia.i
 	@echo ... Sources/Teste/Dominios/Teste_Agencia.s
