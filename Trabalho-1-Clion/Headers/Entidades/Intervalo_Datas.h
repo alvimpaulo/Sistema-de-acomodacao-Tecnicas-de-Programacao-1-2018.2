@@ -42,7 +42,7 @@ public:
         return dataTermino;
     }
 
-    friend bool operator==(const Intervalo_Datas& intervalo1, Intervalo_Datas& intervalo2);
+    friend bool operator==(const Intervalo_Datas& intervalo1, const Intervalo_Datas& intervalo2);
 
 private:
     Data dataInicio;

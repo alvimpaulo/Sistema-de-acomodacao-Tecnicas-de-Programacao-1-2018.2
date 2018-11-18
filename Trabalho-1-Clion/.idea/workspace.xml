@@ -11,36 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2265067e-bce8-4e0d-b9c9-31f1d7c3c0db" name="Default Changelist" comment="Feitas as i">
-      <change afterPath="$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp" afterDir="false" />
+    <list default="true" id="2265067e-bce8-4e0d-b9c9-31f1d7c3c0db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Dominios/Data.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Dominios/Data.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Acomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Entidades/Acomodacao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAutenticacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAutenticacao.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServUsuarios.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServUsuarios.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Data.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Acomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Entidades/Acomodacao.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprReserva.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Interfaces/Servico/InterServAcomodacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Interfaces/Servico/InterServAutenticacao.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Interfaces/Servico/InterServReserva.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Interfaces/Servico/InterServUsuarios.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Dominios/Num_Cartao_Credito.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Dominios/Num_Cartao_Credito.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" afterDir="false" />
     </list>
     <list id="6f5f25da-4b72-4cfb-8bc6-c251832e5972" name="Revert: Arquitetura adicionada" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -205,36 +182,37 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.117" value="1" />
+          <entry key="project.open.time.134" value="1" />
           <entry key="project.open.time.226" value="1" />
           <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="26" />
-          <entry key="h" value="24" />
+          <entry key="cpp" value="30" />
+          <entry key="h" value="26" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="50" />
+          <entry key="ObjectiveC" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="131" />
-          <entry key="h" value="2449" />
-          <entry key="txt" value="70" />
+          <entry key="cpp" value="138" />
+          <entry key="h" value="2455" />
+          <entry key="txt" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="10" />
-          <entry key="ObjectiveC" value="2580" />
-          <entry key="PLAIN_TEXT" value="60" />
+          <entry key="ObjectiveC" value="2593" />
+          <entry key="PLAIN_TEXT" value="121" />
         </counts>
       </usages-collector>
     </session>
@@ -242,49 +220,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding>
-                <element signature="e#136#175#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAutenticacao.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="116" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Headers/Entidades/Acomodacao.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="137">
-              <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+              <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
               <folding>
                 <element signature="e#118#167#0" expanded="true" />
               </folding>
@@ -293,10 +232,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sources/Entidades/Acomodacao.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="113">
+              <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Acomodacao.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/Dominios/Num_Cartao_Credito.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -304,8 +300,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="89" column="57" lean-forward="true" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
+            <state relative-caret-position="1513">
+              <caret line="89" column="57" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -313,8 +309,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="157" column="85" lean-forward="true" selection-start-line="157" selection-start-column="85" selection-end-line="157" selection-end-column="85" />
+            <state relative-caret-position="2006">
+              <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -385,7 +381,6 @@
         <option value="$PROJECT_DIR$/Headers/Teste/Dominios/Teste_Tipo_Acomodacao.h" />
         <option value="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Reserva.h" />
         <option value="$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Disponibilidade.h" />
-        <option value="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp" />
         <option value="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Cartao_De_Credito.cpp" />
         <option value="$PROJECT_DIR$/Sources/Teste/Dominios/Teste_Senha.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
@@ -403,7 +398,6 @@
         <option value="$PROJECT_DIR$/Sources/Dominios/Senha.cpp" />
         <option value="$PROJECT_DIR$/Headers/Dominios/Capacidade_De_Acomodacao.h" />
         <option value="$PROJECT_DIR$/Sources/Dominios/Identificador.cpp" />
-        <option value="$PROJECT_DIR$/Sources/Dominios/Num_Cartao_Credito.cpp" />
         <option value="$PROJECT_DIR$/Headers/Dominios/Num_Cartao_Credito.h" />
         <option value="$PROJECT_DIR$/Sources/Dominios/Num_Conta_Corrente.cpp" />
         <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAutenticacao.h" />
@@ -411,12 +405,14 @@
         <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServUsuarios.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Headers/Dominios/Data.h" />
-        <option value="$PROJECT_DIR$/Sources/Dominios/Data.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h" />
-        <option value="$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp" />
         <option value="$PROJECT_DIR$/Sources/Entidades/Acomodacao.cpp" />
         <option value="$PROJECT_DIR$/Headers/Entidades/Acomodacao.h" />
         <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h" />
+        <option value="$PROJECT_DIR$/Sources/Dominios/Data.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Dominios/Num_Cartao_Credito.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h" />
+        <option value="$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp" />
       </list>
     </option>
   </component>
@@ -494,6 +490,19 @@
               <item name="Headers" type="462c0819:PsiDirectoryNode" />
               <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
               <item name="Servico" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
+              <item name="Headers" type="462c0819:PsiDirectoryNode" />
+              <item name="Teste" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
+              <item name="Headers" type="462c0819:PsiDirectoryNode" />
+              <item name="Teste" type="462c0819:PsiDirectoryNode" />
+              <item name="Entidades" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
@@ -619,7 +628,8 @@
       <workItem from="1541079614159" duration="1019000" />
       <workItem from="1542400211317" duration="63000" />
       <workItem from="1542408525986" duration="5043000" />
-      <workItem from="1542474558334" duration="13409000" />
+      <workItem from="1542474558334" duration="14223000" />
+      <workItem from="1542553487425" duration="1784000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada a classe da agencia e teste dela na main">
       <created>1536084993870</created>
@@ -845,11 +855,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542474995176</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Mudei a entidade acomodacao e fiz as interfaces de servico">
+      <created>1542505155797</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1542505155797</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195971000" />
+    <option name="totallyTimeSpent" value="198569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -864,7 +881,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.1452345" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.16565809" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -875,7 +892,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49924356" weight="0.36557376" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.49924356" visible="true" weight="0.36557376" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.36557376" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3229508" />
@@ -929,7 +946,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Teste do Numero da Conta corrente passando" />
     <MESSAGE value="Teste da senha passando" />
     <MESSAGE value="Classe Data reatualizada" />
     <MESSAGE value="Teste Agência alterado" />
@@ -954,7 +970,8 @@
     <MESSAGE value="Consertado o padrão de nome de variáveis, acho" />
     <MESSAGE value="Colocadas as controladoras" />
     <MESSAGE value="Colocadas as interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Colocadas as interfaces" />
+    <MESSAGE value="Mudei a entidade acomodacao e fiz as interfaces de servico" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mudei a entidade acomodacao e fiz as interfaces de servico" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1007,26 +1024,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sources/Entidades/Cartao_De_Credito.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Entidades/Conta_Corrente.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Entidades/Usuario.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data_De_Validade.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/Dominios/Nome.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1092,42 +1089,24 @@
     <entry file="file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAutenticacao.cpp" />
     <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServAutenticacao.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServUsuarios.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServReserva.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServAutenticacao.cpp" />
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServUsuarios.cpp" />
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServAcomodacao.cpp" />
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Servico/InterServReserva.cpp" />
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprUsuarios.cpp" />
     <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprUsuarios.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprAcomodacao.cpp" />
     <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprReserva.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprReserva.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Interfaces/Apresentacao/InterAprReserva.cpp" />
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprReserva.cpp" />
     <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprReserva.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1139,8 +1118,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
           <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
-            <element signature="e#132#168#0" expanded="true" />
+            <element signature="e#136#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1152,13 +1138,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h">
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="e#136#175#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="116" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
         </state>
       </provider>
     </entry>
@@ -1169,55 +1152,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
+    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="157" column="85" lean-forward="true" selection-start-line="157" selection-start-column="85" selection-end-line="157" selection-end-column="85" />
+        <state relative-caret-position="1513">
+          <caret line="89" column="57" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Data.h">
+    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="89" column="57" lean-forward="true" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
+        <state relative-caret-position="2006">
+          <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Teste/Entidades/Teste_Acomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Num_Cartao_Credito.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/Entidades/Acomodacao.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="113">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Headers/Entidades/Acomodacao.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
-          <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+          <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
           <folding>
             <element signature="e#118#167#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="111" selection-start-line="7" selection-start-column="111" selection-end-line="7" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="44" column="88" lean-forward="true" selection-start-line="44" selection-start-column="88" selection-end-line="44" selection-end-column="88" />
+        <state relative-caret-position="186">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h">
+    <entry file="file://$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="116" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
+        <state relative-caret-position="102">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
         </state>
       </provider>
     </entry>

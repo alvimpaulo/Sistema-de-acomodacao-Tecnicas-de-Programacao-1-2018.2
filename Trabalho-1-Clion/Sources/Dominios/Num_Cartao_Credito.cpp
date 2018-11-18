@@ -50,7 +50,7 @@ Num_Cartao_Credito::Num_Cartao_Credito(){
     numCartao = "0000000000000000";
 }
 
-std::istream& operator>>(std::istream& in, Num_Cartao_Credito& numCartaoCredito){{
+std::istream& operator>>(std::istream& in, Num_Cartao_Credito& numCartaoCredito){
     std::string str;
 
     in >> str;
