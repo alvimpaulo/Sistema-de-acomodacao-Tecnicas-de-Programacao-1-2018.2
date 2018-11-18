@@ -797,6 +797,33 @@ Sources/Entidades/Conta_Corrente.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Conta_Corrente.cpp.s
 .PHONY : Sources/Entidades/Conta_Corrente.cpp.s
 
+Sources/Entidades/Intervalo_Datas.obj: Sources/Entidades/Intervalo_Datas.cpp.obj
+
+.PHONY : Sources/Entidades/Intervalo_Datas.obj
+
+# target to build an object file
+Sources/Entidades/Intervalo_Datas.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.obj
+.PHONY : Sources/Entidades/Intervalo_Datas.cpp.obj
+
+Sources/Entidades/Intervalo_Datas.i: Sources/Entidades/Intervalo_Datas.cpp.i
+
+.PHONY : Sources/Entidades/Intervalo_Datas.i
+
+# target to preprocess a source file
+Sources/Entidades/Intervalo_Datas.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.i
+.PHONY : Sources/Entidades/Intervalo_Datas.cpp.i
+
+Sources/Entidades/Intervalo_Datas.s: Sources/Entidades/Intervalo_Datas.cpp.s
+
+.PHONY : Sources/Entidades/Intervalo_Datas.s
+
+# target to generate assembly for a file
+Sources/Entidades/Intervalo_Datas.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/Entidades/Intervalo_Datas.cpp.s
+.PHONY : Sources/Entidades/Intervalo_Datas.cpp.s
+
 Sources/Entidades/Usuario.obj: Sources/Entidades/Usuario.cpp.obj
 
 .PHONY : Sources/Entidades/Usuario.obj
@@ -1691,6 +1718,9 @@ help:
 	@echo ... Sources/Entidades/Conta_Corrente.obj
 	@echo ... Sources/Entidades/Conta_Corrente.i
 	@echo ... Sources/Entidades/Conta_Corrente.s
+	@echo ... Sources/Entidades/Intervalo_Datas.obj
+	@echo ... Sources/Entidades/Intervalo_Datas.i
+	@echo ... Sources/Entidades/Intervalo_Datas.s
 	@echo ... Sources/Entidades/Usuario.obj
 	@echo ... Sources/Entidades/Usuario.i
 	@echo ... Sources/Entidades/Usuario.s
