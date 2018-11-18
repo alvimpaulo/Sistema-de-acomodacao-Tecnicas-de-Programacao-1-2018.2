@@ -10,6 +10,9 @@ void Teste_Acomodacao::configurar(){
 }
 
 void Teste_Acomodacao::casoSucesso(){
+    Data data1;
+    Data data2;
+    Intervalo_Datas intervaloDatas;
     Identificador identificador;
     Tipo_Acomodacao tipo;
     Capacidade_De_Acomodacao capacidade;
@@ -25,6 +28,10 @@ void Teste_Acomodacao::casoSucesso(){
     cidade.setNome("Paulo Alvim.Alv");
     estado.setEstado("BA");
     diaria.setDiaria("1224.50");
+    data1.setData("10/jan/2010");
+    data2.setData("11/jan/2011");
+    intervaloDatas.setDataInicio(data1);
+    intervaloDatas.setDataTermino(data2);
 
     try{
         acomodacao->setDiaria(diaria);
@@ -33,6 +40,7 @@ void Teste_Acomodacao::casoSucesso(){
         acomodacao->setCidade(cidade);
         acomodacao->setEstado(estado);
         acomodacao->setDiaria(diaria);
+        acomodacao->addReserva(intervaloDatas);
     } catch(std::invalid_argument &e){
         this->estado = FALHA;
     }

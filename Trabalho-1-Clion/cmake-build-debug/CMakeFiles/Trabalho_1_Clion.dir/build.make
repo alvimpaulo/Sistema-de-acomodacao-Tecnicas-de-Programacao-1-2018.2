@@ -693,6 +693,32 @@ CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\sqlite\sqlite3.c -o CMakeFiles\Trabalho_1_Clion.dir\sqlite\sqlite3.c.s
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.obj: ../Sources/ComandoSQL/ComandoSQL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoSQL.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoSQL.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoSQL.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoSQL.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoSQL.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoSQL.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj: ../Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoPesquisarAcomodacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoPesquisarAcomodacao.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoPesquisarAcomodacao.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoPesquisarAcomodacao.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoPesquisarAcomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoPesquisarAcomodacao.cpp.s
+
 # Object files for target Trabalho_1_Clion
 Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj" \
@@ -743,7 +769,9 @@ Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.obj"
+"CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj"
 
 # External object files for target Trabalho_1_Clion
 Trabalho_1_Clion_EXTERNAL_OBJECTS =
@@ -797,11 +825,13 @@ Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Serv
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/build.make
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/linklibs.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable Trabalho_1_Clion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking CXX executable Trabalho_1_Clion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Trabalho_1_Clion.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

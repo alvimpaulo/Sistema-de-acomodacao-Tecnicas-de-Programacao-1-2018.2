@@ -19,17 +19,9 @@
 #include "Headers/Teste/Entidades/Teste_Conta_Corrente.h"
 #include "Headers/Teste/Entidades/Teste_Usuario.h"
 #include "Headers/Teste/Entidades/Teste_Cartao_De_Credito.h"
+#include "Headers/Controladoras/Servico/CntrsServAcomodacao.h"
 
 #define TESTES 0
-
-static int callback(void *NotUsed, int argc, char **argv, char **azColName){
-        int i;
-        for(i=0; i<argc; i++){
-              printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
-            }
-        printf("\n");
-        return 0;
-      }
 
 int main(int argc, char **argv){
 #if TESTES
@@ -65,23 +57,21 @@ int main(int argc, char **argv){
     }
 #endif
 
-    sqlite3 *db;
-    char *zErrMsg = 0;
-    int rc;
 
-    rc = sqlite3_open("../Database/Database.db", &db);
-    if( rc ){
-      fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
-      sqlite3_close(db);
-      return(1);
-    }
-    rc = sqlite3_exec(db, argv[2], callback, 0, &zErrMsg);
-    if( rc!=SQLITE_OK ){
-          fprintf(stderr, "SQL error: %s\n", zErrMsg);
-          sqlite3_free(zErrMsg);
-        }
-    sqlite3_close(db);
+CntrsServAcomodacao cntrsServAcomodacao;
+Data data1;
+data1.setData("12/jul/2001");
+Data data2;
+data2.setData("13/jul/2001");
+Capacidade_De_Acomodacao capacidadeDeAcomodacao;
+capacidadeDeAcomodacao.setCapacidade_De_Acomodacao("5");
+Nome cidade;
+cidade.setNome("pauloalvimalvar");
+Estado estado;
+estado.setEstado("BA");
 
+std::list<Acomodacao> list;
+list = cntrsServAcomodacao.pesquisar(data1, data2, capacidadeDeAcomodacao, cidade, estado);
 
 
     return 0;

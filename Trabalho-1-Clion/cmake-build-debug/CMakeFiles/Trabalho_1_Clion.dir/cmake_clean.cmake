@@ -48,6 +48,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.obj"
+  "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.obj"
+  "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj"
   "Trabalho_1_Clion.pdb"
   "Trabalho_1_Clion.exe"
   "Trabalho_1_Clion.exe.manifest"
