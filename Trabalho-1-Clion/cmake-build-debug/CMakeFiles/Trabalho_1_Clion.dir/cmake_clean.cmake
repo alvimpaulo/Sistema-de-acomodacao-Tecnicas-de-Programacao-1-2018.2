@@ -49,6 +49,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.obj"
+  "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.obj"
+  "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj"

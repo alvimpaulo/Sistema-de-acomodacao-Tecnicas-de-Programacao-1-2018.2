@@ -122,6 +122,33 @@ Trabalho_1_Clion/fast:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/build
 .PHONY : Trabalho_1_Clion/fast
 
+Sources/ComandoSQL/ComandoAutenticar.obj: Sources/ComandoSQL/ComandoAutenticar.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoAutenticar.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoAutenticar.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoAutenticar.cpp.obj
+
+Sources/ComandoSQL/ComandoAutenticar.i: Sources/ComandoSQL/ComandoAutenticar.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoAutenticar.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoAutenticar.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoAutenticar.cpp.i
+
+Sources/ComandoSQL/ComandoAutenticar.s: Sources/ComandoSQL/ComandoAutenticar.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoAutenticar.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoAutenticar.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoAutenticar.cpp.s
+
 Sources/ComandoSQL/ComandoCadastrarAcomodacao.obj: Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj
 
 .PHONY : Sources/ComandoSQL/ComandoCadastrarAcomodacao.obj
@@ -175,6 +202,33 @@ Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.s: Sources/ComandoS
 Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s
+
+Sources/ComandoSQL/ComandoCadastrarUsuario.obj: Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarUsuario.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj
+
+Sources/ComandoSQL/ComandoCadastrarUsuario.i: Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarUsuario.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.i
+
+Sources/ComandoSQL/ComandoCadastrarUsuario.s: Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarUsuario.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.s
 
 Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj: Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj
 
@@ -1616,12 +1670,18 @@ help:
 	@echo ... Trabalho_1_Clion
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Sources/ComandoSQL/ComandoAutenticar.obj
+	@echo ... Sources/ComandoSQL/ComandoAutenticar.i
+	@echo ... Sources/ComandoSQL/ComandoAutenticar.s
 	@echo ... Sources/ComandoSQL/ComandoCadastrarAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoCadastrarAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoCadastrarAcomodacao.s
 	@echo ... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.s
+	@echo ... Sources/ComandoSQL/ComandoCadastrarUsuario.obj
+	@echo ... Sources/ComandoSQL/ComandoCadastrarUsuario.i
+	@echo ... Sources/ComandoSQL/ComandoCadastrarUsuario.s
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.s
