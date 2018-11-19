@@ -122,6 +122,114 @@ Trabalho_1_Clion/fast:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/build
 .PHONY : Trabalho_1_Clion/fast
 
+Sources/ComandoSQL/ComandoCadastrarAcomodacao.obj: Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarAcomodacao.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj
+
+Sources/ComandoSQL/ComandoCadastrarAcomodacao.i: Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarAcomodacao.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.i
+
+Sources/ComandoSQL/ComandoCadastrarAcomodacao.s: Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarAcomodacao.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.s
+
+Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.obj: Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj
+
+Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.i: Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.i
+
+Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.s: Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s
+
+Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj: Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj
+
+Sources/ComandoSQL/ComandoDescadastrarAcomodacao.i: Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarAcomodacao.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.i
+
+Sources/ComandoSQL/ComandoDescadastrarAcomodacao.s: Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarAcomodacao.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.s
+
+Sources/ComandoSQL/ComandoEditarAcomodacao.obj: Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoEditarAcomodacao.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj
+
+Sources/ComandoSQL/ComandoEditarAcomodacao.i: Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoEditarAcomodacao.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.i
+
+Sources/ComandoSQL/ComandoEditarAcomodacao.s: Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoEditarAcomodacao.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s
+
 Sources/ComandoSQL/ComandoPesquisarAcomodacao.obj: Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj
 
 .PHONY : Sources/ComandoSQL/ComandoPesquisarAcomodacao.obj
@@ -1508,6 +1616,18 @@ help:
 	@echo ... Trabalho_1_Clion
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Sources/ComandoSQL/ComandoCadastrarAcomodacao.obj
+	@echo ... Sources/ComandoSQL/ComandoCadastrarAcomodacao.i
+	@echo ... Sources/ComandoSQL/ComandoCadastrarAcomodacao.s
+	@echo ... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.obj
+	@echo ... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.i
+	@echo ... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.s
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.i
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.s
+	@echo ... Sources/ComandoSQL/ComandoEditarAcomodacao.obj
+	@echo ... Sources/ComandoSQL/ComandoEditarAcomodacao.i
+	@echo ... Sources/ComandoSQL/ComandoEditarAcomodacao.s
 	@echo ... Sources/ComandoSQL/ComandoPesquisarAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoPesquisarAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoPesquisarAcomodacao.s

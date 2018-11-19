@@ -3,6 +3,7 @@
 //
 
 #include <ios>
+#include "iostream"
 #include "../../Headers/ComandoSQL/ComandoSQL.h"
 
 std::list<ElementoResultado> ComandoSQL::listaResultado;
@@ -34,6 +35,7 @@ void ComandoSQL::executar(){
     rc = sqlite3_exec(bd, comandoSQL.c_str(), callback, 0, &mensagem);
     if(rc != SQLITE_OK){
         if (mensagem)
+            std::cout << mensagem << std::endl;
             free(mensagem);
         throw std::runtime_error("Erro na execucao do comando SQL");
     }

@@ -7,6 +7,10 @@
 
 #include "../../Interfaces/Servico/InterServAcomodacao.h"
 #include "../../ComandoSQL/ComandoPesquisarAcomodacao.h"
+#include "../../ComandoSQL/ComandoCadastrarAcomodacao.h"
+#include "../../ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h"
+#include "../../ComandoSQL/ComandoDescadastrarAcomodacao.h"
+#include "../../ComandoSQL/ComandoEditarAcomodacao.h"
 
 class CntrsServAcomodacao: public  InterServAcomodacao{
 public:

@@ -719,6 +719,58 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoPesquisarAcomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoPesquisarAcomodacao.cpp.s
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoCadastrarAcomodacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoCadastrarAcomodacao.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoCadastrarAcomodacao.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoCadastrarAcomodacao.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoCadastrarAcomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoCadastrarAcomodacao.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoCadastrarDisponibilidadeAcomodacao.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoCadastrarDisponibilidadeAcomodacao.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoCadastrarDisponibilidadeAcomodacao.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoCadastrarDisponibilidadeAcomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoCadastrarDisponibilidadeAcomodacao.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoDescadastrarAcomodacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoDescadastrarAcomodacao.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoDescadastrarAcomodacao.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoDescadastrarAcomodacao.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoDescadastrarAcomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoDescadastrarAcomodacao.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Sources/ComandoSQL/ComandoEditarAcomodacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoEditarAcomodacao.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoEditarAcomodacao.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoEditarAcomodacao.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoEditarAcomodacao.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoEditarAcomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoEditarAcomodacao.cpp.s
+
 # Object files for target Trabalho_1_Clion
 Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj" \
@@ -771,7 +823,11 @@ Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj"
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj"
 
 # External object files for target Trabalho_1_Clion
 Trabalho_1_Clion_EXTERNAL_OBJECTS =
@@ -827,11 +883,15 @@ Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Serv
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoSQL.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/build.make
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/linklibs.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking CXX executable Trabalho_1_Clion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX executable Trabalho_1_Clion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Trabalho_1_Clion.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

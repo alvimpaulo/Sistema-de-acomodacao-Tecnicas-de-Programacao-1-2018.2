@@ -73,6 +73,17 @@ estado.setEstado("BA");
 std::list<Acomodacao> list;
 list = cntrsServAcomodacao.pesquisar(data1, data2, capacidadeDeAcomodacao, cidade, estado);
 
+capacidadeDeAcomodacao.setCapacidade_De_Acomodacao("6");
+cidade.setNome("Paulandia do su");
+estado.setEstado("BA");
+Identificador identificadorAcomodacao;
+identificadorAcomodacao.setIdentificador("paulo");
+Tipo_Acomodacao tipoAcomodacao;
+tipoAcomodacao.setTipoAcomodacao("Casa");
+Diaria diaria;
+diaria.setDiaria("7.00");
+cntrsServAcomodacao.cadastrar(identificadorAcomodacao, tipoAcomodacao,capacidadeDeAcomodacao, diaria, cidade, estado);
+
 
     return 0;
 }

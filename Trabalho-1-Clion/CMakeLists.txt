@@ -120,4 +120,4 @@ add_executable(Trabalho_1_Clion
 		sqlite/sqlite3.h
 
 
-		Sources/ComandoSQL/ComandoSQL.cpp Headers/ComandoSQL/ComandoSQL.h Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp Headers/ComandoSQL/ComandoPesquisarAcomodacao.h)
+		Sources/ComandoSQL/ComandoSQL.cpp Headers/ComandoSQL/ComandoSQL.h Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp Headers/ComandoSQL/ComandoPesquisarAcomodacao.h Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp Headers/ComandoSQL/ComandoCadastrarAcomodacao.h Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h Sources/ComandoSQL/ComandoEditarAcomodacao.cpp Headers/ComandoSQL/ComandoEditarAcomodacao.h)
