@@ -3,6 +3,81 @@
 
 CMakeFiles/Trabalho_1_Clion.dir/sqlite/sqlite3.c.obj: ../sqlite/sqlite3.c
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.obj: ../Headers/ComandoSQL/ComandoAutenticar.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.obj: ../Headers/Dominios/Identificador.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.obj: ../Headers/Dominios/Senha.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.obj: ../Sources/ComandoSQL/ComandoAutenticar.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoAutenticar.cpp.obj: ../sqlite/sqlite3.h
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoCadastrarAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Capacidade_De_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Data.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Diaria.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Estado.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Identificador.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Tipo_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/Entidades/Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Headers/Entidades/Intervalo_Datas.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj: ../sqlite/sqlite3.h
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/Dominios/Capacidade_De_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/Dominios/Data.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/Dominios/Diaria.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/Dominios/Estado.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/Dominios/Identificador.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/Dominios/Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/Dominios/Tipo_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/Entidades/Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Headers/Entidades/Intervalo_Datas.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj: ../sqlite/sqlite3.h
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj: ../Headers/ComandoSQL/ComandoCadastrarUsuario.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj: ../Headers/Dominios/Identificador.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj: ../Headers/Dominios/Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj: ../Headers/Dominios/Senha.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj: ../Sources/ComandoSQL/ComandoCadastrarUsuario.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.obj: ../sqlite/sqlite3.h
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Capacidade_De_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Data.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Diaria.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Estado.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Identificador.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/Dominios/Tipo_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/Entidades/Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Headers/Entidades/Intervalo_Datas.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj: ../sqlite/sqlite3.h
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoEditarAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/Dominios/Capacidade_De_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/Dominios/Data.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/Dominios/Diaria.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/Dominios/Estado.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/Dominios/Identificador.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/Dominios/Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/Dominios/Tipo_Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/Entidades/Acomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Headers/Entidades/Intervalo_Datas.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../Sources/ComandoSQL/ComandoEditarAcomodacao.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj: ../sqlite/sqlite3.h
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoCadastrarAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoEditarAcomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoPesquisarAcomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj: ../Headers/Controladoras/Servico/CntrsServAcomodacao.h
@@ -88,6 +163,10 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuari
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.obj: ../Headers/Controladoras/CntrInicio.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.obj: ../Sources/Controladoras/CntrInicio.cpp
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoCadastrarAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoEditarAcomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoPesquisarAcomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: ../Headers/Controladoras/Servico/CntrsServAcomodacao.h
@@ -104,14 +183,37 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodaca
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: ../Sources/Controladoras/Servico/CntrsServAcomodacao.cpp
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp.obj: ../sqlite/sqlite3.h
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../Headers/ComandoSQL/ComandoAutenticar.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../Headers/Controladoras/Servico/CntrsServAutenticacao.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../Headers/Dominios/Identificador.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../Headers/Dominios/Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../Headers/Dominios/Senha.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../Headers/Entidades/Usuario.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../Headers/Interfaces/Servico/InterServAutenticacao.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../Sources/Controladoras/Servico/CntrsServAutenticacao.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServAutenticacao.cpp.obj: ../sqlite/sqlite3.h
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj: ../Headers/Controladoras/Servico/CntrsServReserva.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServReserva.cpp.obj: ../Sources/Controladoras/Servico/CntrsServReserva.cpp
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/ComandoSQL/ComandoCadastrarUsuario.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Controladoras/Servico/CntrsServUsuarios.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Dominios/Agencia.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Dominios/Banco.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Dominios/Data_De_Validade.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Dominios/Identificador.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Dominios/Nome.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Dominios/Num_Cartao_Credito.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Dominios/Num_Conta_Corrente.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Dominios/Senha.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Entidades/Cartao_De_Credito.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Entidades/Conta_Corrente.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Entidades/Usuario.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Headers/Interfaces/Servico/InterServUsuarios.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../Sources/Controladoras/Servico/CntrsServUsuarios.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Servico/CntrsServUsuarios.cpp.obj: ../sqlite/sqlite3.h
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Agencia.cpp.obj: ../Headers/Dominios/Agencia.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Dominios/Agencia.cpp.obj: ../Sources/Dominios/Agencia.cpp
@@ -313,9 +415,17 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Entidades/Teste_Usuario.cpp.obj: .
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj: ../Headers/Teste/Teste.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Teste/Teste.cpp.obj: ../Sources/Teste/Teste.cpp
 
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/ComandoSQL/ComandoCadastrarAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/ComandoSQL/ComandoEditarAcomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/ComandoSQL/ComandoPesquisarAcomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Controladoras/Apresentacao/CntrAprUsuarios.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Controladoras/Servico/CntrsServAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Controladoras/Servico/CntrsServAutenticacao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Controladoras/Servico/CntrsServUsuarios.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Agencia.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Banco.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Dominios/Capacidade_De_Acomodacao.h
@@ -334,7 +444,11 @@ CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Entidades/Cartao_De_Cre
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Entidades/Conta_Corrente.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Entidades/Intervalo_Datas.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Entidades/Usuario.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Interfaces/Apresentacao/InterAprAutenticacao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Interfaces/Apresentacao/InterAprUsuarios.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Interfaces/Servico/InterServAcomodacao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Interfaces/Servico/InterServAutenticacao.h
+CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Interfaces/Servico/InterServUsuarios.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Agencia.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Banco.h
 CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj: ../Headers/Teste/Dominios/Teste_Capacidade_De_Acomodacao.h

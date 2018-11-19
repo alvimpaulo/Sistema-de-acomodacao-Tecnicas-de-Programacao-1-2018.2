@@ -5,8 +5,17 @@
 #ifndef TRABALHO_1_CLION_CNTRSSERVRESERVA_H
 #define TRABALHO_1_CLION_CNTRSSERVRESERVA_H
 
+#include "../../Interfaces/Servico/InterServReserva.h"
+#include "../../ComandoSQL/ComandoRealizarReserva.h"
+#include "../../ComandoSQL/ComandoCancelarReserva.h"
 
-class CntrsServReserva {
+class CntrsServReserva : public InterServReserva{
+public:
+    //todo: Checar data atual ao se fazer a reserva
+    //todo: Alterar o usuario
+    void cancelarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas) override;
+
+    void realizarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas) override;
 
 };
 

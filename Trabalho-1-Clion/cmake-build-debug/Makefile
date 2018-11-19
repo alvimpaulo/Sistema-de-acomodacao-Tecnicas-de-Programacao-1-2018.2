@@ -122,6 +122,60 @@ Trabalho_1_Clion/fast:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/build
 .PHONY : Trabalho_1_Clion/fast
 
+ComandoCancelarReserva.obj: ComandoCancelarReserva.cpp.obj
+
+.PHONY : ComandoCancelarReserva.obj
+
+# target to build an object file
+ComandoCancelarReserva.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/ComandoCancelarReserva.cpp.obj
+.PHONY : ComandoCancelarReserva.cpp.obj
+
+ComandoCancelarReserva.i: ComandoCancelarReserva.cpp.i
+
+.PHONY : ComandoCancelarReserva.i
+
+# target to preprocess a source file
+ComandoCancelarReserva.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/ComandoCancelarReserva.cpp.i
+.PHONY : ComandoCancelarReserva.cpp.i
+
+ComandoCancelarReserva.s: ComandoCancelarReserva.cpp.s
+
+.PHONY : ComandoCancelarReserva.s
+
+# target to generate assembly for a file
+ComandoCancelarReserva.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/ComandoCancelarReserva.cpp.s
+.PHONY : ComandoCancelarReserva.cpp.s
+
+ComandoRealizarReserva.obj: ComandoRealizarReserva.cpp.obj
+
+.PHONY : ComandoRealizarReserva.obj
+
+# target to build an object file
+ComandoRealizarReserva.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/ComandoRealizarReserva.cpp.obj
+.PHONY : ComandoRealizarReserva.cpp.obj
+
+ComandoRealizarReserva.i: ComandoRealizarReserva.cpp.i
+
+.PHONY : ComandoRealizarReserva.i
+
+# target to preprocess a source file
+ComandoRealizarReserva.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/ComandoRealizarReserva.cpp.i
+.PHONY : ComandoRealizarReserva.cpp.i
+
+ComandoRealizarReserva.s: ComandoRealizarReserva.cpp.s
+
+.PHONY : ComandoRealizarReserva.s
+
+# target to generate assembly for a file
+ComandoRealizarReserva.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/ComandoRealizarReserva.cpp.s
+.PHONY : ComandoRealizarReserva.cpp.s
+
 Sources/ComandoSQL/ComandoAutenticar.obj: Sources/ComandoSQL/ComandoAutenticar.cpp.obj
 
 .PHONY : Sources/ComandoSQL/ComandoAutenticar.obj
@@ -1670,6 +1724,12 @@ help:
 	@echo ... Trabalho_1_Clion
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ComandoCancelarReserva.obj
+	@echo ... ComandoCancelarReserva.i
+	@echo ... ComandoCancelarReserva.s
+	@echo ... ComandoRealizarReserva.obj
+	@echo ... ComandoRealizarReserva.i
+	@echo ... ComandoRealizarReserva.s
 	@echo ... Sources/ComandoSQL/ComandoAutenticar.obj
 	@echo ... Sources/ComandoSQL/ComandoAutenticar.i
 	@echo ... Sources/ComandoSQL/ComandoAutenticar.s

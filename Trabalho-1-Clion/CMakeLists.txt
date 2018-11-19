@@ -134,4 +134,4 @@ add_executable(Trabalho_1_Clion
         Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp
         Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h
         Sources/ComandoSQL/ComandoEditarAcomodacao.cpp
-        Headers/ComandoSQL/ComandoEditarAcomodacao.h)
+        Headers/ComandoSQL/ComandoEditarAcomodacao.h Sources/ComandoSQL/ComandoRealizarReserva.cpp Headers/ComandoSQL/ComandoRealizarReserva.h Sources/ComandoSQL/ComandoCancelarReserva.cpp Headers/ComandoSQL/ComandoCancelarReserva.h)
