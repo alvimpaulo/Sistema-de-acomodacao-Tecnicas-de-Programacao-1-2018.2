@@ -18,10 +18,12 @@ void CntrAprAutenticacao::autenticar(Identificador &identificador){
         std::cin >> senha;
     } catch(std::invalid_argument &e){
         std::cout << std::endl << "Dado em formato incorreto!" << std::endl;
+        return;
     }
+
     try{
-        //iServAuteticacao->autenticar(id, senha);
-    } catch(std::invalid_argument &e) {
+        interServAutenticacao->autenticar(id, senha);
+    } catch(std::invalid_argument &e){
         std::cout << std::endl << "Nao foi possivel efetuar o login, verifique se os campos foram preenchidos adequadamente!" << std::endl;
         return;
     }

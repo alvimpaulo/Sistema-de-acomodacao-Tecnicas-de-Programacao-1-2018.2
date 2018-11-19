@@ -34,7 +34,7 @@ void CntrAprUsuarios::cadastrar() {
     usuario.setSenha(senha);
 
     try{
-        //iServAuteticacao->cadastrar(usuario);
+        interServUsuarios->cadastrarUsuario(nome, identificador, senha);
     } catch(std::invalid_argument &e){
         std::cout << std::endl << "Nao foi possivel cadastras usuario!" << std::endl;
         return;

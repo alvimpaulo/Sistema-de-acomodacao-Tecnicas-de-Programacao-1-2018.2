@@ -20,6 +20,12 @@
 #include "Headers/Teste/Entidades/Teste_Usuario.h"
 #include "Headers/Teste/Entidades/Teste_Cartao_De_Credito.h"
 #include "Headers/Controladoras/Servico/CntrsServAcomodacao.h"
+#include "Headers/Interfaces/Servico/InterServAutenticacao.h"
+#include "Headers/Controladoras/Servico/CntrsServAutenticacao.h"
+#include "Headers/Interfaces/Apresentacao/InterAprAutenticacao.h"
+#include "Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h"
+#include "Headers/Interfaces/Apresentacao/InterAprUsuarios.h"
+#include "Headers/Controladoras/Apresentacao/CntrAprUsuarios.h"
 
 #define TESTES 0
 
@@ -56,6 +62,21 @@ int main(int argc, char **argv){
         delete testePtr;
     }
 #endif
+
+    Identificador id;
+    int res, res2, res3, res4, res5;
+    std::cout << "Voce deseja efetuar login ou cadastro?";
+    std::cin >> res;
+    if(res == 0) {
+        InterAprAutenticacao *inter = new CntrAprAutenticacao;
+        inter->setCntrsServAutenticacao(new CntrsServAutenticacao);
+        inter->autenticar(id);
+    } else{
+        InterAprUsuarios *inter = new CntrAprUsuarios;
+        inter->setCntrsServUsuarios(new CntrsServUsuarios);
+        inter->cadastrar();
+    }
+
 
 
 CntrsServAcomodacao cntrsServAcomodacao;
