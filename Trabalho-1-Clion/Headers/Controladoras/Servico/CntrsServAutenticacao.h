@@ -5,9 +5,12 @@
 #ifndef TRABALHO_1_CLION_CNTRSSERVAUTENTICACAO_H
 #define TRABALHO_1_CLION_CNTRSSERVAUTENTICACAO_H
 
+#include "../../Interfaces/Servico/InterServAutenticacao.h"
 
-class CntrsServAutenticacao {
-
+class CntrsServAutenticacao: public InterServAutenticacao{
+public:
+    //autentica o usuario
+    void autenticar(const Identificador& identificador, const Senha& senha) override;
 };
 
 

@@ -39,7 +39,7 @@ protected:
     static std::list<ElementoResultado> listaResultado;
     std::string comandoSQL;
 public:
-    ComandoSQL() {
+    ComandoSQL(){
         //Informa o nome do banco de dados.
         nomeBancoDados = "../Database/Database.db";
     }
