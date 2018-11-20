@@ -22,7 +22,6 @@ private:
 
 protected:
 public:
-    explicit CntrAprUsuarios(InterServUsuarios *cntrServUsuario);
     void cadastrar() override;
     void executar(Identificador &identificador) override;
     void setCntrsServUsuarios(InterServUsuarios *cntrsServUsuarios) override;

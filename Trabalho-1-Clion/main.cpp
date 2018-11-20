@@ -67,10 +67,12 @@ int main(int argc, char **argv){
     }
 #endif
 
-    auto *cntrAprUsuarios = new CntrAprUsuarios(new CntrsServUsuarios);
+    auto *cntrAprUsuarios = new CntrAprUsuarios;
+    cntrAprUsuarios->setCntrsServUsuarios(new CntrsServUsuarios);
     auto *cntrAprAcomodacao = new CntrAprAcomodacao;
     auto *cntrAprReserva = new CntrAprReserva;
     auto *cntrAprAutenticacao = new CntrAprAutenticacao;
+    cntrAprAutenticacao->setCntrsServAutenticacao(new CntrsServAutenticacao);
 
     CntrInicio cntrInicio(cntrAprReserva, cntrAprAutenticacao, cntrAprAcomodacao, cntrAprUsuarios);
     cntrInicio.iniciar();

@@ -7,9 +7,6 @@
 #include "../../../Headers/Dominios/Nome.h"
 #include "../../../Headers/Entidades/Usuario.h"
 
-CntrAprUsuarios::CntrAprUsuarios(InterServUsuarios *cntrServUsuario) : cntrServUsuario(cntrServUsuario) {
-}
-
 void CntrAprUsuarios::cadastrar() {
     Identificador identificador;
     Nome nome;
@@ -81,7 +78,7 @@ void CntrAprUsuarios::executar(Identificador &identificador) {
                 break;
             case OPCAO_SAIR:
             default:
-                if(true);
+                return;
         }
     }
 }
@@ -104,7 +101,7 @@ void CntrAprUsuarios::descadastrar(Identificador &identificador) {
     std::string input;
     std::cout << "Sistema de Acomodacao - Servicos do usuario" << std::endl << std::endl;
 
-    std::cout << "Deseja descadastrar sua conta?";
+    std::cout << "Deseja descadastrar sua conta?" << std::endl;
     std::cout << "0 - Nao." << std::endl;
     std::cout << "1 - Sim." << std::endl;
 

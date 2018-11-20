@@ -9,13 +9,16 @@
 void CntrAprAutenticacao::autenticar(Identificador &identificador){
     Identificador   id;
     Senha           senha;
+    std::string input;
     std::cout << "Autenticacao de usuário" << std::endl;
 
     try{
         std::cout << "Digite o seu identificador: ";
-        std::cin >> id;
+        std::getline(std::cin, input);
+        id.setIdentificador(input);
         std::cout << "Digite a sua senha        : ";
-        std::cin >> senha;
+        std::getline(std::cin, input);
+        senha.setSenha(input);
     } catch(std::invalid_argument &e){
         std::cout << std::endl << "Dado em formato incorreto!" << std::endl;
         return;

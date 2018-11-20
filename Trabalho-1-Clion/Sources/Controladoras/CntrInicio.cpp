@@ -8,14 +8,31 @@ void CntrInicio::iniciar() {
     Identificador id;
     int res, res2, res3, res4, res5;
     std::string input;
-    std::cout << "Voce deseja efetuar login ou cadastro?";
-    std::getline(std::cin, input);
-    res = std::stoi(input);
-    if(res == 0) {
-        cntrAprAutenticacao->autenticar(id);
-    } else{
-        cntrAprUsuarios->cadastrar();
+    bool sair = false;
+    while (!sair) {
+        std::cout << "1 - Fazer login." << std::endl;
+        std::cout << "2 - Cadastrar novo usuario" << std::endl;
+        std::cout << "3 - Sair" << std::endl << std::endl;
+        std::cout << "Escolha a opcao: ";
+
+        std::getline(std::cin, input);
+        res = std::stoi(input);
+        if (res == 1) {
+            try {
+                cntrAprAutenticacao->autenticar(id);
+                cntrAprUsuarios->executar(id);
+            }
+            catch (std::exception &e) {
+                std::cout << "Nao foi possivel autenticar" << std::endl;
+            }
+
+        } else if (res == 2) {
+            cntrAprUsuarios->cadastrar();
+        } else if(res == 3){
+            sair = true;
+        }
     }
+
 
 }
 
