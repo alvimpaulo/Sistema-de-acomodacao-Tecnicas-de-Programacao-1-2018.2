@@ -230,6 +230,33 @@ Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoCadastrarUsuario.cpp.s
 
+Sources/ComandoSQL/ComandoCancelarReserva.obj: Sources/ComandoSQL/ComandoCancelarReserva.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoCancelarReserva.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoCancelarReserva.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoCancelarReserva.cpp.obj
+
+Sources/ComandoSQL/ComandoCancelarReserva.i: Sources/ComandoSQL/ComandoCancelarReserva.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoCancelarReserva.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoCancelarReserva.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoCancelarReserva.cpp.i
+
+Sources/ComandoSQL/ComandoCancelarReserva.s: Sources/ComandoSQL/ComandoCancelarReserva.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoCancelarReserva.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoCancelarReserva.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoCancelarReserva.cpp.s
+
 Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj: Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj
 
 .PHONY : Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj
@@ -310,6 +337,33 @@ Sources/ComandoSQL/ComandoPesquisarAcomodacao.s: Sources/ComandoSQL/ComandoPesqu
 Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.s
+
+Sources/ComandoSQL/ComandoRealizarReserva.obj: Sources/ComandoSQL/ComandoRealizarReserva.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoRealizarReserva.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoRealizarReserva.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoRealizarReserva.cpp.obj
+
+Sources/ComandoSQL/ComandoRealizarReserva.i: Sources/ComandoSQL/ComandoRealizarReserva.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoRealizarReserva.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoRealizarReserva.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoRealizarReserva.cpp.i
+
+Sources/ComandoSQL/ComandoRealizarReserva.s: Sources/ComandoSQL/ComandoRealizarReserva.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoRealizarReserva.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoRealizarReserva.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoRealizarReserva.cpp.s
 
 Sources/ComandoSQL/ComandoSQL.obj: Sources/ComandoSQL/ComandoSQL.cpp.obj
 
@@ -1682,6 +1736,9 @@ help:
 	@echo ... Sources/ComandoSQL/ComandoCadastrarUsuario.obj
 	@echo ... Sources/ComandoSQL/ComandoCadastrarUsuario.i
 	@echo ... Sources/ComandoSQL/ComandoCadastrarUsuario.s
+	@echo ... Sources/ComandoSQL/ComandoCancelarReserva.obj
+	@echo ... Sources/ComandoSQL/ComandoCancelarReserva.i
+	@echo ... Sources/ComandoSQL/ComandoCancelarReserva.s
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.s
@@ -1691,6 +1748,9 @@ help:
 	@echo ... Sources/ComandoSQL/ComandoPesquisarAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoPesquisarAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoPesquisarAcomodacao.s
+	@echo ... Sources/ComandoSQL/ComandoRealizarReserva.obj
+	@echo ... Sources/ComandoSQL/ComandoRealizarReserva.i
+	@echo ... Sources/ComandoSQL/ComandoRealizarReserva.s
 	@echo ... Sources/ComandoSQL/ComandoSQL.obj
 	@echo ... Sources/ComandoSQL/ComandoSQL.i
 	@echo ... Sources/ComandoSQL/ComandoSQL.s

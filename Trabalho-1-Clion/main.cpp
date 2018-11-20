@@ -67,7 +67,6 @@ int main(int argc, char **argv){
     int res, res2, res3, res4, res5;
     std::cout << "Voce deseja efetuar login ou cadastro?";
     std::cin >> res;
-    //std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     if(res == 0) {
         InterAprAutenticacao *inter = new CntrAprAutenticacao;
         inter->setCntrsServAutenticacao(new CntrsServAutenticacao);

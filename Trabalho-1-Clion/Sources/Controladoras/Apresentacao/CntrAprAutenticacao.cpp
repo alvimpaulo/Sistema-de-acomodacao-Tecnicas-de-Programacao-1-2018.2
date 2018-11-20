@@ -22,7 +22,7 @@ void CntrAprAutenticacao::autenticar(Identificador &identificador){
     }
 
     try{
-        interServAutenticacao->autenticar(id, senha);
+        cntrServAutenticacao->autenticar(id, senha);
     } catch(std::invalid_argument &e){
         std::cout << std::endl << "Nao foi possivel efetuar o login, verifique se os campos foram preenchidos adequadamente!" << std::endl;
         return;
@@ -33,14 +33,14 @@ void CntrAprAutenticacao::autenticar(Identificador &identificador){
     std::cout << std::endl << "Login efetuado com sucesso!" << std::endl;
 }
 
-void CntrAprAutenticacao::setCntrsServAutenticacao(InterServAutenticacao *interServAutenticacao){
-    this->interServAutenticacao = interServAutenticacao;
+void CntrAprAutenticacao::setCntrsServAutenticacao(InterServAutenticacao *cntrServAutenticacao){
+    this->cntrServAutenticacao = cntrServAutenticacao;
 }
 
 CntrAprAutenticacao::CntrAprAutenticacao() {
-    interServAutenticacao = nullptr;
+    cntrServAutenticacao = nullptr;
 }
 
 CntrAprAutenticacao::~CntrAprAutenticacao() {
-    delete interServAutenticacao;
+    delete cntrServAutenticacao;
 }

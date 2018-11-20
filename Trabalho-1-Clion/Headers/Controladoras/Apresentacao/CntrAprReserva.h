@@ -13,8 +13,8 @@ private:
 protected:
 public:
     CntrAprReserva();
-    void executar(Identificador &identificador);
-    void setCntrsServReserva(InterServReserva *cntrsServReserva);
+    void executar(Identificador &identificador) override;
+    void setCntrsServReserva(InterServReserva *cntrsServReserva) override;
     void cancelarReserva();
     void realizarReserva();
     void pesquisarReserva();

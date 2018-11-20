@@ -797,6 +797,32 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoEditarAcomodacao.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoEditarAcomodacao.cpp.s
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.obj: ../Sources/ComandoSQL/ComandoRealizarReserva.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoRealizarReserva.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoRealizarReserva.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoRealizarReserva.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoRealizarReserva.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoRealizarReserva.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoRealizarReserva.cpp.s
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.obj: CMakeFiles/Trabalho_1_Clion.dir/flags.make
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.obj: ../Sources/ComandoSQL/ComandoCancelarReserva.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoCancelarReserva.cpp.obj -c C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoCancelarReserva.cpp
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoCancelarReserva.cpp > CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoCancelarReserva.cpp.i
+
+CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL\ComandoCancelarReserva.cpp -o CMakeFiles\Trabalho_1_Clion.dir\Sources\ComandoSQL\ComandoCancelarReserva.cpp.s
+
 # Object files for target Trabalho_1_Clion
 Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/main.cpp.obj" \
@@ -855,7 +881,9 @@ Trabalho_1_Clion_OBJECTS = \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj" \
 "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj" \
-"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj"
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.obj" \
+"CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.obj"
 
 # External object files for target Trabalho_1_Clion
 Trabalho_1_Clion_EXTERNAL_OBJECTS =
@@ -917,11 +945,13 @@ Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/Comando
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoRealizarReserva.cpp.obj
+Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.obj
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/build.make
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/linklibs.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp
 Trabalho_1_Clion.exe: CMakeFiles/Trabalho_1_Clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX executable Trabalho_1_Clion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking CXX executable Trabalho_1_Clion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Trabalho_1_Clion.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
