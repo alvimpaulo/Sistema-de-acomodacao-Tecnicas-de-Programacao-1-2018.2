@@ -14,6 +14,8 @@
  */
 class Identificador{
 public:
+
+    Identificador();
     /**
      * @brief Atribui um novo valor ao identificador.
      * @details Testa o novo identificador contra o padrão e atribui um novo valor ao identificador em caso de sucesso ou lança uma exceção em caso de falha.

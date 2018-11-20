@@ -32,3 +32,8 @@ std::istream& operator>>(std::istream& in, Identificador& identificador){
 
     return in;
 }
+
+Identificador::Identificador() {
+    setIdentificador("abcde");
+
+}

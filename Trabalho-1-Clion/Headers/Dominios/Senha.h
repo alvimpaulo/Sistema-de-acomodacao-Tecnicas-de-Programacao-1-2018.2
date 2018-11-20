@@ -14,6 +14,8 @@
  */
 class Senha{
 public:
+
+    Senha();
     /**
      * @brief Retorna uma string que contém a senha.
      * @details Retorna uma string que contém a senha.

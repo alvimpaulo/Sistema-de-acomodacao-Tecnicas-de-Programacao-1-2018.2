@@ -12,7 +12,7 @@
 
 class CntrAprUsuarios: public InterAprUsuarios{
 private:
-    InterServUsuarios *interServUsuarios;
+    InterServUsuarios *cntrServUsuario;
     static const int OPCAO_NAO = 0;
     static const int OPCAO_SIM = 1;
     static const int OPCAO_EDITAR_USUARIO = 1;
@@ -22,7 +22,6 @@ private:
 
 protected:
 public:
-    CntrAprUsuarios();
     void cadastrar() override;
     void executar(Identificador &identificador) override;
     void setCntrsServUsuarios(InterServUsuarios *cntrsServUsuarios) override;
