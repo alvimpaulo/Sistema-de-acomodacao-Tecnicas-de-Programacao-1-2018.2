@@ -10,12 +10,12 @@
 
 class CntrAprAutenticacao: public InterAprAutenticacao{
 private:
-    InterServAutenticacao* interServAutenticacao;
+    InterServAutenticacao* cntrServAutenticacao;
 protected:
 public:
     CntrAprAutenticacao();
     void autenticar(Identificador &identificador) override;
-    void setCntrsServAutenticacao(InterServAutenticacao* interServAutenticacao) override;
+    void setCntrsServAutenticacao(InterServAutenticacao *cntrServAutenticacao) override;
     virtual ~CntrAprAutenticacao();
 };
 

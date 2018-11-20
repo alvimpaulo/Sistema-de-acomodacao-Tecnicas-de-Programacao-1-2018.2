@@ -19,13 +19,12 @@
 #include "Headers/Teste/Entidades/Teste_Conta_Corrente.h"
 #include "Headers/Teste/Entidades/Teste_Usuario.h"
 #include "Headers/Teste/Entidades/Teste_Cartao_De_Credito.h"
-#include "Headers/Controladoras/Servico/CntrsServAcomodacao.h"
-#include "Headers/Interfaces/Servico/InterServAutenticacao.h"
-#include "Headers/Controladoras/Servico/CntrsServAutenticacao.h"
-#include "Headers/Interfaces/Apresentacao/InterAprAutenticacao.h"
-#include "Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h"
-#include "Headers/Interfaces/Apresentacao/InterAprUsuarios.h"
+
+#include "Headers/Controladoras/CntrInicio.h"
+#include "Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h"
+#include "Headers/Controladoras/Apresentacao/CntrAprReserva.h"
 #include "Headers/Controladoras/Apresentacao/CntrAprUsuarios.h"
+#include "Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h"
 
 #define TESTES 0
 
@@ -63,47 +62,17 @@ int main(int argc, char **argv){
     }
 #endif
 
-    Identificador id;
-    int res, res2, res3, res4, res5;
-    std::cout << "Voce deseja efetuar login ou cadastro?";
-    std::cin >> res;
-    if(res == 0) {
-        InterAprAutenticacao *inter = new CntrAprAutenticacao;
-        inter->setCntrsServAutenticacao(new CntrsServAutenticacao);
-        inter->autenticar(id);
-    } else{
-        InterAprUsuarios *inter = new CntrAprUsuarios;
-        inter->setCntrsServUsuarios(new CntrsServUsuarios);
-        inter->cadastrar();
-    }
+    auto *cntrAprUsuarios = new CntrAprUsuarios;
+    auto *cntrAprAcomodacao = new CntrAprAcomodacao;
+    auto *cntrAprReserva = new CntrAprReserva;
+    auto *cntrAprAutenticacao = new CntrAprAutenticacao;
+
+    CntrInicio cntrInicio(cntrAprReserva, cntrAprAutenticacao, cntrAprAcomodacao, cntrAprUsuarios);
+    cntrInicio.iniciar();
 
 
 
-CntrsServAcomodacao cntrsServAcomodacao;
-Data data1;
-data1.setData("12/jul/2001");
-Data data2;
-data2.setData("13/jul/2001");
-Capacidade_De_Acomodacao capacidadeDeAcomodacao;
-capacidadeDeAcomodacao.setCapacidade_De_Acomodacao("5");
-Nome cidade;
-cidade.setNome("pauloalvimalvar");
-Estado estado;
-estado.setEstado("BA");
 
-std::list<Acomodacao> list;
-list = cntrsServAcomodacao.pesquisar(data1, data2, capacidadeDeAcomodacao, cidade, estado);
-
-capacidadeDeAcomodacao.setCapacidade_De_Acomodacao("6");
-cidade.setNome("Paulandia do su");
-estado.setEstado("BA");
-Identificador identificadorAcomodacao;
-identificadorAcomodacao.setIdentificador("paulo");
-Tipo_Acomodacao tipoAcomodacao;
-tipoAcomodacao.setTipoAcomodacao("Casa");
-Diaria diaria;
-diaria.setDiaria("7.00");
-cntrsServAcomodacao.cadastrar(identificadorAcomodacao, tipoAcomodacao,capacidadeDeAcomodacao, diaria, cidade, estado);
 
 
     return 0;
