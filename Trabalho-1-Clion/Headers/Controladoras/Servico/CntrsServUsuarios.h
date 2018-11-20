@@ -14,13 +14,13 @@ public:
     void cadastrarUsuario(const Nome& nome, const Identificador& identificador, const Senha& senha) override;
 
     //Cadastra uma conta corrente para o usuario atual
-    void cadastrarContaCorrente(const Num_Conta_Corrente& numContaCorrente, const Agencia& agencia, const Banco& banco) override;
+    void cadastrarContaCorrente(const Identificador &identificador, const Num_Conta_Corrente& numContaCorrente, const Agencia& agencia, const Banco& banco) override;
 
     //Cadastra uma conta corrente para o usuario atual
-    void cadastrarCartaoCredito(const Num_Cartao_Credito& numCartaoCredito, const Data_De_Validade& dataDeValidade) override;
+    void cadastrarCartaoCredito(const Identificador &identificador, const Num_Cartao_Credito& numCartaoCredito, const Data_De_Validade& dataDeValidade) override;
 
     //Descadastra um usuario, se for possivel
-    void descadastrarUsuario() override;
+    void descadastrarUsuario(const Identificador &identificador) override;
 
     //Descastra uma conta corrente do usuario atual
     void descadastrarContaCorrente(const Num_Conta_Corrente& numContaCorrente) override;
@@ -29,7 +29,7 @@ public:
     void descadastrarCartaoCredito(const Num_Cartao_Credito& numCartaoCredito) override;
 
     //Edita o nome e/ou senha do usuario atual
-    void editarUsuario(const Nome& nome, const Senha& senha) override;
+    void editarUsuario(const Nome& nome, const Senha& senha, const Identificador &identificador) override;
 };
 
 

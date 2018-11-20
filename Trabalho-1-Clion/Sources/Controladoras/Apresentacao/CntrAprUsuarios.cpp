@@ -113,7 +113,7 @@ void CntrAprUsuarios::descadastrar(Identificador &identificador) {
                 return;
             case OPCAO_SIM:
                 try{
-                    //interServUsuarios->descadastrar(identificador);
+                    interServUsuarios->descadastrarUsuario(identificador);
                 } catch(std::exception &e){
                     std::cout << std::endl << "Voce nao pode descadastrar enquanto houver pendencias!" << std::endl;
                     return;
