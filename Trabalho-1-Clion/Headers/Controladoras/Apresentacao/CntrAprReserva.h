@@ -10,14 +10,19 @@
 
 class CntrAprReserva: public InterAprReserva {
 private:
+    static const int OPCAO_REALIZAR_RESERVA = 1;
+    static const int OPCAO_CANCELAR_RESERVA = 2;
+    static const int OPCAO_PESQUISAR_RESERVA = 3;
+    static const int OPCAO_SAIR = 4;
+    InterServReserva *cntrServReserva;
 protected:
 public:
     CntrAprReserva();
     void executar(Identificador &identificador) override;
     void setCntrsServReserva(InterServReserva *cntrsServReserva) override;
-    void cancelarReserva();
-    void realizarReserva();
-    void pesquisarReserva();
+    void cancelarReserva(Identificador &identificadorUsuario);
+    void realizarReserva(Identificador &identificadorUsuario);
+    void pesquisarReserva(Identificador &identificadorUsuario);
     virtual ~CntrAprReserva();
 };
 

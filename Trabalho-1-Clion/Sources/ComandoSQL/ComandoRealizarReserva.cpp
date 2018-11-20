@@ -5,12 +5,13 @@
 #include "../../Headers/ComandoSQL/ComandoRealizarReserva.h"
 
 ComandoRealizarReserva::ComandoRealizarReserva(const Identificador &identificadorAcomodacao,
-                                               const Intervalo_Datas &intervaloDatas) {
-    comandoSQL = "insert into Reservas ('DataInicio', 'DataTermino', 'Acomodacao', 'Usuario' values (";
+                                               const Intervalo_Datas &intervaloDatas,
+                                               const Identificador& identificadorUsuario) {
+    comandoSQL = "insert into Reservas ('DataInicio', 'DataTermino', 'Acomodacao', 'Usuario') values (";
     comandoSQL += "'" + intervaloDatas.getDataInicio().getData() + "'";
     comandoSQL += ",'" + intervaloDatas.getDataTermino().getData() + "'";
     comandoSQL += ",'" + identificadorAcomodacao.getIdentificador() + "'";
-    comandoSQL += "'abcde'";
+    comandoSQL += ",'" + identificadorUsuario.getIdentificador() + "'";
     comandoSQL += ")";
 
 }

@@ -6,13 +6,13 @@
 
 void CntrInicio::iniciar() {
     Identificador id;
-    int res, res2, res3, res4, res5;
+    int res;
     std::string input;
     bool sair = false;
     while (!sair) {
         std::cout << "1 - Fazer login." << std::endl;
-        std::cout << "2 - Cadastrar novo usuario" << std::endl;
-        std::cout << "3 - Sair" << std::endl << std::endl;
+        std::cout << "2 - Cadastrar novo usuario." << std::endl;
+        std::cout << "3 - Sair." << std::endl << std::endl;
         std::cout << "Escolha a opcao: ";
 
         std::getline(std::cin, input);
@@ -20,14 +20,43 @@ void CntrInicio::iniciar() {
         if (res == 1) {
             try {
                 cntrAprAutenticacao->autenticar(id);
-                cntrAprUsuarios->executar(id);
+                this->usuario->setIdentificador(id);
             }
             catch (std::exception &e) {
-                std::cout << "Nao foi possivel autenticar" << std::endl;
+                std::cout << "Nao foi possivel autenticar motivo: " << e.what() << std::endl;
             }
 
         } else if (res == 2) {
-            cntrAprUsuarios->cadastrar();
+            try {
+                cntrAprUsuarios->cadastrar();
+                this->usuario->setIdentificador(id);
+            } catch (std::exception &exception){
+                std::cout << "nao foi possivel cadastrar motivo: " << exception.what()  << std::endl;
+            }
+        } else if(res == 3){
+            sair = true;
+        }
+
+        std::cout << "1 - Gerenciar Usuario." << std::endl;
+        std::cout << "2 - Gerenciar Reservas." << std::endl;
+        std::cout << "3 - Sair." << std::endl << std::endl;
+        std::cout << "Escolha a opcao: ";
+
+        std::getline(std::cin, input);
+        res = std::stoi(input);
+
+        if(res == 1){
+            try {
+                cntrAprUsuarios->executar(id);
+            } catch (std::exception &exception){
+                std::cout << "nao foi possivel gerenciar usuarios motivo: " << exception.what()  << std::endl;
+            }
+        } else if( res == 2){
+            try {
+                cntrAprReserva->executar(id);
+            } catch (std::exception &exception){
+                std::cout << "nao foi gerenciar reservas motivo: " << exception.what()  << std::endl;
+            }
         } else if(res == 3){
             sair = true;
         }
@@ -40,10 +69,11 @@ CntrInicio::CntrInicio(InterAprReserva *cntrAprReserva, InterAprAutenticacao *cn
                        InterAprAcomodacao *cntrAprAcomodacao, InterAprUsuarios *cntrAprUsuarios)
         : cntrAprReserva(cntrAprReserva), cntrAprAutenticacao(cntrAprAutenticacao),
           cntrAprAcomodacao(cntrAprAcomodacao), cntrAprUsuarios(cntrAprUsuarios) {
+    usuario = new Usuario();
 
 }
 
-void CntrInicio::cadastrar() {
-
+CntrInicio::~CntrInicio() {
+    delete usuario;
 
 }

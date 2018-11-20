@@ -41,10 +41,10 @@ public:
         return this->usuario;
     }
 
+    ~CntrInicio();
+
 
 private:
-    void cadastrar();
-    void fazerLogin();
     InterAprReserva *cntrAprReserva;
     InterAprAutenticacao *cntrAprAutenticacao;
     InterAprAcomodacao *cntrAprAcomodacao;

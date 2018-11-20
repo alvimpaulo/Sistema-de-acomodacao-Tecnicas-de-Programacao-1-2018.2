@@ -10,8 +10,8 @@
 
 class InterServReserva {
 public:
-    virtual void cancelarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas) = 0;
-    virtual void realizarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas) = 0;
+    virtual void cancelarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas, const Identificador& identificadorUsuario) = 0;
+    virtual void realizarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas, const Identificador& identificadorUsuario) = 0;
 
 };
 

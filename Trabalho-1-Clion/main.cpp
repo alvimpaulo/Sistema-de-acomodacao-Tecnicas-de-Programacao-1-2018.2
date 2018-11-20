@@ -71,6 +71,7 @@ int main(int argc, char **argv){
     cntrAprUsuarios->setCntrsServUsuarios(new CntrsServUsuarios);
     auto *cntrAprAcomodacao = new CntrAprAcomodacao;
     auto *cntrAprReserva = new CntrAprReserva;
+    cntrAprReserva->setCntrsServReserva(new CntrsServReserva);
     auto *cntrAprAutenticacao = new CntrAprAutenticacao;
     cntrAprAutenticacao->setCntrsServAutenticacao(new CntrsServAutenticacao);
 

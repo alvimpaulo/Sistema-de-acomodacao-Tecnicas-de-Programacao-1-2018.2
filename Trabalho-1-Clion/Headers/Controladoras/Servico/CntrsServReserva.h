@@ -12,10 +12,9 @@
 class CntrsServReserva : public InterServReserva{
 public:
     //todo: Checar data atual ao se fazer a reserva
-    //todo: Alterar o usuario
-    void cancelarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas) override;
+    void cancelarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas, const Identificador& identificadorUsuario) override;
 
-    void realizarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas) override;
+    void realizarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas, const Identificador& identificadorUsuario) override;
 
 };
 

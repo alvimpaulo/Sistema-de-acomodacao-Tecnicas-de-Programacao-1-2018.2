@@ -10,7 +10,7 @@
 
 class ComandoCancelarReserva: public ComandoSQL {
 public:
-    ComandoCancelarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas);
+    ComandoCancelarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas, const Identificador& identificadorUsuario);
 };
 
 
