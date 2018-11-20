@@ -26,6 +26,11 @@
 #include "Headers/Controladoras/Apresentacao/CntrAprUsuarios.h"
 #include "Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h"
 
+#include "Headers/Controladoras/Servico/CntrsServAcomodacao.h"
+#include "Headers/Controladoras/Servico/CntrsServReserva.h"
+#include "Headers/Controladoras/Servico/CntrsServUsuarios.h"
+#include "Headers/Controladoras/Servico/CntrsServAutenticacao.h"
+
 #define TESTES 0
 
 int main(int argc, char **argv){
@@ -62,7 +67,7 @@ int main(int argc, char **argv){
     }
 #endif
 
-    auto *cntrAprUsuarios = new CntrAprUsuarios;
+    auto *cntrAprUsuarios = new CntrAprUsuarios(new CntrsServUsuarios);
     auto *cntrAprAcomodacao = new CntrAprAcomodacao;
     auto *cntrAprReserva = new CntrAprReserva;
     auto *cntrAprAutenticacao = new CntrAprAutenticacao;

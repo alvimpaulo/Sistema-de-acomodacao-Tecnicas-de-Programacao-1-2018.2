@@ -42,3 +42,8 @@ std::istream& operator>>(std::istream& in, Senha& senha){
 
     return in;
 }
+
+Senha::Senha() {
+    setSenha("NaoDef1!");
+
+}

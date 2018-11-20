@@ -7,8 +7,10 @@
 void CntrInicio::iniciar() {
     Identificador id;
     int res, res2, res3, res4, res5;
+    std::string input;
     std::cout << "Voce deseja efetuar login ou cadastro?";
-    std::cin >> res;
+    std::getline(std::cin, input);
+    res = std::stoi(input);
     if(res == 0) {
         cntrAprAutenticacao->autenticar(id);
     } else{
@@ -21,5 +23,10 @@ CntrInicio::CntrInicio(InterAprReserva *cntrAprReserva, InterAprAutenticacao *cn
                        InterAprAcomodacao *cntrAprAcomodacao, InterAprUsuarios *cntrAprUsuarios)
         : cntrAprReserva(cntrAprReserva), cntrAprAutenticacao(cntrAprAutenticacao),
           cntrAprAcomodacao(cntrAprAcomodacao), cntrAprUsuarios(cntrAprUsuarios) {
+
+}
+
+void CntrInicio::cadastrar() {
+
 
 }

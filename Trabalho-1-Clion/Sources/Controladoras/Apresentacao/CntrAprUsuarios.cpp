@@ -7,8 +7,7 @@
 #include "../../../Headers/Dominios/Nome.h"
 #include "../../../Headers/Entidades/Usuario.h"
 
-CntrAprUsuarios::CntrAprUsuarios() {
-    interServUsuarios = nullptr;
+CntrAprUsuarios::CntrAprUsuarios(InterServUsuarios *cntrServUsuario) : cntrServUsuario(cntrServUsuario) {
 }
 
 void CntrAprUsuarios::cadastrar() {
@@ -16,17 +15,22 @@ void CntrAprUsuarios::cadastrar() {
     Nome nome;
     Senha senha;
     Usuario usuario;
+    std::string input;
 
-    try{
-        std::cout << "Digite o seu nome         : ";
-        std::cin >> nome;
-        std::cout << "Digite o seu identificador: ";
-        std::cin >> identificador;
-        std::cout << "Digite a sua senha        : ";
-        std::cin >> senha;
-    } catch(std::invalid_argument &e){
-        std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
-        return;
+    while(nome.getNome() == "NomeNaoDefinido" || senha.getSenha() == "NaoDef1!" || identificador.getIdentificador() == "abcde" ) {
+        try {
+            std::cout << "Digite o seu nome         : ";
+            std::getline(std::cin, input);
+            nome.setNome(input);
+            std::cout << "Digite o seu identificador: ";
+            std::getline(std::cin, input);
+            identificador.setIdentificador(input);
+            std::cout << "Digite a sua senha        : ";
+            std::getline(std::cin, input);
+            senha.setSenha(input);
+        } catch (std::invalid_argument &e) {
+            std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
+        }
     }
 
     usuario.setNome(nome);
@@ -34,7 +38,7 @@ void CntrAprUsuarios::cadastrar() {
     usuario.setSenha(senha);
 
     try{
-        interServUsuarios->cadastrarUsuario(nome, identificador, senha);
+        cntrServUsuario->cadastrarUsuario(nome, identificador, senha);
     } catch(std::invalid_argument &e){
         std::cout << std::endl << "Nao foi possivel cadastras usuario!" << std::endl;
         return;
@@ -46,6 +50,7 @@ void CntrAprUsuarios::cadastrar() {
 void CntrAprUsuarios::executar(Identificador &identificador) {
     int escolha;
     bool flag;
+    std::string input;
     std::cout << "Sistema de Acomodacao - Servicos do usuario" << std::endl << std::endl;
 
     std::cout << "1 - Editar usuario." << std::endl;
@@ -55,7 +60,8 @@ void CntrAprUsuarios::executar(Identificador &identificador) {
 
     std::cout << "Escolha a opcao: ";
 
-    std::cin >> escolha;
+    std::getline(std::cin, input);
+    escolha = std::stoi(input);
 
     flag = true;
 
@@ -81,11 +87,11 @@ void CntrAprUsuarios::executar(Identificador &identificador) {
 }
 
 void CntrAprUsuarios::setCntrsServUsuarios(InterServUsuarios *cntrsServUsuarios) {
-    this->interServUsuarios = cntrsServUsuarios;
+    this->cntrServUsuario = cntrsServUsuarios;
 }
 
 CntrAprUsuarios::~CntrAprUsuarios() {
-     delete interServUsuarios;
+     delete cntrServUsuario;
 }
 
 void CntrAprUsuarios::editar(Identificador &identificador) {
@@ -95,6 +101,7 @@ void CntrAprUsuarios::editar(Identificador &identificador) {
 void CntrAprUsuarios::descadastrar(Identificador &identificador) {
     int escolha;
     bool flag;
+    std::string input;
     std::cout << "Sistema de Acomodacao - Servicos do usuario" << std::endl << std::endl;
 
     std::cout << "Deseja descadastrar sua conta?";
@@ -103,7 +110,8 @@ void CntrAprUsuarios::descadastrar(Identificador &identificador) {
 
     std::cout << "Escolha a opcao: ";
 
-    std::cin >> escolha;
+    std::getline(std::cin, input);
+    escolha = std::stoi(input);
 
     flag = true;
 
@@ -113,7 +121,7 @@ void CntrAprUsuarios::descadastrar(Identificador &identificador) {
                 return;
             case OPCAO_SIM:
                 try{
-                    //interServUsuarios->descadastrar(identificador);
+                    //cntrServUsuario->descadastrar(identificador);
                 } catch(std::exception &e){
                     std::cout << std::endl << "Voce nao pode descadastrar enquanto houver pendencias!" << std::endl;
                     return;
