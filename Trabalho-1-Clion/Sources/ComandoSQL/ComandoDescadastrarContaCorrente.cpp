@@ -6,10 +6,10 @@
 
 void ComandoDescadastrarContaCorrente::descadastrarConta(const Num_Conta_Corrente &numContaCorrente) {
     comandoSQL = ""
-                 "DELETE FROM Conta_Corrente WHERE Numero = "+numContaCorrente.getNum_Conta_Corrente()+" AND exists (\n"
+                 "DELETE FROM Conta_Corrente WHERE Numero = '"+numContaCorrente.getNum_Conta_Corrente()+"' AND NOT EXISTS (\n"
                  "\tSELECT Acomodacao FROM Reservas WHERE Acomodacao IN (\n"
                  "\t\tSELECT Identificador FROM Acomodacoes WHERE Usuario = (\n"
-                 "\t\t\tSELECT Usuario FROM Conta_Corrente WHERE Numero = " + numContaCorrente.getNum_Conta_Corrente() +"\n"
+                 "\t\t\tSELECT Usuario FROM Conta_Corrente WHERE Numero = '" + numContaCorrente.getNum_Conta_Corrente() +"'\n"
                  "\t\t)"
                  "\t)"
                  ");";

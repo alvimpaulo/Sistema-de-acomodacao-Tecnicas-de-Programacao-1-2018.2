@@ -7,8 +7,8 @@
 void ComandoEditarUsuario::editarUsuario(const Nome &nome, const Senha &senha, const Identificador &identificador) {
     comandoSQL = ""
                  "UPDATE Usuarios\n"
-                 "SET Nome = " + nome.getNome() + ", Senha= " + senha.getSenha() +"\n"
-                 "WHERE Identificador = " + identificador.getIdentificador() + ";";
+                 "SET Nome = '" + nome.getNome() + "', Senha= '" + senha.getSenha() +"'\n"
+                 "WHERE Identificador = '" + identificador.getIdentificador() + "';";
 
     try {
         this->executar();

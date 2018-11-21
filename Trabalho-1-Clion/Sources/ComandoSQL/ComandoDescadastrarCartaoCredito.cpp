@@ -6,10 +6,10 @@
 
 void ComandoDescadastrarCartaoCredito::descadastrarCartao(const Num_Cartao_Credito &numCartaoCredito) {
     comandoSQL = ""
-                 "DELETE FROM Cartao_Credito WHERE Numero = " + numCartaoCredito.getNum_Cartao() + " AND exists (\n"
-                 "\tSELECT Usuario FROM Reservas WHWRE Usuario = (\n"
-                 "\t\tSELECT Usuario FROM Conta_Corrente WHERE Numero = " + numCartaoCredito.getNum_Cartao() + "\n"
-                 "\t)\n"
+                 "DELETE FROM Cartao_Credito WHERE Numero = '0000000000000000' AND NOT EXISTS (\n"
+                 "  SELECT Usuario FROM Reservas WHERE Usuario = (\n"
+                 "    SELECT Usuario FROM Conta_Corrente WHERE Numero = '0000000000000000'\n"
+                 "  )\n"
                  ");";
     try{
         this->executar();

@@ -31,6 +31,9 @@
 #include "Headers/Controladoras/Servico/CntrsServReserva.h"
 #include "Headers/Controladoras/Servico/CntrsServUsuarios.h"
 #include "Headers/Controladoras/Servico/CntrsServAutenticacao.h"
+#include "Headers/Controladoras/CntrInicio.h"
+#include "Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h"
+#include "Headers/Controladoras/Apresentacao/CntrAprReserva.h"
 
 #define TESTES 0
 
@@ -77,7 +80,6 @@ int main(int argc, char **argv){
 
     CntrInicio cntrInicio(cntrAprReserva, cntrAprAutenticacao, cntrAprAcomodacao, cntrAprUsuarios);
     cntrInicio.iniciar();
-
 
 
 

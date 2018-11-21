@@ -6,7 +6,7 @@
 
 void ComandoDescadastrarUsuario::descadastraUsuario(const Identificador &identificador) {
     comandoSQL = ""
-                 "DELETE FROM Usuarios WHERE Identificador = '" + identificador.getIdentificador() + "' AND NOT exists (\n"
+                 "DELETE FROM Usuarios WHERE Identificador = '" + identificador.getIdentificador() + "' AND NOT EXISTS (\n"
                  "\tSELECT Usuario FROM Reservas WHERE Acomodacao IN (\n"
                  "\t\tSELECT Acomodacao FROM Acomodacoes WHERE Usuario = '" + identificador.getIdentificador() + "'\n"
                  "\t)\n"

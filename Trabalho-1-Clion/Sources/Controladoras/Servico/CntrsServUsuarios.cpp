@@ -32,6 +32,7 @@ void CntrsServUsuarios::cadastrarCartaoCredito( const Identificador &identificad
 
 void CntrsServUsuarios::descadastrarUsuario(const Identificador &identificador) {
     ComandoDescadastrarUsuario comandoSQL;
+    comandoSQL.descadastraUsuario(identificador);
 }
 
 void CntrsServUsuarios::descadastrarContaCorrente(const Num_Conta_Corrente &numContaCorrente) {
