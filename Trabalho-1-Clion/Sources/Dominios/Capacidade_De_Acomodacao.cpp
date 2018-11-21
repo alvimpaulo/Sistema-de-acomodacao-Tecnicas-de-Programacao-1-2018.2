@@ -26,6 +26,7 @@ std::istream& operator>>(std::istream& in, Capacidade_De_Acomodacao& capacidadeD
     std::string str;
 
     in >> str;
+
     capacidadeDeAcomodacao.setCapacidade_De_Acomodacao(str);
 
     return in;

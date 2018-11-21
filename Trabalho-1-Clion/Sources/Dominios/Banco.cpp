@@ -23,6 +23,8 @@ std::istream& operator>>(std::istream& in, Banco& banco){
     std::string str;
 
     in >> str;
+//    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
     banco.setBancoNum(str);
 
     return in;

@@ -10,19 +10,19 @@
 #include "../../Entidades/Cartao_De_Credito.h"
 
 
-class InterServUsuarios {
+class InterServUsuarios{
 public:
     //cadastra um usuario no sistema
     virtual void cadastrarUsuario(const Nome& nome, const Identificador& identificador, const Senha& senha) = 0;
 
     //Cadastra uma conta corrente para o usuario atual
-    virtual void cadastrarContaCorrente(const Num_Conta_Corrente& numContaCorrente, const Agencia& agencia, const Banco& banco) = 0;
+    virtual void cadastrarContaCorrente(const Identificador &identificador, const Num_Conta_Corrente& numContaCorrente, const Agencia& agencia, const Banco& banco) = 0;
 
     //Cadastra uma conta corrente para o usuario atual
-    virtual void cadastrarCartaoCredito(const Num_Cartao_Credito& numCartaoCredito, const Data_De_Validade& dataDeValidade) = 0;
+    virtual void cadastrarCartaoCredito(const Identificador &identificador, const Num_Cartao_Credito& numCartaoCredito, const Data_De_Validade& dataDeValidade) = 0;
 
     //Descadastra um usuario, se for possivel
-    virtual void descadastrarUsuario() = 0;
+    virtual void descadastrarUsuario(const Identificador &identificador) = 0;
 
     //Descastra uma conta corrente do usuario atual
     virtual void descadastrarContaCorrente(const Num_Conta_Corrente& numContaCorrente) = 0;
@@ -31,7 +31,7 @@ public:
     virtual void descadastrarCartaoCredito(const Num_Cartao_Credito& numCartaoCredito) = 0;
 
     //Edita o nome e/ou senha do usuario atual
-    virtual void editarUsuario(const Nome& nome, const Senha& senha) = 0;
+    virtual void editarUsuario(const Nome& nome, const Senha& senha, const Identificador &identificador) = 0;
 };
 
 

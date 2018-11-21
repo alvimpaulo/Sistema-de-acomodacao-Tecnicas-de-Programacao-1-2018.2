@@ -19,17 +19,21 @@
 #include "Headers/Teste/Entidades/Teste_Conta_Corrente.h"
 #include "Headers/Teste/Entidades/Teste_Usuario.h"
 #include "Headers/Teste/Entidades/Teste_Cartao_De_Credito.h"
-
-#include "Headers/Controladoras/CntrInicio.h"
-#include "Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h"
-#include "Headers/Controladoras/Apresentacao/CntrAprReserva.h"
-#include "Headers/Controladoras/Apresentacao/CntrAprUsuarios.h"
+#include "Headers/Controladoras/Servico/CntrsServAcomodacao.h"
+#include "Headers/Interfaces/Servico/InterServAutenticacao.h"
+#include "Headers/Controladoras/Servico/CntrsServAutenticacao.h"
+#include "Headers/Interfaces/Apresentacao/InterAprAutenticacao.h"
 #include "Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h"
+#include "Headers/Interfaces/Apresentacao/InterAprUsuarios.h"
+#include "Headers/Controladoras/Apresentacao/CntrAprUsuarios.h"
 
 #include "Headers/Controladoras/Servico/CntrsServAcomodacao.h"
 #include "Headers/Controladoras/Servico/CntrsServReserva.h"
 #include "Headers/Controladoras/Servico/CntrsServUsuarios.h"
 #include "Headers/Controladoras/Servico/CntrsServAutenticacao.h"
+#include "Headers/Controladoras/CntrInicio.h"
+#include "Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h"
+#include "Headers/Controladoras/Apresentacao/CntrAprReserva.h"
 
 #define TESTES 0
 
@@ -77,7 +81,6 @@ int main(int argc, char **argv){
 
     CntrInicio cntrInicio(cntrAprReserva, cntrAprAutenticacao, cntrAprAcomodacao, cntrAprUsuarios);
     cntrInicio.iniciar();
-
 
 
 
