@@ -11,22 +11,21 @@
 
 class CntrAprAcomodacao: public InterAprAcomodacao{
 private:
-    InterServAcomodacao* interServAcomodacao;
-    static const int OPCAO_NAO = 0;
-    static const int OPCAO_SIM = 1;
-    static const int OPCAO_EDITAR_ACOMODACAO = 1;
-    static const int OPCAO_CADASTRAR_ACOMODACAO = 2;
-    static const int OPCAO_DESCADASTRAR_ACOMODACAO = 3;
-    static const int OPCAO_PESQUISAR_ACOMODACAO = 4;
+    InterServAcomodacao* cntrsServAcomodacao;
+    static const int OPCAO_CADASTRAR_ACOMODACAO = 1;
+    static const int OPCAO_DESCADASTRAR_ACOMODACAO = 2;
+    static const int OPCAO_CADASTRAR_DISPONIBILIDADE = 3;
+    static const int OPCAO_DESCADASTRAR_DISPONIBILIDADE = 4;
     static const int OPCAO_SAIR_ACOMODACAO = 5;
 protected:
 public:
     CntrAprAcomodacao();
-    void executar(Identificador &identificador) override;
+    void executar(Identificador &identificadorUsuario) override;
     void pesquisar(Identificador &identificador);
-    void cadastrar(Identificador &identificador);
-    void descadastrar(Identificador &identificador);
-    void editar(Identificador &identificador);
+    void cadastrar(const Identificador &identificadorUsuario);
+    void cadastrarDisponibilidade(const Identificador &identificadorUsuario);
+    void descadastrar(const Identificador &identificadorUsuario);
+    void descadastrarDisponibilidade(const Identificador &identificadorUsuario);
     void setCntrsServAcomodacao(InterServAcomodacao *cntrsServAcomodacao) override;
     virtual ~CntrAprAcomodacao();
 };

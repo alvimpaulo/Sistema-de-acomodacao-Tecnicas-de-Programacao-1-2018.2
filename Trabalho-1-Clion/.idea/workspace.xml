@@ -12,18 +12,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2265067e-bce8-4e0d-b9c9-31f1d7c3c0db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCancelarReserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCancelarReserva.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoRealizarReserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoRealizarReserva.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarAcomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarAcomodacao.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprReserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprReserva.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/CntrInicio.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/CntrInicio.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServReserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServReserva.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCancelarReserva.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCancelarReserva.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoRealizarReserva.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoRealizarReserva.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServAcomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServAcomodacao.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServReserva.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServReserva.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho_1_Clion.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -63,6 +80,13 @@
         <item name="Database" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Database" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="Reservas: table" type="ffe0bd85:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -231,41 +255,46 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Trabalho_1_Clion (disassembly)" value="18" />
+          <entry key="acomodacoes" value="2" />
           <entry key="c" value="1" />
-          <entry key="cpp" value="103" />
-          <entry key="h" value="95" />
-          <entry key="sql" value="5" />
+          <entry key="cpp" value="121" />
+          <entry key="disponibilidade" value="1" />
+          <entry key="h" value="116" />
+          <entry key="reservas" value="3" />
+          <entry key="sql" value="7" />
+          <entry key="sqlite_sequence" value="1" />
           <entry key="txt" value="3" />
-          <entry key="usuarios" value="1" />
+          <entry key="usuarios" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="3" />
-          <entry key="Database Element" value="1" />
+          <entry key="Database Element" value="9" />
           <entry key="Disassembly" value="18" />
-          <entry key="ObjectiveC" value="199" />
-          <entry key="Scratch" value="5" />
+          <entry key="ObjectiveC" value="238" />
+          <entry key="Scratch" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="GDB" value="15" />
-          <entry key="cell" value="9" />
-          <entry key="cpp" value="7224" />
-          <entry key="h" value="4145" />
-          <entry key="mm" value="15" />
-          <entry key="sql" value="33" />
-          <entry key="txt" value="470" />
+          <entry key="cell" value="10" />
+          <entry key="cpp" value="9697" />
+          <entry key="h" value="4615" />
+          <entry key="mm" value="23" />
+          <entry key="sql" value="95" />
+          <entry key="txt" value="507" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="32" />
           <entry key="GDBCommands" value="15" />
-          <entry key="ObjectiveC" value="11384" />
-          <entry key="PLAIN_TEXT" value="438" />
-          <entry key="Scratch" value="42" />
+          <entry key="ObjectiveC" value="14335" />
+          <entry key="PLAIN_TEXT" value="475" />
+          <entry key="SQL" value="9" />
+          <entry key="Scratch" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -278,19 +307,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServReserva.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <entry file="das://44ae4a8a-0cc8-451c-bc87-a94061011fff/schema/main/table/reservas">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -298,17 +318,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprReserva.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoRealizarReserva.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="21">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -316,56 +327,77 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="-255">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="mock:///Trabalho_1_Clion (disassembly)">
+        <entry file="file://$PROJECT_DIR$/Headers/Controladoras/CntrInicio.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCancelarReserva.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoSQL.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="72">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
-                <element signature="e#41#55#0" expanded="true" />
+                <element signature="e#118#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="e#136#175#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Dominios/Data.cpp">
+        <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="157">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/Dominios/Identificador.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <entry file="das://44ae4a8a-0cc8-451c-bc87-a94061011fff/schema/main/table/acomodacoes">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -374,7 +406,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CMAKE_CXX_FLAGS</find>
       <find>agencia</find>
       <find>Teste_Agencia</find>
       <find>re</find>
@@ -404,6 +435,7 @@
       <find>autent</find>
       <find>autenti</find>
       <find>OPCAO_DESCADASTRAR_USUARIO</find>
+      <find>cadastrar</find>
     </findStrings>
     <replaceStrings>
       <replace>\n$1</replace>
@@ -422,11 +454,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAutenticacao.h" />
-        <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServUsuarios.h" />
-        <option value="$PROJECT_DIR$/Headers/Dominios/Data.h" />
-        <option value="$PROJECT_DIR$/Sources/Entidades/Acomodacao.cpp" />
-        <option value="$PROJECT_DIR$/Sources/Dominios/Data.cpp" />
         <option value="$PROJECT_DIR$/Sources/Dominios/Num_Cartao_Credito.cpp" />
         <option value="$PROJECT_DIR$/Headers/Entidades/Intervalo_Datas.h" />
         <option value="$PROJECT_DIR$/Sources/Entidades/Intervalo_Datas.cpp" />
@@ -434,21 +461,11 @@
         <option value="$PROJECT_DIR$/ComandoSQL.cpp" />
         <option value="$PROJECT_DIR$/Headers/Entidades/Acomodacao.h" />
         <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoSQL.h" />
-        <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h" />
         <option value="$PROJECT_DIR$/Sources/Teste/Entidades/Teste_Acomodacao.cpp" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp" />
         <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarAcomodacao.h" />
         <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoSQL.cpp" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarAcomodacao.h" />
-        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp" />
-        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h" />
         <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoEditarAcomodacao.h" />
         <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServAcomodacao.h" />
-        <option value="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h" />
         <option value="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAutenticacao.h" />
@@ -456,7 +473,6 @@
         <option value="$PROJECT_DIR$/Headers/Dominios/Identificador.h" />
         <option value="$PROJECT_DIR$/Sources/Dominios/Identificador.cpp" />
         <option value="$PROJECT_DIR$/Sources/Dominios/Senha.cpp" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/44ae4a8a-0cc8-451c-bc87-a94061011fff/console.sql" />
         <option value="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAutenticacao.cpp" />
         <option value="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprUsuarios.h" />
         <option value="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp" />
@@ -465,14 +481,30 @@
         <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoRealizarReserva.h" />
         <option value="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServReserva.cpp" />
         <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServReserva.h" />
-        <option value="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprReserva.h" />
         <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServReserva.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprUsuarios.h" />
         <option value="$PROJECT_DIR$/Headers/Controladoras/CntrInicio.h" />
-        <option value="$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp" />
-        <option value="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp" />
         <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoRealizarReserva.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp" />
+        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarAcomodacao.h" />
+        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/44ae4a8a-0cc8-451c-bc87-a94061011fff/console.sql" />
+        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp" />
+        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h" />
+        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h" />
+        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp" />
+        <option value="$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h" />
+        <option value="$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServAcomodacao.h" />
+        <option value="$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h" />
+        <option value="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp" />
+        <option value="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprReserva.h" />
+        <option value="$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h" />
+        <option value="$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h" />
+        <option value="$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp" />
+        <option value="$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp" />
       </list>
     </option>
   </component>
@@ -551,14 +583,13 @@
               <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
               <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
               <item name="Headers" type="462c0819:PsiDirectoryNode" />
-              <item name="Controladoras" type="462c0819:PsiDirectoryNode" />
+              <item name="ComandoSQL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
               <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
               <item name="Headers" type="462c0819:PsiDirectoryNode" />
               <item name="Controladoras" type="462c0819:PsiDirectoryNode" />
-              <item name="Apresentacao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
@@ -586,6 +617,17 @@
               <item name="Headers" type="462c0819:PsiDirectoryNode" />
               <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
               <item name="Servico" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho_1_Clion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho-1-Clion" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="ComandoSQL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -607,13 +649,6 @@
     <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\ComandoSQL" />
-      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL" />
-      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\Entidades" />
-      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Entidades" />
-      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Dominios" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources" />
       <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\Interfaces" />
@@ -621,6 +656,143 @@
       <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\Controladoras" />
       <recent name="C:\Users\oetch\OneDrive\documentos\TP1\Trabalho-Tp1-Clion\Trabalho-1-Clion\Sources\Teste" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\ComandoSQL" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\ComandoSQL" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Headers\Entidades" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Entidades" />
+      <recent name="C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion\Sources\Dominios" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CMakeLists.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServUsuarios.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Headers/Interfaces/Servico/InterServUsuarios.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServUsuarios.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/Dominios/Agencia.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/Dominios/Banco.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/Dominios/Capacidade_De_Acomodacao.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/main.cpp</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarCartaoCredito.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarContaCorrente.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarCartaoCredito.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarContaCorrente.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarUsuario.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Headers/ComandoSQL/ComandoEditarUsuario.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Sources/ComandoSQL/ComandoEditarUsuario.cpp</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -700,7 +872,7 @@
       <workItem from="1542553487425" duration="4059000" />
       <workItem from="1542558803089" duration="30357000" />
       <workItem from="1542655154700" duration="2599000" />
-      <workItem from="1542717456408" duration="14585000" />
+      <workItem from="1542717456408" duration="24286000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada a classe da agencia e teste dela na main">
       <created>1536084993870</created>
@@ -989,11 +1161,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542738495911</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Criar reservas funcionando">
+      <created>1542743647275</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1542743647275</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251026000" />
+    <option name="totallyTimeSpent" value="260727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1008,14 +1187,14 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" weight="0.15960665" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" weight="0.15885022" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40491804" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40491804" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
@@ -1029,7 +1208,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1075,7 +1254,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Troquei todos os atoi por std::stoi" />
     <MESSAGE value="Capacidade de usar polimorfismo nos testes" />
     <MESSAGE value="Polimorfismo nos testes" />
     <MESSAGE value="Fazendo Teste de Acomodação" />
@@ -1100,7 +1278,8 @@
     <MESSAGE value="Inicio da controladora de inicio" />
     <MESSAGE value="Cadastrando usuario a partir do menu" />
     <MESSAGE value="Logando a partir do menu, ou cadastrando usuario novo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logando a partir do menu, ou cadastrando usuario novo" />
+    <MESSAGE value="Criar reservas funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar reservas funcionando" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1126,11 +1305,6 @@
           <line>7</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp</url>
-          <line>11</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
         <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Sources/Dominios/Data.cpp</url>
           <line>30</line>
@@ -1153,7 +1327,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>85</line>
+          <line>89</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -1163,8 +1337,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp</url>
-          <line>49</line>
+          <line>50</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp</url>
+          <line>67</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1238,158 +1417,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoSQL.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarAcomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="118" selection-start-line="7" selection-start-column="118" selection-end-line="7" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServUsuarios.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarAcomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="96" selection-start-line="14" selection-start-column="96" selection-end-line="14" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoEditarAcomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServAcomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#136#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#156#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#136#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Nome.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Nome.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Senha.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Dominios/Identificador.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Dominios/Senha.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Headers/Entidades/Usuario.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -1418,20 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://44ae4a8a-0cc8-451c-bc87-a94061011fff/schema/main/table/usuarios">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/44ae4a8a-0cc8-451c-bc87-a94061011fff/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1507,39 +1520,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAutenticacao.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
             <element signature="e#139#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprUsuarios.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="19" column="80" lean-forward="true" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/CntrInicio.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="e#118#178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1551,38 +1537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprReserva.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/Dominios/Identificador.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCancelarReserva.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -1593,27 +1551,256 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServReserva.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCancelarReserva.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoRealizarReserva.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="104" lean-forward="true" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="95" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoPesquisarAcomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#150#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarAcomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="12" column="266" selection-start-line="12" selection-start-column="266" selection-end-line="12" selection-end-column="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://44ae4a8a-0cc8-451c-bc87-a94061011fff/schema/main/table/disponibilidade">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/44ae4a8a-0cc8-451c-bc87-a94061011fff/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoSQL.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="156">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding>
             <element signature="e#41#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServReserva.cpp">
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoSQL.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="26">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoRealizarReserva.cpp">
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#166#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprUsuarios.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="76" column="59" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#1943#2889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Servico/CntrsServAcomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="e#136#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Servico/CntrsServAcomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://44ae4a8a-0cc8-451c-bc87-a94061011fff/schema/main/table/sqlite_sequence">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://44ae4a8a-0cc8-451c-bc87-a94061011fff/schema/main/table/usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://44ae4a8a-0cc8-451c-bc87-a94061011fff/schema/main/table/reservas">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprReserva.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/CntrInicio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#118#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://44ae4a8a-0cc8-451c-bc87-a94061011fff/schema/main/table/acomodacoes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Apresentacao/InterAprAcomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Interfaces/Servico/InterServAcomodacao.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#136#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/Controladoras/Apresentacao/CntrAprAcomodacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/Apresentacao/CntrAprAcomodacao.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/Controladoras/CntrInicio.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>

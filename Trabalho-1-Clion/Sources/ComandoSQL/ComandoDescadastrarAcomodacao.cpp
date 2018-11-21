@@ -4,6 +4,23 @@
 
 #include "../../Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h"
 
-ComandoDescadastrarAcomodacao::ComandoDescadastrarAcomodacao(const Identificador &identificadorAcomodacao) {
-    comandoSQL = "delete from Acomodacoes where Identificador = '" + identificadorAcomodacao.getIdentificador() + "'";
+ComandoDescadastrarAcomodacao::ComandoDescadastrarAcomodacao(const Identificador &identificadorAcomodacao, const Identificador& identificadorUsuario) {
+    comandoSQL = "select * from Reservas where Acomodacao = '" + identificadorAcomodacao.getIdentificador() + "'";
+    try{
+        executar();
+    } catch (std::exception &exception){
+        std::cout << exception.what() << std::endl;
+    }
+    if(listaResultado.empty()){
+        comandoSQL = "delete from Acomodacoes where Identificador = '" + identificadorAcomodacao.getIdentificador() + "' and Usuario = '" + identificadorUsuario.getIdentificador() + "'";
+        try {
+            executar();
+        } catch (std::exception &exception){
+            std::cout << exception.what() << std::endl;
+        }
+
+    } else{
+        throw std::invalid_argument("Acomodacao ja possui reservas.");
+    }
+
 }

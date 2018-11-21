@@ -34,12 +34,13 @@ void CntrInicio::iniciar() {
                 std::cout << "nao foi possivel cadastrar motivo: " << exception.what()  << std::endl;
             }
         } else if(res == 3){
-            sair = true;
+            return;
         }
 
         std::cout << "1 - Gerenciar Usuario." << std::endl;
         std::cout << "2 - Gerenciar Reservas." << std::endl;
-        std::cout << "3 - Sair." << std::endl << std::endl;
+        std::cout << "3 - Gerenciar Acomodacoes." << std::endl;
+        std::cout << "4 - Sair." << std::endl << std::endl;
         std::cout << "Escolha a opcao: ";
 
         std::getline(std::cin, input);
@@ -57,7 +58,13 @@ void CntrInicio::iniciar() {
             } catch (std::exception &exception){
                 std::cout << "nao foi gerenciar reservas motivo: " << exception.what()  << std::endl;
             }
-        } else if(res == 3){
+        }else if( res == 3){
+            try {
+                cntrAprAcomodacao->executar(id);
+            } catch (std::exception &exception){
+                std::cout << "nao foi gerenciar acomodacoes motivo: " << exception.what()  << std::endl;
+            }
+        } else if(res == 4){
             sair = true;
         }
     }

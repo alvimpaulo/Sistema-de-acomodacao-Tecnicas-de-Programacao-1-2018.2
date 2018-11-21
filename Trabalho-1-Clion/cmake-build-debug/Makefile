@@ -176,6 +176,60 @@ Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp.s
 
+Sources/ComandoSQL/ComandoCadastrarCartaoCredito.obj: Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarCartaoCredito.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.obj
+
+Sources/ComandoSQL/ComandoCadastrarCartaoCredito.i: Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarCartaoCredito.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.i
+
+Sources/ComandoSQL/ComandoCadastrarCartaoCredito.s: Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarCartaoCredito.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.s
+
+Sources/ComandoSQL/ComandoCadastrarContaCorrente.obj: Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarContaCorrente.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.obj
+
+Sources/ComandoSQL/ComandoCadastrarContaCorrente.i: Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarContaCorrente.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.i
+
+Sources/ComandoSQL/ComandoCadastrarContaCorrente.s: Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoCadastrarContaCorrente.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp.s
+
 Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.obj: Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp.obj
 
 .PHONY : Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.obj
@@ -284,6 +338,114 @@ Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.s
 
+Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.obj: Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.obj
+
+Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.i: Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.i
+
+Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.s: Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp.s
+
+Sources/ComandoSQL/ComandoDescadastrarContaCorrente.obj: Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarContaCorrente.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.obj
+
+Sources/ComandoSQL/ComandoDescadastrarContaCorrente.i: Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarContaCorrente.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.i
+
+Sources/ComandoSQL/ComandoDescadastrarContaCorrente.s: Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarContaCorrente.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp.s
+
+Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.obj: Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.obj
+
+Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.i: Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.i
+
+Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.s: Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.s
+
+Sources/ComandoSQL/ComandoDescadastrarUsuario.obj: Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarUsuario.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.obj
+
+Sources/ComandoSQL/ComandoDescadastrarUsuario.i: Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarUsuario.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.i
+
+Sources/ComandoSQL/ComandoDescadastrarUsuario.s: Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarUsuario.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp.s
+
 Sources/ComandoSQL/ComandoEditarAcomodacao.obj: Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.obj
 
 .PHONY : Sources/ComandoSQL/ComandoEditarAcomodacao.obj
@@ -310,6 +472,33 @@ Sources/ComandoSQL/ComandoEditarAcomodacao.s: Sources/ComandoSQL/ComandoEditarAc
 Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoEditarAcomodacao.cpp.s
+
+Sources/ComandoSQL/ComandoEditarUsuario.obj: Sources/ComandoSQL/ComandoEditarUsuario.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoEditarUsuario.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoEditarUsuario.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarUsuario.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoEditarUsuario.cpp.obj
+
+Sources/ComandoSQL/ComandoEditarUsuario.i: Sources/ComandoSQL/ComandoEditarUsuario.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoEditarUsuario.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoEditarUsuario.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarUsuario.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoEditarUsuario.cpp.i
+
+Sources/ComandoSQL/ComandoEditarUsuario.s: Sources/ComandoSQL/ComandoEditarUsuario.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoEditarUsuario.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoEditarUsuario.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarUsuario.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoEditarUsuario.cpp.s
 
 Sources/ComandoSQL/ComandoPesquisarAcomodacao.obj: Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp.obj
 
@@ -1730,6 +1919,12 @@ help:
 	@echo ... Sources/ComandoSQL/ComandoCadastrarAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoCadastrarAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoCadastrarAcomodacao.s
+	@echo ... Sources/ComandoSQL/ComandoCadastrarCartaoCredito.obj
+	@echo ... Sources/ComandoSQL/ComandoCadastrarCartaoCredito.i
+	@echo ... Sources/ComandoSQL/ComandoCadastrarCartaoCredito.s
+	@echo ... Sources/ComandoSQL/ComandoCadastrarContaCorrente.obj
+	@echo ... Sources/ComandoSQL/ComandoCadastrarContaCorrente.i
+	@echo ... Sources/ComandoSQL/ComandoCadastrarContaCorrente.s
 	@echo ... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.s
@@ -1742,9 +1937,24 @@ help:
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.s
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.obj
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.i
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.s
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarContaCorrente.obj
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarContaCorrente.i
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarContaCorrente.s
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.obj
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.i
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.s
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarUsuario.obj
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarUsuario.i
+	@echo ... Sources/ComandoSQL/ComandoDescadastrarUsuario.s
 	@echo ... Sources/ComandoSQL/ComandoEditarAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoEditarAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoEditarAcomodacao.s
+	@echo ... Sources/ComandoSQL/ComandoEditarUsuario.obj
+	@echo ... Sources/ComandoSQL/ComandoEditarUsuario.i
+	@echo ... Sources/ComandoSQL/ComandoEditarUsuario.s
 	@echo ... Sources/ComandoSQL/ComandoPesquisarAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoPesquisarAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoPesquisarAcomodacao.s

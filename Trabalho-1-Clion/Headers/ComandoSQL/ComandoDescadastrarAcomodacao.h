@@ -9,7 +9,7 @@
 #include "../Entidades/Acomodacao.h"
 class ComandoDescadastrarAcomodacao: public ComandoSQL {
 public:
-    explicit ComandoDescadastrarAcomodacao(const Identificador &identificadorAcomodacao);
+    ComandoDescadastrarAcomodacao(const Identificador &identificadorAcomodacao, const Identificador& identificadorUsuario);
 };
 
 

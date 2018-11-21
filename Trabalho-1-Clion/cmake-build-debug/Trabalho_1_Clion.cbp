@@ -88,6 +88,12 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoCadastrarAcomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoCadastrarCartaoCredito.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoCadastrarContaCorrente.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -100,7 +106,22 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoDescadastrarCartaoCredito.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoDescadastrarContaCorrente.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoDescadastrarDisponibilidade.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoDescadastrarUsuario.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoEditarAcomodacao.h">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoEditarUsuario.h">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Headers/ComandoSQL/ComandoPesquisarAcomodacao.h">
@@ -283,6 +304,12 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoCadastrarAcomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoCadastrarContaCorrente.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoCadastrarDisponibilidadeAcomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
@@ -295,7 +322,22 @@
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoDescadastrarCartaoCredito.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoDescadastrarContaCorrente.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoDescadastrarUsuario.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoEditarAcomodacao.cpp">
+			<Option target="Trabalho_1_Clion"/>
+		</Unit>
+		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoEditarUsuario.cpp">
 			<Option target="Trabalho_1_Clion"/>
 		</Unit>
 		<Unit filename="C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/Sources/ComandoSQL/ComandoPesquisarAcomodacao.cpp">

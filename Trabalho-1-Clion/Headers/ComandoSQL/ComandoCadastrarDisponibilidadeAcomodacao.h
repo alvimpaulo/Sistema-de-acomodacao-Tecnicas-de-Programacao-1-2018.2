@@ -10,7 +10,7 @@
 
 class ComandoCadastrarDisponibilidadeAcomodacao: public ComandoSQL {
 public:
-    ComandoCadastrarDisponibilidadeAcomodacao(const Identificador& identificadorAcomodacao, const Data& dataInicio, const Data& dataTermino);
+    ComandoCadastrarDisponibilidadeAcomodacao(const Identificador& identificadorAcomodacao, const Data& dataInicio, const Data& dataTermino, const Identificador& identificadorUsuario);
 };
 
 

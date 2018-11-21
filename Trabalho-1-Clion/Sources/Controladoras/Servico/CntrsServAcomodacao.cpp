@@ -16,30 +16,38 @@ std::list<Acomodacao> CntrsServAcomodacao::pesquisar(const Data &dataInicio, con
 
 void CntrsServAcomodacao::cadastrar(const Identificador &identificadorAcomodacao, const Tipo_Acomodacao &tipoAcomodacao,
                                     const Capacidade_De_Acomodacao &capacidadeDeAcomodacao, const Diaria &diaria,
-                                    const Nome &cidade, const Estado &estado) {
+                                    const Nome &cidade, const Estado &estado,
+                                    const Identificador& identificadorUsuario) {
     //todo: Checar se o usuario tem uma conta corrente
-    ComandoCadastrarAcomodacao sqlCadastrar(identificadorAcomodacao, tipoAcomodacao, capacidadeDeAcomodacao, diaria, cidade, estado);
+    ComandoCadastrarAcomodacao sqlCadastrar(identificadorAcomodacao, tipoAcomodacao, capacidadeDeAcomodacao, diaria, cidade, estado, identificadorUsuario);
     sqlCadastrar.executar();
 
 }
 
 void CntrsServAcomodacao::cadastrarDisponibilidade(const Identificador &identificadorAcomodacao, const Data &dataInicio,
-                                                   const Data &dataTermino) {
-    ComandoCadastrarDisponibilidadeAcomodacao sqlCadastrarDisponibilidade(identificadorAcomodacao, dataInicio, dataTermino);
+                                                   const Data &dataTermino, const Identificador &identificadorUsuario) {
+    ComandoCadastrarDisponibilidadeAcomodacao sqlCadastrarDisponibilidade(identificadorAcomodacao, dataInicio, dataTermino, identificadorUsuario);
     sqlCadastrarDisponibilidade.executar();
 
 }
 
-void CntrsServAcomodacao::descadastrar(const Identificador &identificadorAcomodacao) {
-    //todo: Checar se o usuario tentando descadastrar essa acomodacao é ele mesmo obs: fazer o query com o usuario atual
-    //todo: Checar se a acomodacao tem reserva obs: o sql ja vai te negar se tiver reserva associada, mas tb vai negar se tiver disponibilidade
-    ComandoDescadastrarAcomodacao sqlDescadastrar(identificadorAcomodacao);
-    sqlDescadastrar.executar();
+void CntrsServAcomodacao::descadastrar(const Identificador &identificadorAcomodacao, const Identificador& identificadorUsuario) {
+
+    try {
+        ComandoDescadastrarAcomodacao sqlDescadastrar(identificadorAcomodacao, identificadorUsuario);
+    } catch (std::exception &exception){
+        std::cout << exception.what() << std::endl;
+    }
+
+
 }
 
-void CntrsServAcomodacao::editar(const Identificador &identificadorAcomodacao, const Acomodacao &acomodacao) {
-    //todo: utilizar o usuario atual na pesquisa
+void CntrsServAcomodacao::descadastrarDisponibilidade(const Identificador &identificadorAcomodacao,
+                                                      const Identificador &identificadorUsuario) {
 
-    ComandoEditarAcomodacao sqlEditar(identificadorAcomodacao, acomodacao);
-    sqlEditar.executar();
+    try {
+        ComandoDescadastrarDisponibilidade sqlDescadastrarDisponibilidade(identificadorAcomodacao, identificadorUsuario);
+    } catch (std::exception &exception){
+        std::cout << exception.what() << std::endl;
+    }
 }

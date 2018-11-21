@@ -13,7 +13,7 @@ class InterAprAcomodacao{
 private:
 protected:
 public:
-    virtual void executar(Identificador &identificador) = 0;
+    virtual void executar(Identificador &identificadorUsuario) = 0;
     virtual void setCntrsServAcomodacao(InterServAcomodacao *cntrsServAcomodacao) = 0;
 };
 

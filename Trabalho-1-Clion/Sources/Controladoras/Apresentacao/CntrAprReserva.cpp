@@ -16,8 +16,7 @@ void CntrAprReserva::executar(Identificador &identificador) {
 
     std::cout << "1 - Realizar reserva." << std::endl;
     std::cout << "2 - Cancelar reserva." << std::endl;
-    std::cout << "3 - Pesquisar reserva." << std::endl;
-    std::cout << "4 - Sair." << std::endl;
+    std::cout << "3 - Sair." << std::endl;
 
     std::cout << "Escolha a opcao: ";
 
@@ -34,10 +33,6 @@ void CntrAprReserva::executar(Identificador &identificador) {
                 break;
             case OPCAO_CANCELAR_RESERVA:
                 cancelarReserva(identificador);
-                flag = false;
-                break;
-            case OPCAO_PESQUISAR_RESERVA:
-                //pesquisarReserva(identificador);
                 flag = false;
                 break;
             case OPCAO_SAIR:
@@ -96,9 +91,11 @@ void CntrAprReserva::cancelarReserva(Identificador &identificadorUsuario) {
     intervaloDatas.setDataInicio(dataInicio);
     intervaloDatas.setDataTermino(dataTermino);
 
-
-    cntrServReserva->cancelarReserva(idReserva, intervaloDatas, identificadorUsuario);
-
+    try {
+        cntrServReserva->cancelarReserva(idReserva, intervaloDatas, identificadorUsuario);
+    } catch (std::exception &exception){
+        std::cout << "Não foi possível cancelar a reserva." << std::endl;
+    }
 }
 
 
@@ -115,7 +112,7 @@ void CntrAprReserva::realizarReserva(Identificador &identificadorUsuario) {
 
     while (!flagCampoInseridoCorretamente) {
         try {
-            std::cout << "Insira o identificador da reserva: ";
+            std::cout << "Insira o identificador da acomodacao a qual esta reserva pertence: ";
             std::getline(std::cin, input);
             idReserva.setIdentificador(input);
             flagCampoInseridoCorretamente = true;
@@ -154,15 +151,12 @@ void CntrAprReserva::realizarReserva(Identificador &identificadorUsuario) {
     intervaloDatas.setDataInicio(dataInicio);
     intervaloDatas.setDataTermino(dataTermino);
 
-
-    cntrServReserva->realizarReserva(idReserva, intervaloDatas, identificadorUsuario);
-
+    try {
+        cntrServReserva->realizarReserva(idReserva, intervaloDatas, identificadorUsuario);
+    } catch (std::exception &exception){
+        std::cout << "Não foi possível realizar a reserva." << std::endl;
+    }
 }
-
-void CntrAprReserva::pesquisarReserva(Identificador &identificadorUsuario) {
-
-}
-
 CntrAprReserva::~CntrAprReserva() {
 
 }
