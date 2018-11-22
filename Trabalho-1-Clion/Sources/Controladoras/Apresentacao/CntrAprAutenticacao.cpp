@@ -20,7 +20,7 @@ void CntrAprAutenticacao::autenticar(Identificador &identificador){
         std::getline(std::cin, input);
         senha.setSenha(input);
     } catch(std::invalid_argument &e){
-        throw std::invalid_argument("Nao foi possivel se cadastrar pois os dados foram inseridos fora do formato");
+        throw std::invalid_argument("Nao foi possivel efetuar p login, pois os dados foram inseridos fora do formato");
     }
 
     try{

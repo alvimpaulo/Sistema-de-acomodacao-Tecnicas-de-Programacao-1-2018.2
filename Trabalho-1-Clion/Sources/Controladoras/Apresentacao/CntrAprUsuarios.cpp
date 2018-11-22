@@ -163,13 +163,13 @@ void CntrAprUsuarios::descadastrar(Identificador &identificador) {
             case OPCAO_SIM:
                 try{
                     cntrServUsuario->descadastrarUsuario(identificador);
+                    flag = false;
                 } catch(std::exception &e){
                     std::cout << std::endl << "Voce nao pode descadastrar enquanto houver pendencias!" << std::endl;
                     return;
                 }
                 break;
-            default:
-                if(true);
+            default:break;
         }
     }
 }
@@ -190,6 +190,8 @@ void CntrAprUsuarios::cadastrarContaCorrente(Identificador &identificador) {
     std::getline(std::cin, input);
     banco.setBancoNum(input);
     cntrServUsuario->cadastrarContaCorrente(identificador, numContaCorrente, agencia, banco);
+
+    std::cout << "Conta corrente cadastrada com sucesso" << std::endl;
 }
 
 void CntrAprUsuarios::cadastrarCartaoCredito(Identificador &identificador) {
@@ -205,6 +207,8 @@ void CntrAprUsuarios::cadastrarCartaoCredito(Identificador &identificador) {
     std::getline(std::cin, input);
     dataDeValidade.setData_De_Validade(input);
     cntrServUsuario->cadastrarCartaoCredito(identificador, numCartaoCredito, dataDeValidade);
+
+    std::cout << "Cartao de credito cadastrado com sucesso" << std::endl;
 }
 
 void CntrAprUsuarios::descadastrarContaCorrente(Identificador &identificador) {
@@ -216,6 +220,8 @@ void CntrAprUsuarios::descadastrarContaCorrente(Identificador &identificador) {
     std::getline(std::cin, input);
     numContaCorrente.setNum_Conta_Corrente(input);
     cntrServUsuario->descadastrarContaCorrente(numContaCorrente);
+
+    std::cout << "Conta corrente descadastrada com sucesso" << std::endl;
 }
 
 void CntrAprUsuarios::descadastrarCartaoCredito(Identificador &identificador) {
@@ -227,5 +233,7 @@ void CntrAprUsuarios::descadastrarCartaoCredito(Identificador &identificador) {
     std::getline(std::cin, input);
     numCartaoCredito.setNum_Cartao(input);
     cntrServUsuario->descadastrarCartaoCredito(numCartaoCredito);
+
+    std::cout << "Cartao de credito descadastrado com sucesso" << std::endl;
 }
 

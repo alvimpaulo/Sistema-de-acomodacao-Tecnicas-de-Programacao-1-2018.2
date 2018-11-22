@@ -36,14 +36,6 @@ void ComandoCadastrarDisponibilidadeAcomodacao::cadastrarDisponibilidadeAcomodac
     }
     listaResultado.clear();
 
-    std::list<Data>::iterator itDataInicio, itDataTermino;
-    for(itDataInicio = listaDataInicio.begin(), itDataTermino = listaDataTermino.begin();
-        itDataInicio != listaDataInicio.end() || itDataTermino != listaDataInicio.end();
-        itDataInicio++, itDataTermino++){
-        if(!(*itDataInicio > dataInicio) || !(*itDataTermino < dataTermino)){
-            podeCadastrar = false;
-        }
-    }
 
     comandoSQL = "SELECT DataInicio FROM Disponibilidade;";
     executar();
@@ -63,6 +55,7 @@ void ComandoCadastrarDisponibilidadeAcomodacao::cadastrarDisponibilidadeAcomodac
     }
     listaResultado.clear();
 
+    std::list<Data>::iterator itDataInicio, itDataTermino;
     for(itDataInicio = listaDataInicio.begin(), itDataTermino = listaDataTermino.begin(); itDataInicio != listaDataInicio.end() && itDataTermino != listaDataTermino.end(); itDataInicio++, itDataTermino++){
         if(((*itDataInicio >= dataInicio) && (*itDataTermino <= dataTermino)) || ((*itDataInicio < dataInicio) && (*itDataTermino > dataTermino)) || ((dataInicio <= *itDataInicio )  && (*itDataInicio <= dataTermino)) || ((dataInicio <= *itDataTermino )  && (*itDataTermino <= dataTermino)) ){
             podeCadastrar = false;

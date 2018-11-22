@@ -156,6 +156,8 @@ void CntrAprReserva::realizarReserva(Identificador &identificadorUsuario) {
     } catch (std::exception &exception){
         std::cout << "Não foi possível realizar a reserva." << std::endl;
     }
+
+    std::cout << "Reserva realizada com sucesso" << std::endl;
 }
 CntrAprReserva::~CntrAprReserva() {
 

@@ -39,8 +39,8 @@ void CntrAprAcomodacao::executar(Identificador &identificadorUsuario) {
     std::cout << "2 - Descadastrar acomodacao." << std::endl;
     std::cout << "3 - Cadastrar disponibilidade." << std::endl;
     std::cout << "4 - Descadastrar disponibilidade." << std::endl;
-    std::cout << "4 - Pesquisar acomodacao." << std::endl;
-    std::cout << "5 - Sair." << std::endl;
+    std::cout << "5 - Pesquisar acomodacao." << std::endl;
+    std::cout << "6 - Sair." << std::endl;
 
     std::cout << "Escolha a opcao: ";
 
@@ -174,7 +174,7 @@ void CntrAprAcomodacao::cadastrar(const Identificador &identificadorUsuario) {
     } catch (std::invalid_argument &e) {
         std::cout << std::endl << "Nao foi possivel cadastrar a acomodacao!" << std::endl;
     }
-
+    std::cout << "Acomodacao cadastrada com sucesso" << std::endl;
 }
 
 void CntrAprAcomodacao::descadastrar(const Identificador &identificadorUsuario) {
@@ -242,6 +242,9 @@ CntrAprAcomodacao::cadastrarDisponibilidade(const Identificador &identificadorUs
         std::cout << std::endl << "nao foi possivel cadas sua disponibilidade" << std::endl;
         return;
     }
+
+    std::cout << "Disponibilidade cadastrada com sucesso" << std::endl;
+
 }
 
 void CntrAprAcomodacao::descadastrarDisponibilidade(const Identificador &identificadorUsuario) {

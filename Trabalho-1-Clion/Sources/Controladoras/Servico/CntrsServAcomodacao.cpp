@@ -57,4 +57,6 @@ void CntrsServAcomodacao::descadastrarDisponibilidade(const Identificador &ident
     } catch (std::exception &exception){
         std::cout << exception.what() << std::endl;
     }
+
+    std::cout << "Acomodacao descadastrada com sucesso" << std::endl;
 }
