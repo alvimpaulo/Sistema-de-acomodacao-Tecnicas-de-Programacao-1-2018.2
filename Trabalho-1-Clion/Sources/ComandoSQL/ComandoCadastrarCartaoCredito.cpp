@@ -9,6 +9,7 @@ void ComandoCadastrarCartaoCredito::cadastrarCartaoCredito(const Identificador &
                                                            const Data_De_Validade &dataDeValidade) {
     bool aux;
 
+    listaResultado.clear();
     comandoSQL = "SELECT Usuario FROM Conta_Corrente WHERE Usuario = '"+identificador.getIdentificador()+"'\n";
     try {
         this->executar();

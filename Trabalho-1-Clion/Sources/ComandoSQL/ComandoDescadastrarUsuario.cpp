@@ -5,6 +5,7 @@
 #include "../../Headers/ComandoSQL/ComandoDescadastrarUsuario.h"
 
 void ComandoDescadastrarUsuario::descadastraUsuario(const Identificador &identificador) {
+    listaResultado.clear();
     comandoSQL = ""
                  "DELETE FROM Usuarios WHERE Identificador = '" + identificador.getIdentificador() + "' AND NOT EXISTS (\n"
                  "\tSELECT Usuario FROM Reservas WHERE Acomodacao IN (\n"

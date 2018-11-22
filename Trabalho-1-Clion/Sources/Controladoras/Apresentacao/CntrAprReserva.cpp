@@ -44,7 +44,7 @@ void CntrAprReserva::executar(Identificador &identificador) {
 }
 
 void CntrAprReserva::setCntrsServReserva(InterServReserva *cntrsServReserva) {
-this->cntrServReserva = cntrsServReserva;
+    this->cntrServReserva = cntrsServReserva;
 }
 
 void CntrAprReserva::cancelarReserva(Identificador &identificadorUsuario) {

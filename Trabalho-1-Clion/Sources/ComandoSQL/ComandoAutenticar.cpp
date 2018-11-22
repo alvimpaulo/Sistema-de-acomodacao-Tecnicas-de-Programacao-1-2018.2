@@ -5,7 +5,7 @@
 #include "../../Headers/ComandoSQL/ComandoAutenticar.h"
 
 std::string ComandoAutenticar::getSenha(Identificador identificador) {
-
+    listaResultado.clear();
     std::string resposta;
 
     comandoSQL = "SELECT Senha FROM Usuarios WHERE Identificador = '" + identificador.getIdentificador() + "'";

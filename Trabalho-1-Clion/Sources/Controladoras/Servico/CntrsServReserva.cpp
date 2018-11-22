@@ -12,8 +12,6 @@ CntrsServReserva::cancelarReserva(const Identificador &identificadorAcomodacao, 
 
 void
 CntrsServReserva::realizarReserva(const Identificador &identificadorAcomodacao, const Intervalo_Datas &intervaloDatas, const Identificador& identificadorUsuario) {
-
     ComandoRealizarReserva sqlRealizarReserva(identificadorAcomodacao, intervaloDatas, identificadorUsuario);
-    sqlRealizarReserva.executar();
-
+    sqlRealizarReserva.realizarReserva(identificadorAcomodacao, intervaloDatas, identificadorUsuario);
 }

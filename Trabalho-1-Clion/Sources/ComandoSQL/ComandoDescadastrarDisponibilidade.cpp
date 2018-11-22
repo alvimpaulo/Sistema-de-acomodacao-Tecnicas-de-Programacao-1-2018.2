@@ -6,6 +6,7 @@
 
 ComandoDescadastrarDisponibilidade::ComandoDescadastrarDisponibilidade(const Identificador &identificadorAcomodacao,
                                                                        const Identificador &identificadorUsuario) {
-    comandoSQL = "delete from Disponibilidade where Acomodacao = '" + identificadorAcomodacao.getIdentificador() + "' and Usuario = '" + identificadorUsuario.getIdentificador() + "'";
+    listaResultado.clear();
+    comandoSQL = "delete from Disponibilidade where Acomodacao = '" + identificadorAcomodacao.getIdentificador() + "' and Usuario = '" + identificadorUsuario.getIdentificador() + "';";
 
 }

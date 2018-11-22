@@ -17,8 +17,11 @@ private:
     static const int OPCAO_SIM = 1;
     static const int OPCAO_EDITAR_USUARIO = 1;
     static const int OPCAO_DESCADASTRAR_USUARIO = 2;
-    static const int OPCAO_PESQUISAR_USUARIO = 3;
-    static const int OPCAO_SAIR = 4;
+    static const int OPCAO_CADASTRAR_CARTAO = 3;
+    static const int OPCAO_DESCADASTRAR_CARTAO = 4;
+    static const int OPCAO_CADASTRAR_CONTA = 5;
+    static const int OPCAO_DESCADASTRAR_CONTA = 6;
+    static const int OPCAO_SAIR = 7;
 
 protected:
 public:
@@ -27,7 +30,10 @@ public:
     void setCntrsServUsuarios(InterServUsuarios *cntrsServUsuarios) override;
     void editar(Identificador &identificador);
     void descadastrar(Identificador &identificador);
-    void pesquisar(Identificador &identificador);
+    void cadastrarContaCorrente(Identificador &identificador);
+    void cadastrarCartaoCredito(Identificador &identificador);
+    void descadastrarContaCorrente(Identificador &identificador);
+    void descadastrarCartaoCredito(Identificador &identificador);
     virtual ~CntrAprUsuarios();
 };
 

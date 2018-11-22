@@ -128,6 +128,15 @@ inline bool operator<(const Data& data1, const Data& data2){
 bool operator>(const Data& data1, const Data& data2){
     return data2 < data1;
 }
+bool operator==(const Data &data1, const Data &data2) {
+    return data1.dia == data2.dia && data1.mes == data2.mes && data1.ano == data2.ano;
+}
+bool operator<=(const Data& data1, const Data& data2){
+    return data1 < data2 || data1 == data2;
+}
+bool operator>=(const Data& data1, const Data& data2){
+    return data2 < data1 || data1 == data2;
+}
 
 std::istream& operator>>(std::istream& in, Data& data){
     std::string str;
@@ -138,6 +147,3 @@ std::istream& operator>>(std::istream& in, Data& data){
     return in;
 }
 
-bool operator==(const Data &data1, const Data &data2) {
-    return data1.dia == data2.dia && data1.mes == data2.mes && data1.ano == data2.ano;
-}

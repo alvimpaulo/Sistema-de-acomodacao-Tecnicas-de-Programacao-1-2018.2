@@ -5,6 +5,7 @@
 #include "../../Headers/ComandoSQL/ComandoDescadastrarContaCorrente.h"
 
 void ComandoDescadastrarContaCorrente::descadastrarConta(const Num_Conta_Corrente &numContaCorrente) {
+    listaResultado.clear();
     comandoSQL = ""
                  "DELETE FROM Conta_Corrente WHERE Numero = '"+numContaCorrente.getNum_Conta_Corrente()+"' AND NOT EXISTS (\n"
                  "\tSELECT Acomodacao FROM Reservas WHERE Acomodacao IN (\n"

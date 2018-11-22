@@ -32,6 +32,7 @@ public:
 
     //Edita o nome e/ou senha do usuario atual
     virtual void editarUsuario(const Nome& nome, const Senha& senha, const Identificador &identificador) = 0;
+
 };
 
 

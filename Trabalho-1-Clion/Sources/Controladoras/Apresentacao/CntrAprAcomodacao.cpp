@@ -39,6 +39,7 @@ void CntrAprAcomodacao::executar(Identificador &identificadorUsuario) {
     std::cout << "2 - Descadastrar acomodacao." << std::endl;
     std::cout << "3 - Cadastrar disponibilidade." << std::endl;
     std::cout << "4 - Descadastrar disponibilidade." << std::endl;
+    std::cout << "4 - Pesquisar acomodacao." << std::endl;
     std::cout << "5 - Sair." << std::endl;
 
     std::cout << "Escolha a opcao: ";
@@ -66,6 +67,10 @@ void CntrAprAcomodacao::executar(Identificador &identificadorUsuario) {
                 descadastrarDisponibilidade(identificadorUsuario);
                 flag = false;
                 break;
+            case OPCAO_PESQUISAR_ACOMODACAO:
+                pesquisar(identificadorUsuario);
+                flag = false;
+                break;
             case OPCAO_SAIR_ACOMODACAO:
             default:
                 break;
@@ -83,21 +88,28 @@ void CntrAprAcomodacao::pesquisar(Identificador &identificador) {
 
     Acomodacao acomodacao;
 
+    std::string input;
     std::list<Acomodacao> list;
 
     try {
         std::cout << "Digite a data de inicio               : ";
-        std::cin >> dataInicio;
+        std::getline(std::cin, input);
+        dataInicio.setData(input);
         std::cout << "Digite a data de termino             : ";
-        std::cin >> dataTermino;
+        std::getline(std::cin, input);
+        dataTermino.setData(input);
         std::cout << "Digite a capacidade de sua acomodacao : ";
-        std::cin >> capacidadeDeAcomodacao;
+        std::getline(std::cin, input);
+        capacidadeDeAcomodacao.setCapacidade_De_Acomodacao(input);
         std::cout << "Digite o valor da diaria              : ";
-        std::cin >> diaria;
+        std::getline(std::cin, input);
+        diaria.setDiaria(input);
         std::cout << "Digite o estado onde é localizada     : ";
-        std::cin >> estado;
+        std::getline(std::cin, input);
+        estado.setEstado(input);
         std::cout << "Digite a cidade onde é localizada     : ";
-        std::cin >> cidade;
+        std::getline(std::cin, input);
+        cidade.setNome(input);
     } catch (std::invalid_argument &e) {
         std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
         return;
@@ -214,11 +226,11 @@ CntrAprAcomodacao::cadastrarDisponibilidade(const Identificador &identificadorUs
 
         std::cout << "Digite a sua data de inicio               : ";
         std::getline(std::cin, input);
-        id.setIdentificador(input);
+        dataInicio.setData(input);
 
         std::cout << "Digite a sua data de termino               : ";
         std::getline(std::cin, input);
-        id.setIdentificador(input);
+        dataTermino.setData(input);
     } catch (std::invalid_argument &e) {
         std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
         return;

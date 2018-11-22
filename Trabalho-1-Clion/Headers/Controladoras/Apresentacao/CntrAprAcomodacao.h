@@ -16,7 +16,8 @@ private:
     static const int OPCAO_DESCADASTRAR_ACOMODACAO = 2;
     static const int OPCAO_CADASTRAR_DISPONIBILIDADE = 3;
     static const int OPCAO_DESCADASTRAR_DISPONIBILIDADE = 4;
-    static const int OPCAO_SAIR_ACOMODACAO = 5;
+    static const int OPCAO_PESQUISAR_ACOMODACAO = 5;
+    static const int OPCAO_SAIR_ACOMODACAO = 6;
 protected:
 public:
     CntrAprAcomodacao();

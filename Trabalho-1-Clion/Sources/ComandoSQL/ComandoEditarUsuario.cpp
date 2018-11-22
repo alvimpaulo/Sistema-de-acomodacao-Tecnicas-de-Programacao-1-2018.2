@@ -5,6 +5,7 @@
 #include "../../Headers/ComandoSQL/ComandoEditarUsuario.h"
 
 void ComandoEditarUsuario::editarUsuario(const Nome &nome, const Senha &senha, const Identificador &identificador) {
+    listaResultado.clear();
     comandoSQL = ""
                  "UPDATE Usuarios\n"
                  "SET Nome = '" + nome.getNome() + "', Senha= '" + senha.getSenha() +"'\n"

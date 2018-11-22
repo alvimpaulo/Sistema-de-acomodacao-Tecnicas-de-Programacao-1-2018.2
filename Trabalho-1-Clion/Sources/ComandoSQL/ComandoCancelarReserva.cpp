@@ -7,9 +7,10 @@
 ComandoCancelarReserva::ComandoCancelarReserva(const Identificador &identificadorAcomodacao,
                                                const Intervalo_Datas &intervaloDatas,
                                                const Identificador& identificadorUsuario) {
+    listaResultado.clear();
     comandoSQL = "delete from Reservas where ";
     comandoSQL += "Acomodacao = '" + identificadorAcomodacao.getIdentificador() + "'";
     comandoSQL += "and DataInicio = '" + intervaloDatas.getDataInicio().getData() + "'";
     comandoSQL += "and DataTermino = '" + intervaloDatas.getDataTermino().getData() + "'";
-    comandoSQL += "and Usuario = '" + identificadorUsuario.getIdentificador() + "'";
+    comandoSQL += "and Usuario = '" + identificadorUsuario.getIdentificador() + "';";
 }

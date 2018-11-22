@@ -6,6 +6,7 @@
 
 ComandoEditarAcomodacao::ComandoEditarAcomodacao(const Identificador &identificadorAcomodacao,
                                                  const Acomodacao &acomodacao) {
+    listaResultado.clear();
     comandoSQL = "update Acomodacoes set ";
     comandoSQL += "Tipo = '" + acomodacao.getTipo().getTipoAcomodacao() + "'";
     comandoSQL += ", Capacidade = '" + acomodacao.getCapacidade().getCapacidade_de_Acomodacao() + "'";

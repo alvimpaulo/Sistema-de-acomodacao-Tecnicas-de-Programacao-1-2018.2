@@ -9,6 +9,7 @@ ComandoCadastrarAcomodacao::ComandoCadastrarAcomodacao(const Identificador &iden
                                                        const Capacidade_De_Acomodacao &capacidadeDeAcomodacao,
                                                        const Diaria &diaria, const Nome &cidade, const Estado &estado,
                                                        const Identificador& identificadorUsuario) {
+    listaResultado.clear();
     comandoSQL = "insert into Acomodacoes (Identificador, Tipo, Capacidade, Cidade, Estado, Diaria, Usuario) values (";
     comandoSQL += "'" + identificador.getIdentificador() + "'";
     comandoSQL += ", '" + tipoAcomodacao.getTipoAcomodacao() + "'";

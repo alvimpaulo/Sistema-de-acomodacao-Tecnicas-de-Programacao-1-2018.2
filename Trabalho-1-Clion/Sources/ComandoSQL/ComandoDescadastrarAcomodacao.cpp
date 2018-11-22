@@ -5,6 +5,7 @@
 #include "../../Headers/ComandoSQL/ComandoDescadastrarAcomodacao.h"
 
 ComandoDescadastrarAcomodacao::ComandoDescadastrarAcomodacao(const Identificador &identificadorAcomodacao, const Identificador& identificadorUsuario) {
+    listaResultado.clear();
     comandoSQL = "select * from Reservas where Acomodacao = '" + identificadorAcomodacao.getIdentificador() + "'";
     try{
         executar();

@@ -7,6 +7,7 @@
 void ComandoCadastrarContaCorrente::cadastrarContaCorrente(const Identificador &identificador,
                                                            const Num_Conta_Corrente &numContaCorrente,
                                                            const Agencia &agencia, const Banco &banco) {
+    listaResultado.clear();
     bool aux;
 
     comandoSQL = "SELECT Usuario FROM Conta_Corrente WHERE Usuario = '"+identificador.getIdentificador()+"'\n";

@@ -30,6 +30,7 @@ public:
 
     //Edita o nome e/ou senha do usuario atual
     void editarUsuario(const Nome& nome, const Senha& senha, const Identificador &identificador) override;
+
 };
 
 

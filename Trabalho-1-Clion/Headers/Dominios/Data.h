@@ -88,6 +88,8 @@ public:
     friend std::istream& operator>>(std::istream& in, Data& data);
 
     friend bool operator==(const Data& data1, const Data& data2);
+    friend bool operator<=(const Data& data1, const Data& data2);
+    friend bool operator>=(const Data& data1, const Data& data2);
 
 protected:
 private:

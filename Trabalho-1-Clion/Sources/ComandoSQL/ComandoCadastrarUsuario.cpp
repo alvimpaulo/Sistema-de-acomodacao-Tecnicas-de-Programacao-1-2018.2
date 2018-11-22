@@ -5,6 +5,7 @@
 #include "../../Headers/ComandoSQL/ComandoCadastrarUsuario.h"
 
 void ComandoCadastrarUsuario::cadastrarUsuario(const Nome &nome, const Identificador &identificador, const Senha &senha) {
+    listaResultado.clear();
     comandoSQL = "INSERT INTO Usuarios (Nome, Identificador, Senha)\nVALUES ('"
        +nome.getNome()
        +"', '"

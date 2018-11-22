@@ -27,7 +27,7 @@ void CntrsServAcomodacao::cadastrar(const Identificador &identificadorAcomodacao
 void CntrsServAcomodacao::cadastrarDisponibilidade(const Identificador &identificadorAcomodacao, const Data &dataInicio,
                                                    const Data &dataTermino, const Identificador &identificadorUsuario) {
     ComandoCadastrarDisponibilidadeAcomodacao sqlCadastrarDisponibilidade(identificadorAcomodacao, dataInicio, dataTermino, identificadorUsuario);
-    sqlCadastrarDisponibilidade.executar();
+    sqlCadastrarDisponibilidade.cadastrarDisponibilidadeAcomodacao(identificadorAcomodacao, dataInicio, dataTermino, identificadorUsuario);
 
 }
 

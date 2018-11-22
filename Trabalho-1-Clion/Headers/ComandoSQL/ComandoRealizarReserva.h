@@ -11,6 +11,7 @@
 class ComandoRealizarReserva: public ComandoSQL {
 public:
     ComandoRealizarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas, const Identificador& identificadorUsuario);
+    void realizarReserva(const Identificador& identificadorAcomodacao, const Intervalo_Datas& intervaloDatas, const Identificador& identificadorUsuario);
 };
 
 

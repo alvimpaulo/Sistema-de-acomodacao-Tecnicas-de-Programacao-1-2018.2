@@ -7,6 +7,7 @@
 ComandoPesquisarAcomodacao::ComandoPesquisarAcomodacao(const Data &dataInicio, const Data &dataTermino,
                                                        const Capacidade_De_Acomodacao &capacidadeDeAcomodacao,
                                                        const Nome &cidade, const Estado &estado) {
+    listaResultado.clear();
     comandoSQL = "SELECT * FROM Acomodacoes WHERE Capacidade = '";
     comandoSQL += capacidadeDeAcomodacao.getCapacidade_de_Acomodacao();
     comandoSQL += "' and Cidade = '";
