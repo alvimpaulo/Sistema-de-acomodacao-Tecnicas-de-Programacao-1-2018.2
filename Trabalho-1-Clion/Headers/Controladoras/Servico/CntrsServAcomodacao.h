@@ -33,7 +33,9 @@ public:
      void descadastrar(const Identificador& identificadorAcomodacao, const Identificador& identificadorUsuario);
 
     //descadastra uma disponibilidade
-    void descadastrarDisponibilidade(const Identificador& identificadorAcomodacao, const Identificador& identificadorUsuario);
+    void descadastrarDisponibilidade(const Identificador &identificadorAcomodacao,
+                                     const Identificador &identificadorUsuario, const Data &dataInicio,
+                                     const Data &dataTermino);
 
 };
 

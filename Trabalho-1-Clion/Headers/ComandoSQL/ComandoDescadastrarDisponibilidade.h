@@ -10,7 +10,10 @@
 
 class ComandoDescadastrarDisponibilidade : public ComandoSQL{
 public:
-    ComandoDescadastrarDisponibilidade(const Identificador &identificadorAcomodacao, const Identificador& identificadorUsuario);
+    ComandoDescadastrarDisponibilidade(const Identificador &identificadorAcomodacao,
+                                           const Identificador &identificadorUsuario,
+                                           const Data &dataInicio,
+                                           const Data &dataTermino);
 };
 
 

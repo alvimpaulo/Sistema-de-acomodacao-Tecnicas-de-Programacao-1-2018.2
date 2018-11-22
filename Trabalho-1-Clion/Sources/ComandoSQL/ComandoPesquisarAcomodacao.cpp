@@ -109,11 +109,11 @@ std::list<Acomodacao> ComandoPesquisarAcomodacao::getResultado() {
         while (!listaResultado.empty()){
             ElementoResultado colunaAtual;
             colunaAtual = listaResultado.front();
-            if(colunaAtual.getNomeColuna().compare("DataInicio")) {
+            if(!colunaAtual.getNomeColuna().compare("DataInicio")) {
                 dataInicioAtual.setData(colunaAtual.getValorColuna());
                 numDataInicio++;
             }
-            if(colunaAtual.getNomeColuna().compare("DataTermino")) {
+            if(!colunaAtual.getNomeColuna().compare("DataTermino")) {
                 dataTerminoAtual.setData(colunaAtual.getValorColuna());
                 numDataTermino++;
             }

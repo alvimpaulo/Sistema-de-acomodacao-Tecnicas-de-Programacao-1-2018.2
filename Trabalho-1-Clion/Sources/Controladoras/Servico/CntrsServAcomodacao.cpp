@@ -50,13 +50,15 @@ void CntrsServAcomodacao::descadastrar(const Identificador &identificadorAcomoda
 }
 
 void CntrsServAcomodacao::descadastrarDisponibilidade(const Identificador &identificadorAcomodacao,
-                                                      const Identificador &identificadorUsuario) {
+                                                      const Identificador &identificadorUsuario, const Data &dataInicio,
+                                                      const Data &dataTermino) {
 
     try {
-        ComandoDescadastrarDisponibilidade sqlDescadastrarDisponibilidade(identificadorAcomodacao, identificadorUsuario);
+        ComandoDescadastrarDisponibilidade sqlDescadastrarDisponibilidade(identificadorAcomodacao, identificadorUsuario,
+                                                                          dataInicio, dataTermino);
     } catch (std::exception &exception){
         std::cout << exception.what() << std::endl;
     }
 
-    std::cout << "Acomodacao descadastrada com sucesso" << std::endl;
+    std::cout << "Disponibilidade descadastrada com sucesso" << std::endl;
 }

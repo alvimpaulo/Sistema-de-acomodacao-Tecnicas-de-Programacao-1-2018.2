@@ -236,6 +236,8 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserv
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.obj: ../Headers/Interfaces/Servico/InterServReserva.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprReserva.cpp.obj: ../Sources/Controladoras/Apresentacao/CntrAprReserva.cpp
 
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: ../Headers/ComandoSQL/ComandoDescadastrarCartaoCredito.h
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: ../Headers/ComandoSQL/ComandoSQL.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: ../Headers/Controladoras/Apresentacao/CntrAprUsuarios.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: ../Headers/Controladoras/Servico/CntrsServUsuarios.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: ../Headers/Dominios/Agencia.h
@@ -260,6 +262,7 @@ CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuari
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: ../Headers/Interfaces/Servico/InterServAcomodacao.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: ../Headers/Interfaces/Servico/InterServUsuarios.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: ../Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp
+CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/Apresentacao/CntrAprUsuarios.cpp.obj: ../sqlite/sqlite3.h
 
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.obj: ../Headers/Controladoras/CntrInicio.h
 CMakeFiles/Trabalho_1_Clion.dir/Sources/Controladoras/CntrInicio.cpp.obj: ../Headers/Controladoras/Servico/CntrsServUsuarios.h

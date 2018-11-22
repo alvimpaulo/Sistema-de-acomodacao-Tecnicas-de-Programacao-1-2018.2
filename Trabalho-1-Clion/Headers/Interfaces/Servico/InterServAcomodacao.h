@@ -21,7 +21,9 @@ public:
                                           const Data &dataTermino, const Identificador &identificadorUsuario) = 0;
 
     //Descadastra uma nova disponibilidade em uma acomodacao pelo seu identificador
-    virtual void descadastrarDisponibilidade(const Identificador& identificadorAcomodacao, const Identificador& identificadorUsuario) = 0;
+    virtual void descadastrarDisponibilidade(const Identificador &identificadorAcomodacao,
+                                             const Identificador &identificadorUsuario, const Data &dataInicio,
+                                             const Data &dataTermino) = 0;
 
     //recebe o identificador da acomodacao e descadastra ela, caso seja possivel.
     virtual void descadastrar(const Identificador& identificadorAcomodacao, const Identificador& identificadorUsuario) = 0;

@@ -10,18 +10,55 @@
 #include "../../../Headers/Dominios/Nome.h"
 #include "../../../Headers/Dominios/Estado.h"
 #include "../../../Headers/Entidades/Acomodacao.h"
+#include <iomanip>
 
 void printListaAcomodacao(std::list<Acomodacao> list){
+    const char separator    = ' ';
+
     std::cout << "A lista de acomodacoes eh:" << std::endl;
-    std::cout << "Identificador\tTipo\tCapacidade\tCidade\tEstado\tDiaria\t" << std::endl;
+    std::cout << std::left << std::setw(13) << std::setfill(separator) << "Identificador";
+    std::cout << "\t";
+    std::cout << std::left << std::setw(11) << std::setfill(separator) << "Tipo";
+    std::cout << "\t";
+    std::cout << std::left << std::setw(10) << std::setfill(separator) << "Capacidade";
+    std::cout << "\t";
+    std::cout << std::left << std::setw(15) << std::setfill(separator) << "Cidade";
+    std::cout << "\t";
+    std::cout << std::left << std::setw(6) << std::setfill(separator) << "Estado";
+    std::cout << "\t";
+    std::cout << std::left << std::setw(9) << std::setfill(separator) << "Diaria";
+    std::cout << "\t" << std::endl;
+
+
     for(auto acomodacao : list){
-        std::cout << acomodacao.getIdentificador().getIdentificador() << "\t";
-        std::cout << acomodacao.getTipo().getTipoAcomodacao() << "\t";
-        std::cout << acomodacao.getCapacidade().getCapacidade_de_Acomodacao() << "\t";
-        std::cout << acomodacao.getCidade().getNome() << "\t";
-        std::cout << acomodacao.getEstado().getEstado() << "\t";
-        std::cout << acomodacao.getDiaria().getDiaria() << "\t";
-        std::cout << std::endl;
+        std::cout << std::left << std::setw(13) << std::setfill(separator) <<  acomodacao.getIdentificador().getIdentificador();
+        std::cout << "\t";
+        std::cout << std::left << std::setw(11) << std::setfill(separator) << acomodacao.getTipo().getTipoAcomodacao();
+        std::cout << "\t";
+        std::cout << std::left << std::setw(10) << std::setfill(separator) << acomodacao.getCapacidade().getCapacidade_de_Acomodacao();
+        std::cout << "\t";
+        std::cout << std::left << std::setw(15) << std::setfill(separator) << acomodacao.getCidade().getNome();
+        std::cout << "\t";
+        std::cout << std::left << std::setw(6) << std::setfill(separator) << acomodacao.getEstado().getEstado();
+        std::cout << "\t";
+        std::cout << std::left << std::setw(9) << std::setfill(separator) << acomodacao.getDiaria().getDiaria();
+        std::cout << "\t";
+        std::cout << std::endl << std::endl;
+
+        std::cout << "Disponibilidades:" << std::endl;
+        std::cout << "Data de inicio\t\t\tData de Termino" << std::endl;
+
+        std::cout << std::left << std::setw(14) << std::setfill(separator) << "Data de inicio";
+        std::cout << "\t";
+        std::cout << std::left << std::setw(15) << std::setfill(separator) << "Data de termino";
+        std::cout << "\t" << std::endl;
+        for(auto disponibilidade : acomodacao.getDisponibilidades()){
+            std::cout << std::left << std::setw(14) << std::setfill(separator) << disponibilidade.getDataInicio().getData();
+            std::cout << "\t";
+            std::cout << std::left << std::setw(15) << std::setfill(separator) << disponibilidade.getDataTermino().getData();
+            std::cout << "\t";
+            std::cout << std::endl << std::endl;
+        }
     }
 }
 
@@ -250,20 +287,53 @@ CntrAprAcomodacao::cadastrarDisponibilidade(const Identificador &identificadorUs
 void CntrAprAcomodacao::descadastrarDisponibilidade(const Identificador &identificadorUsuario) {
 
     Identificador id;
+    Data dataInicio;
+    Data dataTermino;
 
     std::string input;
+    bool sair = false;
     std::cout << "Sistema de Acomodacao - Servicos de acomodacao - Descadastramento de disponibilidade" << std::endl;
-    try {
-        std::cout << "Digite a sua acomodacao               : ";
-        std::getline(std::cin, input);
-        id.setIdentificador(input);
-    } catch (std::invalid_argument &e) {
-        std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
-        return;
+    while (!sair) {
+        try {
+            std::cout << "Digite a sua acomodacao               : ";
+            std::getline(std::cin, input);
+            id.setIdentificador(input);
+            sair = true;
+        } catch (std::invalid_argument &e) {
+            std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
+            continue;
+        }
+    }
+    sair = false;
+    while (!sair) {
+        try {
+            std::cout << "Digite a data de inicio               : ";
+            std::getline(std::cin, input);
+            dataInicio.setData(input);
+            sair = true;
+        } catch (std::invalid_argument &e) {
+            std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
+            continue;
+        }
+    }
+    sair = false;
+    while (!sair) {
+        try {
+            std::cout << "Digite a data de termino               : ";
+            std::getline(std::cin, input);
+            dataTermino.setData(input);
+            sair = true;
+        } catch (std::invalid_argument &e) {
+            std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
+            continue;
+        }
     }
 
+
+
+
     try{
-        cntrsServAcomodacao->descadastrarDisponibilidade(id, identificadorUsuario);
+        cntrsServAcomodacao->descadastrarDisponibilidade(id, identificadorUsuario, dataInicio, dataTermino);
     } catch(std::exception &e) {
         std::cout << std::endl << "Não foi possivel descadastrar disponibilidades." << std::endl;
         return;
