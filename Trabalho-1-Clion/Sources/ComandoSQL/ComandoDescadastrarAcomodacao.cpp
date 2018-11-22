@@ -20,6 +20,7 @@ ComandoDescadastrarAcomodacao::ComandoDescadastrarAcomodacao(const Identificador
         }
 
     } else{
+        listaResultado.clear();
         throw std::invalid_argument("Acomodacao ja possui reservas.");
     }
 

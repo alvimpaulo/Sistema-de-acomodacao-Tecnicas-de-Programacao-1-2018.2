@@ -12,3 +12,10 @@ ComandoCadastrarDisponibilidadeAcomodacao::ComandoCadastrarDisponibilidadeAcomod
     comandoSQL += ", '" + identificadorAcomodacao.getIdentificador() + "'";
     comandoSQL += ", '" + identificadorUsuario.getIdentificador() + "'";
 }
+
+void ComandoCadastrarDisponibilidadeAcomodacao::cadastrar() {
+    executar();
+    if(!listaResultado.empty())
+        listaResultado.clear();
+
+}
