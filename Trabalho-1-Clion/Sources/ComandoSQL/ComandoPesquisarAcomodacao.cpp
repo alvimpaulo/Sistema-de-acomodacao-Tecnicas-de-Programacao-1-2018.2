@@ -126,7 +126,4 @@ std::list<Acomodacao> ComandoPesquisarAcomodacao::getResultado() {
         }
     }
     return list;
-
-
-
 }
