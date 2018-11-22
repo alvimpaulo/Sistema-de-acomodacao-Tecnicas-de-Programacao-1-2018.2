@@ -20,15 +20,13 @@ void CntrAprAutenticacao::autenticar(Identificador &identificador){
         std::getline(std::cin, input);
         senha.setSenha(input);
     } catch(std::invalid_argument &e){
-        std::cout << std::endl << "Dado em formato incorreto!" << std::endl;
-        return;
+        throw std::invalid_argument("Nao foi possivel se cadastrar pois os dados foram inseridos fora do formato");
     }
 
     try{
         cntrServAutenticacao->autenticar(id, senha);
     } catch(std::invalid_argument &e){
-        std::cout << std::endl << "Nao foi possivel efetuar o login, verifique se os campos foram preenchidos adequadamente!" << std::endl;
-        return;
+        throw std::invalid_argument("Nao foi possivel efetuar o login, verifique se os campos foram preenchidos adequadamente!");
     }
 
     identificador = id;

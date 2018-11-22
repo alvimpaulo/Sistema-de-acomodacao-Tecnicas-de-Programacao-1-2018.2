@@ -23,7 +23,8 @@ void CntrInicio::iniciar() {
                 this->usuario->setIdentificador(id);
             }
             catch (std::exception &e) {
-                std::cout << "Nao foi possivel autenticar motivo: " << e.what() << std::endl;
+                std::cout << e.what() << std::endl;
+                continue;
             }
 
         } else if (res == 2) {
@@ -32,41 +33,48 @@ void CntrInicio::iniciar() {
                 this->usuario->setIdentificador(id);
             } catch (std::exception &exception){
                 std::cout << "nao foi possivel cadastrar motivo: " << exception.what()  << std::endl;
+                continue;
             }
         } else if(res == 3){
             return;
         }
 
-        std::cout << "1 - Gerenciar Usuario." << std::endl;
-        std::cout << "2 - Gerenciar Reservas." << std::endl;
-        std::cout << "3 - Gerenciar Acomodacoes." << std::endl;
-        std::cout << "4 - Sair." << std::endl << std::endl;
-        std::cout << "Escolha a opcao: ";
+        sair = false;
+        while (!sair) {
 
-        std::getline(std::cin, input);
-        res = std::stoi(input);
+            std::cout << "1 - Gerenciar Usuario." << std::endl;
+            std::cout << "2 - Gerenciar Reservas." << std::endl;
+            std::cout << "3 - Gerenciar Acomodacoes." << std::endl;
+            std::cout << "4 - Sair." << std::endl << std::endl;
+            std::cout << "Escolha a opcao: ";
 
-        if(res == 1){
-            try {
-                cntrAprUsuarios->executar(id);
-            } catch (std::exception &exception){
-                std::cout << "nao foi possivel gerenciar usuarios motivo: " << exception.what()  << std::endl;
+            std::getline(std::cin, input);
+            res = std::stoi(input);
+
+            if (res == 1) {
+                try {
+                    cntrAprUsuarios->executar(id);
+                } catch (std::exception &exception) {
+                    std::cout << "nao foi possivel gerenciar usuarios motivo: " << exception.what() << std::endl;
+                }
+            } else if (res == 2) {
+                try {
+                    cntrAprReserva->executar(id);
+                } catch (std::exception &exception) {
+                    std::cout << "nao foi gerenciar reservas motivo: " << exception.what() << std::endl;
+                }
+            } else if (res == 3) {
+                try {
+                    cntrAprAcomodacao->executar(id);
+                } catch (std::exception &exception) {
+                    std::cout << "nao foi gerenciar acomodacoes motivo: " << exception.what() << std::endl;
+                    continue;
+                }
+            } else if (res == 4) {
+                sair = true;
             }
-        } else if( res == 2){
-            try {
-                cntrAprReserva->executar(id);
-            } catch (std::exception &exception){
-                std::cout << "nao foi gerenciar reservas motivo: " << exception.what()  << std::endl;
-            }
-        }else if( res == 3){
-            try {
-                cntrAprAcomodacao->executar(id);
-            } catch (std::exception &exception){
-                std::cout << "nao foi gerenciar acomodacoes motivo: " << exception.what()  << std::endl;
-            }
-        } else if(res == 4){
-            sair = true;
         }
+        sair = false;
     }
 
 
