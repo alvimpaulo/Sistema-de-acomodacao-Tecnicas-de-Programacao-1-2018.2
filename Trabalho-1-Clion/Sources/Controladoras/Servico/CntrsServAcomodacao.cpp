@@ -18,15 +18,22 @@ void CntrsServAcomodacao::cadastrar(const Identificador &identificadorAcomodacao
                                     const Capacidade_De_Acomodacao &capacidadeDeAcomodacao, const Diaria &diaria,
                                     const Nome &cidade, const Estado &estado,
                                     const Identificador& identificadorUsuario) {
-    //todo: Checar se o usuario tem uma conta corrente
-    ComandoCadastrarAcomodacao sqlCadastrar(identificadorAcomodacao, tipoAcomodacao, capacidadeDeAcomodacao, diaria, cidade, estado, identificadorUsuario);
-    sqlCadastrar.executar();
+    ComandoChecarContaCorrente sqlChecarConta(identificadorUsuario);
+    bool existeConta = sqlChecarConta.existeConta();
+    if(existeConta) {
+        ComandoCadastrarAcomodacao sqlCadastrar(identificadorAcomodacao, tipoAcomodacao, capacidadeDeAcomodacao, diaria,
+                                                cidade, estado, identificadorUsuario);
+        sqlCadastrar.executar();
+    } else{
+        throw std::invalid_argument("nao foi possivel cadastrar acomodacao pois nao existe conta para esse usuario");
+    }
 
 }
 
 void CntrsServAcomodacao::cadastrarDisponibilidade(const Identificador &identificadorAcomodacao, const Data &dataInicio,
                                                    const Data &dataTermino, const Identificador &identificadorUsuario) {
     ComandoCadastrarDisponibilidadeAcomodacao sqlCadastrarDisponibilidade(identificadorAcomodacao, dataInicio, dataTermino, identificadorUsuario);
+    //sqlCadastrarDisponibilidade.cadastrar();
     sqlCadastrarDisponibilidade.cadastrarDisponibilidadeAcomodacao(identificadorAcomodacao, dataInicio, dataTermino, identificadorUsuario);
 
 }

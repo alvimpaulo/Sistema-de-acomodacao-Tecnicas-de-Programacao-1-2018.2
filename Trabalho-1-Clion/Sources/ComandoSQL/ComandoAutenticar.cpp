@@ -17,6 +17,6 @@ std::string ComandoAutenticar::getSenha(Identificador identificador) {
     }
 
     resposta = listaResultado.front().getValorColuna();
-
+    listaResultado.clear();
     return resposta;
 }

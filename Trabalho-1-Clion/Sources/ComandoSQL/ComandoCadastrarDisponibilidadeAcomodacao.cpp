@@ -84,3 +84,10 @@ void ComandoCadastrarDisponibilidadeAcomodacao::cadastrarDisponibilidadeAcomodac
         //throw std:: Nessa Data ja existe reserva
     }
 }
+
+void ComandoCadastrarDisponibilidadeAcomodacao::cadastrar() {
+    executar();
+    if(!listaResultado.empty())
+        listaResultado.clear();
+
+}

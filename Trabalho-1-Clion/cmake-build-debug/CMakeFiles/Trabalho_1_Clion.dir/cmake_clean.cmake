@@ -65,6 +65,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCadastrarCartaoCredito.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoEditarUsuario.cpp.obj"
   "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoDescadastrarDisponibilidade.cpp.obj"
+  "CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.obj"
   "Trabalho_1_Clion.pdb"
   "Trabalho_1_Clion.exe"
   "Trabalho_1_Clion.exe.manifest"

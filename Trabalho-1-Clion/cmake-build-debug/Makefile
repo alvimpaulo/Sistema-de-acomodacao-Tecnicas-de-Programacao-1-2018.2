@@ -311,6 +311,33 @@ Sources/ComandoSQL/ComandoCancelarReserva.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoCancelarReserva.cpp.s
 .PHONY : Sources/ComandoSQL/ComandoCancelarReserva.cpp.s
 
+Sources/ComandoSQL/ComandoChecarContaCorrente.obj: Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.obj
+
+.PHONY : Sources/ComandoSQL/ComandoChecarContaCorrente.obj
+
+# target to build an object file
+Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.obj
+.PHONY : Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.obj
+
+Sources/ComandoSQL/ComandoChecarContaCorrente.i: Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.i
+
+.PHONY : Sources/ComandoSQL/ComandoChecarContaCorrente.i
+
+# target to preprocess a source file
+Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.i
+.PHONY : Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.i
+
+Sources/ComandoSQL/ComandoChecarContaCorrente.s: Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.s
+
+.PHONY : Sources/ComandoSQL/ComandoChecarContaCorrente.s
+
+# target to generate assembly for a file
+Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_1_Clion.dir\build.make CMakeFiles/Trabalho_1_Clion.dir/Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.s
+.PHONY : Sources/ComandoSQL/ComandoChecarContaCorrente.cpp.s
+
 Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj: Sources/ComandoSQL/ComandoDescadastrarAcomodacao.cpp.obj
 
 .PHONY : Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj
@@ -1934,6 +1961,9 @@ help:
 	@echo ... Sources/ComandoSQL/ComandoCancelarReserva.obj
 	@echo ... Sources/ComandoSQL/ComandoCancelarReserva.i
 	@echo ... Sources/ComandoSQL/ComandoCancelarReserva.s
+	@echo ... Sources/ComandoSQL/ComandoChecarContaCorrente.obj
+	@echo ... Sources/ComandoSQL/ComandoChecarContaCorrente.i
+	@echo ... Sources/ComandoSQL/ComandoChecarContaCorrente.s
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.obj
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.i
 	@echo ... Sources/ComandoSQL/ComandoDescadastrarAcomodacao.s

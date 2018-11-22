@@ -12,6 +12,7 @@
 #include "../../ComandoSQL/ComandoDescadastrarAcomodacao.h"
 #include "../../ComandoSQL/ComandoEditarAcomodacao.h"
 #include "../../ComandoSQL/ComandoDescadastrarDisponibilidade.h"
+#include "../../ComandoSQL/ComandoChecarContaCorrente.h"
 
 class CntrsServAcomodacao: public  InterServAcomodacao{
 public:
