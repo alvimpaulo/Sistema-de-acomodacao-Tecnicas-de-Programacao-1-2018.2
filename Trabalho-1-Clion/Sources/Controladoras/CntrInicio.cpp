@@ -29,7 +29,7 @@ void CntrInicio::iniciar() {
         } else if (res == 2) {
             try {
                 cntrAprUsuarios->cadastrar();
-                this->usuario->setIdentificador(id);
+                continue;
             } catch (std::exception &exception){
                 std::cout << "nao foi possivel cadastrar motivo: " << exception.what()  << std::endl;
                 continue;
