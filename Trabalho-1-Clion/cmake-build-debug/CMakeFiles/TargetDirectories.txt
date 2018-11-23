@@ -1,3 +1,3 @@
-C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir
-C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/CMakeFiles/Trabalho_1_Clion.dir
+C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -231,7 +231,7 @@ void CntrAprAcomodacao::descadastrar(const Identificador &identificadorUsuario) 
     }
 
     try{
-        cntrsServAcomodacao->descadastrarDisponibilidade(id, identificadorUsuario);
+        cntrsServAcomodacao->descadastrar(id, identificadorUsuario);
     } catch(std::exception &e) {
         std::cout << std::endl << "Voce nao pode descadastrar enquanto houver pendencias!" << std::endl;
         return;
