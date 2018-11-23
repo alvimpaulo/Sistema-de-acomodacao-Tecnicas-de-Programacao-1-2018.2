@@ -20,7 +20,7 @@ void ComandoCadastrarDisponibilidadeAcomodacao::cadastrarDisponibilidadeAcomodac
     std::list<Data>::iterator itDataInicio, itDataTermino;
     bool podeCadastrar = true;
 
-    comandoSQL = "SELECT DataInicio FROM Disponibilidade WHERE = '" + identificadorAcomodacao.getIdentificador() + "';";
+    comandoSQL = "SELECT DataInicio FROM Disponibilidade WHERE Acomodacao = '" + identificadorAcomodacao.getIdentificador() + "';";
     executar();
     for(const ElementoResultado &elemento: listaResultado){
         Data aux;
@@ -29,7 +29,7 @@ void ComandoCadastrarDisponibilidadeAcomodacao::cadastrarDisponibilidadeAcomodac
     }
     listaResultado.clear();
 
-    comandoSQL = "SELECT DataTermino FROM Disponibilidade WHERE = '" + identificadorAcomodacao.getIdentificador() + "';";
+    comandoSQL = "SELECT DataTermino FROM Disponibilidade WHERE Acomodacao = '" + identificadorAcomodacao.getIdentificador() + "';";
     executar();
     for(const ElementoResultado &elemento: listaResultado){
         Data aux;
