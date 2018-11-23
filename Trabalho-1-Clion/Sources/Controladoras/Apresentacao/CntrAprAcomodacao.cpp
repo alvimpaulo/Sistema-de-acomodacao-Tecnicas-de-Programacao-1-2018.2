@@ -46,7 +46,6 @@ void printListaAcomodacao(std::list<Acomodacao> list){
         std::cout << std::endl << std::endl;
 
         std::cout << "Disponibilidades:" << std::endl;
-        std::cout << "Data de inicio\t\t\tData de Termino" << std::endl;
 
         std::cout << std::left << std::setw(14) << std::setfill(separator) << "Data de inicio";
         std::cout << "\t";

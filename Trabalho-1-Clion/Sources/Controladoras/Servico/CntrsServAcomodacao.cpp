@@ -9,7 +9,7 @@ std::list<Acomodacao> CntrsServAcomodacao::pesquisar(const Data &dataInicio, con
                                                      const Nome &cidade, const Estado &estado) {
     ComandoPesquisarAcomodacao sqlPesquisar(dataInicio, dataTermino, capacidadeDeAcomodacao, cidade, estado);
     sqlPesquisar.executar();
-    std::list<Acomodacao> resultadoPesquisa = sqlPesquisar.getResultado();
+    std::list<Acomodacao> resultadoPesquisa = sqlPesquisar.getResultado(dataInicio, dataTermino);
     return resultadoPesquisa;
 
 }

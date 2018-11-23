@@ -19,7 +19,7 @@ ComandoPesquisarAcomodacao::ComandoPesquisarAcomodacao(const Data &dataInicio, c
 
 }
 
-std::list<Acomodacao> ComandoPesquisarAcomodacao::getResultado() {
+std::list<Acomodacao> ComandoPesquisarAcomodacao::getResultado(const Data &dataInicio, const Data &dataTermino) {
     std::list<Acomodacao> list;
     Identificador identificadorUsuario;
 
@@ -92,7 +92,8 @@ std::list<Acomodacao> ComandoPesquisarAcomodacao::getResultado() {
             if(numDataInicio == numDataTermino) { // se tiver sido lido 1 par
                 dataAtual.setDataInicio(dataInicioAtual);
                 dataAtual.setDataTermino(dataTerminoAtual);
-                it->addReserva(dataAtual);
+                if(dataAtual.getDataInicio() <= dataInicio && dataAtual.getDataTermino() >= dataTermino)
+                    it->addReserva(dataAtual);
             }
         }
 
@@ -121,7 +122,8 @@ std::list<Acomodacao> ComandoPesquisarAcomodacao::getResultado() {
             if(numDataInicio == numDataTermino) { // se tiver sido lido 1 par
                 dataAtual.setDataInicio(dataInicioAtual);
                 dataAtual.setDataTermino(dataTerminoAtual);
-                it->addDisponibilidade(dataAtual);
+                if(dataAtual.getDataInicio() <= dataInicio && dataAtual.getDataTermino() >= dataTermino)
+                    it->addDisponibilidade(dataAtual);
             }
         }
     }
