@@ -9,7 +9,6 @@
 #include "../Controladoras/Servico/CntrsServAcomodacao.h"
 class ComandoPesquisarAcomodacao : public ComandoSQL {
 public:
-    //todo Só retornar acomodacoes no intervalo de datas pedido
     ComandoPesquisarAcomodacao(const Data& dataInicio, const Data& dataTermino, const Capacidade_De_Acomodacao& capacidadeDeAcomodacao, const Nome& cidade, const Estado& estado);
     std::list<Acomodacao> getResultado(const Data &dataInicio, const Data &dataTermino);
 };
