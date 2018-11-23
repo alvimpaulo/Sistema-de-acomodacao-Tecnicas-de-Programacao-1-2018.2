@@ -75,6 +75,7 @@ void CntrAprUsuarios::executar(Identificador &identificador) {
             case OPCAO_DESCADASTRAR_USUARIO:
                 descadastrar(identificador);
                 flag = false;
+                throw std::runtime_error("Usuario descadastrado");
                 break;
             case OPCAO_CADASTRAR_CARTAO:
                 cadastrarCartaoCredito(identificador);
@@ -164,7 +165,7 @@ void CntrAprUsuarios::descadastrar(Identificador &identificador) {
                 try{
                     cntrServUsuario->descadastrarUsuario(identificador);
                     flag = false;
-                } catch(std::exception &e){
+                } catch(std::runtime_error &e){
                     std::cout << std::endl << "Voce nao pode descadastrar enquanto houver pendencias!" << std::endl;
                     return;
                 }

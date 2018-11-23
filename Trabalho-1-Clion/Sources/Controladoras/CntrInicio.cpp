@@ -8,6 +8,7 @@ void CntrInicio::iniciar() {
     Identificador id;
     int res;
     std::string input;
+    std::string errorMsg;
     bool sair = false;
     while (!sair) {
         std::cout << "1 - Fazer login." << std::endl;
@@ -35,6 +36,7 @@ void CntrInicio::iniciar() {
                 continue;
             }
         } else if(res == 3){
+            sair = true;
             return;
         }
 
@@ -53,6 +55,13 @@ void CntrInicio::iniciar() {
             if (res == 1) {
                 try {
                     cntrAprUsuarios->executar(id);
+                } catch (std::runtime_error &error){
+                    if(std::strcmp(error.what(), "Usuario descadastrado") == 0){
+                        std::cout << "O usuario foi descadastrado com sucesso" << std::endl;
+                        break;
+                    } else{
+                        std::cout << "nao foi possivel gerenciar usuarios motivo: " << error.what() << std::endl;
+                    }
                 } catch (std::exception &exception) {
                     std::cout << "nao foi possivel gerenciar usuarios motivo: " << exception.what() << std::endl;
                 }
