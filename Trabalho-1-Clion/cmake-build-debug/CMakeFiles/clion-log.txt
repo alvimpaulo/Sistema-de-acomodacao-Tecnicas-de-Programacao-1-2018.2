@@ -1,4 +1,4 @@
-C:\Users\paulo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4129.51\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Paulo\Unb\TP1\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion
+"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\oetch\Desktop\Nova pasta (3)\Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2\Trabalho-1-Clion"
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Paulo/Unb/TP1/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug
+-- Build files have been written to: C:/Users/oetch/Desktop/Nova pasta (3)/Sistema-de-acomodacao-Tecnicas-de-Programacao-1-2018.2/Trabalho-1-Clion/cmake-build-debug

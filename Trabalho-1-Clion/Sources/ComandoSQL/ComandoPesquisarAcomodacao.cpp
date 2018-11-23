@@ -128,7 +128,4 @@ std::list<Acomodacao> ComandoPesquisarAcomodacao::getResultado(const Data &dataI
         }
     }
     return list;
-
-
-
 }

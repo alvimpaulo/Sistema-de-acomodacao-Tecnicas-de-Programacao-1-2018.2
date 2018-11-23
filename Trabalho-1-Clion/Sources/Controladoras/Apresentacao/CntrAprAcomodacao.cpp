@@ -197,6 +197,7 @@ void CntrAprAcomodacao::cadastrar(const Identificador &identificadorUsuario) {
             sair = true;
         } catch (std::invalid_argument &e) {
             std::cout << std::endl << "Dado em formato incorreto.!" << std::endl;
+            return;
         }
     }
     acomodacao.setIdentificador(id);
@@ -209,6 +210,7 @@ void CntrAprAcomodacao::cadastrar(const Identificador &identificadorUsuario) {
         cntrsServAcomodacao->cadastrar(id, tipoAcomodacao, capacidadeDeAcomodacao, diaria, cidade, estado, identificadorUsuario);
     } catch (std::invalid_argument &e) {
         std::cout << std::endl << "Nao foi possivel cadastrar a acomodacao!" << std::endl;
+        return;
     }
     std::cout << "Acomodacao cadastrada com sucesso" << std::endl;
 }
@@ -229,7 +231,7 @@ void CntrAprAcomodacao::descadastrar(const Identificador &identificadorUsuario) 
     }
 
     try{
-        cntrsServAcomodacao->descadastrar(id, identificadorUsuario);
+        cntrsServAcomodacao->descadastrarDisponibilidade(id, identificadorUsuario);
     } catch(std::exception &e) {
         std::cout << std::endl << "Voce nao pode descadastrar enquanto houver pendencias!" << std::endl;
         return;

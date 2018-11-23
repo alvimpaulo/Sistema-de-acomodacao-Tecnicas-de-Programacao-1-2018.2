@@ -42,16 +42,16 @@ void CntrsServAcomodacao::descadastrar(const Identificador &identificadorAcomoda
 
     try {
         ComandoDescadastrarAcomodacao sqlDescadastrar(identificadorAcomodacao, identificadorUsuario);
+        sqlDescadastrar.executar();
     } catch (std::exception &exception){
         std::cout << exception.what() << std::endl;
     }
 
-
+    std::cout << "Acomodacao descadastrada com sucesso" << std::endl;
 }
 
 void CntrsServAcomodacao::descadastrarDisponibilidade(const Identificador &identificadorAcomodacao,
-                                                      const Identificador &identificadorUsuario, const Data &dataInicio,
-                                                      const Data &dataTermino) {
+                                                      const Identificador &identificadorUsuario) {
 
     try {
         ComandoDescadastrarDisponibilidade sqlDescadastrarDisponibilidade(identificadorAcomodacao, identificadorUsuario,
@@ -60,5 +60,5 @@ void CntrsServAcomodacao::descadastrarDisponibilidade(const Identificador &ident
         std::cout << exception.what() << std::endl;
     }
 
-    std::cout << "Disponibilidade descadastrada com sucesso" << std::endl;
+    std::cout << "Disponibilidade da acomodacao descadastrada com sucesso" << std::endl;
 }

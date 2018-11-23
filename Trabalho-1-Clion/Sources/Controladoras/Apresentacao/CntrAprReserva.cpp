@@ -95,7 +95,10 @@ void CntrAprReserva::cancelarReserva(Identificador &identificadorUsuario) {
         cntrServReserva->cancelarReserva(idReserva, intervaloDatas, identificadorUsuario);
     } catch (std::exception &exception){
         std::cout << "Não foi possível cancelar a reserva." << std::endl;
+        return;
     }
+
+    std::cout << "Reserva cancelada com sucesso" << std::endl;
 }
 
 
@@ -155,6 +158,7 @@ void CntrAprReserva::realizarReserva(Identificador &identificadorUsuario) {
         cntrServReserva->realizarReserva(idReserva, intervaloDatas, identificadorUsuario);
     } catch (std::exception &exception){
         std::cout << "Não foi possível realizar a reserva." << std::endl;
+        return;
     }
 
     std::cout << "Reserva realizada com sucesso" << std::endl;

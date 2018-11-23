@@ -17,48 +17,33 @@ void ComandoCadastrarDisponibilidadeAcomodacao::cadastrarDisponibilidadeAcomodac
 
     std::list<Data> listaDataInicio;
     std::list<Data> listaDataTermino;
-    bool podeCadastrar = true;
-    comandoSQL = "SELECT DataInicio FROM Reservas;";
-    executar();
-    for(const ElementoResultado &elemento: listaResultado){
-        Data aux;
-        aux.setData(elemento.getValorColuna());
-        listaDataInicio.push_back(aux);
-    }
-    listaResultado.clear();
-
-    comandoSQL = "SELECT DataTermino FROM Reservas;";
-    executar();
-    for(const ElementoResultado &elemento: listaResultado){
-        Data aux;
-        aux.setData(elemento.getValorColuna());
-        listaDataTermino.push_back(aux);
-    }
-    listaResultado.clear();
-
-
-    comandoSQL = "SELECT DataInicio FROM Disponibilidade;";
-    executar();
-    for(const ElementoResultado &elemento: listaResultado){
-        Data aux;
-        aux.setData(elemento.getValorColuna());
-        listaDataInicio.push_back(aux);
-    }
-    listaResultado.clear();
-
-    comandoSQL = "SELECT DataTermino FROM Disponibilidade;";
-    executar();
-    for(const ElementoResultado &elemento: listaResultado){
-        Data aux;
-        aux.setData(elemento.getValorColuna());
-        listaDataTermino.push_back(aux);
-    }
-    listaResultado.clear();
-
     std::list<Data>::iterator itDataInicio, itDataTermino;
+    bool podeCadastrar = true;
+
+    comandoSQL = "SELECT DataInicio FROM Disponibilidade WHERE Acomodacao = '" + identificadorAcomodacao.getIdentificador() + "';";
+    executar();
+    for(const ElementoResultado &elemento: listaResultado){
+        Data aux;
+        aux.setData(elemento.getValorColuna());
+        listaDataInicio.push_back(aux);
+    }
+    listaResultado.clear();
+
+    comandoSQL = "SELECT DataTermino FROM Disponibilidade WHERE Acomodacao = '" + identificadorAcomodacao.getIdentificador() + "';";
+    executar();
+    for(const ElementoResultado &elemento: listaResultado){
+        Data aux;
+        aux.setData(elemento.getValorColuna());
+        listaDataTermino.push_back(aux);
+    }
+    listaResultado.clear();
+
     for(itDataInicio = listaDataInicio.begin(), itDataTermino = listaDataTermino.begin(); itDataInicio != listaDataInicio.end() && itDataTermino != listaDataTermino.end(); itDataInicio++, itDataTermino++){
-        if(((*itDataInicio >= dataInicio) && (*itDataTermino <= dataTermino)) || ((*itDataInicio < dataInicio) && (*itDataTermino > dataTermino)) || ((dataInicio <= *itDataInicio )  && (*itDataInicio <= dataTermino)) || ((dataInicio <= *itDataTermino )  && (*itDataTermino <= dataTermino)) ){
+        if(((*itDataInicio >= dataInicio) && (*itDataTermino <= dataTermino)) || ((dataInicio <= *itDataInicio )  && (*itDataInicio <= dataTermino)) || ((dataInicio <= *itDataTermino )  && (*itDataTermino <= dataTermino)) ){
             podeCadastrar = false;
+        } else{
+            podeCadastrar = true;
+            break;
         }
     }
 

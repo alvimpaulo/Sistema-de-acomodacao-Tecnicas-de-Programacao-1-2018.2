@@ -173,6 +173,8 @@ void CntrAprUsuarios::descadastrar(Identificador &identificador) {
             default:break;
         }
     }
+
+    std::cout << "Usuario descadastrado com sucesso" << std::endl;
 }
 void CntrAprUsuarios::cadastrarContaCorrente(Identificador &identificador) {
     Num_Conta_Corrente numContaCorrente;
@@ -181,16 +183,22 @@ void CntrAprUsuarios::cadastrarContaCorrente(Identificador &identificador) {
 
     std::string input;
 
-    std::cout << "Digite o número da sua conta corrente: ";
-    std::getline(std::cin, input);
-    numContaCorrente.setNum_Conta_Corrente(input);
-    std::cout << "Digite o número da sua agencia: ";
-    std::getline(std::cin, input);
-    agencia.setAgenciaNum(input);
-    std::cout << "Digite o número de seu banco: ";
-    std::getline(std::cin, input);
-    banco.setBancoNum(input);
-    cntrServUsuario->cadastrarContaCorrente(identificador, numContaCorrente, agencia, banco);
+    try {
+        std::cout << "Digite o número da sua conta corrente: ";
+        std::getline(std::cin, input);
+        numContaCorrente.setNum_Conta_Corrente(input);
+        std::cout << "Digite o número da sua agencia: ";
+        std::getline(std::cin, input);
+        agencia.setAgenciaNum(input);
+        std::cout << "Digite o número de seu banco: ";
+        std::getline(std::cin, input);
+        banco.setBancoNum(input);
+        cntrServUsuario->cadastrarContaCorrente(identificador, numContaCorrente, agencia, banco);
+    } catch (std::exception &e){
+        return;
+    }
+
+
 
     std::cout << "Conta corrente cadastrada com sucesso" << std::endl;
 }
@@ -200,14 +208,19 @@ void CntrAprUsuarios::cadastrarCartaoCredito(Identificador &identificador) {
     Data_De_Validade dataDeValidade;
 
     std::string input;
+    try {
+        std::cout << "Digite o número de seu cartao de credito: ";
+        std::getline(std::cin, input);
+        numCartaoCredito.setNum_Cartao(input);
+        std::cout << "Digite o número a data de validade de seu cartao de credito: ";
+        std::getline(std::cin, input);
+        dataDeValidade.setData_De_Validade(input);
+        cntrServUsuario->cadastrarCartaoCredito(identificador, numCartaoCredito, dataDeValidade);
+    } catch (std::exception &e){
+        return;
+    }
 
-    std::cout << "Digite o número de seu cartao de credito: ";
-    std::getline(std::cin, input);
-    numCartaoCredito.setNum_Cartao(input);
-    std::cout << "Digite o número a data de validade de seu cartao de credito: ";
-    std::getline(std::cin, input);
-    dataDeValidade.setData_De_Validade(input);
-    cntrServUsuario->cadastrarCartaoCredito(identificador, numCartaoCredito, dataDeValidade);
+
 
     std::cout << "Cartao de credito cadastrado com sucesso" << std::endl;
 }
@@ -217,10 +230,16 @@ void CntrAprUsuarios::descadastrarContaCorrente(Identificador &identificador) {
 
     std::string input;
 
-    std::cout << "DIgite o número da sua conta corrente: ";
-    std::getline(std::cin, input);
-    numContaCorrente.setNum_Conta_Corrente(input);
-    cntrServUsuario->descadastrarContaCorrente(numContaCorrente);
+    try {
+        std::cout << "DIgite o número da sua conta corrente: ";
+        std::getline(std::cin, input);
+        numContaCorrente.setNum_Conta_Corrente(input);
+        cntrServUsuario->descadastrarContaCorrente(numContaCorrente);
+    } catch (std::exception &e){
+        return;
+    }
+
+
 
     std::cout << "Conta corrente descadastrada com sucesso" << std::endl;
 }
@@ -230,10 +249,16 @@ void CntrAprUsuarios::descadastrarCartaoCredito(Identificador &identificador) {
 
     std::string input;
 
-    std::cout << "DIgite o número do seu cartao de credito: ";
-    std::getline(std::cin, input);
-    numCartaoCredito.setNum_Cartao(input);
-    cntrServUsuario->descadastrarCartaoCredito(numCartaoCredito);
+    try {
+        std::cout << "DIgite o número do seu cartao de credito: ";
+        std::getline(std::cin, input);
+        numCartaoCredito.setNum_Cartao(input);
+        cntrServUsuario->descadastrarCartaoCredito(numCartaoCredito);
+    } catch (std::exception &e){
+        return;
+    }
+
+
 
     std::cout << "Cartao de credito descadastrado com sucesso" << std::endl;
 }
